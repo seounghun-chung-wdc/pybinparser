@@ -1,1 +1,5 @@
 *.pyc
+a.exe
+main.i
+main.o
+main.s
