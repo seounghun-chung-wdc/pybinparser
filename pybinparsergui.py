@@ -20,6 +20,7 @@ properties.read('config.ini')  ## 파일 읽기
 
 cfg_project_path = properties.get('DEFAULT','project_path')
 cfg_include_path = list(map(lambda x : x.strip(), properties.get('DEFAULT','include_path').split(',')))
+cfg_info_file_path = properties.get('DEFAULT','info_file_path')
 
 def remove_last_bracket(txt):
     r_txt = txt[::-1]    # creates reverse copy of txting
@@ -129,7 +130,7 @@ class GUI():
         self.ei_config_i_path = tkinter.StringVar()
         proj_path_edit = tkinter.Entry(input_box_frame, textvariable=self.ei_config_i_path)
         proj_path_edit.pack(side='left',fill='x',expand=True)
-        self.ei_config_i_path.set('')        
+        self.ei_config_i_path.set(os.path.abspath(cfg_info_file_path))        
         # end text view widget
         
         # button view widget
