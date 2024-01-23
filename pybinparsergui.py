@@ -115,7 +115,8 @@ class GUI():
         self.label_frame_txt.drop_target_register(DND_FILES)
         self.label_frame_txt.dnd_bind('<<Drop>>', lambda e: self.parse_binary(e.data))  
         self.label_frame_txt.pack(side='top', fill='x', expand=False, padx=5, pady=5)
-        label = tkinter.Label(self.label_frame_txt,text="Usage : Please drag EI bin file\nPrecondition : Install GCC\n\nIf you want to change default path, please check 'config.ini'\nIf you complete model build, you can use your ei_config.i\n", anchor="w",justify="left")
+
+        label = tkinter.Label(self.label_frame_txt,text="Usage : Please drag EI bin file\nPrecondition : Install GCC\n\nIf you want to change default path, please check 'config.ini'\nIf you complete model build, you can use your ei_config.i\n  path: repo\\_out\\Model\\DLLBuild\\atlas3_ei.RAM\\Instrumented\\Source\\FTL\\EI\\src\\ei_config.i\n", anchor="w",justify="left")
         label.pack(side='top',fill='x',expand=False)
         
         input_box_frame = tkinter.LabelFrame(self.label_frame_txt,text='Project Path')
@@ -238,7 +239,7 @@ class GUI():
             
 if __name__ == '__main__':
     tk = TkinterDnD.Tk()
-    tk.geometry('640x500')
+    tk.geometry('640x550')
     tk.title("pyBinParser")
     GUI(tk)
     tk.mainloop()
