@@ -229,9 +229,12 @@ class GUI():
                             arr[xx][yy] = list_value[xx][yy]                    
                 else:
                     arr = (ctypes.c_ubyte * len(list_value))(*list_value)
-                exec('self.result_struct.{} = arr'.format(_name))
+                cmd = 'self.result_struct.{} = arr'.format(_name)
+                exec(cmd)
             else:
-                exec('self.result_struct.{} = {}'.format(_name,_value))
+                cmd = 'self.result_struct.{} = {}'.format(_name,_value)
+                exec(cmd)
+            print('update complete: ', cmd)
             return True
         except Exception as e:
             tkinter.messagebox.showerror("ERROR", message = str(e))

@@ -3,8 +3,8 @@ from tkinter import ttk
 import tkinter as tk
 
 class PopupEntry(tk.Entry):
-    def __init__(self, root, x, y, textvar,width = 10 ,entry_value='', text_justify = 'left', ):
-        super().__init__(root, relief = 'flat', justify = text_justify,bg='white', textvariable=textvar, font= "sublime ")
+    def __init__(self, root, x, y, textvar,width = 10 ,entry_value='', text_justify = 'left', state='normal' ):
+        super().__init__(root, relief = 'flat', justify = text_justify,bg='white', textvariable=textvar, state=state)
         self.place(x=x, y=y, width=width)
         
         self.textvar = textvar
@@ -23,12 +23,17 @@ class PopupEntry(tk.Entry):
     def _bind_widget(self):
         self.bind("<Return>", self.retrive_value)
         self.bind('<FocusOut>', self.retrive_value)
+        self.bind('<Escape>', self.cancel_value)
 
     def retrive_value(self, e):
         value = self.textvar.get()
         self.destroy()
         self.textvar.set(value)
     
+    def cancel_value(self, e):
+        self.destroy()
+        self.textvar.set(self.entry_value)
+        
 class EditableTreeview(ttk.Treeview):
     def __init__(self, root, columns, bind_key,data:list, non_editable_columns = "",update_ei_struct_value=None):
         super().__init__(root, columns=columns)
@@ -57,6 +62,7 @@ class EditableTreeview(ttk.Treeview):
     
     def set_edit_bind_key(self):
         self.bind('<Double Button-1>', self.edit)
+        self.bind('<F2>', self.edit)
 
     def get_absolute_x_cord(self):
         rootx = self.winfo_pointerx()
@@ -104,15 +110,25 @@ class EditableTreeview(ttk.Treeview):
         else: return True
 
     def edit(self, e):
-        if self.check_region() == False: return
-        elif self.check_non_editable() == False: return
+        editable = True
+        if self.check_region() == False: 
+            editable = False
+            #return
+        elif self.check_non_editable() == False:
+            editable = False
+            #return
         
         current_row = self.focus()
         currentindex = self.index(self.focus())
-        current_row_values = list(self.item(self.focus(),'values'))
+        if editable is True:
+            current_row_values = list(self.item(self.focus(),'values'))
+        else:
+            current_row_values = self.item(self.focus(),'text')
         current_column = int(self.get_current_column().replace("#",''))-1
-        current_cell_value = current_row_values[current_column]
-
+        if editable is True:
+            current_cell_value = current_row_values[current_column]
+        else:
+            current_cell_value = current_row_values.strip()
         entry_cord = self.get_selected_cell_cords()
         entry_x = entry_cord[0]
         entry_y = entry_cord[1]
@@ -121,10 +137,11 @@ class EditableTreeview(ttk.Treeview):
 
         entry_var = tk.StringVar()
         
-        PopupEntry(self.root, x=entry_x, y=entry_y, width=entry_w,entry_value=current_cell_value, textvar= entry_var, text_justify='left')
+        PopupEntry(self.root, x=entry_x, y=entry_y, width=entry_w,entry_value=current_cell_value, textvar= entry_var, text_justify='left', state='normal' if editable is True else 'readonly')
         if entry_var.get() != current_cell_value:
-            current_row_values[current_column] = entry_var.get()
-            self.update_row(values=current_row_values[current_column], current_row=current_row, currentindex=currentindex)
+            if editable is True:
+                current_row_values[current_column] = entry_var.get()
+                self.update_row(values=current_row_values[current_column], current_row=current_row, currentindex=currentindex)
             
 def demo():
 
