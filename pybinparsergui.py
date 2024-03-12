@@ -145,6 +145,12 @@ class GUI():
         self.txt_save_button.grid(row=0,column=1)
         # end button view
         
+    def __del__(self):
+        print(self.get_current_info_path())
+        properties.set("DEFAULT", "info_file_path", self.get_current_info_path())    
+        with open('config.ini', "w") as f:
+            properties.write(f)
+            
     def button_save_bin(self):
         if self.result_struct is None:
             tkinter.messagebox.showerror("ERROR", message = 'Please open bin file')
@@ -166,6 +172,9 @@ class GUI():
             return
         txt_file_data.write(str(self.result_struct))
         txt_file_data.close()
+    
+    def get_current_info_path(self):
+        return self.ei_config_i_path.get()
 
     def parse_binary(self, path):
         path=path.replace('{','') # {} is attached when path include space
