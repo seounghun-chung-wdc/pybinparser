@@ -116,15 +116,24 @@ class GUI():
         self.label_frame_txt.dnd_bind('<<Drop>>', lambda e: self.parse_binary(e.data))  
         self.label_frame_txt.pack(side='top', fill='x', expand=False, padx=5, pady=5)
 
-        label = tkinter.Label(self.label_frame_txt,text="Usage : Please drag EI bin file\nPrecondition : Install GCC (using Project Path) or build Model (using Specific ei_config.i path)\n\nIf you want to change default path, please check 'config.ini'\nIf you complete model build, you can use your ei_config.i\n  path: repo\\_out\\Model\\DLLBuild\\atlas3_ei.RAM\\Instrumented\\Source\\FTL\\EI\\src\\ei_config.i\n", anchor="w",justify="left")
+        label = tkinter.Label(self.label_frame_txt,text="Usage : Please drag EI bin file\nPrecondition : build Model (using Specific ei_config.i path)\n\nIf you want to change default path, please check 'config.ini'\nIf you complete model build, you can use your ei_config.i\n  path: repo\\_out\\Model\\DLLBuild\\atlas3_ei.RAM\\Instrumented\\Source\\FTL\\EI\\src\\ei_config.i\n", anchor="w",justify="left")
         label.pack(side='top',fill='x',expand=False)
         
-        input_box_frame = tkinter.LabelFrame(self.label_frame_txt,text='Project Path')
+        # @24.04.03 gcc build no support
+        #input_box_frame = tkinter.LabelFrame(self.label_frame_txt,text='Project Path')
+        #input_box_frame.pack(side='top',fill='x',expand=False)  
+        #self.project_path = tkinter.StringVar()
+        #proj_path_edit = tkinter.Entry(input_box_frame, textvariable=self.project_path)
+        #proj_path_edit.pack(side='left',fill='x',expand=True)
+        #self.project_path.set(os.path.abspath(cfg_project_path))
+        
+        input_box_frame = tkinter.LabelFrame(self.label_frame_txt,text='Bin Path')
         input_box_frame.pack(side='top',fill='x',expand=False)  
-        self.project_path = tkinter.StringVar()
-        proj_path_edit = tkinter.Entry(input_box_frame, textvariable=self.project_path)
+        self.bin_path = tkinter.StringVar()
+        proj_path_edit = tkinter.Entry(input_box_frame, textvariable=self.bin_path)
         proj_path_edit.pack(side='left',fill='x',expand=True)
-        self.project_path.set(os.path.abspath(cfg_project_path))
+        self.select_bin_path = tkinter.Button(input_box_frame, text="...", command=lambda : self.select_path(self.bin_path.set,filetype=("bin files", "*.bin")))
+        self.select_bin_path.pack(side='right',expand=False)  
         
         input_box_frame = tkinter.LabelFrame(self.label_frame_txt,text='Specific ei_config.i path')
         input_box_frame.pack(side='top',fill='x',expand=False)  
@@ -132,17 +141,22 @@ class GUI():
         proj_path_edit = tkinter.Entry(input_box_frame, textvariable=self.ei_config_i_path)
         proj_path_edit.pack(side='left',fill='x',expand=True)
         self.ei_config_i_path.set(os.path.abspath(cfg_info_file_path))        
+        self.select_config_i_path = tkinter.Button(input_box_frame, text="...", command=lambda : self.select_path(self.ei_config_i_path.set,filetype=("i files", "*.i")))
+        self.select_config_i_path.pack(side='right',expand=False)          
         # end text view widget
         
         # button view widget
         self.label_frame_button = tkinter.LabelFrame(master, text="Button")
         self.label_frame_button.pack(side='top', fill='x', expand=False, padx=5, pady=5)
         
+        self.bin_parse_button = tkinter.Button(self.label_frame_button, text="Parse BIN", command=self.button_parse_bin)
+        self.bin_parse_button.grid(row=0,column=0)        
+        
         self.bin_save_button = tkinter.Button(self.label_frame_button, text="Save BIN", command=self.button_save_bin)
-        self.bin_save_button.grid(row=0,column=0)
+        self.bin_save_button.grid(row=0,column=1)
 
         self.txt_save_button = tkinter.Button(self.label_frame_button, text="Save Text", command=self.button_save_txt)
-        self.txt_save_button.grid(row=0,column=1)
+        self.txt_save_button.grid(row=0,column=2)
         # end button view
         
     def __del__(self):
@@ -151,6 +165,13 @@ class GUI():
         with open('config.ini', "w") as f:
             properties.write(f)
             
+    def select_path(self, set_path,filetype):
+        print(filetype)
+        path = filedialog.askopenfilename(title="Select file", filetypes=(filetype,("all files", "*.*")))
+        print(path)
+        set_path(path)
+        return path
+        
     def button_save_bin(self):
         if self.result_struct is None:
             tkinter.messagebox.showerror("ERROR", message = 'Please open bin file')
@@ -173,6 +194,9 @@ class GUI():
         txt_file_data.write(str(self.result_struct))
         txt_file_data.close()
     
+    def button_parse_bin(self):
+        self.parse_binary(self.bin_path.get())
+    
     def get_current_info_path(self):
         return self.ei_config_i_path.get()
 
@@ -180,35 +204,43 @@ class GUI():
         path=path.replace('{','') # {} is attached when path include space
         path=path.replace('}','')
         
+        if os.path.isfile(path) is False:
+            tkinter.messagebox.showerror('Error','There is no bin file in {} '.format(path))
+            
         if (os.path.getsize(path) != 4096):
             tkinter.messagebox.showerror('Error','{} is not 4KB bin file'.format(path))
             return False
-            
+
+        if (self.bin_path.get() != path):
+            self.bin_path.set(os.path.abspath(path))       
         # precondition setup.
         # gcc build for generating .i file
         if os.path.isfile(self.ei_config_i_path.get()) is False:
-            cur_project_path = self.project_path.get()
-            cur_project_path = os.path.abspath(cur_project_path)
-            print(cur_project_path)
-            include_dir = list(map(lambda _dir : os.path.abspath(os.path.join(cur_project_path,_dir)),cfg_include_path))
-
-            for _dir in include_dir:
-                if os.path.isdir(_dir) is False:
-                    tkinter.messagebox.showerror("ERROR", message = 'Can\'t find {} Please check repo directory'.format(_dir))            
-                    return
-                    
-            if os.path.isfile(os.path.join(os.getcwd(), 'main.i')) is False:        
-                ret = os.system(r'gcc -v')
-                if ret != 0:
-                    tkinter.messagebox.showerror("ERROR", message = 'Please install gcc')
-                    return
-                gcc_cmd = r'gcc main.c -save-temps -I' + r' -I'.join(include_dir)          
-                ret = os.system(gcc_cmd)
-                if ret != 0:
-                    tkinter.messagebox.showerror("ERROR", message = 'Build failure. Please rebuild with {}'.format(gcc_cmd))
-                    os.system('del main.i')
-                    return            
-            i_file_path = os.path.join(os.getcwd(), 'main.i')
+            tkinter.messagebox.showerror('Error','There is no .i file in {} '.format(self.ei_config_i_path.get()))
+            # @24.04.03 gcc build no support
+            
+            #cur_project_path = self.project_path.get()
+            #cur_project_path = os.path.abspath(cur_project_path)
+            #print(cur_project_path)
+            #include_dir = list(map(lambda _dir : os.path.abspath(os.path.join(cur_project_path,_dir)),cfg_include_path))
+            #
+            #for _dir in include_dir:
+            #    if os.path.isdir(_dir) is False:
+            #        tkinter.messagebox.showerror("ERROR", message = 'Can\'t find {} Please check repo directory'.format(_dir))            
+            #        return
+            #        
+            #if os.path.isfile(os.path.join(os.getcwd(), 'main.i')) is False:        
+            #    ret = os.system(r'gcc -v')
+            #    if ret != 0:
+            #        tkinter.messagebox.showerror("ERROR", message = 'Please install gcc')
+            #        return
+            #    gcc_cmd = r'gcc main.c -save-temps -I' + r' -I'.join(include_dir)          
+            #    ret = os.system(gcc_cmd)
+            #    if ret != 0:
+            #        tkinter.messagebox.showerror("ERROR", message = 'Build failure. Please rebuild with {}'.format(gcc_cmd))
+            #        os.system('del main.i')
+            #        return            
+            #i_file_path = os.path.join(os.getcwd(), 'main.i')
         else:
             i_file_path = self.ei_config_i_path.get()
 
