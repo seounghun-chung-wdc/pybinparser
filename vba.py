@@ -35,6 +35,18 @@ class vbaSlc_s_Bics6(ctypes.LittleEndianStructure):
             ("fim_high", c_uint32,       1),
         ]
 
+class vbaSlc_s_Bics6_2PS(ctypes.LittleEndianStructure):
+    _fields_ = [
+            ("fmu", c_uint32,            2),
+            ("plane", c_uint32,          2),
+            ("fim", c_uint32,            1),
+            ("diePageInBlk", c_uint32,   13),
+            ("block", c_uint32,          10),
+            ("fim_high", c_uint32,       1),
+            ("hFim", c_uint32,           1),
+            ("dieInFim", c_uint32,       2),
+        ]
+
 class vbaTlc_s_Bics6(ctypes.LittleEndianStructure):
     _fields_ = [
             ("fmu", c_uint32,            2),
@@ -76,7 +88,8 @@ class Flags(ctypes.Union):
     _fields_ = [("ps_bics5",  PS_flavor3_Bics5),
                 ("ps_bics6",  PS_flavor3_Bics6),
                 ("tlc_bics6", vbaTlc_s_Bics6),
-                ("slc_bics6", vbaTlc_s_Bics6),
+                ("slc_bics6", vbaSlc_s_Bics6),
+                ("slc_bics6_2ps", vbaSlc_s_Bics6_2PS),
                 ("tlc_bics8", vbaTlc_s_Bics8),
                 ("flashAddressX3_t", flashAddressX3_t),
                 ("asvba", c_uint32)]
@@ -112,7 +125,7 @@ if __name__ == "__main__":
             exit(0)
     else: # print only one
         flags = Flags()
-        if (args.reverse is not None):
+        if (args.reverse is not None): # Get VBA address from block, fim, and so on 
             _arguements = args.reverse.split()
             vba_fields = getattr(flags, args.type)
 

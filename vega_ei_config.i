@@ -8592,6 +8592,91 @@ typedef struct _SFR_TM_PLL {
 }SFR_TM_PLL_t, *PSFR_TM_PLL;
 
 #line 44 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
+#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
+
+#line 116 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
+typedef struct _SFR_CPU {
+    HW_REG64 VERSION_ID                                 ;
+
+    HW_REG64 Reserved0[3];
+    HW_REG64 MRAM1A_CTRL                                ;
+    HW_REG64 MRAM1B_CTRL                                ;
+    HW_REG64 MRAM2A_CTRL                                ;
+    HW_REG64 MRAM2B_CTRL                                ;
+    HW_REG64 ROM_CTRL                                   ;
+    HW_REG64 ROM2_CTRL                                  ;
+    HW_REG64 Reserved1;
+    HW_REG64 JBA2VBA_BMP_CTRL                           ;
+    HW_REG64 DDR_CACHE_RAM_CTRL                         ;
+    HW_REG64 DDR_CMD_TAG_QUEUES_RAM_CTRL                ;
+    HW_REG64 DDR_CMDS_ARRAY_RAM_CTRL                    ;
+    HW_REG64 MP0_DCCM                                   ;
+    HW_REG64 MP0_IC_TAG                                 ;
+    HW_REG64 MP0_IC_DATA                                ;
+    HW_REG64 MP0_BC_RAM                                 ;
+    HW_REG64 MP0_PT_RAM                                 ;
+    HW_REG64 MP1_DCCM                                   ;
+    HW_REG64 MP1_IC_TAG                                 ;
+    HW_REG64 MP1_IC_DATA                                ;
+    HW_REG64 MP1_BC_RAM                                 ;
+    HW_REG64 MP1_PT_RAM                                 ;
+    HW_REG64 PS0_DCCM                                   ;
+    HW_REG64 PS0_IC_TAG                                 ;
+    HW_REG64 PS0_IC_DATA                                ;
+    HW_REG64 PS0_BC_RAM                                 ;
+    HW_REG64 PS0_PT_RAM                                 ;
+    HW_REG64 PS1_DCCM                                   ;
+    HW_REG64 PS1_IC_TAG                                 ;
+    HW_REG64 PS1_IC_DATA                                ;
+    HW_REG64 PS1_BC_RAM                                 ;
+    HW_REG64 PS1_PT_RAM                                 ;
+    HW_REG64 ROP_STATUS_1                               ;
+    HW_REG64 ROP_STATUS_2                               ;
+    HW_REG64 MP0_CTRL                                   ;
+    HW_REG64 MP1_CTRL                                   ;
+    HW_REG64 PS0_CTRL                                   ;
+    HW_REG64 PS1_CTRL                                   ;
+    HW_REG64 CPU_LL_MLM_CTRL                            ;
+    HW_REG64 CPU_HS_MLM_CTRL                            ;
+    HW_REG64 CPU_LS_MLM_CTRL                            ;
+    HW_REG64 CPU_DEBUG_MLM_CTRL                         ;
+    HW_REG64 CPU_ICG_CTRL_1                             ;
+    HW_REG64 CPU_ICG_CTRL_2                             ;
+    HW_REG64 CPU_MEM_OVERRIDE                           ;
+    HW_REG64 CPU2LDPC_DEC_MERGE                         ;
+    HW_REG64 SOC_ROT_IRQ_0                              ;
+    HW_REG64 SOC_ROT_IRQ_1                              ;
+    HW_REG64 SOC_ROT_IRQ_2                              ;
+    HW_REG64 Reserved2[12];
+    HW_REG64 MP0_NMI_CTRL                               ;
+    HW_REG64 MP1_NMI_CTRL                               ;
+    HW_REG64 PS0_NMI_CTRL                               ;
+    HW_REG64 PS1_NMI_CTRL                               ;
+    HW_REG64 NMI_STATUS_REG                             ;
+    HW_REG64 Reserved3;
+    HW_REG64 GP_REG_LOAD_0                              ;
+    HW_REG64 GP_REG_LOAD_1                              ;
+    HW_REG64 GP_REG_LOAD_2                              ;
+    HW_REG64 GP_REG_LOAD_3                              ;
+    HW_REG64 GP_REG_SET_0                               ;
+    HW_REG64 GP_REG_SET_1                               ;
+    HW_REG64 GP_REG_SET_2                               ;
+    HW_REG64 GP_REG_SET_3                               ;
+    HW_REG64 GP_REG_CLR_0                               ;
+    HW_REG64 GP_REG_CLR_1                               ;
+    HW_REG64 GP_REG_CLR_2                               ;
+    HW_REG64 GP_REG_CLR_3                               ;
+    HW_REG64 GP_FW_REG_0                                ;
+    HW_REG64 GP_FW_REG_1                                ;
+    HW_REG64 GP_FW_REG_2                                ;
+    HW_REG64 GP_FW_REG_3                                ;
+    HW_REG64 SPARE_REG_IN_0                             ;
+    HW_REG64 SPARE_REG_IN_1                             ;
+    HW_REG64 SPARE_REG_OUT_0                            ;
+    HW_REG64 SPARE_REG_OUT_1                            ;
+}SFR_CPU_t, *PSFR_CPU;
+
+#line 45 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
 
 #line 23 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 
@@ -8769,88 +8854,6 @@ __inline static  SoftRstSig_t SYS_GetSoftResetSignature(void) { return SYS_GetBo
 #line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
 
 #line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
-
-#line 116 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
-typedef struct _SFR_CPU {
-    HW_REG64 VERSION_ID                                 ;
-
-    HW_REG64 Reserved0[3];
-    HW_REG64 MRAM1A_CTRL                                ;
-    HW_REG64 MRAM1B_CTRL                                ;
-    HW_REG64 MRAM2A_CTRL                                ;
-    HW_REG64 MRAM2B_CTRL                                ;
-    HW_REG64 ROM_CTRL                                   ;
-    HW_REG64 ROM2_CTRL                                  ;
-    HW_REG64 Reserved1;
-    HW_REG64 JBA2VBA_BMP_CTRL                           ;
-    HW_REG64 DDR_CACHE_RAM_CTRL                         ;
-    HW_REG64 DDR_CMD_TAG_QUEUES_RAM_CTRL                ;
-    HW_REG64 DDR_CMDS_ARRAY_RAM_CTRL                    ;
-    HW_REG64 MP0_DCCM                                   ;
-    HW_REG64 MP0_IC_TAG                                 ;
-    HW_REG64 MP0_IC_DATA                                ;
-    HW_REG64 MP0_BC_RAM                                 ;
-    HW_REG64 MP0_PT_RAM                                 ;
-    HW_REG64 MP1_DCCM                                   ;
-    HW_REG64 MP1_IC_TAG                                 ;
-    HW_REG64 MP1_IC_DATA                                ;
-    HW_REG64 MP1_BC_RAM                                 ;
-    HW_REG64 MP1_PT_RAM                                 ;
-    HW_REG64 PS0_DCCM                                   ;
-    HW_REG64 PS0_IC_TAG                                 ;
-    HW_REG64 PS0_IC_DATA                                ;
-    HW_REG64 PS0_BC_RAM                                 ;
-    HW_REG64 PS0_PT_RAM                                 ;
-    HW_REG64 PS1_DCCM                                   ;
-    HW_REG64 PS1_IC_TAG                                 ;
-    HW_REG64 PS1_IC_DATA                                ;
-    HW_REG64 PS1_BC_RAM                                 ;
-    HW_REG64 PS1_PT_RAM                                 ;
-    HW_REG64 ROP_STATUS_1                               ;
-    HW_REG64 ROP_STATUS_2                               ;
-    HW_REG64 MP0_CTRL                                   ;
-    HW_REG64 MP1_CTRL                                   ;
-    HW_REG64 PS0_CTRL                                   ;
-    HW_REG64 PS1_CTRL                                   ;
-    HW_REG64 CPU_LL_MLM_CTRL                            ;
-    HW_REG64 CPU_HS_MLM_CTRL                            ;
-    HW_REG64 CPU_LS_MLM_CTRL                            ;
-    HW_REG64 CPU_DEBUG_MLM_CTRL                         ;
-    HW_REG64 CPU_ICG_CTRL_1                             ;
-    HW_REG64 CPU_ICG_CTRL_2                             ;
-    HW_REG64 CPU_MEM_OVERRIDE                           ;
-    HW_REG64 CPU2LDPC_DEC_MERGE                         ;
-    HW_REG64 SOC_ROT_IRQ_0                              ;
-    HW_REG64 SOC_ROT_IRQ_1                              ;
-    HW_REG64 SOC_ROT_IRQ_2                              ;
-    HW_REG64 Reserved2[12];
-    HW_REG64 MP0_NMI_CTRL                               ;
-    HW_REG64 MP1_NMI_CTRL                               ;
-    HW_REG64 PS0_NMI_CTRL                               ;
-    HW_REG64 PS1_NMI_CTRL                               ;
-    HW_REG64 NMI_STATUS_REG                             ;
-    HW_REG64 Reserved3;
-    HW_REG64 GP_REG_LOAD_0                              ;
-    HW_REG64 GP_REG_LOAD_1                              ;
-    HW_REG64 GP_REG_LOAD_2                              ;
-    HW_REG64 GP_REG_LOAD_3                              ;
-    HW_REG64 GP_REG_SET_0                               ;
-    HW_REG64 GP_REG_SET_1                               ;
-    HW_REG64 GP_REG_SET_2                               ;
-    HW_REG64 GP_REG_SET_3                               ;
-    HW_REG64 GP_REG_CLR_0                               ;
-    HW_REG64 GP_REG_CLR_1                               ;
-    HW_REG64 GP_REG_CLR_2                               ;
-    HW_REG64 GP_REG_CLR_3                               ;
-    HW_REG64 GP_FW_REG_0                                ;
-    HW_REG64 GP_FW_REG_1                                ;
-    HW_REG64 GP_FW_REG_2                                ;
-    HW_REG64 GP_FW_REG_3                                ;
-    HW_REG64 SPARE_REG_IN_0                             ;
-    HW_REG64 SPARE_REG_IN_1                             ;
-    HW_REG64 SPARE_REG_OUT_0                            ;
-    HW_REG64 SPARE_REG_OUT_1                            ;
-}SFR_CPU_t, *PSFR_CPU;
 
 #line 30 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
 
@@ -10763,6 +10766,7 @@ typedef enum CFG_SetNumbers_e
    FE_PWRDIS_CFG                       ,
    FE_LED_CONF                         ,
    FE_LED_CONF_IDTFY                   ,
+   FE_HSLC_ENDIS_CFG                   ,
 
    LAST_CFG                    = 0x7FFF,
 }   CFG_SetNumbers_t;
@@ -10824,7 +10828,7 @@ Status_t  __attribute__((section("CODE_MEDIUM")))  CFG_ReadCfg(uint32_t setNumbe
 Status_t  __attribute__((section("CODE_MEDIUM")))  CFG_WriteCfg(uint32_t setNumber, uint8_t *pUserBuffer, uint32_t size);
 uint32_t   CFG_GetSetLength(uint32_t Set_ID);
 
-#line 174 "d:/gitrepo/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
+#line 175 "d:/gitrepo/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
 Status_t CFG_DPS2MemSize(uint32_t *returnSize);
 Status_t CFG_retainDPS2(uint8_t *ptr, uint32_t size);
 Status_t  __attribute__((section("TRW")))  CFG_restoreDPS2(uint8_t *ptr, uint32_t size);
@@ -11464,7 +11468,7 @@ typedef struct eFuse_bit_Array_t
 
 #line 18 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
 
-#line 229 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
+#line 231 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
 Status_t SYS_eFuseActivateKeyCopy(uint32_t keyCopyNum, BOOL32 parityCheckRequired);
 
 enum
@@ -11477,7 +11481,7 @@ enum
     SEC_EFUSE_KEY_NUM,
 };
 
-#line 260 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
+#line 262 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
 typedef enum
 {
    NO_ERROR_DETECTED = 0x0,
@@ -11713,7 +11717,7 @@ Status_t SYS_eFuseReadArray(uint32_t *efuse_data, uint32_t efuse_addr, uint32_t 
 
 Status_t   SYS_eFuse1ReadArray(uint32_t *efuse_data, uint32_t efuse_addr, uint32_t num_words);
 
-#line 501 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
+#line 503 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
 void     SYS_eFusePowerOn(BOOL32 isProgramOperation);
 void     SYS_eFusePowerOff(BOOL32 isProgramOperation);
 void     SYS_EfuseMarginalRead(BOOL32 enableMarginalRead);
@@ -11952,6 +11956,7 @@ typedef struct PS_Container_s
    PS_ConfigData_t            *pCfgData;
    uint32_t                   *pFBBM_DCCM[ 2 ];
    uint32_t                   *pFBBM_ARAM[ 2 ];
+   uint32_t                   *pflatBBMAuxTable[ 2 ];
    uint32_t                   *pflatBBMTbl[ 2 ];
    uint32_t                   *pRelinkTbl[ 2 ];
    uint32_t                   *pBbmCounters[ 2 ];
@@ -11975,15 +11980,15 @@ typedef struct PS_Container_s
       uint32_t                *pSgd_Correct_BaseAddrBlanket_PS1;
       uint32_t                *pSgd_Correct_BaseAddrDie_PS1;
 
-#line 72 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
+#line 73 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
    PS_MRPH_NandMtVersion_t     nandMtVersion;
    uint16_t                    FtlSlcBudget;
    uint16_t                    rfu[3];
 } PS_Container_t;
 
 
-extern char __ct_[( 144  == sizeof(PS_Container_t)) ? 1 : -1] ;
-extern char __ct_[(( 0x00000120  == (sizeof(PS_Container_t) * ( 2 ) ))) ? 1 : -1] ;
+extern char __ct_[( 152  == sizeof(PS_Container_t)) ? 1 : -1] ;
+extern char __ct_[(( 0x00000130  == (sizeof(PS_Container_t) * ( 2 ) ))) ? 1 : -1] ;
 
 #line 5 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_api.h"
 
@@ -14403,7 +14408,7 @@ typedef struct PS_MB_decomReqSpecific_s
    uint32_t isFake;
 
 #line 3189 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
-   uint8_t  isEraseFailNoDecommission;
+   uint8_t  notifyOnly;
    uint8_t  rfu[7];
 } PS_MB_decomReqSpecific_t;
 
@@ -15180,7 +15185,9 @@ Status_t PS_isFMU_Erased(VBA_t vba, uint32_t cookie, BOOL * result);
 PS_FlashType_e PS_GetFlashType(void);
 uint32_t PS_GetNumDiesPerPhysChip(void);
 uint32_t PS_GetNumDiesPerPS(void);
-void     PS_AssertVBAValidity(VBA_t vba, PS_blkType_t blockType);
+
+void PS_AssertVBAValidity(VBA_t vba, PS_blkType_t blockType, uint8_t isSBM);
+
 void     PS_RS_GetActiveScanMorpheusParam(RS_MorpheusParamsCB_t *pActScanMrph);
 void     PS_RS_SwTimeRndScanFreqBaseHandler(void);
 void     PS_FADI_RealTimeInit(void);
@@ -15624,6 +15631,7 @@ typedef struct
 
 
 extern volatile FADI_ErrorLog_Buffer_Manager_t * gErrorLogBufferManager;
+extern volatile FADI_ErrorLog_BufSharedInfo_t *gErrorLogSharedInfo;
 
 
 void FADI_ErrorLogBufferInit(void);
@@ -17262,42 +17270,9 @@ void   SYS_DIST_GetStateAndProgress(BOOL* pIsInProgress, PMM_PowerState_t* pStat
 BOOL32 SYS_DIST_IsPrepareToLowPowerStateInProgress();
 
 #line 23 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm_defines.h"
-
-#line 471 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm_defines.h"
-enum SYS_DevicePowerState_e
-{
-   SYS_DPS_00        = 0,
-   SYS_DPS_01,
-   SYS_DPS_02,
-   SYS_DPS_12,
-   SYS_DPS_20,
-   SYS_DPS_31,
-   SYS_DPS_32,
-};
-typedef uint32_t SYS_DevicePowerState_t;
-
-#line 21 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
-
-#line 65 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
-enum PMM_WakeupSource_e
-{
-   PMM_WAKEDUP_BY_GPIO_IRQ = 0,
-   PMM_WAKEDUP_BY_TIMER,
-   PMM_WAKEDUP_BY_CLKREQ,
-   PMM_WAKEDUP_BY_PERST,
-   PMM_WAKEDUP_BY_WAKE,
-   MM_WAKEDUP_BY_DEBUG_TIMER,
-   PMM_WAKEDUP_BY_NA = 99
-};
-typedef uint32_t PMM_WakeupSource_t;
-
-
-
-
-
+#line 56 "d:/gitrepo/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
 enum PMM_MSG_ID_e
 {
    PMM_MSG_ID_ENTER_DPS = 0,
@@ -17350,7 +17325,7 @@ enum PMM_MSG_ID_e
    PMM_MSG_ID_FE_PM_RST_FINISH,
    PMM_MSG_ID_PCIE_REQ_LINK_STATE,
 
-#line 135 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+#line 111 "d:/gitrepo/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
 };
 
 typedef uint16_t  PMM_MSG_ID_t;
@@ -17381,18 +17356,9 @@ enum PMM_I2cBus_e
 };
 typedef uint32_t PMM_I2cBus_t;
 
-#line 231 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+#line 207 "d:/gitrepo/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
 typedef unsigned char PMM_TimersType_t;
 
-enum PMIC_VenodrID_e
-{
-    PMIC_VendorID_Invalid = 0,
-
-#line 243 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
-    PMIC_2_VendorID_ROHM  = 0x10,
-    PMIC_2_VendorID_QORVO,
-};
-typedef uint32_t PMIC_VentorID_t;
 
 
 
@@ -17467,42 +17433,11 @@ typedef struct PMM_MSGQueue_s
 
 
 
-void  __attribute__((section("CODE_MEDIUM")))  PMM_GetPCUMsg(PCU_MSG_t* PCUMsg);
 void  __attribute__((section("CODE_MEDIUM")))  PMM_SendMsgToPCU(PMM_MSG_ID_t msgID, uint16_t sessionId, uint32_t msgArg);
-uint8_t  __attribute__((section("CODE_MEDIUM")))  PMM_GetPCUMsg_DiagReadPMIC(void);
 void  __attribute__((section("CODE_MEDIUM")))  PMM_PutPCUMsg(PMM_MSG_ID_t msgID, uint32_t msgArg);
 void  __attribute__((section("CODE_MEDIUM")))  PMM_PutTimerPCUMsg(PMM_MSG_ID_t msgID, uint16_t sessionId, uint32_t msgArg);
-void PMM_HandlePCUMsg(void);
+void                   PMM_HandlePCUMsg(void);
 Status_t  __attribute__((section("TRW")))  PMM_Init(void);
-void  __attribute__((section("CODE_MEDIUM")))  PMM_IssuePMICCFGtoPCU(uint32_t powerState);
-
-
-void PMM_PowerOffDevice(void);
-
-void PMM_StartDASTimer(void);
-void PMM_NotifyInfraReadyToPCU(void);
-Status_t PMM_EnterIDLELowPowerState();
-Status_t PMM_ExitIDLELowPowerState();
-void PMM_ControlBuck2(uint32_t Buck2Level);
-
-Status_t PMM_DivideCMC(void);
-Status_t PMM_RestoreCMC(void);
-
-
-void RAM_DPS_SendPlaceEvent(uint16_t p);
-void RAM_DPS_SendPlaceEvent_3Params(uint16_t p, uint32_t p1, uint32_t p2, uint32_t p3);
-void PMM_PS_WaitForStablePower(void);
-
-
-
-void PCU_D3HotTimerEnable(void);
-void PCU_D3HotTimerDisable(void);
-
-
-
-void setAssertFatalSig(uint32_t sig);
-void PMM_ResetLinkAbortReasonFlag(void);
-void PMM_SetLinkAbortReasonFlag(uint32_t lpmAbortReason);
 
 #line 24 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 #line 1 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
@@ -17581,9 +17516,9 @@ typedef enum
 
 typedef enum
 {
-   SET_CONFIG_ATB_GROUP_ID_FILTER,
+   SET_CONFIG_HSSTP_ATB_GROUP_ID_FILTER,
    SET_CONFIG_TBRAM_GROUP_ID_FILTER,
-   SET_CONFIG_ATB_TBRAM_GROUP_ID_FILTER,
+   SET_CONFIG_HSSTP_ATB_TBRAM_GROUP_ID_FILTER,
 }SET_GROUP_ID_FILTER_HANDLE;
 
 
@@ -17674,10 +17609,12 @@ void                 SET_ConfigureDebugRAM(uint32_t debugRAMSize);
 BOOL                 SET_InitControlBLock(void);
 void                 SET_InitTBRAM(uint32_t debugRAMSize);
 void                 SET_EnableAllFWEventsToRAM(BOOL enableAll, uint32_t ngsetIndex);
+void                 SET_EnableAllHWEventsToRAM(BOOL enableAll, uint32_t ngsetIndex);
 void                 SET_EnableAllFWEventsToATB(BOOL enableAll);
 void                 SET_EnableMediumFWEventsToATB(void);
 void                 SET_EnableCustomFWEventsToATB(uint32_t flt_0, uint32_t flt_1, uint32_t flt_2, uint32_t flt_3);
 void                 SET_SendInfo(uint32_t setLevel);
+uint32_t               SET_GetFWGroupEventsHSSTP_ATB(uint32_t filterRegBank);
 Status_t             SET_EnableFWEventGroupID(uint32_t groupID, SET_GROUP_ID_FILTER_HANDLE applyFilterTo, BOOL turnOn);
 void                 SET_MainCPUThread(uint32_t thread);
 void                 SET_InitHWEvents(SET_LINK_INIT_HW_EVENTS_t eventsGrpProfile);
@@ -17720,7 +17657,7 @@ void                 NGSET_SynchroWhoTime(void) ;
 void                 NGSET_ResetNotification(void);
 void                 SET_SendPeriodicSyncInfo(void);
 uint32_t               SET_GetFWGroupEventsRAM(uint32_t filterRegBank);
-uint32_t               SET_GetFWGroupEventsATB(uint32_t filterRegBank);
+uint32_t               SET_GetFWGroupEvents(uint32_t filterRegBank);
 Status_t             SET_TransferTBRAMEventsToBuffer(uint32_t *pReturnBuffer, uint32_t numberOfEvents);
 void                 SET_SaveTBRAMAddr(void);
 void                 SET_RestoreTBRAMAddr(void);
@@ -19527,13 +19464,160 @@ uint32_t SET_GetDebugRAMPointer(void);
 Status_t  NGSET_Init(void);
 
 #line 26 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
+
+#line 22 "d:/gitrepo/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
+typedef enum SCTP_Status_e
+{
+   STATUS_SCTP_ERROR = STATUS_SCTP_ERROR_BASE,
+   STATUS_SCTP_SIGNATURE_MISSMATCH,
+   STATUS_SCTP_NO_REGISTERED_APPL_HANDLERS,
+   STATUS_SCTP_WRONG_BUFFER_SIZE,
+   STATUS_SCTP_BUFFER_ALLOCATION_ERROR,
+   STATUS_SCTP_UNEXPECTED_SCTP_READ_CMD,
+   STATUS_SCTP_READ_CMD_WHEN_SESSION_NOT_STARTED,
+   STATUS_SCTP_INVALID_EVENT_TYPE,
+   STATUS_SCTP_NO_MATCHING_APPLICATIONS,
+   STATUS_SCTP_INCONSISTENT_NUMBER_OF_BYTES,
+   STATUS_SCTP_SECURITY_LOCKED,
+   STATUS_SCTP_DATA_TRANSFER_ERROR,
+   STATUS_SCTP_READ_CMD_ERROR,
+   STATUS_SCTP_WRITE_CMD_ERROR,
+   STATUS_SCTP_CONCURRENT_SESSION,
+   STATUS_SCTP_SMALL_BUFFER,
+}   SCTP_Status_t;
+
+
+
+enum
+{
+   SIG_LEN =          32,
+   TAG_LEN =          8,
+   VSD_LEN  =         432,
+   UNUSED_LEN =       432,
+   UNKNOWN_LENGTH =   0,
+   GOOD_COMPARE   =   0,
+};
+
+
+
+
+
+
+enum SCTP_AppState_e
+{
+   SCTP_PHASE_COMMAND,
+   SCTP_PHASE_READ_DATA,
+   SCTP_PHASE_WRITE_DATA,
+   SCTP_PHASE_STATUS,
+};
+typedef uint8_t SCTP_AppState_t;
+
+
+
+
+
+enum SCTP_ExecutionPhase_e
+{
+   SCTP_EXEC_PHASE_COMMAND,
+   SCTP_EXEC_PHASE_READ_DATA,
+   SCTP_EXEC_PHASE_WRITE_DATA,
+
+   SCTP_EXEC_PHASE_DECIDED_BY_HANDLER = SCTP_PHASE_WRITE_DATA + 2,
+};
+typedef uint8_t SCTP_ExecutionPhase_t;
+
+
+enum SCTP_state_e
+{
+   SCTP_STATE_UNUSED,
+   SCTP_STATE_WAIT_FOR_CMD,
+   SCTP_STATE_WAIT_FOR_WR_DATA,
+   SCTP_STATE_WAIT_FOR_RD_DATA,
+   SCTP_STATE_WAIT_FOR_STATUS,
+};
+typedef uint8_t SCTP_state_t;
+
+
+typedef enum SCTP_EventType_e
+{
+   SCTP_WRITE_CMD,
+   SCTP_READ_CMD,
+
+
+   SCTP_INVALID_EVENT,
+} SCTP_EventType_t;
+
+typedef union SYS_SCTP_Token_u
+{
+   struct SYS_SCTP_Token_s
+   {
+      uint32_t cmdIndex : 10;
+      uint32_t reserved : 6;
+      uint32_t result : 16;
+   } bits;
+   uint32_t all32;
+} SYS_SCTP_Token_t;
+
+
+typedef void(*FE_SYS_Callback_t)(Status_t status, uint32_t token);
+
+typedef struct SYS_SCTPCmd_s
+{
+   uint32_t                            transferSize;
+   uint32_t                            FECommandIndex;
+   FE_SYS_Callback_t                   callback;
+   SCTP_EventType_t                    eventType;
+} SYS_SCTPCmd_t;
+
+#line 136 "d:/gitrepo/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
+typedef Status_t (*SCTP_CommandHandlerPtr_t)(SCTP_AppState_t state, uint8_t *pAppCmdData, uint32_t *pBuffer, uint32_t numBytes);
+
+#line 149 "d:/gitrepo/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
+typedef Status_t SCTP_AppHandler_t(SCTP_AppState_t state, uint8_t *pAppCmdData, uint32_t *pBuffer, uint32_t numBytes);
+
+
+
+
+
+Status_t  __attribute__((section("TRW")))  SCTP_Init(void);
+
+
+
+
+
+
+
+
+
+BOOL  __attribute__((section("TRW")))  SCTP_RegisterApplication(const uint8_t *pSig, uint8_t sigLen, SCTP_AppHandler_t *pAppCmdHandler);
+
+
+
+
+BOOL SCTP_IsSessionStarted(void);
+
+
+
+
+Status_t   SCTP_EventHandler(uint32_t *pBuffer, uint32_t bufSizeInBytes, SCTP_EventType_t eventType);
+
+
+
+
+
+
+
+BOOL SCTP_GetTransferSize(SCTP_AppState_t state, uint32_t *transferSize);
+
+#line 27 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 
 #line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
 #line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw_macros.h"
 
 #line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/hsstp/inc_public/ng_hsstp.h"
 
-#line 76 "d:/gitrepo/fpgcss-vega/source/infra/drivers/hsstp/inc_public/ng_hsstp.h"
+#line 77 "d:/gitrepo/fpgcss-vega/source/infra/drivers/hsstp/inc_public/ng_hsstp.h"
 typedef struct _NG_HSSTP {
     HW_REG64 HSSTP_CFG;
     HW_REG64 HSSTP_STS;
@@ -20471,8 +20555,8 @@ typedef enum
 
 
 
-#line 697 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
+#line 698 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -20585,8 +20669,8 @@ typedef enum
 
 
 
-#line 820 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
+#line 821 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21228,7 +21312,6 @@ typedef enum
 
 
 
-#line 1464 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21243,6 +21326,7 @@ typedef enum
 
 
 
+#line 1478 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21316,7 +21400,6 @@ typedef enum
 
 
 
-#line 1555 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21330,6 +21413,7 @@ typedef enum
 
 
 
+#line 1568 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21512,7 +21596,6 @@ typedef enum
 
 
 
-#line 1754 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21530,6 +21613,7 @@ typedef enum
 
 
 
+#line 1771 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21537,7 +21621,6 @@ typedef enum
 
 
 
-#line 1785 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21555,6 +21638,7 @@ typedef enum
 
 
 
+#line 1802 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -22191,7 +22275,6 @@ typedef enum
 
 
 
-#line 2440 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -22222,6 +22305,7 @@ typedef enum
 
 
 
+#line 2470 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -22433,7 +22517,6 @@ typedef enum
 
 
 
-#line 2694 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -22465,6 +22548,7 @@ typedef enum
 
 
 
+#line 2725 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -23209,7 +23293,6 @@ typedef enum
 
 
 
-#line 3473 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -23242,6 +23325,7 @@ typedef enum
 
 
 
+#line 3505 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -24291,11 +24375,9 @@ typedef enum
 
 
 
-#line 4558 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 4576 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -24313,36 +24395,73 @@ typedef enum
 
 
 
-#line 4598 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4612 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 4618 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4660 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4736 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 4742 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
+#line 4593 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4766 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
+#line 4611 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
-#line 4791 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4800 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 4633 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+#line 4647 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+
+#line 4653 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+#line 4695 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+#line 4771 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+
+#line 4777 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+
+
+
+#line 4801 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+#line 4826 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+#line 4835 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -25617,8 +25736,8 @@ SET_EVENT_INFRA_JUMP_TO_FLASHWARE_CHECKPOINT_EVENT ,
 
 
 
-#line 697 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
+#line 698 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -25731,7 +25850,27 @@ SET_EVENT_INFRA_JUMP_TO_FLASHWARE_CHECKPOINT_EVENT ,
 
 
 
-#line 820 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+#line 821 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -26368,13 +26507,13 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 1478 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
 
 
 
-#line 1464 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -26455,6 +26594,7 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 1568 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -26462,7 +26602,6 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 1555 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -26655,10 +26794,10 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 1771 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 1754 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -26680,10 +26819,10 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 1802 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 1785 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -27337,7 +27476,6 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 2440 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -27348,6 +27486,7 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 2470 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -27579,7 +27718,6 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 2694 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -27591,6 +27729,7 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 2725 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -28355,7 +28494,6 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 3473 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -28368,6 +28506,7 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 3505 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -29437,11 +29576,9 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 4558 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 4576 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -29454,41 +29591,58 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 4593 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
+#line 4611 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4598 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4612 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 4618 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4660 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4736 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 4742 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
+#line 4633 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4766 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+#line 4647 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4791 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
+#line 4653 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
-#line 4800 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+#line 4695 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+#line 4771 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+
+#line 4777 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+
+
+
+#line 4801 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+#line 4826 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+#line 4835 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -30063,7 +30217,7 @@ typedef struct SET_EVENT_TIME_INFO
   uint32_t ts24LsbOffset;
 }SET_EVENT_TIME_INFO_t, *pSET_EVENT_TIME_INFO_t;
 
-#line 227 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 228 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 
 
 
@@ -30075,10 +30229,10 @@ uint64_t SET_GetSetTimer(void);
 uint32_t SET_GetSetTimerFreqInMHz(void);
 void     SET_CheckATBMode(void);
 Status_t   SET_DiagGetSETEngStatus(uint8_t *pAppCmdData, uint32_t *pBuffer, uint32_t numBytes);
-Status_t   SET_DiagConfigSETEng(uint8_t *pAppCmdData, uint32_t *pBuffer, uint32_t numBytes);
+Status_t   SET_DiagConfigSETEng(SCTP_AppState_t state, uint8_t *pAppCmdData, uint32_t *pBuffer, uint32_t numBytes);
 Status_t   SET_GetAllHwEventsStatus(uint32_t *pRetData);
 
-#line 249 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 250 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
  void SET_AtbIntHandler(void);
 
 
@@ -30086,32 +30240,32 @@ Status_t   SET_GetAllHwEventsStatus(uint32_t *pRetData);
 __inline static  void FADI_Enable_MP_SmaRT(void)
 {
 
-#line 261 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 262 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 }
 
 __inline static  void FADI_Disable_MP_SmaRT(void)
 {
 
-#line 271 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 272 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 }
 
 __inline static  void FADI_Enable_PS_SmaRT(void)
 {
 
-#line 281 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 282 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 }
 
 __inline static  void FADI_Disable_PS_SmaRT(void)
 {
 
-#line 291 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 292 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 }
 
 #line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/seteventstolog.h"
 
-#line 297 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 298 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 
-#line 329 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 330 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 void PCU_SendSetEventParam(uint32_t args, ...);
 
 #line 27 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
@@ -30249,14 +30403,12 @@ typedef enum SVCI_DMAC0_CHANNELS_e
    MP0_PS1_NORMAL_DMA_CHAN,
    MP1_PS1_OBP_READ_DMA_CHAN,
    MP1_PS1_HIGH_DMA_CHAN,
-
    MP0_MP1_HIGH_PRIORITY_DMA_CHAN,
    MP0_MP1_SYNC_DMA_CHAN,
    MP0_MP1_INFRA_DMA_CHAN,
    MP1_MP0_ACK_DMA_CHAN,
-
    MP0_ASYNC_CHAN,
-
+   PCU_ASYNC_CHAN,
    MP0_BLOCKING_ISR_CHAN,
    MP0_BLOCKING_TASK_FE_CHAN,
    MP0_BLOCKING_TASK_FTL_CHAN,
@@ -30330,7 +30482,7 @@ typedef enum
    eSVCI_DMA_MAX_PRIORITY
 }SVCI_DMA_CHANNEL_PRIORITY_t;
 
-#line 244 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/svci_dma_api.h"
+#line 242 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/svci_dma_api.h"
 typedef struct SVCI_DMA_DescRingBuff_s
 {
    uint32_t DescriptorsBaseAddr;
@@ -30356,7 +30508,6 @@ extern SVCI_DMA_ContBlock_t gSVCI_DMAC0_ContBlock;
 extern SVCI_DMA_ContBlock_t gSVCI_DMAC1_ContBlock;
 
 Status_t SVCI_DMA_Init(void);
-Status_t SVCI_DMA_AddTransferToQ(uint8_t* pDest, uint8_t* pSource, uint32_t lengthInBytes);
 uint32_t SVCI_DMA_GetDescCount(uint32_t dmaChannel);
 void SVCI_DMA_SetDescriptor(SVCI_DMA_Descriptor_t *pDescriptor, void *dest, void *src, uint32_t len);
 void SVCI_DMA_SetDescriptorFixedPattern(SVCI_DMA_Descriptor_t *pDescriptor, void *dest, uint32_t pattern, uint32_t len);
@@ -30368,13 +30519,12 @@ void SVCI_DMA_FillDefaultDescriptor(SVCI_DMA_Descriptor_t *pDescriptor);
 void SVCI_DMA_ConfigureChannelIRQ(SVCI_DMA_ContBlock_t *pSVCI_DMA_ContBlock, uint32_t nChannel, uint32_t nLine,BOOL isEnabled);
 void SVCI_DMA_EnableChannelIRQ(SVCI_DMA_ContBlock_t *pSVCI_DMA_ContBlock, uint32_t nChannel, BOOL isEnabled);
 void SVCI_DMA_ClearChannelIRQ(SVCI_DMA_ContBlock_t *pSVCI_DMA_ContBlock, uint32_t nChannel);
-void SVCI_DMA_WaitFor_GP_DMA_QueueEmpty(void);
 SVCI_DMA_DescRingBuff_t *SVCI_DMA_GetChannelPtr(SVCI_DMA_ContBlock_t *pDMAC_ContBlock, uint32_t nChannel);
 void SVCI_DMA_SetChannelPriority(SVCI_DMA_ContBlock_t *pDMAC_ContBlock, uint32_t nChannel,uint32_t nPriority);
 
 #line 21 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 
-#line 270 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 261 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 typedef struct MP_PQD_Queue_s
 {
    uint32_t             QType;
@@ -30405,7 +30555,7 @@ typedef struct MP_CQD_Queue_s
    uint8_t              *pCurRBMsg;
 } MP_CQD_Queue_t;
 
-#line 318 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 309 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 enum MP_MQD_PS_TYPE_e
 {
    MP_MQD_PS_TYPE_PS0 = 0,
@@ -30417,7 +30567,7 @@ enum MP_MQD_PS_TYPE_e
 };
 typedef uint32_t MP_MQD_PSType_t;
 
-#line 346 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 337 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 typedef enum MP_MQD_Queue_Group_e
 {
    MP_MQD_QUEUE_GROUP_INFRA = 0,
@@ -30504,7 +30654,7 @@ typedef struct MQD_RTFADI_Data_s
    uint16_t          PQDvalidCnt[MP_MQD_PS_TYPE_NUM][MP_PQD_QUEUE_TYPE_NUM];
 }  MQD_RTFADI_Data_t;
 
-#line 452 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 443 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 typedef enum FE_QUEUE_COUNTERS_e
 {
    HAWA_QUEUE_0_CNT   = 13,
@@ -30532,7 +30682,7 @@ typedef enum FE_QUEUE_COUNTERS_e
    LAST_HAQ_QUEUE_CNT = HAQ_QUEUE_14_CNT
 }FE_QUEUE_COUNTERS_t;
 
-#line 484 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 475 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 void     FE_API_HAWAQ_DccmIpcIsr(uint32_t feIpcHawaqInterrupts);
 
 
@@ -30544,7 +30694,7 @@ uint32_t MP_MP_CQD_GetIntMask(void);
 uint32_t MP_PS_CQD_GetStatus(void);
 uint32_t MP_MP_CQD_GetStatus(void);
 void MPSLAVE_MQD_Init(void);
-void MP_MQD_Init(void);
+Status_t MP_MQD_Init(void);
 void MP_MQD_IntRegister(pRTOS_User_ISR_t pISR);
 MP_PQD_Queue_t* MP_PS_PQD_GetQueuePtr(MP_MQD_PSType_t PSType, uint32_t QType);
 uint32_t MP_PS_PQD_GetFreeCnt(MP_MQD_PSType_t PSType, MP_PS_PQD_QueueType_t QType);
@@ -31240,8 +31390,8 @@ typedef struct _RS {
     HW_REG64 Reserved3;
     HW_REG64 RS_RA_CFG[16]                              ;
     HW_REG64 RS_RA_STATUS[16]                           ;
-    HW_REG64 RS_RB_STATUS[112]                          ;
-    HW_REG64 Reserved4[2];
+    HW_REG64 RS_RB_STATUS[28]                           ;
+    HW_REG64 Reserved4[86];
     HW_REG64 RS_PWR_VIRTUAL_CFG[12]                     ;
     HW_REG64 Reserved5[244];
     HW_REG64 RS_PWR_VIRTUAL_CNT[12]                     ;
@@ -31891,7 +32041,7 @@ typedef struct SYS_Custom_Features_s
 
 #line 27 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 
-#line 327 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 332 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 enum NVMe_FNV_STOP_REASON_State_e
 {
     NVMe_FNV_STOP_REASON_FNV_NOT_RUNNING             = 0,
@@ -32037,7 +32187,7 @@ enum
    FE_HAWA_FLUSH_CHANGE_FTL_FLUSH         = 0x04,
    FE_HAWA_FLUSH_CHANGE_GRP_ID_WRAPAROUND = 0x05,
 
-#line 476 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 481 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 };
 typedef uint32_t FE_HawaChangeFlushModeModules_t;
 
@@ -32453,7 +32603,7 @@ typedef enum FE_PEL_ThermalExcursionEvents_e
    TE_EVENT_UNDER_TEMP              = 0xB0,
 } FE_PEL_ThermalExcursionEvents_t;
 
-#line 909 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 914 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef struct FE_BLR_FlagsRegion_s
 {
    uint32_t    feBlr_SynCodeSize;
@@ -32464,7 +32614,7 @@ typedef struct FE_BLR_FlagsRegion_s
    uint8_t     feBlr_rfu[64-sizeof(uint32_t)*4];
 }FE_BLR_FlagsRegion_t;
 
-#line 931 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 936 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef union CC_u
 {
     struct CC_s
@@ -32761,7 +32911,7 @@ typedef struct HIM_CommandContext_s
    HIM_CC_DW27_t      dword27;
 }
 
-#line 1229 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1234 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HIM_CommandContext_t, *pHIM_CommandContext_t;
 
 
@@ -32873,7 +33023,7 @@ typedef struct VendorSpecific_SecurityAuditLog_s
    uint8_t  reserved2[432];
 } VendorSpecific_SecurityAuditLogPage_t;
 
-#line 1357 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1362 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef struct PCIe_CadenceRegisters_s
 {
    uint32_t signature;
@@ -32900,7 +33050,7 @@ typedef struct PCIe_CadenceRegisters_s
    uint32_t PSM_STATE_H;
 }   PCIe_CadenceRegisters_t;
 
-#line 1398 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1403 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef struct eyeSurfResponse_s
 {
    struct eyeLane_s
@@ -32965,7 +33115,7 @@ typedef struct FE_FTL_DeallocRange_s
    uint32_t length;
 } FE_FTL_DeallocRange_t;
 
-#line 1478 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1483 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef struct HIM_HAQ_CommandEntry_s
 {
 
@@ -33003,7 +33153,7 @@ typedef struct HIM_HAQ_CommandEntry_s
    uint16_t          reserved_1;
 }
 
-#line 1517 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1522 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HIM_HAQ_CommandEntry_t;
 
 
@@ -33039,7 +33189,7 @@ typedef struct HAQ_CommandEntryClass0_s
     uint16_t          itag1;
 }
 
-#line 1554 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1559 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HAQ_CommandEntryClass0_t, *pHAQ_CommandEntryClass0_t;
 
 
@@ -33070,7 +33220,7 @@ typedef struct HAQ_CommandEntryClass1_s
     uint16_t          itag1;
 }
 
-#line 1586 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1591 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HAQ_CommandEntryClass1_t;
 
 
@@ -33083,7 +33233,7 @@ typedef struct HAQ_CommandEntryClass2_s
    uint16_t          itag1;
 }
 
-#line 1600 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1605 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HAQ_CommandEntryClass2_t, *pHAQ_CommandEntryClass2_t;
 
 
@@ -33098,7 +33248,7 @@ typedef union DlmEntry_u
     uint64_t all64;
 } DlmEntry_t;
 
-#line 1653 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1658 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef union HIM_ADP_TransferFlags_u
 {
    struct HIM_ADP_TransferFlags_s
@@ -33154,12 +33304,12 @@ typedef union FE_CrossIP_Token_u
 {
    struct FE_CrossIP_Token_s
    {
-      uint32_t cmdIndex             :10;
+      uint32_t cmdIndex             : 10 ;
       uint32_t cmdSpecificTokenData :22;
    } bits;
    uint32_t all32;
 } FE_CrossIP_Token_t;
-
+;
 
 
 
@@ -33238,7 +33388,7 @@ typedef struct FE_FTL_SMARTSharedCounters_s
    uint64_t                         relocatedByReadScrub;
 }
 
-#line 1794 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1799 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 FE_FTL_SMARTSharedCounters_t;
 
 
@@ -33337,17 +33487,17 @@ typedef struct FE_RTFADI_Data_s
 extern uint32_t                     HA_CQM_GetNumEntriesInQueue(uint32_t haCmqFwQueueNumber);
 extern uint32_t                    __attribute__((section("CODE_MEDIUM")))        HAWA_GetHAWAallocHwds(void);
 
-#line 1910 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1915 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 uint32_t                     NAMESPACE_GetMaxNSID(void);
 void                         NAMESPACE_SetMaxNSID(uint32_t namespaceId);
 
-#line 2157 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2162 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 Status_t   FE_HAL_HostDataTransfer_FENonReadWrite(FE_HAL_DataTransferParams_t* dataTransferParams);
 
-#line 2207 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2212 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 void FE_HAL_EnableHIMWritePath(void);
 
-#line 2252 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2257 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 Status_t                   FE_HAL_HostByteTransfer(FE_HAL_HostByteTransfer_Params_t * hbtParams);
 Status_t                    __attribute__((section("CODE_MEDIUM")))  FE_API_ConfigureFE_HwEvents(BitMap_SetClear_t control, uint32_t eventsBitMap);
 
@@ -33389,7 +33539,7 @@ Status_t                                 FE_API_HAWA_SetFlushMode(HAWA_FlushMode
 
 Status_t                    __attribute__((section("CODE_MEDIUM")))  FE_API_HAWA_SetNumHwdContexts(uint32_t newNumHwdContexts, FE_HWD_Change_Originator_t originator);
 
-#line 2296 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2301 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 BOOL32           FE_API_IsHAWAReadyToBeFlushed(void);
 uint32_t                    __attribute__((section("CODE_MEDIUM")))  FE_API_HAWA_CalculateNewHwdAmount(void);
 void            __attribute__((section("CODE_MEDIUM")))  FE_API_SetThermalHwdAmount(uint32_t newThermalHwdAmount);
@@ -33453,7 +33603,7 @@ BOOL32                     FE_API_IsLBAValid(uint32_t nsid, uint64_t lba);
 void                        __attribute__((section("CODE_MEDIUM")))               FE_HAL_SetHIMWritePathToReadOnly(void);
 void                        __attribute__((section("CODE_MEDIUM")))   FE_HAL_ReadOnlyCompleteWritesMakeSTReadOnly(void);
 
-#line 2363 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2368 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 void                FE_Thread(uint32_t dummy);
 Status_t                    __attribute__((section("CODE_MEDIUM")))  FE_Init(SysBootPhase_t bootPhase);
 Status_t                   FE_Init_Cont(SysBootPhase_t bootPhase, SYS_InitTypes_t initType);
@@ -33624,7 +33774,7 @@ BOOL32                     NVMe_PELog_IsPersistentEventLogSupported(void);
 BOOL32                     NVMe_PELog_IsPersistenEventIDSupported(uint8_t eventID);
 void                         FE_API_HAQ_ChangeBW(HIM_CPU_ID_t cpuNum, uint32_t balaceWeight);
 
-#line 2536 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2541 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 BOOL32   FE_PMM_L12_NotSupported(void);
 
 Status_t                                FE_HAL_HostDataTransfer_FTL(FE_HAL_DataTransferParams_t * dataTransferParams);
@@ -33638,7 +33788,7 @@ Status_t                                FE_HAL_ADP_SingleDescDataTransfer(uint32
                                                                                                    uint32_t  habmDPCACounterID,
                                                                                                    uint32_t     habmChannelNum);
 
-#line 2578 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2583 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 __inline static  uint32_t FE_API_HA_GetNewCommandIndex(uint32_t queueID, uint32_t* queueSizePtr)
 {
    return HA_CQM_FirmwarePop(queueID, queueSizePtr);
@@ -33662,11 +33812,11 @@ __inline static  void FE_API_HA_QueueInterruptEnable(uint32_t queueId)
    else
    {
 
-      { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h" , 2601 , "0");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h" , 2606 , "0");                         "BullseyeCoverage restore"; } ;
    }
 }
 
-#line 2619 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2624 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 Status_t   FE_API_SetDeviceUniqueInfo(void* pSourceBuffer, uint32_t numBytes);
 Status_t   FE_API_GetDeviceUniqueInfo(void * pSourceBuffer, uint32_t numBytes);
 Status_t   FE_API_SetDeviceModelIDsInfoCfg(void* pSourceBuffer, uint32_t numBytes);
@@ -34210,10 +34360,10 @@ extern uint32_t                  PS_BBM_EH_State;
 typedef struct PS_BBM_FID_224_225_512GB_1Tb_s
 {
     PS_BBM_Data_Hdr_t                       BBM_DataHdr;
-    PS_BBM_relinkTableEntry_t               BBM_RelinkTble[ ( (1)  * ( ( 4 ) / ( 2 ) )  * (4) ) ][ (512) ];
+    PS_BBM_relinkTableEntry_t               BBM_RelinkTble[ ( (1)  * ( ( 4 ) / ( 2 ) )  * (4) ) ][ (256) ];
     PS_BBM_BlkCntArray_t                    BBM_Counters[ ( (1)  * ( ( 4 ) / ( 2 ) )  * (4) ) ];
     uint16_t                                BBM_LastGoodMB[ ( ( (1) )  * ( 2 ) ) ];
-    PS_BBM_BitMap_MetaBlock_Info_t          BBM_Bitmap[ ( (1) ) ][ (512) ];
+    PS_BBM_BitMap_MetaBlock_Info_t          BBM_Bitmap[ ( (1) ) ][ (256) ];
 }   PS_BBM_FID_224_225_512GB_1Tb_t;
 
 
@@ -34228,7 +34378,7 @@ typedef struct PS_BBM_FID_224_225_512GB_1Tb_s
 typedef struct PS_BBM_FID_224_1TB_1Tb_s
 {
    PS_BBM_Data_Hdr_t                   BBM_DataHdr;
-   PS_BBM_relinkTableEntry_t           BBM_RelinkTble[ ( (2)  * ( ( 4 ) / ( 2 ) )  * (4) ) ][ (512) ];
+   PS_BBM_relinkTableEntry_t           BBM_RelinkTble[ ( (2)  * ( ( 4 ) / ( 2 ) )  * (4) ) ][ (256) ];
    PS_BBM_BlkCntArray_t                BBM_Counters[ ( (2)  * ( ( 4 ) / ( 2 ) )  * (4) ) ];
    uint16_t                            BBM_LastGoodMB[ ( ( (2) )  * ( 2 ) ) ];
    PS_BBM_BitMap_MetaBlock_Info_t      BBM_Bitmap[ ( (2) ) ][ ( ( (687) ) ) ];
@@ -34238,7 +34388,7 @@ typedef struct PS_BBM_FID_224_1TB_1Tb_s
 typedef struct PS_BBM_FID_224_2TB_1Tb_s
 {
    PS_BBM_Data_Hdr_t                   BBM_DataHdr;
-   PS_BBM_relinkTableEntry_t           BBM_RelinkTble[ ( (4)  * ( ( 4 ) / ( 2 ) )  * (4) ) ][ (512) ];
+   PS_BBM_relinkTableEntry_t           BBM_RelinkTble[ ( (4)  * ( ( 4 ) / ( 2 ) )  * (4) ) ][ (256) ];
    PS_BBM_BlkCntArray_t                BBM_Counters[ ( (4)  * ( ( 4 ) / ( 2 ) )  * (4) ) ];
    uint16_t                            BBM_LastGoodMB[ ( ( (4) )  * ( 2 ) ) ];
    PS_BBM_BitMap_MetaBlock_Info_t      BBM_Bitmap[ ( (4) ) ][ ( ( (687) ) ) ];
@@ -34264,7 +34414,7 @@ typedef union Max_PS_BBM_File_u
 typedef struct PS_BBM_ARAM_Data_1TB_1Tb_s
 {
    PS_BBM_Data_Hdr_t             BBM_DataHdr;
-   PS_BBM_relinkTableEntry_t     BBM_RelinkTble[ ( (2) ) ][ ( ( ( 4 ) / ( 2 ) ) ) ][ (4) ][ (512) ];
+   PS_BBM_relinkTableEntry_t     BBM_RelinkTble[ ( (2) ) ][ ( ( ( 4 ) / ( 2 ) ) ) ][ (4) ][ (256) ];
    PS_BBM_BlkCntArray_t          BBM_Counters[ ( (2) ) ][ ( ( ( 4 ) / ( 2 ) ) ) ][ (4) ];
    uint16_t                      BBM_LastGoodMB[ ( ( (2) )  * ( 2 ) ) ];
 } PS_BBM_ARAM_Data_1TB_1Tb_t;
@@ -34274,7 +34424,7 @@ typedef struct PS_BBM_ARAM_Data_1TB_1Tb_s
 typedef struct PS_BBM_ARAM_Data_2TB_1Tb_s
 {
    PS_BBM_Data_Hdr_t             BBM_DataHdr;
-   PS_BBM_relinkTableEntry_t     BBM_RelinkTble[ ( (4) ) ][ ( ( ( 4 ) / ( 2 ) ) ) ][ (4) ][ (512) ];
+   PS_BBM_relinkTableEntry_t     BBM_RelinkTble[ ( (4) ) ][ ( ( ( 4 ) / ( 2 ) ) ) ][ (4) ][ (256) ];
    PS_BBM_BlkCntArray_t          BBM_Counters[ ( (4) ) ][ ( ( ( 4 ) / ( 2 ) ) ) ][ (4) ];
    uint16_t                      BBM_LastGoodMB[ ( ( (4) )  * ( 2 ) ) ];
 } PS_BBM_ARAM_Data_2TB_1Tb_t;
@@ -35480,7 +35630,7 @@ typedef struct EI_Config_s
 
 typedef enum
 {
-   EI_COMPATEBILITY_RESERVED = 0,
+   EI_DEFAULT_FLOW_COMPATEBILITY = 0,
    EI_RMW_START_HANDLE,
 
 
@@ -35724,6 +35874,8 @@ typedef struct TAG_S_FM_STATISTICS
    S_FM_STATISTICS_ENTRY exitPsQueueLRM;
    S_FM_STATISTICS_ENTRY HRF_translationFromHmb[2];
    S_FM_STATISTICS_ENTRY HRF_mp0HandleRequeue;
+   S_FM_STATISTICS_ENTRY HRF_mp1pause;
+   S_FM_STATISTICS_ENTRY HRF_mp1resume;
 
    S_FM_STATISTICS_ENTRY HWDwriteDccmPeekAhead[3];
    S_FM_STATISTICS_ENTRY catHMBWriteToBufferCL;
@@ -35741,7 +35893,7 @@ typedef uint32_t* puint32_t;
 extern S_FM_STATISTICS G_fm;
 extern unsigned long int G_logLastCsReason;
 
-#line 593 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
+#line 595 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
 typedef struct TAG_S_U64
 {
 
@@ -36058,7 +36210,8 @@ WP_FTL_HWD_WRITE_PARITY_BIT,
 
 D_MODEL_FTL_HRF_STREAM_STATUS,
 WP_FTL_HRF_UECC_HANDLING,
-
+WP_FTL_MP1_ENABLE,
+WP_FTL_MP1_DISABLE,
 
 
 WP_FTL_RC_FFLBA,
@@ -36399,8 +36552,12 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    WP_PS_REH_LDPC_ISR,
    WP_PS_REH_NO_FIRST_REREAD,
    WP_PS_REH_MARK_UECC,
+   WP_PS_REH_INDICATE_HEADER_BIT_SET,
+   WP_PS_REH_NON_CACHE_MODE,
+   WP_PS_REH_READ_FAIL_SHIFTS,
+   WP_PS_REH_READ_RETRY_SHIFTS,
    WP_REH_CVD_DUMP_TRIGGER,
-
+   WP_PS_REH_DMC_RES,
 
    WP_PS_PF_01_TLC_FAIL_LWLN_PLANE_0,
    WP_PS_PF_02_TLC_FAIL_LWLN_PLANE_1,
@@ -36481,6 +36638,9 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    WP_PS_DGM_READ_TRANSFER,
    WP_PS_DGM_READ_SENSE,
 
+   WP_PS_VALIDATE_CMD_FF,
+   WP_PS_VALIDATE_CMD_FB,
+
 
    WP_PS_FLGP_MARK_START,
    WP_PS_FLGP_FTL_MSG,
@@ -36548,6 +36708,7 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    WP_PS_XOR_RECOVERY_PARITY_PAGE_UECC,
    WP_PS_XOR_RECOVERY_UNROLL_PAGE_UECC,
    WP_PS_XOR_RECOVERY_WUC_DETECTED,
+   WP_PS_XOR_RECOVERY_UNROLLING_VBA,
    WP_PS_XOR_WRITE_PAR_PAGES_START,
    WP_PS_XOR_SKIP_WRITE_PAR_PAGES,
    WP_PS_XOR_ALL_DIE_READCACHE_TERMINATION,
@@ -36760,7 +36921,7 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    WP_INFRA_READ_REGION_LAST_PAGE,
    WP_INFRA_WRITE_REGION_LAST_PAGE,
 
-#line 1083 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 1092 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
    WP_INFRA_TM_UPDATE_NAND_SAMPLE_RATE,
    WP_INFRA_TM_IDLE_TIME,
    WP_INFRA_TM_ACTIVE_TIME,
@@ -36770,7 +36931,7 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    WP_INFRA_TM_SEND_TEMPERATURE,
    WP_PS_THM_INFRA_FAKE_TEMPCODE,
 
-#line 1102 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 1111 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
    WP_SEC_NEW_COMMAND_STARTED,
    WP_SEC_COMMAND_FINISHED,
    WP_SEC_TCG_SESSION_STARTED,
@@ -37065,7 +37226,7 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    MAX_WAYPOINT = 0x7FFFFFFF,
 } WaypointEventKey_e;
 
-#line 1407 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 1416 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
 __inline static  void RegisterAllWaypoints(void)
 {
 
@@ -37384,6 +37545,8 @@ __inline static  void RegisterAllWaypoints(void)
 
    RegisterWaypoint(D_MODEL_FTL_HRF_STREAM_STATUS, "D_MODEL_FTL_HRF_STREAM_STATUS") ;
    RegisterWaypoint(WP_FTL_HRF_UECC_HANDLING, "WP_FTL_HRF_UECC_HANDLING") ;
+   RegisterWaypoint(WP_FTL_MP1_DISABLE, "WP_FTL_MP1_DISABLE") ;
+   RegisterWaypoint(WP_FTL_MP1_ENABLE, "WP_FTL_MP1_ENABLE") ;
 
 
    RegisterWaypoint(WP_FTL_RC_FFLBA, "WP_FTL_RC_FFLBA") ;
@@ -37676,7 +37839,12 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_PS_REH_LDPC_ISR, "WP_PS_REH_LDPC_ISR") ;
    RegisterWaypoint(WP_PS_REH_NO_FIRST_REREAD, "WP_PS_REH_NO_FIRST_REREAD") ;
    RegisterWaypoint(WP_PS_REH_MARK_UECC, "WP_PS_REH_MARK_UECC") ;
+   RegisterWaypoint(WP_PS_REH_INDICATE_HEADER_BIT_SET, "WP_PS_REH_INDICATE_HEADER_BIT_SET") ;
+   RegisterWaypoint(WP_PS_REH_NON_CACHE_MODE, "WP_PS_REH_NON_CACHE_MODE") ;
+   RegisterWaypoint(WP_PS_REH_READ_FAIL_SHIFTS, "WP_PS_REH_READ_FAIL_SHIFTS") ;
+   RegisterWaypoint(WP_PS_REH_READ_RETRY_SHIFTS, "WP_PS_REH_READ_RETRY_SHIFTS") ;
    RegisterWaypoint(WP_REH_CVD_DUMP_TRIGGER, "WP_REH_CVD_DUMP_TRIGGER") ;
+   RegisterWaypoint(WP_PS_REH_DMC_RES, "WP_PS_REH_DMC_RES") ;
 
    RegisterWaypoint(WP_PS_PF_01_TLC_FAIL_LWLN_PLANE_0, "WP_PS_PF_01_TLC_FAIL_LWLN_PLANE_0") ;
    RegisterWaypoint(WP_PS_PF_02_TLC_FAIL_LWLN_PLANE_1, "WP_PS_PF_02_TLC_FAIL_LWLN_PLANE_1") ;
@@ -37753,6 +37921,9 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_PS_DGM_READ_TRANSFER, "WP_PS_DGM_READ_TRANSFER") ;
    RegisterWaypoint(WP_PS_DGM_READ_SENSE, "WP_PS_DGM_READ_SENSE") ;
 
+   RegisterWaypoint(WP_PS_VALIDATE_CMD_FF, "WP_PS_VALIDATE_CMD_FF") ;
+   RegisterWaypoint(WP_PS_VALIDATE_CMD_FB, "WP_PS_VALIDATE_CMD_FB") ;
+
 
    RegisterWaypoint(WP_PS_FLGP_MARK_START, "WP_PS_FLGP_MARK_START") ;
    RegisterWaypoint(WP_PS_FLGP_FTL_MSG, "WP_PS_FLGP_FTL_MSG") ;
@@ -37807,6 +37978,7 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_PS_XOR_RECOVERY_PARITY_PAGE_UECC, "WP_PS_XOR_RECOVERY_PARITY_PAGE_UECC") ;
    RegisterWaypoint(WP_PS_XOR_RECOVERY_UNROLL_PAGE_UECC, "WP_PS_XOR_RECOVERY_UNROLL_PAGE_UECC") ;
    RegisterWaypoint(WP_PS_XOR_RECOVERY_WUC_DETECTED, "WP_PS_XOR_RECOVERY_WUC_DETECTED") ;
+   RegisterWaypoint(WP_PS_XOR_RECOVERY_UNROLLING_VBA, "WP_PS_XOR_RECOVERY_UNROLLING_VBA") ;
    RegisterWaypoint(WP_PS_XOR_STORE_PAR_REQ, "WP_PS_XOR_STORE_PAR_REQ") ;
    RegisterWaypoint(WP_PS_XOR_LOAD_PAR_REQ, "WP_PS_XOR_LOAD_PAR_REQ") ;
    RegisterWaypoint(WP_PS_XOR_REBUILD_PAR_START, "WP_PS_XOR_REBUILD_PAR_START") ;
@@ -38014,7 +38186,7 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_INFRA_READ_REGION_LAST_PAGE, "WP_INFRA_READ_REGION_LAST_PAGE") ;
    RegisterWaypoint(WP_INFRA_WRITE_REGION_LAST_PAGE, "WP_INFRA_WRITE_REGION_LAST_PAGE") ;
 
-#line 2359 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 2379 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
    RegisterWaypoint(WP_INFRA_TM_UPDATE_NAND_SAMPLE_RATE, "WP_INFRA_TM_UPDATE_NAND_SAMPLE_RATE") ;
    RegisterWaypoint(WP_INFRA_TM_IDLE_TIME, "WP_INFRA_TM_IDLE_TIME") ;
    RegisterWaypoint(WP_INFRA_TM_ACTIVE_TIME, "WP_INFRA_TM_ACTIVE_TIME") ;
@@ -38024,7 +38196,7 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_INFRA_TM_SEND_TEMPERATURE, "WP_INFRA_TM_SEND_TEMPERATURE") ;
    RegisterWaypoint(WP_PS_THM_INFRA_FAKE_TEMPCODE, "WP_PS_THM_INFRA_FAKE_TEMPCODE") ;
 
-#line 2375 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 2395 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
    RegisterWaypoint(WP_SEC_NEW_COMMAND_STARTED, "WP_SEC_NEW_COMMAND_STARTED") ;
    RegisterWaypoint(WP_SEC_COMMAND_FINISHED, "WP_SEC_COMMAND_FINISHED") ;
    RegisterWaypoint(WP_SEC_TCG_SESSION_STARTED, "WP_SEC_TCG_SESSION_STARTED") ;
@@ -38685,7 +38857,7 @@ void FML_initZeroBuffer(void);
 #line 39 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 typedef struct __S_FML_HAS_WORK S_FML_HAS_WORK;
 
-#line 179 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 180 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  BOOL32 FML_IsInFTL(void)
 {
    RTOS_ThreadInfo_t  threadInfo = RTOS_GetThreadInfo();
@@ -38727,7 +38899,7 @@ __inline static  uint32_t FML_WORK_INDICATION_REG_READ_FUNC()
     return (uint32_t)vFML_WORK_INDICATION_REG;
 }
 
-#line 261 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 262 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 typedef enum
 {
    FML_RESTRICT_1ST,
@@ -38846,7 +39018,7 @@ typedef struct FML_Handler_s
    fmlHander func;
    uint32_t handlerNum;
 
-#line 381 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 382 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 } FML_Handler_t;
 
 
@@ -38930,7 +39102,7 @@ void FML_Set_HostQueuesBeforeIdle(uint32_t * hostQueues);
 
 uint32_t   FML_GetRTFADIStatistics(FML_RTFADI_Data_t * pFMLRTFADI);
 
-#line 474 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 475 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 void  __attribute__((section("TRW")))  FML_Init (void);
 
 
@@ -38946,10 +39118,10 @@ void  __attribute__((section("TRW")))  FML_i_InitLrm(void);
 
 BOOL32 FML_shouldNotifyMP1(FML_ResRestrictions res);
 
-#line 502 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 503 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 void   FML_Execute(void);
 
-#line 515 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 516 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 void   FML_FADIStatsSetRestriction(FML_ResRestrictions res);
 
 void   FML_ReturnToGoIdleFromTLCFlushBuffers(void);
@@ -38963,26 +39135,26 @@ void   FML_ReturnToGoIdleFromTLCFlushBuffers(void);
 
 void    FML_DiagSetFtlWorkingMode(uint8_t mode);
 
-#line 543 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 544 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  BOOL32 FML_IsPendingForIdle(void)
 {
    return (FML_CB.idleizationState >= FML_GO_IDLE_STATE_WAIT_OVP);
 }
 
-#line 561 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 562 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  void FML_Register(FML_HanderId handlerId, const FML_Handler_t * handlerCfg, uint8_t RRweight)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)handlerId < (32)), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h" , 563 , "(uint32_t)handlerId < (32)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(handlerCfg), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h" , 564 , "handlerCfg");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)handlerId < (32)), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h" , 564 , "(uint32_t)handlerId < (32)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(handlerCfg), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h" , 565 , "handlerCfg");                         "BullseyeCoverage restore"; } ;
 
    LivetMemcpy (&FML_CB.handlers[handlerId], handlerCfg, sizeof(FML_Handler_t));
    FML_CB.myRRpoints[handlerId] = RRweight;
 }
 
-#line 582 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 583 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 void   FML_SetResRestriction(FML_ResRestrictions res);
 
-#line 596 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 597 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 void   FML_ClearRestrictionInternal(FML_ResRestrictions res);
 
 __inline static  BOOL32 FML_NoRestrictionSet(void)
@@ -38990,13 +39162,13 @@ __inline static  BOOL32 FML_NoRestrictionSet(void)
    return FML_CB.currRestrictorsCombination == 0;
 }
 
-#line 613 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 614 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 BOOL32   FML_IsFmlIdleAndNoPsCompl(void);
 
-#line 626 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 627 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 BOOL32   FML_IsFtlIdleAndNoPsCompl(void);
 
-#line 638 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 639 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 BOOL32   FML_IsFullyIdle(void);
 
 
@@ -39023,7 +39195,7 @@ void   FML_Activate(BOOL32 Activate);
 
 void   FML_FEAdminQLogState(void);
 
-#line 676 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 677 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  void FML_ClearResRestriction(FML_ResRestrictions res)
 {
    if ( (uint64_t)((FML_CB.currRestrictorsCombination) & ( (1ULL << (res)) ))  !=  (0) )
@@ -39058,13 +39230,13 @@ __inline static  void FML_SetNextActiveQueue(void)
 {
 
    uint32_t nextQueueIdx = (uint32_t)FFS((int32_t)(( ( FML_WORK_INDICATION_REG_READ_FUNC()  & FML_CB.currActiveHandlersBitmap)  & FML_CB.hasWRRmask)));
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(nextQueueIdx != (32) - 1), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h" , 710 , "nextQueueIdx != (32) - 1");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(nextQueueIdx != (32) - 1), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h" , 711 , "nextQueueIdx != (32) - 1");                         "BullseyeCoverage restore"; } ;
 
 
    FML_CB.handler = &(FML_CB.handlers[nextQueueIdx]);
 }
 
-#line 728 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 729 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  void FML_IncementCounter(uint32_t handlerNum)
 {
    FML_CB.currentRRpoints[handlerNum]++;
@@ -41178,6 +41350,8 @@ extern const CMC_DomainInfo_t FW_DPS3_1_DomainConfigArray[];
    Status_t CMC_Configure_eFuse_ClockROM(void);
    Status_t CMC_Configure_eFuse_Clock(void);
    Status_t CMC_Configure_FIM_LANE_HIGH_Clock(void);
+   Status_t CMC_Configure_PeriphForeFuse_Clock(void);
+   Status_t CMC_Configure_RestorePeriphForeFuse_Clock(void);
 
 
    void     CMC_TOP_CPUDelay(uint32_t delayTime);
@@ -42386,14 +42560,17 @@ typedef struct PS_MRPH_BES_CFG_Param_s
 
 
 
-typedef struct PS_MRPH_READ_PERF_IMPRV_Params_s
+
+
+
+typedef  _Packed  struct PS_MRPH_READ_PERF_IMPRV_Params_s
 {
    uint8_t fastReadUECCCounterThreshold;
    uint8_t readTypeOBTLC;
    uint16_t cmdD2hRefreshFrequency;
    uint8_t cmdD2hEnableDisableSwitch;
-   uint8_t padding1;
    uint16_t fastReadTLCPECountThreshold;
+   uint8_t enable_program_suspend;
    uint16_t Number_of_Read_allowed_during_1msec_of_Program_suspend;
    uint16_t Time_in_msec_allow_for_ASMR;
    uint16_t Total_maximum_number_of_reads_per_suspend;
@@ -42401,6 +42578,8 @@ typedef struct PS_MRPH_READ_PERF_IMPRV_Params_s
    uint8_t  padding2[5];
    uint32_t Section_Terminator;
 }   PS_MRPH_READ_PERF_IMPRV_Params_t;
+
+
 
 typedef struct PS_MRPH_READ_PERF_IMPRV_CFG_Params_s
 {
@@ -42762,7 +42941,7 @@ typedef struct PS_MRPH_TIMING_CFG_s
    PS_MRPH_Timing_t   setData;
 }   PS_MRPH_TIMING_CFG_Param_t;
 
-#line 2671 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
+#line 2676 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
 Status_t PS_MRPH_DataSetsStartup(uint32_t *pPsMrphParams);
 void *   PS_MRPH_GetMrphDataSet(MrphDataSetIx_e dataSet);
 
@@ -44288,6 +44467,85 @@ typedef struct _DDRC_DMA {
 #line 22 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 #line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_dram_defines.h"
 
+#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+
+#line 44 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+enum PMM_WakeupSource_e
+{
+   PMM_WAKEDUP_BY_GPIO_IRQ = 0,
+   PMM_WAKEDUP_BY_TIMER,
+   PMM_WAKEDUP_BY_CLKREQ,
+   PMM_WAKEDUP_BY_PERST,
+   PMM_WAKEDUP_BY_WAKE,
+   MM_WAKEDUP_BY_DEBUG_TIMER,
+   PMM_WAKEDUP_BY_NA = 99
+};
+typedef uint32_t PMM_WakeupSource_t;
+
+
+
+enum PMIC_VenodrID_e
+{
+    PMIC_VendorID_Invalid = 0,
+
+#line 68 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+    PMIC_2_VendorID_ROHM  = 0x10,
+    PMIC_2_VendorID_QORVO,
+};
+typedef uint32_t PMIC_VentorID_t;
+
+#line 83 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+enum SYS_DevicePowerState_e
+{
+   SYS_DPS_00        = 0,
+   SYS_DPS_01,
+   SYS_DPS_02,
+   SYS_DPS_12,
+   SYS_DPS_20,
+   SYS_DPS_31,
+   SYS_DPS_32,
+};
+typedef uint32_t SYS_DevicePowerState_t;
+
+#line 113 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+uint8_t  __attribute__((section("CODE_MEDIUM")))  PMM_GetPCUMsg_DiagReadPMIC(void);
+void  __attribute__((section("CODE_MEDIUM")))  PMM_IssuePMICCFGtoPCU(uint32_t powerState);
+void  __attribute__((section("CODE_MEDIUM")))  PMM_LogPMICPOKEvent(uint32_t param);
+void  __attribute__((section("CODE_MEDIUM")))  PMM_SetPmicLastTs(void);
+void  __attribute__((section("CODE_MEDIUM")))  PMM_LogPMICIRQEvent(uint32_t param);
+void  __attribute__((section("CODE_MEDIUM")))  PMM_LogPMICPCUInitExceptionEvent(uint32_t param);
+void  __attribute__((section("CODE_MEDIUM")))  PMM_LogPMICThermalShutdown(void);
+
+#line 128 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+void PMM_PowerOffDevice(void);
+
+void PMM_StartDASTimer(void);
+void PMM_NotifyInfraReadyToPCU(void);
+Status_t PMM_EnterIDLELowPowerState();
+Status_t PMM_ExitIDLELowPowerState();
+void PMM_ControlBuck2(uint32_t Buck2Level);
+
+Status_t PMM_DivideCMC(void);
+Status_t PMM_RestoreCMC(void);
+
+
+void RAM_DPS_SendPlaceEvent(uint16_t p);
+void RAM_DPS_SendPlaceEvent_3Params(uint16_t p, uint32_t p1, uint32_t p2, uint32_t p3);
+void PMM_PS_WaitForStablePower(void);
+
+
+
+void PCU_D3HotTimerEnable(void);
+void PCU_D3HotTimerDisable(void);
+
+
+
+void setAssertFatalSig(uint32_t sig);
+void PMM_ResetLinkAbortReasonFlag(void);
+void PMM_SetLinkAbortReasonFlag(uint32_t lpmAbortReason);
+
+#line 22 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_dram_defines.h"
+
 #line 192 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_dram_defines.h"
 typedef enum cacheLineState_e
 {
@@ -44369,7 +44627,7 @@ void DDR_InjectError(uint32_t DramAddr,DDRC_Module_Src_t injectSrc);
 #line 23 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 #line 1 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
 
-#line 36 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
+#line 37 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
 enum
 {
    READ_FROM_HOST_NO_SEC   = 0x20,
@@ -44401,7 +44659,7 @@ typedef union HMB_Token_u
 {
    struct HMB_Token_s
    {
-      uint32_t cmdIndex             :10;
+      uint32_t cmdIndex             : 10 ;
       uint32_t state                :3;
       uint32_t userId               :3;
       uint32_t reserved             :16;
@@ -44409,6 +44667,7 @@ typedef union HMB_Token_u
 
    uint32_t all32;
 } HMB_Token_t;
+;
 
 typedef void(*HMBCallBackFnPtr_t)(HMB_Token_t token);
 
@@ -44510,7 +44769,7 @@ void         HMBC_IntEnable(uint32_t userId);
 Status_t     FE_HAL_HMB_Read4Bytes(HMB_Read4Bytes_t* hmbRequest4Bytes);
 BOOL32       HMBC_IsIdle(void);
 
-#line 182 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
+#line 184 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
 Status_t     HMBC_QueueRequestReadWrite128(HMB_ReadWrite128_t* hmbRequest128, HmbcDirection_e direction);
 
 #line 24 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
@@ -50000,7 +50259,7 @@ void   PSR_SendPaddingReq(JBA_t jba, OBM_BlockType_t opbId, uint32_t numFmusToPa
 
 void   PSR_SendPsLogCtrlWriteReq(JBA_t jba, MP_PS_PQD_QueueType_t qType, uint32_t fmuCount, uint8_t** dataAddr, uint8_t** headerAddr, uint32_t cookie, uint32_t isCalledFromLog);
 
-void   PSR_ReadPage0MetaData(uint32_t metaDie, uint32_t metaBlock, uint32_t diePageInMB, uint8_t blockType, uint8_t isHSLC, MP_PS_PQD_QueueType_t qType, uint8_t** headerAddr, uint32_t cookie, uint16_t jbId, uint32_t forceLongParity);
+void   PSR_ReadPage0MetaData(uint32_t metaDie, uint32_t metaBlock, uint32_t diePageInMB, uint8_t blockType, uint8_t isHSLC, MP_PS_PQD_QueueType_t qType, uint8_t** headerAddr, uint32_t cookie, uint16_t jbId, BOOL32 forceLongParity);
 
 void   PSR_FlashFillMetaBlock(uint32_t metadieId, uint32_t metablockId, MP_PS_PQD_QueueType_t queueType, uint8_t blockType, BML_Sbm_Type_t sbmType, uint8_t forceFlashWr);
 
@@ -50344,7 +50603,8 @@ typedef struct EI_StatBasicStatistics_s
    EI_PatternBasicStatistics_t            patternBasicStatistics;
    uint32_t                               eraseStatisticsPerEraseType[EI_ERASE_TYPE_COUNT];
    uint32_t                               eraseStatisticsPerEraseTypeRfu[4];
-   uint32_t                               rfu[36];
+   uint64_t                               totalInjectionsAllFlowIDs[ (2) ];
+   uint32_t                               rfu[32];
    uint32_t                               canaryValEnd;
 }   EI_StatBasicStatistics_t;
 
@@ -51018,8 +51278,8 @@ void  __attribute__((section("CODE_EI_RAM")))  EI_ConfFixBackwardCompatibility(E
    if (EI_IS_FLOW_CONFIG(config) ==  (0) )
    {
 
-      config->configArraysExtenstion.eiEnConfigFlowID[0] |= (uint8_t)(1 << (EI_COMPATEBILITY_RESERVED));
-      gEI_ActiveFlow[0] |= (uint8_t)(1 << (EI_COMPATEBILITY_RESERVED));
+      config->configArraysExtenstion.eiEnConfigFlowID[0] |= (uint8_t)(1 << (EI_DEFAULT_FLOW_COMPATEBILITY));
+      gEI_ActiveFlow[0] |= (uint8_t)(1 << (EI_DEFAULT_FLOW_COMPATEBILITY));
    }
    else
    {
@@ -51671,7 +51931,7 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidHeader(const EI
 
    { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 999 , "config");                         "BullseyeCoverage restore"; } ;
 
-   if(!(( (2)  <= config->version) && (config->version <= (14) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1001 ); return STATUS_ERROR;} ;
+   if(!(( (2)  <= config->version) && (config->version <= (19) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1001 ); return STATUS_ERROR;} ;
 
    return STATUS_OK;
 }

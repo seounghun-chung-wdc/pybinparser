@@ -22,6 +22,35 @@ cfg_project_path = properties.get('DEFAULT','project_path')
 cfg_include_path = list(map(lambda x : x.strip(), properties.get('DEFAULT','include_path').split(',')))
 cfg_info_file_path = properties.get('DEFAULT','info_file_path')
 
+parameter_description = {
+'operations[0].' :'[0] Host operations',
+'operations[1].' :'[1] RMW operations [rd]',
+'operations[2].' :'[2] FUA operations [wr, SLC, OZ]',
+'operations[3].' :'[3] Deallocate control data operations',
+'operations[4].' :'[4] LOG operations [SLC, conds]',
+'operations[5].' :'[5] PRM operations [rd]',
+'operations[6].' :'[6] MTM operations [SLC]',
+'operations[7].' :'[7] XOR block operations [SLC]',
+'operations[8].' :'[8] XOR zone rebuild [rd, SLC, OZ]',
+'operations[9].' :'[9] Active RS [rd]',
+'operations[10].':'[10] FLGP [NOT SUPPORTED]',
+'operations[11].' :'[11] Scan FWD [NOT SUPPORTED]',
+'operations[12].' :'[12] Read headers [rd]',
+'operations[13].' :'[13] RLC host VC [rd]',
+'operations[14].' :'[14] RLC host blocks',
+'operations[15].' :'[15] RLC MTM block [slc]',
+'operations[16].' :'[16] RLC XOR blocks [slc]',
+'operations[17].' :'[17] BRLC host blocks',
+'operations[18].' :'[18] BRLC RLC blocks',
+'operations[19].' :'[19] BRLC MTM blocks [slc]',
+'operations[20].' :'[20] BRLC XOR blocks [slc]',
+'operations[21].' :'[21] IFS blocks [slc]',
+'operations[22].' :'[22] FADI blocks [slc]',
+'operations[23].' :'[23] Boot blocks [slc]',
+'operations[24].' :'[24] IFS directory blocks [slc, wr]',
+'operations[25].' :'[25] Hostless operations [rd]',
+}
+
 def remove_last_bracket(txt):
     r_txt = txt[::-1]    # creates reverse copy of txting
     if len(txt) == 0:
@@ -61,12 +90,15 @@ def recursive_tree(obj_to_parse, tree_view, header="", obj_type=None, idx="",cou
                 tree_view.insert(remove_last_bracket(header),'end',iid=header,text=INDENT_TREE * len(header.split(HIERARCHY_SEPARATOR))+header)
                 par_obj_type = None # only one time. It is for array[0] , array[1], ... group
                 
+                # description setting
+                if header in parameter_description:
+                    tree_view.set(header, 'Desc',parameter_description[header])                    
+
             tree_view.insert(header,'end',iid=header + field_name + '.',text=complete_result) # add specific parameter name
             complete_result = recursive_tree(curr_item, tree_view, header + field_name + HIERARCHY_SEPARATOR, field_type,count=count+1) + \
                                ("" + ("" * (len(header.split(HIERARCHY_SEPARATOR)) - 1)) + "" if
                                 len(header.split(HIERARCHY_SEPARATOR)) > 1 and obj_to_parse._fields_[-1] == field
                                 else "")
-
 
             if len(tree_view.get_children(header + field_name + '.')) == 0: # if tree node have child, it is tree name. 
                 tree_view.set(header + field_name + '.', 'Values',complete_result)
@@ -106,8 +138,9 @@ class GUI():
     
         self.view.heading('#0', text='Name')
         
-        self.view['columns'] = ('Values')
+        self.view['columns'] = ('Values','Desc')
         self.view.heading('Values', text='Values')                
+        self.view.heading('Desc', text='Desc')                
         # end tree view widget    
         
         # text view widget
