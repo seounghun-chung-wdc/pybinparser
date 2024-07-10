@@ -49,6 +49,9 @@ parameter_description = {
 'operations[23].' :'[23] Boot blocks [slc]',
 'operations[24].' :'[24] IFS directory blocks [slc, wr]',
 'operations[25].' :'[25] Hostless operations [rd]',
+'operationalStateChances' : '0:OPST 1:Mount 2:Power State 4:Normal',
+'operationalStateChances' : '0:OPST 1:Mount 2:Power State 4:Normal',
+'opTypeFailureChances' : '0:Read 1:Program 2:Erase 3:XOR recovery 4:DST 5:Data Retention Dection',
 }
 
 def remove_last_bracket(txt):
@@ -102,7 +105,10 @@ def recursive_tree(obj_to_parse, tree_view, header="", obj_type=None, idx="",cou
 
             if len(tree_view.get_children(header + field_name + '.')) == 0: # if tree node have child, it is tree name. 
                 tree_view.set(header + field_name + '.', 'Values',complete_result)
-                
+                print(header,field_name,complete_result)
+                # description setting
+                if field_name in parameter_description:
+                    tree_view.set(header + field_name + '.', 'Desc',parameter_description[field_name])                      
         # Finally return the total string of the scope
         return complete_result
     elif issubclass(type(obj_to_parse), ctypes.Array):
