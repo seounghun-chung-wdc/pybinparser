@@ -7,6 +7,7 @@ import string
 import ctypes
 import sys
 import configparser
+import struct
 
 from editable_treeview import EditableTreeview
 from tkinterdnd2 import DND_FILES, TkinterDnD
@@ -52,6 +53,12 @@ parameter_description = {
 'operationalStateChances' : '0:OPST 1:Mount 2:Power State 4:Normal',
 'operationalStateChances' : '0:OPST 1:Mount 2:Power State 4:Normal',
 'opTypeFailureChances' : '0:Read 1:Program 2:Erase 3:XOR recovery 4:DST 5:Data Retention Dection',
+'nestedFailuresChances' : '0:Nested PF/EF during PF  1:Ntested REH during PF',
+'failChanceOriginalProg' : '7:EPWR  8:PF 1LWL',
+'failChanceOriginalRead' : '1:SB0  2:SB1  3:SB2  6:UECC(XOR recov)  7:UECC(XOR unrecov)',
+'confType' : '0:Random 1:Single',
+'addrType' : '0:VBA  1:deVBA 2:LBA 3:Op-Id',
+'opToInject' : '0 - Read, 1 - Prog, 2 - Erase, 3 - XOR Load,  4 - XOR Rebuild, 5 - XOR recovery load page, 6 - XOR recovery unroll PS0, 7 - XOR recovery unroll PS1, 8 - DST, 9-DRDm 10-XORStore',
 }
 
 def remove_last_bracket(txt):
@@ -128,12 +135,47 @@ def recursive_tree(obj_to_parse, tree_view, header="", obj_type=None, idx="",cou
 class GUI():
     def __init__(self, master):      
         self.result_struct = None
+        self.binary_file_handler = None
+        self.runtile_handler = None
+
+        # VBA translation widget
+        self.label_frame2 = tkinter.LabelFrame(master, text="VBA calculator")
+        self.label_frame2.pack(side='top', fill='both', expand=True, padx=5, pady=5)
+
+        self.view2 = EditableTreeview(self.label_frame2,columns=('Name','Value'),bind_key='<Double-Button-1>',data=[],non_editable_columns="#0",update_ei_struct_value=self.update_vba_calculator,height=6)
+        self.view2.pack(side='left',fill='both',expand='y')       
+        scrollbar2 = tkinter.ttk.Scrollbar(self.label_frame2, orient=tkinter.VERTICAL, command=self.view2.yview)
+        self.view2.configure(yscroll=scrollbar2.set)
+        scrollbar2.pack(side='left',fill='y')
+        self.view2.heading('#0', text='Name')
+        self.view2['columns'] = ('Values')
+        self.view2.heading('Values', text='Values')                    
+
+        input_box_frame = tkinter.LabelFrame(self.label_frame2,text='VBA')
+        input_box_frame.pack(side='top',fill='x',expand=False)  
+
+        vba_box_frame = tkinter.Frame(input_box_frame)
+        vba_box_frame.pack(side='top',fill='x',expand=False)          
         
+        self.input_vba = tkinter.StringVar()
+        self.vba_edit = tkinter.Entry(vba_box_frame, textvariable=self.input_vba)
+        self.vba_edit.pack(side='left',fill='x',expand=True)
+        self.vba_button = tkinter.Button(vba_box_frame, text="FromVBA", command=lambda : self.parse_vba(self.input_vba.get()))
+        self.vba_button.pack(side='left',expand=False)  
+        self.vba_button2 = tkinter.Button(vba_box_frame, text="ToVBA", command=lambda : self.parse_fromvba())
+        self.vba_button2.pack(side='left',expand=False)  
+        
+        self.vba_type_box = tkinter.ttk.Combobox(input_box_frame,state='readonly')
+        self.vba_type_box.pack(side='left',expand=False)
+        self.vba_type_box['value'] = ('vbaTlc', 'vbaSlc_sbm', 'PS_flavor3')
+        self.vba_type_box.current(0)
+        # end VBA calculator widget
+                
         # tree view widget
         self.label_frame = tkinter.LabelFrame(master, text="Result")
         self.label_frame.pack(side='top', fill='both', expand=True, padx=5, pady=5)
 
-        self.view = EditableTreeview(self.label_frame,columns=('Name','Value'),bind_key='<Double-Button-1>',data=[],non_editable_columns="#0",update_ei_struct_value=self.update_ei_struct_value)
+        self.view = EditableTreeview(self.label_frame,columns=('Name','Value'),bind_key='<Double-Button-1>',data=[],non_editable_columns="#0",update_ei_struct_value=self.update_ei_struct_value,height=8)
         self.view.pack(side='left',fill='both',expand='y')       
         scrollbar = tkinter.ttk.Scrollbar(self.label_frame, orient=tkinter.VERTICAL, command=self.view.yview)
         self.view.configure(yscroll=scrollbar.set)
@@ -286,10 +328,65 @@ class GUI():
         tkinter.messagebox.showinfo("INFO", message = "Use {}".format(i_file_path))
         self.view.delete(*self.view.get_children())            
         
-        binary_file_handler = C2PyHandler.DefaultBinaryFileC2PyHandler(i_file_path,path)
-        self.result_struct = binary_file_handler.convert(struct_declaration="EI_Config_t")
+        self.binary_file_handler = C2PyHandler.DefaultBinaryFileC2PyHandler(i_file_path,path)
+        self.result_struct = self.binary_file_handler.convert(struct_declaration="EI_Config_t")
         
         s = recursive_tree(self.result_struct, self.view)
+
+    def parse_fromvba(self):
+        print(self.result_struct2)
+        out_vba = struct.unpack('I',bytearray(self.result_struct2))[0]
+
+        self.input_vba.set('0x%08X'%(out_vba))
+        #help(self.result_struct2)
+        
+    def parse_vba(self, vba):
+        if os.path.isfile(self.ei_config_i_path.get()) is False:
+            tkinter.messagebox.showerror('Error','There is no .i file in {} '.format(self.ei_config_i_path.get()))
+        else:
+            i_file_path = self.ei_config_i_path.get()
+        print('vba : {}'.format(vba))
+        self.view2.delete(*self.view2.get_children())    
+        if self.runtile_handler is None:
+            self.runtile_handler = C2PyHandler.DefaultRuntimeBufferC2PyHandler(i_file_path)
+        try:
+            vba = int(vba,16) if '0x' in vba else int(vba,10)
+        except ValueError:
+            tkinter.messagebox.showinfo("INFO", message = "Input VBA value")
+            return
+            
+        self.result_struct2 = self.runtile_handler.convert(self.vba_type_box.get(),byte_buffer=vba.to_bytes(4,'little'))
+        print(self.result_struct2)
+        s = recursive_tree(self.result_struct2, self.view2)
+        
+    def update_vba_calculator(self, _name, _value):
+        _name = _name[:-1] if _name[-1]=='.' else _name # if _name have ".", it shall be removed
+        try:
+            if eval('issubclass(type(self.result_struct2.{}), ctypes.Array)'.format(_name)) is True:
+                list_value = eval(_value)
+                if (type(list_value) is not list):
+                    tkinter.messagebox.showerror("ERROR", message = "Please input list type. e.g.) [1,2,3,4]")
+                    return False
+
+                if (type(list_value[0]) == list): #2-dimensional list. 
+                    _x = len(list_value)
+                    _y = len(list_value[0])
+                    arr = ((ctypes.c_ubyte * _y)*_x)()
+                    for xx in range(0,_x):
+                        for yy in range(0,_y):
+                            arr[xx][yy] = list_value[xx][yy]                    
+                else:
+                    arr = (ctypes.c_ubyte * len(list_value))(*list_value)
+                cmd = 'self.result_struct2.{} = arr'.format(_name)
+                exec(cmd)
+            else:
+                cmd = 'self.result_struct2.{} = {}'.format(_name,_value)
+                exec(cmd)
+            print('update complete: ', cmd)
+            return True
+        except Exception as e:
+            tkinter.messagebox.showerror("ERROR", message = str(e))
+            return False
 
     def update_ei_struct_value(self,_name,_value):
         _name = _name[:-1] if _name[-1]=='.' else _name # if _name have ".", it shall be removed
@@ -322,7 +419,7 @@ class GUI():
             
 if __name__ == '__main__':
     tk = TkinterDnD.Tk()
-    tk.geometry('640x550')
+    tk.geometry('640x750')
     tk.title("pyBinParser")
     GUI(tk)
     tk.mainloop()

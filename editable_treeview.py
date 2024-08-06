@@ -35,8 +35,8 @@ class PopupEntry(tk.Entry):
         self.textvar.set(self.entry_value)
         
 class EditableTreeview(ttk.Treeview):
-    def __init__(self, root, columns, bind_key,data:list, non_editable_columns = "",update_ei_struct_value=None):
-        super().__init__(root, columns=columns)
+    def __init__(self, root, columns, bind_key,data:list, non_editable_columns = "",update_ei_struct_value=None,height=10):
+        super().__init__(root, columns=columns,height=height)
         self.update_ei_struct_value = update_ei_struct_value
         self.root = root
         self.column_name = columns
