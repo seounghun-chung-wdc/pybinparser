@@ -35081,11 +35081,8 @@ typedef struct EI_InjDescCommon_s
 } EI_InjDescCommon_t;
 
 
-typedef union EI_EPWRStringPlaneBitmap_s
+typedef struct EI_EPWRStringPlaneBitmap_s
 {
-   EI_EPRCodeMapType_t all;
-   struct
-   {
       EI_EPRCodeMapType_t strP0:3;
       EI_EPRCodeMapType_t strP0EpwrStatus:2;
       EI_EPRCodeMapType_t strP1:3;
@@ -35096,7 +35093,6 @@ typedef union EI_EPWRStringPlaneBitmap_s
       EI_EPRCodeMapType_t strP3EpwrStatus:2;
       EI_EPRCodeMapType_t EpwrWordLine:8;
       EI_EPRCodeMapType_t header:4;
-   }bits;
 }EI_EPWRStringPlaneBitmap_t;
 typedef union EI_NestedEPWR_s
 {

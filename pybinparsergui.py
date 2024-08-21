@@ -167,7 +167,7 @@ class GUI():
         
         self.vba_type_box = tkinter.ttk.Combobox(input_box_frame,state='readonly')
         self.vba_type_box.pack(side='left',expand=False)
-        self.vba_type_box['value'] = ('vbaTlc', 'vbaSlc_sbm', 'PS_flavor3')
+        self.vba_type_box['value'] = ('vbaTlc', 'vbaSlc_sbm', 'PS_flavor3','EI_EPWRStringPlaneBitmap_t')
         self.vba_type_box.current(0)
         # end VBA calculator widget
                 
