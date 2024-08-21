@@ -1,6 +1,6 @@
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
 
 #line 1 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/stdio.h"
 #line 1 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/corecrt.h"
@@ -4481,7 +4481,7 @@ __declspec(dllimport) char* __cdecl tmpnam( char *_Buffer);
 #line 2471 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/stdio.h"
 __pragma(pack(pop))
 
-#line 57 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 57 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
 #line 1 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/stdlib.h"
 #line 1 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/corecrt_malloc.h"
 
@@ -6075,7 +6075,7 @@ __declspec(dllimport)  wchar_t*** __cdecl __p__wenviron(void);
 #line 1366 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/stdlib.h"
 __pragma(pack(pop))
 
-#line 58 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 58 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
 #line 1 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/string.h"
 #line 1 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/corecrt_memory.h"
 #line 1 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/corecrt_memcpy_s.h"
@@ -7092,7 +7092,7 @@ __declspec(dllimport)  size_t __cdecl _strxfrm_l(
 #line 592 "c:/program files (x86)/windows kits/10/include/10.0.18362.0/ucrt/string.h"
 __pragma(pack(pop))
 
-#line 59 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 59 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
 #line 1 "c:/program files (x86)/microsoft visual studio/2019/professional/vc/tools/msvc/14.25.28610/include/stdarg.h"
 
 #line 13 "c:/program files (x86)/microsoft visual studio/2019/professional/vc/tools/msvc/14.25.28610/include/stdarg.h"
@@ -7116,11 +7116,11 @@ __pragma(pack(pop))
 #line 29 "c:/program files (x86)/microsoft visual studio/2019/professional/vc/tools/msvc/14.25.28610/include/stdarg.h"
 #pragma warning(pop)
 
-#line 60 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 60 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globaltypes.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globaltypes.h"
 
-#line 44 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globaltypes.h"
+#line 44 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globaltypes.h"
 typedef signed char int8_t;
 typedef signed short int int16_t;
 typedef signed int int32_t;
@@ -7137,7 +7137,7 @@ typedef struct uint128_s
    uint64_t  uint64[2];
 } uint128_t;
 
-#line 76 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globaltypes.h"
+#line 76 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globaltypes.h"
 typedef uint8_t   BOOL;
 
 
@@ -7146,29 +7146,29 @@ typedef uint8_t   BOOL;
 typedef uint32_t  BOOL32;
 typedef uint8_t   BOOL8;
 
-#line 99 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globaltypes.h"
+#line 99 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globaltypes.h"
 typedef void (*PVFV_t)(void);
 typedef void (*PVFUI_t)(uint32_t);
 
-#line 64 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
+#line 64 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
 
-#line 38 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
+#line 38 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
 typedef volatile uint32_t HW_REG;
 typedef volatile uint64_t HW_REG64;
 typedef uint32_t HwRegField32_t;
 
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/commondefs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/commondefs.h"
 
-#line 20 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/commondefs.h"
+#line 20 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/commondefs.h"
 #pragma section("LIVET_INTERNAL")
 
-#line 14 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 14 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelintrinsics.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelintrinsics.h"
 
-#line 21 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelintrinsics.h"
+#line 21 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelintrinsics.h"
 typedef unsigned char uint8;
 typedef unsigned short uint16;
 typedef unsigned long uint32;
@@ -7228,22 +7228,22 @@ extern unsigned long   _csrrs(unsigned long Offset, unsigned long val);
 extern unsigned long   _csrrc(unsigned long Offset, unsigned long val);
 extern void            _ecall();
 
-#line 50 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 50 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelassertimpl.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelassertimpl.h"
 
-#line 32 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelassertimpl.h"
+#line 32 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelassertimpl.h"
 static __inline _LivetIntrinsic void _AssertImpl(int c, const char *f, int l, const char *msg);
 
-#line 53 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 53 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 
 
 
 typedef unsigned char *LINKER_SYM;
 
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/autogensource/fwprobes/supportedfwprobesdecl.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/autogensource/fwprobes/supportedfwprobesdecl.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/fwprobestypes.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/fwprobestypes.h"
 
 #line 1 "c:/program files (x86)/microsoft visual studio/2019/professional/vc/tools/msvc/14.25.28610/include/stdint.h"
 
@@ -7285,7 +7285,7 @@ typedef unsigned long long uintmax_t;
 #line 131 "c:/program files (x86)/microsoft visual studio/2019/professional/vc/tools/msvc/14.25.28610/include/stdint.h"
 #pragma warning(pop)
 
-#line 17 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/fwprobestypes.h"
+#line 17 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/fwprobestypes.h"
 
 
 
@@ -7293,7 +7293,7 @@ typedef unsigned long long uintmax_t;
 typedef uint64_t  LBA_t;
 typedef int64_t   signed_LBA_t;
 
-#line 6 "d:/gitrepo/fpgcss-vega/_out/model/autogensource/fwprobes/supportedfwprobesdecl.h"
+#line 6 "c:/wdlabs/fpgcss-vega/_out/model/autogensource/fwprobes/supportedfwprobesdecl.h"
 void _fwProbe_accepthostsectors_with_9_params(uint32_t Package, uint32_t die, uint32_t plane, uint32_t block, uint32_t string, uint32_t wordline, uint32_t bit, uint32_t FMU, uint32_t Sectors);
 
 void _fwProbe_accepthostsectors_with_8_params(uint32_t Package, uint32_t die, uint32_t plane, uint32_t block, uint32_t page, uint32_t bit, uint32_t FMU, uint32_t Sectors);
@@ -7629,19 +7629,19 @@ void _fwProbe_writeregisterignoremask_with_5_params(uint32_t package, uint32_t d
 void _fwProbe_xorunrollcomplete_with_10_params(void* buffer, uint32_t BufferLen, uint32_t Package, uint32_t die, uint32_t plane, uint32_t block, uint32_t string, uint32_t wordline, uint32_t bit, uint32_t column);
 
 
-void _fwProbe_xorunrollcomplete_with_9_params(void* buffer, uint32_t BufferLen, uint32_t Package, uint32_t die, uint32_t plane, uint32_t block, uint32_t page, uint32_t bit, uint32_t column);
+void _fwProbe_xorunrollcomplete_with_9_params(void* buffer, uint32_t BufferLen, uint32_t Package, uint32_t die, uint32_t plane, uint32_t block, uint32_t wordline, uint32_t bit, uint32_t column);
 
-#line 78 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 78 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/fwportability.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/fwportability.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/platform/fw/portability.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/platform/fw/portability.h"
 
-#line 16 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/fwportability.h"
+#line 16 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/fwportability.h"
 
-#line 90 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 90 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 
-#line 108 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 108 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 unsigned long _LivetIntrinsic ReadRegister(unsigned long Addr);
 void   _LivetIntrinsic WriteRegister(unsigned long Addr, unsigned long value);
 void   _LivetIntrinsic WriteRegisterNoUpdate(unsigned long Addr, unsigned long value);
@@ -7661,7 +7661,7 @@ void   _LivetIntrinsic WriteRegister64(unsigned long Addr, unsigned long long va
 unsigned long long _LivetIntrinsic ReadRegisterPtr64(void* addr);
 void   _LivetIntrinsic WriteRegisterPtr64(void* addr, unsigned long long value);
 
-#line 158 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 158 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 void _LivetIntrinsic DataTracking_SectorCreated( void * DataAddr, unsigned long long LogAddr, unsigned long NumSectors, unsigned char IsControl, const char * File, int Line );
 void _LivetIntrinsic Dummy_DataTracking_SectorCreated( void * DataAddr, unsigned long long LogAddr, unsigned long NumSectors, unsigned char IsControl, void * pBufThrStruct, const char * File, int Line );
 void _LivetIntrinsic DataTracking_SectorCopied( void * Source, void * Destination, unsigned long NumSectors, const char * File, int Line );
@@ -7694,7 +7694,7 @@ void _LivetIntrinsic DataTracking_EmulateHostWrite(void * DataAddr, unsigned lon
 void _LivetIntrinsic DataTracking_CreatedSectorWritten(void * DataAddr);
 void _LivetIntrinsic DataTracking_SetPageFormatIndex(void* Source, unsigned int Length, unsigned char Index, const char* File, int Line);
 
-#line 234 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 234 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 void _LivetIntrinsic ModelBlock(int FromRTOS);
 void _LivetIntrinsic ModelUnblock(void);
 void _LivetIntrinsic LivetCpuTimedDelay(unsigned long NumClocks);
@@ -7724,7 +7724,7 @@ unsigned long long _LivetIntrinsic CP15RegRead64(unsigned int opc1, unsigned int
 void _LivetIntrinsic CP15RegWrite(unsigned int opc1, unsigned int src, unsigned int CRn, unsigned int CRm, unsigned int opc2);
 unsigned int _LivetIntrinsic CP15RegRead(unsigned int opc1, unsigned int CRn, unsigned int CRm, unsigned int opc2);
 
-#line 276 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 276 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 void _LivetIntrinsic LivetCpuSuspendCurrent(void);
 void _LivetIntrinsic LivetCpuSuspend(unsigned int CoreId);
 void _LivetIntrinsic LivetCpuResume(unsigned int CoreId);
@@ -7784,7 +7784,7 @@ void _LivetIntrinsic MediaModel_InjectSeekError(unsigned long Head, unsigned int
 
 unsigned long _LivetIntrinsic LivetCPU_CheckDestructorReset();
 
-#line 352 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 352 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 void *LivetMemcpy(void *dst, const void *src, size_t sz);
 void *LivetMemmove(void *dst, const void *src, size_t sz);
 void *LivetMemset(void *dst, int val, size_t sz);
@@ -7798,14 +7798,14 @@ int LibMemcmp ( const void *p1, const void *p2, size_t sz);
 char * LibStrcpy(char *dst, const char * src);
 size_t LibStrlen(const char * str);
 
-#line 421 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 421 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 void _LivetIntrinsic HaltFileLineMsg(const char *file,int line,const char *msg);
 
 
 
 _LivetIntrinsic void* _fwProbe(const char *cmd, ...);
 
-#line 454 "d:/gitrepo/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
+#line 454 "c:/wdlabs/fpgcss-vega/_out/model/livetsource/source/firmwareinterface/modelmacros.h"
 typedef unsigned long long LBA_t;
 
 
@@ -7833,11 +7833,11 @@ static const LBA_t PAD_OVERWRITTEN           = ( (LBA_t)(-1)  - 16);
 
 static const LBA_t THROW_AWAY_DATA           = ( (LBA_t)(-1)  - 21);
 
-#line 72 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
+#line 72 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
 
    extern BOOL _always_false_;
 
-#line 103 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
+#line 103 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
    extern void ARCSleep(unsigned long IntMask);
 
 
@@ -7849,7 +7849,7 @@ static const LBA_t THROW_AWAY_DATA           = ( (LBA_t)(-1)  - 21);
    void   _sr(uint32 value, uint32 regNum);
    uint32 _lr(uint32 regNum);
 
-#line 141 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
+#line 141 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_platformmacros.h"
    extern void _ASM(char*);
 
 
@@ -7872,9 +7872,9 @@ static const LBA_t THROW_AWAY_DATA           = ( (LBA_t)(-1)  - 21);
       _seti(old_posture);;
    }
 
-#line 65 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_statuscoderanges.h"
-#line 25 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_statuscoderanges.h"
+#line 65 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_statuscoderanges.h"
+#line 25 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_statuscoderanges.h"
 typedef enum Status_T_Ranges_e
 {
    STATUS_OK               = 0,
@@ -7923,13 +7923,13 @@ typedef union status32_Map
    } ROM_GeneralStatusMap;
 }status32_Map_t;
 
-#line 66 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 66 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng_groups.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng_groups.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
 
-#line 18 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
+#line 18 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
 enum SYS_OVL_GROUP_ID_e
 {
     SYS_OVL_GROUP_ID_NONE = 0,
@@ -7987,10 +7987,12 @@ enum SYS_OVL_GROUP_ID_e
     SYS_OVL_GROUP_ID_FE_PCIE,
     SYS_OVL_GROUP_ID_FE_MAIN,
     SYS_OVL_GROUP_ID_FE_HAL,
+    SYS_OVL_GROUP_ID_FE_TELEMETRY,
     SYS_OVL_GROUP_ID_FE_VS_EI,
     SYS_OVL_GROUP_ID_FE_FIS,
     SYS_OVL_GROUP_ID_FE_CROSS_IP,
     SYS_OVL_GROUP_ID_FE_SANITIZE,
+    SYS_OVL_GROUP_ID_FE_DIAG,
     SYS_OVL_GROUP_ID_FE_VS_CD_LOG,
     SYS_OVL_GROUP_ID_FE_HMD,
 
@@ -8132,32 +8134,32 @@ enum SYS_OVL_GROUP_ID_e
     SYS_OVL_GROUP_ID_SECURITY_SBOOT_LOG,
 };
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/ftl_sys_ovl.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/ftl_sys_ovl.h"
 
-#line 225 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/infra_sys_ovl.h"
+#line 227 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/infra_sys_ovl.h"
 
-#line 226 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/fe_nvme_sys_ovl.h"
+#line 228 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/fe_nvme_sys_ovl.h"
 
-#line 227 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/security_sys_ovl.h"
+#line 229 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/security_sys_ovl.h"
 
-#line 228 "d:/gitrepo/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
+#line 230 "c:/wdlabs/fpgcss-vega/source/infra/modules/aom/inc_public/sys_ovl.h"
 
-#line 18 "d:/gitrepo/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng_groups.h"
+#line 18 "c:/wdlabs/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng_groups.h"
 
-#line 17 "d:/gitrepo/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng_ftl_groups.h"
+#line 17 "c:/wdlabs/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng_ftl_groups.h"
 
-#line 18 "d:/gitrepo/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng_fe_groups.h"
+#line 18 "c:/wdlabs/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng_fe_groups.h"
 
-#line 19 "d:/gitrepo/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng.h"
+#line 19 "c:/wdlabs/fpgcss-vega/source/infra/modules/codeattrgrpmng/inc_public/sys_codeattrgrpmng.h"
 
-#line 68 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 68 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
 
-#line 76 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 76 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
       enum
       {
          SECTOR_SIZE_IN_BYTES       = 512,
@@ -8188,18 +8190,18 @@ enum SYS_OVL_GROUP_ID_e
          BLOCK_SIZE_512KB_BYTES      = 524288,
       };
 
-#line 126 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_globals.h"
+#line 126 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_globals.h"
       extern BOOL8  reserveTRW ;
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_assert.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_assert.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/ll_exphdl.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/ll_exphdl.h"
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
 
-#line 36 "d:/gitrepo/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
+#line 36 "c:/wdlabs/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
 typedef struct {
    PVFV_t Reset;
    PVFV_t MemoryError;
@@ -8289,7 +8291,7 @@ typedef struct {
    SYS_ExceptionData_t expData;
 } SYS_FwExceptionData_t, *SYS_FwExceptionData_tp;
 
-#line 142 "d:/gitrepo/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
+#line 142 "c:/wdlabs/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
 typedef enum ExceptionHandlingResult_e
 {
    EXCEPTION_RECOVER = 0,
@@ -8306,7 +8308,7 @@ typedef enum {
    SYS_FATAL_RESET_TYPES
 } SYS_FatalResetType_t;
 
-#line 180 "d:/gitrepo/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
+#line 180 "c:/wdlabs/fpgcss-vega/source/infra/modules/sysexception/inc_public/sys_exceptionhandling_api.h"
 Status_t SYS_ExceptionHandlingInit(void);
 void SYS_DisableResetHandling(void);
 uint32_t SYS_GetCoreIndex(void);
@@ -8316,28 +8318,30 @@ void SYS_FwException(uint16_t fileName, uint16_t line, uint32_t logCode, uint32_
 void SYS_FwExceptionGeneric(uint16_t fileName, uint16_t line);
 SYS_FatalResetType_t SYS_GetFatalResetType(void);
 SYS_FatalResetType_t SYS_SetFatalResetType(SYS_FatalResetType_t type);
+void SYS_SetC1LogPanicID(uint64_t panicID);
+void SYS_GetC1LogPanicID(uint64_t *pPanicID);
 
-#line 19 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_assert.h"
+#line 19 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_assert.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_debug.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_debug.h"
 
-#line 21 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_assert.h"
+#line 21 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_assert.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/asic_constants.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/asic_constants.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/dllbuild/shuri_ei.ram/softmap.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/dllbuild/shuri_ei.ram/softmap.h"
 
-#line 21 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/asic_constants.h"
+#line 21 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/asic_constants.h"
 
-#line 41 "d:/gitrepo/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
+#line 41 "c:/wdlabs/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines_vega.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines_vega.h"
 
-#line 120 "d:/gitrepo/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines_vega.h"
+#line 120 "c:/wdlabs/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines_vega.h"
 typedef struct _SFR_AON {
     HW_REG AON_RAM_CTRL                                 ;
     HW_REG Reserved0;
@@ -8430,10 +8434,10 @@ typedef struct _SFR_AON {
     HW_REG HOST_PHY_CLK_LOSS_CONFIG                     ;
 }SFR_AON_t, *PSFR_AON;
 
-#line 45 "d:/gitrepo/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_analogue_defines_vega.h"
+#line 45 "c:/wdlabs/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_analogue_defines_vega.h"
 
-#line 115 "d:/gitrepo/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_analogue_defines_vega.h"
+#line 115 "c:/wdlabs/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_analogue_defines_vega.h"
 typedef struct _SFR_ANALOGUE {
     HW_REG PCMS_OSC_CTRL_REG                            ;
     HW_REG PCMS_OSC_STATUS_REG                          ;
@@ -8516,10 +8520,10 @@ typedef struct _SFR_ANALOGUE {
     HW_REG PROTEANTECS_CTRL_REG                         ;
 }SFR_ANALOGUE_t, *PSFR_ANALOGUE;
 
-#line 46 "d:/gitrepo/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_clocks_defines_vega.h"
+#line 46 "c:/wdlabs/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_clocks_defines_vega.h"
 
-#line 56 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_clocks_defines_vega.h"
+#line 56 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_clocks_defines_vega.h"
 typedef struct _SFR_CLOCKS {
     HW_REG Reserved0[4];
     HW_REG SYS_PLL0_CTRL_1                              ;
@@ -8543,14 +8547,14 @@ typedef struct _SFR_CLOCKS {
     HW_REG DPLL_REF_CLK_SEL                             ;
 }SFR_CLOCKS_t, *PSFR_CLOCKS;
 
-#line 47 "d:/gitrepo/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
+#line 47 "c:/wdlabs/fpgcss-vega/source/infra/drivers/sfr/inc_public/sfr_aon_defines.h"
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines_vega.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines_vega.h"
 
-#line 52 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines_vega.h"
+#line 52 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines_vega.h"
 typedef struct _SFR_TOP {
     HW_REG64 TOP_CTRL_1_REG                             ;
     HW_REG64 HEB_WRAP_CTRL_REG                          ;
@@ -8564,13 +8568,13 @@ typedef struct _SFR_TOP {
     HW_REG64 ROT_EFUSE_SW_CTRL_REG                      ;
 }SFR_TOP_t, *PSFR_TOP;
 
-#line 42 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_clocks_defines_vega.h"
+#line 42 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_clocks_defines_vega.h"
 
-#line 43 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_tm_pll_defines_vega.h"
+#line 43 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_tm_pll_defines_vega.h"
 
-#line 68 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_tm_pll_defines_vega.h"
+#line 68 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_tm_pll_defines_vega.h"
 typedef struct _SFR_TM_PLL {
     HW_REG Reserved0[4];
     HW_REG TM_PLL0_CTRL_1                               ;
@@ -8602,10 +8606,10 @@ typedef struct _SFR_TM_PLL {
     HW_REG TM_PLL1_PRTN_ICG_CTRL_REG                    ;
 }SFR_TM_PLL_t, *PSFR_TM_PLL;
 
-#line 44 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
+#line 44 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
 
-#line 116 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
+#line 116 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
 typedef struct _SFR_CPU {
     HW_REG64 VERSION_ID                                 ;
 
@@ -8687,12 +8691,12 @@ typedef struct _SFR_CPU {
     HW_REG64 SPARE_REG_OUT_1                            ;
 }SFR_CPU_t, *PSFR_CPU;
 
-#line 45 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
+#line 45 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_top_defines.h"
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_infraerrorsubranges.h"
-#line 18 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_infraerrorsubranges.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_infraerrorsubranges.h"
+#line 18 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_infraerrorsubranges.h"
 typedef enum Status_T_InfraRanges_e
 {
    STATUS_UART_ERROR_BASE                 = STATUS_INFRA_BASE + 0x00000100,
@@ -8713,12 +8717,12 @@ typedef enum Status_T_InfraRanges_e
    STATUS_INFRA_EFUSE_BASE                = STATUS_INFRA_BASE + 0x00001700,
    STATUS_INFRA_DDRC_BASE                 = STATUS_INFRA_BASE + 0x00001800,
 
-#line 40 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_infraerrorsubranges.h"
+#line 40 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_infraerrorsubranges.h"
 }   Status_T_InfraRanges_t;
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 
-#line 78 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 78 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 enum
 {
    AON_RESTART_REASON_HW_POWER_ON      = 0x00000000,
@@ -8759,7 +8763,7 @@ typedef enum SoftRstSig_e
    SOFT_RST_SIG_MEDIC_MODE     = 0xB00D0010,
 }   SoftRstSig_t;
 
-#line 195 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 195 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 enum
 {
    BOOT_PHASE_ROM_STARTUP,
@@ -8785,7 +8789,7 @@ typedef uint32_t SysBootPhase_t;
 
 typedef void(*pWarmBootVector_t)(uint32_t phase);
 
-#line 230 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 230 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 typedef  _Packed  struct SysBootInfo_s
 {
    SoftRstSig_t      BrokeRomSoftResetSignature;
@@ -8799,7 +8803,7 @@ typedef  _Packed  struct SysBootInfo_s
    uint32_t          reserved;
 }   SysBootInfo_t;
 
-#line 328 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 328 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 enum SYS_InitTypes_e
 {
    SYS_INIT_COLD_BOOT         = 0x00000001,
@@ -8832,7 +8836,7 @@ typedef uint32_t SYS_InitTypes_t;
 SYS_InitTypes_t    SYS_GetBootInitType(void);
 Status_t  SYS_SetBootInitType(void);
 
-#line 377 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 377 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 __inline static  SysBootInfo_t* SYS_GetBootInfoPtr(void)        { return (SysBootInfo_t*) (HardwareToModel((unsigned long)( 0x0081ffd8 ))) ; }
 
 
@@ -8844,7 +8848,7 @@ __inline static  SysBootInfo_t* SYS_GetBootInfoPtr(void)        { return (SysBoo
    __inline static  BOOL32 IsDDR3(void)               { return( (0) ); }
    __inline static  BOOL32 IsNormal(void)             { return( (1) );  }
 
-#line 397 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 397 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 __inline static  uint32_t SYS_Get_AON_RestartReg(void) { return  ReadRegister( (unsigned long)( ( 0xfa300000  + 96 ) ) ) ; }
 __inline static  void     SYS_Set_AON_RestartReg(uint32_t value) {  WriteRegister( (unsigned long)( ( 0xfa300000  + 96 ) ), (unsigned long)(value) ) ; }
 
@@ -8853,7 +8857,7 @@ void SYS_ZeroMemIn32ByteChunks(void* startAddr, uint32_t length);
 
 Status_t SYS_eFuseWriteEnable(BOOL en);
 
-#line 417 "d:/gitrepo/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
+#line 417 "c:/wdlabs/fpgcss-vega/source/infra/core/init/inc_public/sys_init.h"
 __inline static  BOOL32 SYS_IsSoftReset(void)
 {
    return ((AON_RESTART_REASON_WARM_SOC_RESET & SYS_Get_AON_RestartReg()) != 0);
@@ -8861,19 +8865,19 @@ __inline static  BOOL32 SYS_IsSoftReset(void)
 
 __inline static  SoftRstSig_t SYS_GetSoftResetSignature(void) { return SYS_GetBootInfoPtr()->SysSoftResetSignature; }
 
-#line 20 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 20 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_footer.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_footer.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sfr_cpu_defines_vega.h"
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
 
-#line 43 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
+#line 43 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
       __inline static  void SYS_CacheAsicIdRegData(void) { (SYS_GetBootInfoPtr()->version_id) =  ( ReadRegister64( (unsigned long)( ( 0xf83a0000  + 0 ) ) ) ) ; }
 
-#line 64 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
+#line 64 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
 typedef union CORE_IDENTITY_REG_u
 {
    struct CORE_IDENTITY_REG_s
@@ -8949,7 +8953,7 @@ typedef enum
       ROT_CPU_ID = 0xF0
    } CoreIDs;
 
-#line 189 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
+#line 189 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
 __inline static  CORE_IDENTITY_REG_t SET_IDENTITY_STRUCT(uint32_t regVal)
 {
    CORE_IDENTITY_REG_t coreIdentityRegVal;
@@ -8957,7 +8961,7 @@ __inline static  CORE_IDENTITY_REG_t SET_IDENTITY_STRUCT(uint32_t regVal)
    return coreIdentityRegVal;
 }
 
-#line 217 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
+#line 217 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_asic_id.h"
    __inline static  uint64_t SYS_GetAsicIdPartMask(void) { return  ( ((( ( ReadRegister64( (unsigned long)( ( 0xf83a0000  + 0 ) ) ) ) )& (0x00000003UL << 19 ) )>> 19 ) ) ; }
    __inline static  BOOL32 IS_FPGA(void)        { return (SYS_GetAsicIdPartMask() == ASIC_ID_PART_FPGA); }
    __inline static  BOOL32 IS_ASIC(void)        { return (SYS_GetAsicIdPartMask() == ASIC_ID_PART_ASIC); }
@@ -8975,18 +8979,18 @@ __inline static  CORE_IDENTITY_REG_t SET_IDENTITY_STRUCT(uint32_t regVal)
    __inline static  BOOL32 IS_REVA0(void)        { return  (1) ; }
    __inline static  BOOL32 IS_REVA1(void)        { return  (0) ; }
 
-#line 19 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_footer.h"
+#line 19 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_footer.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_smalldump.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_smalldump.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_def.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_def.h"
 
-#line 18 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 18 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 
-#line 359 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 359 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -8996,7 +9000,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_UECC_DUMP_CODE;
 
-#line 372 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 372 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9006,7 +9010,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_SET_EVENTS_CODE;
 
-#line 385 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 385 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9016,7 +9020,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_MP_RTOS_REGISTERS_CODE;
 
-#line 399 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 399 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9026,7 +9030,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_PS_RTOS_REGISTERS_CODE;
 
-#line 413 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 413 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9036,7 +9040,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_HIM_TABLE_CODE;
 
-#line 427 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 427 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9046,7 +9050,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_RTFADI_MP_CODE;
 
-#line 441 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 441 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9056,7 +9060,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_RTFADI_PS0_CODE;
 
-#line 455 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 455 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9066,7 +9070,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_RTFADI_PS1_CODE;
 
-#line 469 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 469 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9076,7 +9080,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_FW_TRACE_CODE;
 
-#line 483 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 483 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9086,7 +9090,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_FATAL_ASSERT_CORE_DUMP_CODE;
 
-#line 497 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 497 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9096,7 +9100,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_FATAL_ASSERT_RTFADI_MP_CODE;
 
-#line 511 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 511 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9106,7 +9110,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_FATAL_ASSERT_PS0_RTFADI_CODE;
 
-#line 525 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 525 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9116,7 +9120,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_FATAL_ASSERT_PS1_RTFADI_CODE;
 
-#line 539 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 539 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9126,7 +9130,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_FATAL_ASSERT_SET_EVENT_CODE;
 
-#line 553 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 553 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    na_0;
@@ -9136,7 +9140,7 @@ typedef struct
    uint32_t    na_4;
 } SNAPTOOL_FATAL_ASSERT_HIM_TABLE_CODE;
 
-#line 582 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 582 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint16_t    blkCat;
@@ -9153,7 +9157,7 @@ typedef struct
    RS_SEND_BLK_TO_RLC_params  params;
 }SNAPTOOL_PS_RS_SEND_BLK_TO_RLC;
 
-#line 607 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 607 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    PBA;
@@ -9162,7 +9166,7 @@ typedef struct
    uint32_t    rfu[2];
 } SNAPTOOL_PS_CVD_DRI;
 
-#line 619 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 619 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    BOOL32      blkType;
@@ -9172,7 +9176,7 @@ typedef struct
    uint32_t    rfu;
 } SNAPTOOL_PS_CVD_COMPACTION;
 
-#line 632 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 632 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    BOOL32      blkType;
@@ -9182,7 +9186,7 @@ typedef struct
    uint32_t    targetBER;
 } SNAPTOOL_PS_CVD_COMPACTION_BER;
 
-#line 645 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 645 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    VBA;
@@ -9192,7 +9196,7 @@ typedef struct
    uint32_t    TBER;
 } SNAPTOOL_PS_CVD_TTU;
 
-#line 658 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 658 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    blkType;
@@ -9202,7 +9206,7 @@ typedef struct
    uint32_t    rfu;
 } SNAPTOOL_PS_EL_CVD_INVALIDATE_LATT;
 
-#line 671 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 671 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    dieInFIM;
@@ -9212,7 +9216,7 @@ typedef struct
    uint32_t    MBCnt2;
 } SNAPTOOL_PS_EL_CVD_DB_MBCNT_ERR;
 
-#line 684 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 684 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t    dieInFIM;
@@ -9222,7 +9226,7 @@ typedef struct
    uint32_t    rfu;
 } SNAPTOOL_PS_EL_CVD_DB_TTCNT_ERR;
 
-#line 697 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 697 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9232,7 +9236,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PS_XOR_LOG_PARAM;
 
-#line 710 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 710 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9242,7 +9246,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PS_SGD_LOG_PARAM;
 
-#line 723 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 723 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9252,7 +9256,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PS_IFT_LOG_PARAM;
 
-#line 738 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 738 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9262,7 +9266,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PS_ERROR_HANDLING_PARAM;
 
-#line 751 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 751 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9272,7 +9276,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PS_NON_ERROR_HANDLING_PARAM;
 
-#line 765 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 765 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9282,7 +9286,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PS_NON_EH_FVT_CRITICAL_PARAM;
 
-#line 782 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 782 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9292,7 +9296,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_MP_FATAL_ASSERT_PARAM;
 
-#line 795 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 795 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9302,7 +9306,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_MP_FATAL_ASSERT_TEST_PARAM;
 
-#line 813 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 813 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9312,7 +9316,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_FATAL_ASSERT_PARAM;
 
-#line 826 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 826 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9322,7 +9326,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_EH_FATAL_ASSERT_PARAM;
 
-#line 840 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 840 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9332,7 +9336,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_MAILBOX_OVFLW_FATAL_ASSERT_PARAM;
 
-#line 853 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 853 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9342,7 +9346,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_DGM_SHELF_FATAL_ASSERT_PARAM;
 
-#line 866 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 866 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9352,7 +9356,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_XOR_REC_GET_MD_FATAL_ASSERT_PARAM;
 
-#line 879 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 879 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9362,7 +9366,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_XOR_GET_DPCA_ID_FATAL_ASSERT_PARAM;
 
-#line 892 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 892 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9372,7 +9376,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_XOR_SET_DPCA_VAL_FATAL_FATAL_ASSERT_PARAM;
 
-#line 905 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 905 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9382,7 +9386,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_LDPC_ENC_ST_FIFO_FATAL_ASSERT_PARAM;
 
-#line 918 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 918 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9392,7 +9396,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_NPDP_FLASH_CRITICAL_FAIL_FATAL_ASSERT_PARAM;
 
-#line 931 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 931 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9402,7 +9406,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_NPDP_FLASH_FLASH_HW_RECOVERY_FAIL_FATAL_ASSERT_PARAM;
 
-#line 944 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 944 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9412,7 +9416,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_NPDP_HW_TIMEOUT_FAIL_FATAL_ASSERT_PARAM;
 
-#line 957 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 957 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9422,7 +9426,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_NPDP_FW_WD_TIMEOUT_FAIL_FATAL_ASSERT_PARAM;
 
-#line 970 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 970 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9432,7 +9436,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_RSV_TBL_DUALL_ERROR_FATAL_ASSERT_PARAM;
 
-#line 983 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 983 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9442,7 +9446,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_RSV_STATUS_REQ_DUAL_READ_FATAL_ASSERT_PARAM;
 
-#line 998 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 998 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9452,7 +9456,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_RSV_BUS_ERROR_READ_FATAL_ASSERT_PARAM;
 
-#line 1012 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1012 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9462,7 +9466,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_RSV_RA_RELEASE_INT_READ_FATAL_ASSERT_PARAM;
 
-#line 1025 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1025 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9472,7 +9476,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_RSV_RA_INCONSISTENT_READ_FATAL_ASSERT_PARAM;
 
-#line 1038 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1038 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9482,7 +9486,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_RSV_RA_VIR_UNDRFLW_READ_FATAL_ASSERT_PARAM;
 
-#line 1051 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1051 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9492,7 +9496,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_RSV_PWR_VIR_UNDRFLW_READ_FATAL_ASSERT_PARAM;
 
-#line 1064 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1064 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
         typedef struct
         {
           uint32_t p0;
@@ -9502,7 +9506,7 @@ typedef struct
           uint32_t p4;
         } SNAPTOOL_PS_RSV_OOR_FATAL_ASSERT_PARAM;
 
-#line 1077 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1077 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
         typedef struct
         {
           uint32_t p0;
@@ -9512,7 +9516,7 @@ typedef struct
           uint32_t p4;
         } SNAPTOOL_PS_RSV_GENERAL_FATAL_ASSERT_PARAM;
 
-#line 1091 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1091 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9522,7 +9526,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_DPCA_OVER_UNDER_FLOW_FATAL_ASSERT_PARAM;
 
-#line 1105 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1105 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
         uint32_t p0;
@@ -9532,7 +9536,7 @@ typedef struct
         uint32_t p4;
       } SNAPTOOL_PS_DPCA_BUS_ERROR_FATAL_ASSERT_PARAM;
 
-#line 1118 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1118 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
          uint32_t Status;
@@ -9542,7 +9546,7 @@ typedef struct
          uint32_t p4;
       } SNAPTOOL_PS_BBM_STARTUP_FATAL_ASSERT_PARAM;
 
-#line 1131 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1131 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
          uint32_t Status;
@@ -9552,7 +9556,7 @@ typedef struct
          uint32_t p4;
       } SNAPTOOL_PS_BBM_INIT_FATAL_ASSERT_PARAM;
 
-#line 1144 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1144 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
          uint32_t MdInPs;
@@ -9562,7 +9566,7 @@ typedef struct
          uint32_t p4;
       } SNAPTOOL_PS_BBM_TRANSLATE_FATAL_ASSERT_PARAM;
 
-#line 1157 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1157 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
          uint32_t queueIdx;
@@ -9572,7 +9576,7 @@ typedef struct
          uint32_t zero;
       } SNAPTOOL_PS_MQD_CAM_ALLOC_INIT_FATAL_ASSERT_PARAM;
 
-#line 1170 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1170 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
          uint32_t p0;
@@ -9582,7 +9586,7 @@ typedef struct
          uint32_t p4;
       } SNAPTOOL_PS_CAM_BUS_ERROR_ASSERT_PARAM;
 
-#line 1183 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1183 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
          uint32_t p0;
@@ -9592,7 +9596,7 @@ typedef struct
          uint32_t p4;
       } SNAPTOOL_PS_CVD_MORPH_FATAL_ASSERT_PARAM;
 
-#line 1196 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1196 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
       typedef struct
       {
          uint32_t startAddress;
@@ -9602,7 +9606,7 @@ typedef struct
          uint32_t p4;
       } SNAPTOOL_PS_CVD_MNT_TABLES_SIZE_FATAL_ASSERT_PARAM;
 
-#line 1217 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1217 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9612,7 +9616,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_LLFS_GENERIC_FATAL_ASSERT_PARAM;
 
-#line 1234 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1234 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9622,7 +9626,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_MP_FATAL_ASSERT_GENERIC_PARAM;
 
-#line 1247 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1247 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9632,7 +9636,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_CORE_EXCEPTION_PARAM;
 
-#line 1260 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1260 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9642,7 +9646,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_FATAL_ASSERT_INFRA_SPEC_PARAM;
 
-#line 1273 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1273 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t p0;
@@ -9652,7 +9656,7 @@ typedef struct
    uint32_t p4;
 } SNAPTOOL_MP_FATAL_ASSERT_PLL;
 
-#line 1286 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1286 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t p0;
@@ -9662,7 +9666,7 @@ typedef struct
    uint32_t p4;
 } SNAPTOOL_MP_FATAL_ASSERT_DRAM;
 
-#line 1299 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1299 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t p0;
@@ -9672,7 +9676,7 @@ typedef struct
    uint32_t p4;
 } SNAPTOOL_MP_FATAL_ASSERT_SRAM;
 
-#line 1313 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1313 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t p0;
@@ -9682,7 +9686,7 @@ typedef struct
    uint32_t p4;
 } SNAPTOOL_MP_FATAL_ASSERT_HIM_RAM;
 
-#line 1327 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1327 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9692,7 +9696,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_FTL_FATAL_ASSERT_GENERIC_PARAM;
 
-#line 1341 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1341 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9702,7 +9706,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_MP_FATAL_ASSERT_INIT_ONLY_PARAM;
 
-#line 1354 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1354 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9712,7 +9716,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_MP_FATAL_SVCI_ISR_PARAM;
 
-#line 1368 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1368 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9722,7 +9726,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_MP_FATAL_SVCI_ISR_UNKNOWN_PARAM;
 
-#line 1381 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1381 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9732,7 +9736,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_MP_FATAL_ASSERT_EXCEPTION_PARAM;
 
-#line 1394 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1394 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9742,7 +9746,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_MP_FATAL_ASSERT_CORRUPTED_PARAM;
 
-#line 1408 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1408 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9752,7 +9756,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_MP_FATAL_ASSERT_SYS_BUFFER;
 
-#line 1421 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1421 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9762,7 +9766,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PS_NON_EH_FVT_WARNING_PARAM;
 
-#line 1435 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1435 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9772,7 +9776,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_BOOT_PAGE_EXAMPLE_PARAM;
 
-#line 1449 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1449 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9782,7 +9786,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_SET_EVENT_DUMP_PARAM;
 
-#line 1463 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1463 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9792,7 +9796,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_IFS_PARAM_Warning;
 
-#line 1477 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1477 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9802,7 +9806,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_IFS_PARAM_Critical;
 
-#line 1491 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1491 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9812,7 +9816,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_THERMAL_SHUTDOWN_PARAM;
 
-#line 1504 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1504 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9822,7 +9826,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PMIC_PARAM;
 
-#line 1517 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1517 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9832,7 +9836,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PMIC_SHUTDOWN_PARAM;
 
-#line 1531 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1531 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint8_t p0;
@@ -9844,7 +9848,7 @@ typedef struct
   uint32_t pRFU;
 } SNAPTOOL_PMIC_POK_PARAM;
 
-#line 1546 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1546 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint8_t p0;
@@ -9856,7 +9860,7 @@ typedef struct
   uint32_t pRFU;
 } SNAPTOOL_PMIC_IRQ_PARAM;
 
-#line 1562 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1562 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9866,7 +9870,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_SLIP_PARAM;
 
-#line 1575 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1575 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9876,7 +9880,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PMIC_PCU_INIT_EXCEPTION_PARAM;
 
-#line 1589 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1589 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9886,7 +9890,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_MP_ARC_REGS_RTOS_DUMP_PARAM;
 
-#line 1603 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1603 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -9896,7 +9900,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_PS_ARC_REGS_STACK_DUMP_PARAM;
 
-#line 1619 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1619 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t moduleID;
@@ -9906,7 +9910,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_FE_READ_ONLY_PARAM;
 
-#line 1632 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1632 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t resetType;
@@ -9916,7 +9920,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_FE_NON_COMMON_RESET;
 
-#line 1645 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1645 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t resetType;
@@ -9926,7 +9930,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_FE_PCIE_DUMP_ON_LINK_UP_TO;
 
-#line 1658 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1658 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -9936,7 +9940,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_FE_DUPLICATE_CONTROLLER_ENABLE;
 
-#line 1671 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1671 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t nvmeCurrErr;
@@ -9946,7 +9950,7 @@ typedef struct
   uint32_t cmfIndex;
 } SNAPTOOL_FE_INTERNAL_ERROR;
 
-#line 1684 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1684 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t cmdIndex;
@@ -9956,7 +9960,7 @@ typedef struct
    uint32_t startingLBA;
 } SNAPTOOL_FE_XFER_ERROR_WARNING;
 
-#line 1697 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1697 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t cmdIndex;
@@ -9966,7 +9970,7 @@ typedef struct
    uint32_t startingLBA;
 } SNAPTOOL_FE_XFER_ERROR_CRITICAL;
 
-#line 1711 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1711 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t pcieWrapEvents;
@@ -9976,7 +9980,7 @@ typedef struct
    uint32_t fake5;
 } SNAPTOOL_FVT_FE_PCIE_DUMP_1_ERROR;
 
-#line 1724 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1724 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t pcieWrapLinkStat;
@@ -9986,7 +9990,7 @@ typedef struct
    uint32_t fake5;
 } SNAPTOOL_FVT_PCIE_DUMP_2_ERROR;
 
-#line 1738 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1738 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t asyncEventRequestCQ;
@@ -9996,7 +10000,7 @@ typedef struct
    uint32_t cmdCQID;
 } SNAPTOOL_FVT_FE_AER_ERROR;
 
-#line 1751 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1751 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t p0;
@@ -10006,7 +10010,7 @@ typedef struct
    uint32_t p4;
 } SNAPTOOL_FVT_FE_HNVME_RESTORATION_ERROR;
 
-#line 1766 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1766 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10016,7 +10020,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_FVT_FE_CRITICAL_PARAM;
 
-#line 1780 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1780 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10026,7 +10030,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_FE_GENERIC_FATAL;
 
-#line 1794 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1794 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10036,7 +10040,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_FE_E2E_DP_FATAL;
 
-#line 1808 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1808 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
       uint32_t p0;
@@ -10046,7 +10050,7 @@ typedef struct
       uint32_t p4;
    } SNAPTOOL_FE_HABM_SFIFO_TYPE_FATAL;
 
-#line 1822 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1822 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10056,7 +10060,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HIM_CMD_TABLE_DUMP_PARAM;
 
-#line 1836 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1836 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10066,7 +10070,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HA_ARB_SECDED_PARAM;
 
-#line 1851 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1851 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p3;
@@ -10076,7 +10080,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HIM_SVCI_PARAM;
 
-#line 1865 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1865 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10086,7 +10090,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HWRE_UNKNOWN_ERROR_PARAM;
 
-#line 1880 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1880 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10096,7 +10100,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HABM_UNKNOWN_ERROR_PARAM;
 
-#line 1904 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1904 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10106,7 +10110,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HAWA_FLUSH_PARAM;
 
-#line 1919 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1919 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10116,7 +10120,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HNVME_SVCI_PARAM;
 
-#line 1934 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1934 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10126,7 +10130,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HNVME_SECDED_PARAM;
 
-#line 1948 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1948 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10136,7 +10140,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HNVME_ITAG_DEALLOC_PARAM;
 
-#line 1962 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1962 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10146,7 +10150,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HNVME_TRANSACTION_PARAM;
 
-#line 1976 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1976 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10156,7 +10160,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HIM_IRAM_SECDED_PARAM;
 
-#line 1990 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 1990 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10166,7 +10170,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_HIM_INVALID_CMD_ARRIVAL;
 
-#line 2004 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2004 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10176,7 +10180,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_FE_INIT_FAIL_PARAM;
 
-#line 2018 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2018 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10186,7 +10190,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_FE_INVALID_FE_PMM_STATE;
 
-#line 2032 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2032 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t pcieInitStatus;
@@ -10196,7 +10200,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_FE_PCIE_INIT_PARAM;
 
-#line 2047 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2047 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
    uint32_t p0;
@@ -10206,7 +10210,7 @@ typedef struct
    uint32_t p4;
 } SNAPTOOL_FE_PCIE_DUMP;
 
-#line 2061 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2061 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10216,7 +10220,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_FVT_FE_WARNING_PARAM;
 
-#line 2076 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2076 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10226,7 +10230,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_FVT_INFRA_WARNING_PARAM;
 
-#line 2090 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2090 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10236,7 +10240,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_MST_ERRORLOG_CRITICAL;
 
-#line 2103 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2103 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10246,7 +10250,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_MST_ERRORLOG_WARNING;
 
-#line 2117 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2117 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10256,7 +10260,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_SECURITY_CRITICAL_PARAM;
 
-#line 2130 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2130 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10266,7 +10270,7 @@ typedef struct
      uint32_t p4;
    } SNAPTOOL_SECURITY_WARNING_PARAM;
 
-#line 2144 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2144 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
    typedef struct
    {
      uint32_t p0;
@@ -10289,7 +10293,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PMIC_OVER_VOLTAGE_PARAM;
 
-#line 2170 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2170 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -10299,7 +10303,7 @@ typedef struct
   uint32_t p4;
 } SNAPTOOL_PMIC_OVER_CURRENT_PARAM;
 
-#line 2185 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
+#line 2185 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog_codes.h"
 typedef struct
 {
   uint32_t p0;
@@ -10310,7 +10314,7 @@ typedef struct
 
 } SNAPTOOL_FE_DUI_START_PARAM;
 
-#line 17 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_smalldump.h"
+#line 17 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_smalldump.h"
 
 
 
@@ -10374,24 +10378,24 @@ typedef struct FADI_SMDP_GROUP_DESCRIPTOR_T
    FADI_Ram_Dump_List_t *pRamDumpList;
 } FADI_SDMP_Group_Descriptor_t;
 
-#line 85 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_smalldump.h"
+#line 85 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_smalldump.h"
 extern FADI_SDMP_Group_Descriptor_t gFaSdmpDescriptorsRam[ (10) ];
 
-#line 91 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_smalldump.h"
+#line 91 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_smalldump.h"
 extern uint32_t FADI_SmallDumpCollect(uint32_t logCode, uint8_t * pSmallDump, FADI_SDMP_Group_Descriptor_t * sdmpDescriptor);
 
 void FADI_InitErrorStatsSDL(void* pData);
 
-#line 17 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
+#line 17 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_def.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_def.h"
 
-#line 18 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 18 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/ps/inc_public/sys_ps_comm.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/ps/inc_public/sys_ps_comm.h"
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/infra/ps/inc_public/sys_ps_comm.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/infra/ps/inc_public/sys_ps_comm.h"
 typedef enum Infra_Mailbox_MsgID_e
 {
    MAILBOX_RD_RAW_COMPLETION_MSG_ID = 1,
@@ -10463,7 +10467,7 @@ Status_t   SendReadRawPhyPsRequest(uint8_t fastRead, uint8_t firstread, uint8_t 
    Physical_Block_Address_t * pba, Mail_t * requestId, uint32_t header, uint32_t data, uint32_t waitForPsMsgDone);
 Status_t   SendWriteRawPhyPsRequest(uint8_t rawWrite, uint32_t plcAddr, uint8_t blkType, uint8_t xferOnly, uint8_t numFmu, Physical_Block_Address_t * pba, Mail_t * mail, uint32_t header, uint32_t data, uint32_t waitForPsMsgDone);
 
-#line 106 "d:/gitrepo/fpgcss-vega/source/infra/ps/inc_public/sys_ps_comm.h"
+#line 106 "c:/wdlabs/fpgcss-vega/source/infra/ps/inc_public/sys_ps_comm.h"
 Status_t SendIFSCompletionMessage(uint32_t psType, uint32_t cookie, Status_t ifsStatus);
 Status_t WaitPsReqMsgDone(Mail_t * reqId);
 Status_t SendUARTPSMessage(uint32_t psType, Status_t uartStatus);
@@ -10475,23 +10479,23 @@ Status_t   SendReqFVTErrorLogEntryMessagePS1(uint32_t severity, uint32_t *pParam
 
 void MP_Spare_Mailbox_Valid_Count_ISR(void);
 
-#line 21 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_vba_flavor_definitions.h"
+#line 21 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_vba_flavor_definitions.h"
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_pmm_api.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_pmm_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_rfm_aon_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_rfm_aon_api.h"
 
-#line 39 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_rfm_aon_api.h"
+#line 39 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_rfm_aon_api.h"
 typedef union PS_RFM_AON_s
 {
    uint8_t bytes[ (16) ];
 
-#line 55 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_rfm_aon_api.h"
+#line 55 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_rfm_aon_api.h"
 }   PS_RFM_AON_t;
 
-#line 19 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_pmm_api.h"
+#line 19 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_pmm_api.h"
 
 
 
@@ -10540,7 +10544,7 @@ typedef struct PS_AON_Data_s
 
 }   PS_AON_Data_t;
 
-#line 86 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_pmm_api.h"
+#line 86 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_pmm_api.h"
 void PS_PMM_SetBootFlags(PS_BootType_t bootFlagVal);
 
 
@@ -10586,24 +10590,24 @@ BOOL PS_IsSysBootInitWarm(void);
 
 void  __attribute__((section("TRW")))  PS_setDpsFirstVector(void);
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_msgtypes.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_msgtypes.h"
 
-#line 159 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_msgtypes.h"
+#line 159 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_msgtypes.h"
 extern char __ct_[(( ( (0x00)  + 74) < ( (0x00)  + (0x50) ) )) ? 1 : -1] ;
 
-#line 205 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_msgtypes.h"
+#line 205 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_msgtypes.h"
 extern char __ct_[(( ( ( ( (0x00)  + (0x50) ) )  + 39) < ( ( ( (0x00)  + (0x50) ) )  + (0x40) ) )) ? 1 : -1] ;
 
-#line 237 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_msgtypes.h"
+#line 237 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_msgtypes.h"
 extern char __ct_[(( ( ( ( ( (0x00)  + (0x50) ) )  + (0x40) )      + 21) < (0xFF) )) ? 1 : -1] ;
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_devba_def.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_container_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_devba_def.h"
 
-#line 8 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_devba_def.h"
+#line 10 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_devba_def.h"
 typedef union devba
 {
    uint32_t all32;
@@ -10637,16 +10641,16 @@ typedef union devba
       uint32_t psId           :  1 ;
       uint32_t dieInFim       :  3 ;
 
-#line 44 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_devba_def.h"
+#line 46 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_devba_def.h"
    } vbaTlc;
 } DeVBA_t;
 
-#line 4 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_mrph_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
+#line 4 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_mrph_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
 enum
 {
    FS_FID_INVALID                   =  0,
@@ -10671,7 +10675,7 @@ typedef struct FileNameRecord_s
    uint8_t   nameString[32];
 }   FileNameRecord_t;
 
-#line 78 "d:/gitrepo/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
+#line 78 "c:/wdlabs/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
 typedef enum ViewerFSId_FILE_MAP_e  { FS_FID_FILE_MAP  = 1 }  ViewerFileId_FILE_MAP_t ;
 typedef enum ViewerFSId_FILE_NAMES_LIST_e  { FS_FID_FILE_NAMES_LIST  = 2 }  ViewerFileId_FILE_NAMES_LIST_t ;
 typedef enum ViewerFSId_CFG_DATA_DLE_BLOB_e  { FS_FID_CFG_DATA_DLE_BLOB  = 3 }  ViewerFileId_CFG_DATA_DLE_BLOB_t ;
@@ -10712,7 +10716,7 @@ typedef enum ViewerFSId_SECURITY9_e  { FS_FID_SECURITY9  = 109 }  ViewerFileId_S
 typedef enum ViewerFSId_SECURITY10_e  { FS_FID_SECURITY10  = 110 }  ViewerFileId_SECURITY10_t ;
 typedef enum ViewerFSId_SECURITY11_e  { FS_FID_SECURITY11  = 111 }  ViewerFileId_SECURITY11_t ;
 
-#line 140 "d:/gitrepo/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
+#line 140 "c:/wdlabs/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
 typedef enum ViewerFSId_ROT_BOOT_INIT_e  { FS_FID_ROT_BOOT_INIT  = 202 }  ViewerFileId_ROT_BOOT_INIT_t ;
 typedef enum ViewerFSId_ROT_FULL_INIT_e  { FS_FID_ROT_FULL_INIT  = 204 }  ViewerFileId_ROT_FULL_INIT_t ;
 typedef enum ViewerFSId_ROT_STATIC_FILE_e  { FS_FID_ROT_STATIC_FILE  = 206 }  ViewerFileId_ROT_STATIC_FILE_t ;
@@ -10740,7 +10744,7 @@ typedef enum ViewerFSId_IEXA_ALT_CODE_IMAGE_e  { FS_FID_IEXA_ALT_CODE_IMAGE  = 2
 
 typedef enum ViewerFSId_RAM_CODE_IMAGE_e  { FS_FID_RAM_CODE_IMAGE  = 246 }  ViewerFileId_RAM_CODE_IMAGE_t ;
 
-#line 170 "d:/gitrepo/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
+#line 170 "c:/wdlabs/fpgcss-vega/source/infra/modules/ifs/inc_public/ifs_filenumbers.h"
 typedef enum ViewerFSId_PSLNK_CODE_IMAGE_e  { FS_FID_PSLNK_CODE_IMAGE  = 248 }  ViewerFileId_PSLNK_CODE_IMAGE_t ;
 typedef enum ViewerFSId_FTL_CORE_IMAGE_e  { FS_FID_FTL_CORE_IMAGE  = 238 }  ViewerFileId_FTL_CORE_IMAGE_t ;
 typedef enum ViewerFSId_LLFS_CODE_IMAGE_e  { FS_FID_LLFS_CODE_IMAGE  = 250 }  ViewerFileId_LLFS_CODE_IMAGE_t ;
@@ -10748,9 +10752,9 @@ typedef enum ViewerFSId_PCU_CODE_IMAGE_e  { FS_FID_PCU_CODE_IMAGE  = 252 }  View
 typedef enum ViewerFSId_SET_EVENT_DIC_e  { FS_FID_SET_EVENT_DIC  = 254 }  ViewerFileId_SET_EVENT_DIC_t ;
 typedef enum ViewerFSId_TERMINATOR_e  { FS_FID_TERMINATOR  = FS_FID_INVALIDFILE }  ViewerFileId_TERMINATOR_t ;
 
-#line 20 "d:/gitrepo/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
+#line 20 "c:/wdlabs/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
 
-#line 37 "d:/gitrepo/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
+#line 37 "c:/wdlabs/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
 typedef enum CFG_SetNumbers_e
 {
    RESERVED_CFG                     = 0,
@@ -10887,16 +10891,16 @@ Status_t  __attribute__((section("CODE_MEDIUM")))  CFG_ReadCfg(uint32_t setNumbe
 Status_t  __attribute__((section("CODE_MEDIUM")))  CFG_WriteCfg(uint32_t setNumber, uint8_t *pUserBuffer, uint32_t size);
 uint32_t   CFG_GetSetLength(uint32_t Set_ID);
 
-#line 175 "d:/gitrepo/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
+#line 175 "c:/wdlabs/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/cfg_manager_api.h"
 Status_t CFG_DPS2MemSize(uint32_t *returnSize);
 Status_t CFG_retainDPS2(uint8_t *ptr, uint32_t size);
 Status_t  __attribute__((section("TRW")))  CFG_restoreDPS2(uint8_t *ptr, uint32_t size);
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_mrph_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_mrph_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/efuse.h"
 
-#line 6 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse.h"
+#line 6 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/efuse.h"
 typedef struct eFuse_bit_Array_t
 {
 
@@ -11525,9 +11529,9 @@ typedef struct eFuse_bit_Array_t
 
 }     eFuse_bit_Array_t;
 
-#line 18 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
+#line 18 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
 
-#line 231 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
+#line 231 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
 Status_t SYS_eFuseActivateKeyCopy(uint32_t keyCopyNum, BOOL32 parityCheckRequired);
 
 enum
@@ -11540,7 +11544,7 @@ enum
     SEC_EFUSE_KEY_NUM,
 };
 
-#line 262 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
+#line 262 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
 typedef enum
 {
    NO_ERROR_DETECTED = 0x0,
@@ -11776,7 +11780,7 @@ Status_t SYS_eFuseReadArray(uint32_t *efuse_data, uint32_t efuse_addr, uint32_t 
 
 Status_t   SYS_eFuse1ReadArray(uint32_t *efuse_data, uint32_t efuse_addr, uint32_t num_words);
 
-#line 503 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
+#line 503 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/efuse_driver_api.h"
 void     SYS_eFusePowerOn(BOOL32 isProgramOperation);
 void     SYS_eFusePowerOff(BOOL32 isProgramOperation);
 void     SYS_EfuseMarginalRead(BOOL32 enableMarginalRead);
@@ -11812,9 +11816,9 @@ __inline static  eFuse_bit_Array_t * SYS_GeteFuseData(void)
    return  &(SYS_GetAONeFuseData())->eFuseBitArray;
 }
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_mrph_api.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_mrph_api.h"
 
-#line 46 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_mrph_api.h"
+#line 46 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_mrph_api.h"
 typedef uint16_t nandParamAddr_t;
 typedef uint16_t nandParamData_t;
 
@@ -11958,10 +11962,10 @@ void PS_NPARAM_CFG_getSGDData (uint8_t* pDstBuffer);
 Status_t SYS_Diag_getTestStampUserrom(uint8_t *pDstBuffer);
 Status_t SYS_Diag_compareTestStampPayload(uint8_t *first, uint8_t *second);
 
-#line 5 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/xor_zones_config.h"
+#line 5 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/xor_zones_config.h"
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/xor_zones_config.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/xor_zones_config.h"
 enum {
    XOR_ZONE_INDEX_0,
    XOR_ZONE_INDEX_1,
@@ -11982,7 +11986,7 @@ enum {
    XOR_ZONE_INDEX_INVALID,
 };
 
-#line 6 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
+#line 6 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
 
 
 
@@ -12047,7 +12051,7 @@ typedef struct PS_Container_s
       uint32_t                *pSgd_Correct_BaseAddrBlanket_PS1;
       uint32_t                *pSgd_Correct_BaseAddrDie_PS1;
 
-#line 73 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
+#line 73 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_container_def.h"
    PS_MRPH_NandMtVersion_t     nandMtVersion;
    uint16_t                    FtlSlcBudget;
    uint16_t                    rfu[3];
@@ -12057,16 +12061,16 @@ typedef struct PS_Container_s
 extern char __ct_[( 160  == sizeof(PS_Container_t)) ? 1 : -1] ;
 extern char __ct_[(( 0x00000140  == (sizeof(PS_Container_t) * ( 2 ) ))) ? 1 : -1] ;
 
-#line 5 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_container_api.h"
+#line 5 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_container_api.h"
 
 extern PS_Container_t *pContainer;
 
-#line 25 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 25 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 
-#line 265 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 266 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef struct PSRequest_s PSRequest_t;
 
-#line 295 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 296 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 enum
 {
    SLC_HOST_CLOSED_BLK  =  (0 << 1) ,
@@ -12092,7 +12096,7 @@ enum
 };
 typedef uint16_t EntrySrc_e;
 
-#line 335 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 336 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef struct RS_MorpheusParamsCB_s
 {
    uint8_t openBlockNumWlsToScan;
@@ -12148,10 +12152,10 @@ typedef enum
    PS_OPB_READ_OPEN,
 } PS_OpbReadType_t;
 
-#line 715 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 716 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 extern char __ct_[( 7  <= 7 ) ? 1 : -1] ;
 
-#line 774 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 775 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef enum
 {
    PS_API_LOWER_PAGE = 0,
@@ -12176,7 +12180,7 @@ typedef enum
    FLGP_BER_CNTR_TOTAL,
 } FlgpBerCntr_e;
 
-#line 807 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 808 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef union vba
 {
 
@@ -12206,7 +12210,7 @@ typedef union vba
       uint32_t CG             :  1 ;
       uint32_t MD             :  3 ;
 
-#line 839 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 840 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
    }   FTL_flavor3;
 
 
@@ -12253,7 +12257,7 @@ typedef union vba
       uint32_t psId           :  1 ;
       uint32_t dieInFim       :  3 ;
 
-#line 889 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 890 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
    }   vbaTlc;
 
    struct vbaSlc_sbm_s
@@ -12268,7 +12272,7 @@ typedef union vba
       uint32_t psId           :  1 ;
       uint32_t dieInFim       :  3 ;
 
-#line 907 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 908 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
    }   vbaSlc_sbm;
 
 }   VBA_t;
@@ -12288,7 +12292,7 @@ typedef struct BlkEntry_s
    uint8_t     rfu        :6;
 }   BlkEntry_t;
 
-#line 934 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 935 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef union flashAddress_s
 {
    uint32_t all32;
@@ -12303,7 +12307,7 @@ typedef union flashAddress_s
       uint32_t psId           :  1 ;
       uint32_t dieInFim       :  3 ;
 
-#line 951 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 952 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
    }bits;
 } flashAddress_t;
 
@@ -12384,7 +12388,7 @@ typedef  union PS_Common_D0_s
 
     uint64_t                all;
 
-#line 1033 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 1034 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
    PS_MsgTypeCntFlags_t    split;
 } PS_Common_D0_t;
 
@@ -12430,7 +12434,7 @@ typedef struct WritePhyReqOption_s
    uint16_t disableCoupleWr   :1;
    uint16_t rfu0              :5;
 
-#line 1081 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 1082 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 } WritePhyReqOptionFields_t;
 
 typedef union WritePhyReqOption_u
@@ -13066,7 +13070,7 @@ typedef struct FTL_hostReadReqSpecific_d4_bits_s
    uint32_t streamStatus   : 2;
    uint32_t rehSecCount    : 8;
 
-#line 1718 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 1719 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
    uint32_t rehSecOff      : 3;
    uint32_t doPsRndRdOptz  : 1;
    uint32_t wasPreErased   : 1;
@@ -13760,9 +13764,10 @@ typedef struct FTL_setOpenBlockSpecificReq_s
    uint8_t           isHostBlock    : 1;
    uint8_t           skipLoad       : 1;
    uint8_t           isWABlock      : 1;
+   uint8_t           isUgsdRecovery : 1;
    uint8_t           isXORProtected : 1;
    uint8_t           isHSLC         : 1;
-   uint8_t           rfu0           : 3;
+   uint8_t           rfu0           : 2;
    uint8_t           opbCounter;
    VBA_t             nextZoneVBA;
 
@@ -13978,7 +13983,7 @@ typedef struct FTL_XOR_loadXORReq_s
    FTL_XOR_loadXORReqSpecific_t specific;
 } FTL_XOR_loadXORReq_t;
 
-#line 2703 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 2705 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef struct FTL_XOR_PauseForXORRecoveryReqSpecific_s
 {
    uint32_t                      JBID;
@@ -14126,9 +14131,10 @@ typedef struct FTL_XOR_ZeroFillReq_s
 
 typedef struct FTL_XOR_HmbFinishedReqSpecific_s
 {
-   uint16_t          JBLIdx;
-   uint8_t           isUrgentQueue;
-   uint8_t           rfu0[13];
+   uint16_t           JBLIdx;
+   uint8_t            isUrgentQueue;
+   uint8_t            xorOperation;
+   uint8_t            rfu0[12];
 } FTL_XOR_HmbFinishedReqSpecific_t;
 
 typedef struct FTL_XOR_HmbFinishedReq_s
@@ -14481,7 +14487,7 @@ typedef struct PS_MB_decomReqSpecific_s
 
    uint32_t isFake;
 
-#line 3207 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 3210 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
    uint8_t  notifyOnly;
    uint8_t  rfu[7];
 } PS_MB_decomReqSpecific_t;
@@ -14659,7 +14665,7 @@ typedef struct PS_XOR_SwapMailResp_s
    PS_XOR_SwapMailRespSpecific_t specific;
 } PS_XOR_SwapMailResp_t;
 
-#line 3413 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 3416 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef struct PS_XOR_GetParityPageForRecoveryRespSpecific_s
 {
    uint8_t         parityPageFMUErrorBitmap;
@@ -14711,7 +14717,7 @@ typedef struct PS_XOR_StartXORRecoveryResp_s
    PS_XOR_StartXORRecoveryRespSpecific_t specific;
 } PS_XOR_StartXORRecoveryResp_t;
 
-#line 3499 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 3502 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef struct PS_GenericExceptionReqSpecific_s
 {
    uint8_t         exceptionMsgType;
@@ -14946,7 +14952,7 @@ typedef struct PS_generic_s
    PS_specific_t   specific;
 }PS_genericMsg_t;
 
-#line 3751 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 3754 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
    __inline static  void PS_ConvertDeVBA2PBA(Physical_Block_Address_t *pba, uint32_t DeVBA)
    {
       DeVBA_t DeLinkedVBA;
@@ -14963,7 +14969,7 @@ typedef struct PS_generic_s
 
    }
 
-#line 3780 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 3783 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
    __inline static  void PS_ConvertPBA2DeVBA(Physical_Block_Address_t *pba, DeVBA_t *pDeVBA)
    {
       pDeVBA->vbaTlc.fmu          = pba->fmu;
@@ -15004,7 +15010,7 @@ typedef enum XorStoreTypeEnum_e
 } XorStoreTypeEnum_t;
 typedef uint8_t XorStoreType_t;
 
-#line 3992 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 3995 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef enum PS_blkType_e
 {
    PS_API_BLOCK_TYPE_SLC      = 0,
@@ -15208,7 +15214,7 @@ typedef struct PS_FLGPResp_s
    PS_FLGPRespSpecific_t specific;
 } PS_FLGPResp_t;
 
-#line 4265 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 4268 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 typedef enum SET_PS_Debug_Control_e
 {
    SET_PS_DEBUG_CONTROl_STOPONUECC_XOR_RECOVERED             = (1<<1 ),
@@ -15237,10 +15243,15 @@ typedef enum FW_Debug_Control_e
 
 typedef enum
 {
-   LOWER_SUBBLOCK       = 0,
-   UPPER_SUBBLOCK,
+   SLC_LOWER_SUBBLOCK       = 0,
+   SLC_UPPER_SUBBLOCK,
    FULL_BLOCK,
+   SLC_FULL_BLOCK = FULL_BLOCK,
+   HSLC_FULL_BLOCK,
+   TLC_FULL_BLOCK
 }PS_BlockMode_t;
+
+
 
 
 
@@ -15273,7 +15284,7 @@ typedef union PS_DebugControl_u
 
 } PS_DebugControl_t;
 
-#line 4366 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 4374 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 void     PS_Main(void);
 Status_t PS_InitBoot(SysBootPhase_t bootPhase);
 BOOL     PS_IsReady(void);
@@ -15335,7 +15346,7 @@ __inline static  uint8_t PS_PWL_TO_SB_WL(uint8_t pwl)
     }
 }
 
-#line 4437 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_api.h"
+#line 4445 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_api.h"
 __inline static  uint16_t PS_SB_WL_TO_PWL(uint16_t sbWl, uint8_t sbBit)
 {
     if (sbBit)
@@ -15387,9 +15398,9 @@ uint8_t PS_GetNumXorZonesPerBlk(uint16_t mbId);
 BOOL8 PS_SBM_FTL_MB_isSBMeligible(uint32_t mb);
 PS_BlockMode_t PS_SBM_FTL_MB_GetBlockMode(uint32_t mb);
 
-#line 20 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
+#line 20 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
 
-#line 46 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
+#line 46 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
 typedef void(*DumpCallBack)(uint32_t);
 
 
@@ -15422,7 +15433,7 @@ typedef enum
 
    FADI_DUMP_TELEMETRY_REGION,
 
-#line 80 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
+#line 80 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_dumpmanager.h"
    FADI_DUMP_REGION_NUM,
 }FADI_Logic_Region_t;
 
@@ -15550,9 +15561,9 @@ Status_t FADI_PsBigDumpHandler(FADI_PS_BigDump_Request_t * msg);
 BOOL     FADI_ifQueueEmpty(void);
 Status_t  __attribute__((section("CODE_SLOW")))  FADI_DumpMgrReadSpecificFmu(uint32_t fmu, uint8_t *pBuf, FADI_Logic_Region_t region);
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_footer.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_footer.h"
 
-#line 44 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_footer.h"
+#line 44 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_footer.h"
 extern const uint8_t FADI_FooterSignature[ 12  +  1 ];
 
 
@@ -15682,18 +15693,18 @@ typedef struct
 
 Status_t FADI_GenerateDumpInfo(FADI_DM_Dump_Info_t * pDumpInfo, uint16_t fileCode, uint16_t line, uint32_t logCode, uint32_t *pUserParams);
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_romver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_romver.h"
 
-#line 107 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_romver.h"
+#line 107 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_romver.h"
 uint8_t* SYS_GetROMVersion(uint8_t* pByteLength);
 
-#line 19 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlogbuffermanager.h"
+#line 19 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlogbuffermanager.h"
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlogbuffermanager.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlogbuffermanager.h"
 typedef enum
 {
    FADI_ERRORLOG_BUFFER_AVAILABLE,
@@ -15754,11 +15765,11 @@ void FADI_ChangeBufferOpPtr(uint32_t index, uint8_t * ptr);
 void * FADI_PickUpWarningErrorLogBuffer(uint32_t * retIndex);
 void * FADI_PickUpWarningErrorLogBuffer(uint32_t * retIndex);
 
-#line 20 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
+#line 20 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/mpc_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/mpc_driver.h"
 
-#line 47 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/mpc_driver.h"
+#line 47 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/mpc_driver.h"
 enum MPC_SEM_e
 {
    MPC_BASIC_SEMAPHORE,
@@ -15792,6 +15803,10 @@ typedef enum MPC_MUTEX_NUMBER_e
    MPC_MUTEX_INBOUND_AXI_ACCESS,
    MPC_MUTEX_FWTA_PROTECTION,
    MPC_MUTEX_HMBC_DRAIN_PROTECTION,
+
+   MPC_MUTEX_PS0_CAP_LOCK,
+   MPC_MUTEX_PS1_CAP_LOCK,
+
    MPC_MUTEX_INVALID
 }MPC_MUTEX_NUMBER_t;
 
@@ -15837,7 +15852,7 @@ enum
    MPC_MUTEX_LOCK_CONTEXT_INTERRUPTS_ENABLED  = 1,
 };
 
-#line 204 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/mpc_driver.h"
+#line 216 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/mpc_driver.h"
 typedef enum
 {
     CPU_ID_MP,
@@ -15876,11 +15891,11 @@ void     MPC_DisableSWIEvent(uint32_t irq,uint32_t event);
 uint32_t MPC_ReadSWIEventReg(uint32_t irq);
 void     MPC_ExecuteSWIEventHandler(uint32_t irq, uint32_t event);
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_productversion.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_productversion.h"
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_productversion.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_productversion.h"
 typedef struct SYS_VersionsCfg_s
 {
    uint32_t vcsCommit;
@@ -15943,9 +15958,9 @@ uint32_t SYS_GetVCSCommitID(void* pBuff);
 Status_t SYS_GetVCSCommitIDFromFile(void* pBuffer, uint32_t bufferSize, uint32_t offsetInFile, uint32_t *pVCSID);
 Status_t SYS_GetVCSCommitIDFromOverlayFile(void* pBuffer, uint32_t bufferSize, uint32_t offsetInFile, uint32_t *pVCSID);
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
 
-#line 84 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
+#line 84 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/errorlog/inc_public/fadi_errorlog.h"
 typedef enum
 {
    FADI_EL_EXCEPTION_QUEUE_FULL = 0,
@@ -16088,11 +16103,11 @@ void              SYS_DisableErrorLog(BOOL32 ifClean);
 void              SYS_EnableErrorLog(void);
 BOOL32            SYS_IsErrorLogPending(void);
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_esl_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/secded_defines.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_esl_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/secded_defines.h"
 
-#line 41 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/secded_defines.h"
+#line 41 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/secded_defines.h"
  typedef struct SECDED_SRAM_INFO_s
  {
     uint32_t bytesPerInstance;
@@ -16100,7 +16115,7 @@ BOOL32            SYS_IsErrorLogPending(void);
     uint32_t length;
  } SECDED_SRAM_INFO_t;
 
-#line 449 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/secded_defines.h"
+#line 449 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/secded_defines.h"
 typedef struct MRAM1_SECDED_Registers_s
 {
    HW_REG64 MLM_DEBUG_REG_MRAM1_i0_0;
@@ -16221,9 +16236,9 @@ typedef struct HNVME_REG_RAM_SECDED_Registers_s
    HW_REG64 MLM_DEBUG_REG_NVME_RAM;
 } HNVME_REG_RAM_SECDED_Registers_t;
 
-#line 19 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_esl_api.h"
+#line 19 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_esl_api.h"
 
-#line 196 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_esl_api.h"
+#line 196 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/dump/inc_public/fadi_esl_api.h"
 typedef enum
 {
    REG_DUMP_FADI_ESL_SET_EVENT_CONTROL_LABEL =  ( ((0x0)<< 10 ) | ( 0x11 ) ) ,
@@ -16463,14 +16478,14 @@ typedef enum
    REG_DUMP_HNVME_REG_RAM_SECDED_NUM_REG_FIRST_DUMP = sizeof(HNVME_REG_RAM_SECDED_Registers_t) / sizeof(uint32_t),
 } FADI_HNVME_REG_RAM_SECDED_Reg_Dump_Details_t;
 
-#line 25 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
+#line 25 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventconfig.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventconfig.h"
 
-#line 40 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
+#line 40 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
 
-#line 55 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
+#line 55 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
 typedef enum MISC_HWEventEnable_Control_e
 {
    SET_HW_DEBUG_EVENTS_RS                                       = (1<<0 ),
@@ -16480,7 +16495,7 @@ typedef enum MISC_HWEventEnable_Control_e
    SET_HW_DEBUG_EVENTS_FE                                       = (1<<4 ),
 }   MISC_HWEventEnable_Control_t;
 
-#line 134 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
+#line 134 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
 enum SET_HWEvent_HIM_XML_e
 {
 
@@ -16530,7 +16545,7 @@ enum SET_HWEvent_HIM_XML_e
 }  ;
 typedef uint32_t SET_HWEvent_HIM_t;
 
-#line 227 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
+#line 227 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
 typedef enum SET_HWEvent_FIM_e
 {
    FIM_HW_EVENT_GENERIC0                                     = (1<<0 ),
@@ -16553,7 +16568,7 @@ typedef enum SET_HWEvent_FIM_e
    FIM_HW_ALL_EVENTS_BITS_CONTROL                            = ((1<<17) - 1),
 }   SET_HWEvent_FIM_t;
 
-#line 294 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
+#line 294 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
 typedef enum SET_HWEvent_CAP_e
 {
    CAP_HW_EVENT_HEB_DATA                                    = (1<<0 ),
@@ -16598,7 +16613,7 @@ typedef enum SET_HWEvent_CAP_e
    CAP_HW_ALL_EVENTS_BITS_CONTROL                           = 0x7FFFFFFF,
 }    SET_HWEvent_CAP_t;
 
-#line 366 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
+#line 366 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
 typedef enum SET_HWEvent_CAM_e
 {
    CAM_ALLOCATION_REQUEST                                   = (1<<0 ),
@@ -16610,7 +16625,7 @@ typedef enum SET_HWEvent_CAM_e
    CAM_HW_ALL_EVENTS_BITS_CONTROL                           = ((1<<6) - 1),
 }    SET_HWEvent_CAM_t;
 
-#line 389 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
+#line 389 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
 typedef enum SET_HWEvent_RS_e
 {
    RS_POOL_0                                                = (1<<0 ),
@@ -16648,7 +16663,7 @@ typedef enum SET_HWEvent_RS_e
    RS_HW_ALL_EVENTS_BITS_CONTROL                            = 0xFFFFFFFF,
 }   SET_HWEvent_RS_t;
 
-#line 438 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
+#line 438 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hwevents.h"
 typedef enum SET_HWEvent_LDPC_DEC_e
 {
    LDPC_DEC_NEW_DESCRIPTOR_FETCH                            = (1<<0 ),
@@ -17073,14 +17088,14 @@ typedef struct Control_SetEvents_s
 
 }  Control_SetEvents_t;
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
 
-#line 64 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 64 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
 static Status_t FADI_MP_POSTPONED_ERRORLOG(uint32_t logCode, ...)  {return STATUS_OK;}
 static Status_t FADI_MP_BIG_DUMP(uint32_t dumpType, ...)           {return STATUS_OK;}
 static Status_t FADI_MP_FORMATTED_BIG_DUMP(uint32_t bufType, ...)  {return STATUS_OK;}
 
-#line 92 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 92 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
 void FADI_SetMountBmlDone(BOOL32 isBmlMountEnd);
 
 
@@ -17104,7 +17119,7 @@ enum FADI_SaveFailuresDumpTrigger_e
 };
 typedef uint16_t FADI_SaveFailuresDumpTrigger_t;
 
-#line 126 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 126 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
 typedef struct DebugControlSignatures_s
 {
    uint16_t                   validSignature;
@@ -17227,18 +17242,10 @@ Status_t   FADI_AllocateBigDumpBuffer(FADI_Big_Dump_Pass_Params_t *pBigDumpParam
 
 void     FADI_FatalPostResetProccess(void);
 
-
-
-
-
-
-
-
-
-
+#line 257 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
 void     FADI_RealTimeSample(void);
 
-#line 273 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
+#line 273 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/fadi_apis.h"
 void     FADI_FatalPreReset(SYS_FwExceptionData_tp fwExpData);
 
 void SYS_DiagInjectFatalAssertCallback(void);
@@ -17256,23 +17263,23 @@ Status_t FADI_SetCfg_Default_Debug_Control(void);
 void     FADI_FatalAssertDie(void);
 void     INFRA_ISR_Request_Handler(void);
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_assert.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_assert.h"
 
-#line 57 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_assert.h"
+#line 57 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_assert.h"
 extern void ROMTrace( void *pData, ...);
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
-#line 1 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 1 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/ps/inc_public/sys_ps_comm.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/ps/inc_public/sys_ps_comm.h"
 
-#line 20 "d:/gitrepo/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
+#line 20 "c:/wdlabs/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
 
-#line 44 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+#line 44 "c:/wdlabs/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
 enum PMM_WakeupSource_e
 {
    PMM_WAKEDUP_BY_GPIO_IRQ = 0,
@@ -17308,7 +17315,7 @@ enum SYS_DevicePowerState_e
 };
 typedef uint32_t SYS_DevicePowerState_t;
 
-#line 106 "d:/gitrepo/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
+#line 106 "c:/wdlabs/fpgcss-vega/source/infra/modules/pmm/inc_public/sys_pmm.h"
 uint8_t  __attribute__((section("CODE_MEDIUM")))  PMM_GetPCUMsg_DiagReadPMIC(void);
 void  __attribute__((section("CODE_MEDIUM")))  PMM_IssuePMICCFGtoPCU(uint32_t powerState);
 void  __attribute__((section("CODE_MEDIUM")))  PMM_LogPMICPOKEvent(uint32_t param);
@@ -17344,9 +17351,9 @@ void setAssertFatalSig(uint32_t sig);
 void PMM_ResetLinkAbortReasonFlag(void);
 void PMM_SetLinkAbortReasonFlag(uint32_t lpmAbortReason);
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
 enum PMM_TransitionStep_e
 {
    PMM_STEP_FE = 0,
@@ -17396,7 +17403,7 @@ enum PMM_PowerState_e
 };
 typedef uint32_t PMM_PowerState_t;
 
-#line 93 "d:/gitrepo/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
+#line 93 "c:/wdlabs/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
 enum PMM_MSG_OPCode_e
 {
    PMM_MSG_OPCODE_START_PST = 0,
@@ -17426,7 +17433,7 @@ typedef struct PMM_EventMsg_s
    uint32_t Msg[2];
 } PMM_EventMsg_t;
 
-#line 136 "d:/gitrepo/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
+#line 136 "c:/wdlabs/fpgcss-vega/source/infra/modules/distributer/inc_public/sys_dist_api.h"
 Status_t  __attribute__((section("TRW")))  SYS_DIST_Init(void);
 
 Status_t  __attribute__((section("CODE_MEDIUM")))  SYS_DIST_StartPST(PMM_PowerState_t powerState);
@@ -17456,10 +17463,10 @@ void   SYS_DIST_GetStateAndProgress(BOOL* pIsInProgress, PMM_PowerState_t* pStat
 BOOL32 SYS_DIST_IsPrepareToLowPowerStateInProgress();
 SYS_DevicePowerState_t SYS_DistModeToDPS(PMM_PowerState_t distMode);
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
 
-#line 56 "d:/gitrepo/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
+#line 56 "c:/wdlabs/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
 enum PMM_MSG_ID_e
 {
    PMM_MSG_ID_ENTER_DPS = 0,
@@ -17512,7 +17519,7 @@ enum PMM_MSG_ID_e
    PMM_MSG_ID_FE_PM_RST_FINISH,
    PMM_MSG_ID_PCIE_REQ_LINK_STATE,
 
-#line 111 "d:/gitrepo/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
+#line 111 "c:/wdlabs/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
 };
 
 typedef uint16_t  PMM_MSG_ID_t;
@@ -17543,7 +17550,7 @@ enum PMM_I2cBus_e
 };
 typedef uint32_t PMM_I2cBus_t;
 
-#line 207 "d:/gitrepo/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
+#line 207 "c:/wdlabs/fpgcss-vega/source/infra/modules/ipc/inc_public/sys_socpcuif.h"
 typedef unsigned char PMM_TimersType_t;
 
 
@@ -17626,13 +17633,13 @@ void  __attribute__((section("CODE_MEDIUM")))  PMM_PutTimerPCUMsg(PMM_MSG_ID_t m
 void                   PMM_HandlePCUMsg(void);
 Status_t  __attribute__((section("TRW")))  PMM_Init(void);
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set.h"
 
-#line 66 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set.h"
+#line 66 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set.h"
 typedef enum
 {
   SET_ALL_EVENT_DISABLE,
@@ -17736,7 +17743,7 @@ typedef enum
    SET_HSSTP_SENDING,
 } SET_ATB_STATES_t;
 
-#line 200 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set.h"
+#line 200 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set.h"
 typedef struct SET_EVENT_DUMP_HEADER_s
 {
    uint32_t numberOfBytesInDump;
@@ -17781,7 +17788,7 @@ typedef struct SET_ControlBlock_s
 
 } SET_ControlBlock_t;
 
-#line 282 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set.h"
+#line 282 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set.h"
 void                 SET_EnableDEBUG_RAM(void);
 void                 SET_EnableTimers(void);
 void                 SET_DisableTimer(void);
@@ -17856,10 +17863,10 @@ void                 SET_EnableLLFSEventsToATB(BOOL enableAll);
 
  void     SET_TbramThreshAddeISR(void);
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 
-#line 48 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 48 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 typedef enum SET_EVENT_GROUPS_t
 {
 
@@ -17870,7 +17877,7 @@ SET_EVENT_GRP_HW_CORES_RESERVED,
 
 SET_EVENT_GRP_FA_CONFIG_GRP_UID,
 
-#line 65 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 65 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 SET_EVENT_GRP_ROM_FW_SET_EVENT_GRP_UID ,
 
 
@@ -17893,7 +17900,7 @@ SET_EVENT_GRP_DLE_FW_SET_EVENT_GRP_UID ,
 
 SET_EVENT_GRP_ERROR_LOG_SET_EVENT_GRP_UID ,
 
-#line 97 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 97 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 SET_EVENT_GRP_FE_CRITICAL_SET_EVENT_GRP_UID ,
 
 
@@ -18037,7 +18044,7 @@ SET_EVENT_GRP_FE_HMBC_DEBUG_SET_EVENT_GRP_UID ,
 
 SET_EVENT_GRP_FE_HAQ_SET_EVENT_GRP_UID ,
 
-#line 250 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 250 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 SET_EVENT_GRP_INFRA_CRITICAL_SET_EVENT_GRP_UID ,
 
 
@@ -18088,7 +18095,7 @@ SET_EVENT_GRP_INFRA_TIMING_SET_EVENT_GRP_UID ,
 
 SET_EVENT_GRP_INFRA_DEBUG_SET_EVENT_GRP_UID ,
 
-#line 312 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 312 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 SET_EVENT_GRP_SEC_CRITICAL_SET_EVENT_GRP_UID ,
 
 
@@ -18123,10 +18130,10 @@ SET_EVENT_GRP_SEC_DEBUG_SET_EVENT_GRP_UID ,
 
 SET_EVENT_GRP_SEC_USAGE_4_SET_EVENT_GRP_UID ,
 
-#line 357 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 357 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 SET_EVENT_GRP_MST_DEBUG_SET_EVENT_GRP_UID ,
 
-#line 370 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 370 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 SET_EVENT_GRP_FTL_CRITICAL_SET_EVENT_GRP_UID ,
 
 
@@ -18822,10 +18829,10 @@ SET_EVENT_GRP_PS_PERF_2_SET_EVENT_GRP_UID ,
 
 SET_EVENT_GRP_PS_PERF_1_SET_EVENT_GRP_UID ,
 
-#line 1098 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 1098 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 SET_EVENT_GRP_PS_DEBUG_IFT_SET_EVENT_GRP_UID ,
 
-#line 1110 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 1110 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 SET_EVENT_GRP_PCU_EVENTS_SET_EVENT_GRP_UID ,
 
 
@@ -18843,7 +18850,7 @@ SET_EVENT_GRP_PS_INIT_SET_EVENT_GRP_UID ,
 
 SET_EVENT_GRP_LLFS_SET_EVENT_GRP_UID ,
 
-#line 1142 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
+#line 1142 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventgroups.h"
 SET_EVENT_GROUP_MAX,
 
 
@@ -18851,11 +18858,11 @@ SET_EVENT_GROUP_MAX,
 
 }    SET_EVENT_GROUPS_t;
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventdictionary.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventdictionary.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
 
-#line 39 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 39 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
 typedef struct RTOS_QueueField_s
 {
    struct RTOS_QueueField_s* next;
@@ -18928,10 +18935,10 @@ enum ThreadsRAM_e
 
    THREAD_RAM_FTL,
 
-#line 123 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 123 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
    THREAD_RAM_PMM,
 
-#line 128 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 128 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
    NUM_OF_THREADS_RAM,
 };
 
@@ -18941,7 +18948,7 @@ enum ThreadsDLE_e
    THREAD_DLE_FE,
    THREAD_DLE_INFRA,
 
-#line 139 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 139 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
    NUM_OF_THREADS_DLE,
 };
 
@@ -18986,7 +18993,7 @@ typedef struct SYS_DiagStackInfo_s
    SYS_DiagStackInfoEntry_t stackInfoEntries[MAX_STACK_INFO_ENTRIES];
 }   SYS_DiagStackInfo_t;
 
-#line 247 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 247 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
 void   RTOS_Enter(void);
 
 
@@ -19008,10 +19015,10 @@ typedef enum EventGroup_e
 
    EVENT_GROUP_FTL,
 
-#line 270 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 270 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
    EVENT_GROUP_SECURITY,
 
-#line 278 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 278 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
    EVENT_GROUP_PMM,
    NUM_EVENT_GROUPS,
 } EventGroup_t;
@@ -19022,7 +19029,7 @@ Status_t RTOS_LightWeightEventClear(EventGroup_t group, uint32_t bitMask);
 uint32_t RTOS_LightWeightEventSampleGroup(EventGroup_t group, uint32_t bitMask);
 uint32_t RTOS_LightWeightEventWait(EventGroup_t group, uint32_t bitMask, RTOS_MaskWaitOptions waitOptions, uint32_t waitMs);
 
-#line 298 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 298 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
 void                 RTOS_QueueInit(RTOS_Queue_t* queue, uint32_t size);
 BOOL                 RTOS_QueueEnqueue(RTOS_Queue_t* queue, RTOS_QueueElement_t* element);
 RTOS_QueueElement_t* RTOS_QueueDequeue(RTOS_Queue_t* queue);
@@ -19088,7 +19095,7 @@ Status_t RTOS_LightWeightSemaphoreWait(void* pLwSema, uint32_t timeoutMs);
 Status_t RTOS_LightWeightSemaphorePost(void* pLwSema);
 BOOL32   RTOS_LightWeightSemaphorePoll(void* pLwSema);
 
-#line 382 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
+#line 382 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_api.h"
 typedef struct RTOS_Mutex_s
 {
    uint32_t mutexPrv[ (12) ];
@@ -19163,9 +19170,9 @@ void SYS_SetDelayedEvent(uint32_t eventMask);
 uint32_t SYS_GetDelayedEvent(void);
 void SYS_ClearDelayedEvent(uint32_t eventMask);
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventdictionary.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventdictionary.h"
 
-#line 65 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventdictionary.h"
+#line 65 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventdictionary.h"
 typedef enum
 {
 
@@ -19356,6 +19363,11 @@ typedef enum
     PATH_EVENT_SELFTEST_DLE_CODE_RSA,
     PATH_EVENT_SELFTEST_IFS_FILE_VCSID,
     PATH_EVENT_SELFTEST_RSA_CACHE_VERIFY,
+    PATH_EVENT_SEC_FW_SECP_INFO,
+    PATH_EVENT_SEC_FW_SECP_DEBUGSTOP,
+    PATH_EVENT_SEC_FW_SECP_DEBUG_EVENT,
+    PATH_EVENT_SEC_FW_SECP_EXCEPTION,
+    PATH_EVENT_SEC_FW_EXTP_ERROR,
 
     PATH_EVENT_SELFTEST_IFS_FILE_0                          = 0x1100,
     PATH_EVENT_SELFTEST_IFS_FILE_LAST = PATH_EVENT_SELFTEST_IFS_FILE_0 + 0xFF,
@@ -19388,10 +19400,10 @@ typedef enum
 
 }  Path_EventParameter_e;
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/code_coverage.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/code_coverage.h"
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/infra/modules/fadi/inc_public/code_coverage.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/infra/modules/fadi/inc_public/code_coverage.h"
 extern uint32_t mp_cc_buf[];
 extern uint32_t *pMPCCBuf;
 extern uint32_t ps_cc_buf[];
@@ -19401,11 +19413,11 @@ void     CodeCoverageFillBuffer(uint32_t *pCCBuff, uint32_t sizeOfCCBuff);
 uint16_t CodeCoverageSendOneCCBuffer(uint32_t *pCCBuff, uint32_t sizeOfCCBuff, BOOL addPSMarker);
 Status_t CodeCoverageSendBuffers(void);
 
-#line 25 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ngset.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_set_regs_defines.h"
+#line 25 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ngset.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_set_regs_defines.h"
 
-#line 118 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_set_regs_defines.h"
+#line 118 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_set_regs_defines.h"
 typedef struct _NG_SET_REGS {
     HW_REG64 CFG                                        ;
     HW_REG64 CFG_FW_FILTER_0[2]                         ;
@@ -19487,10 +19499,10 @@ typedef struct _NG_SET_REGS {
     HW_REG64 STS_TS48                                   ;
 }NG_SET_REGS_t, *PNG_SET_REGS;
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ngset.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_feb_defines.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ngset.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_feb_defines.h"
 
-#line 56 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_feb_defines.h"
+#line 56 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_feb_defines.h"
 typedef struct _NG_FEB {
     HW_REG64 FEB_CTL                                    ;
     HW_REG64 FEB_INT_STS                                ;
@@ -19502,13 +19514,13 @@ typedef struct _NG_FEB {
     HW_REG64 FEB_BUS_ERR_INFO1                          ;
 }NG_FEB_t, *PNG_FEB;
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ngset.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ngset.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_atb_top_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_atb_top_defines.h"
 
-#line 53 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_atb_top_defines.h"
+#line 53 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ng_atb_top_defines.h"
 typedef struct _NG_ATB_TOP {
     HW_REG MODE                                         ;
     HW_REG Reserved0;
@@ -19538,9 +19550,9 @@ typedef struct _NG_ATB_TOP {
     HW_REG ATB_PARITY                                   ;
 }NG_ATB_TOP_t, *PNG_ATB_TOP;
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw.h"
 
-#line 240 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw.h"
+#line 240 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw.h"
 typedef struct _SET_FW_FILTER_REG
 {
    uint32_t FILTER_ENA;
@@ -19641,20 +19653,20 @@ typedef struct _SET_REGs
 
 }SET_REGs, *pSET_REGs;
 
-#line 401 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw.h"
+#line 401 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw.h"
 uint64_t SET_GetTimerCount(void);
 uint32_t SET_GetDebugRAMPointer(void);
 
-#line 44 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/ngset.h"
+#line 44 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/ngset.h"
 
 
 
 Status_t  NGSET_Init(void);
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
 typedef enum SCTP_Status_e
 {
    STATUS_SCTP_ERROR = STATUS_SCTP_ERROR_BASE,
@@ -19758,10 +19770,10 @@ typedef struct SYS_SCTPCmd_s
    SCTP_EventType_t                    eventType;
 } SYS_SCTPCmd_t;
 
-#line 136 "d:/gitrepo/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
+#line 136 "c:/wdlabs/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
 typedef Status_t (*SCTP_CommandHandlerPtr_t)(SCTP_AppState_t state, uint8_t *pAppCmdData, uint32_t *pBuffer, uint32_t numBytes);
 
-#line 149 "d:/gitrepo/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
+#line 149 "c:/wdlabs/fpgcss-vega/source/infra/modules/sctp/inc_public/sys_sctp_api.h"
 typedef Status_t SCTP_AppHandler_t(SCTP_AppState_t state, uint8_t *pAppCmdData, uint32_t *pBuffer, uint32_t numBytes);
 
 
@@ -19798,14 +19810,14 @@ Status_t   SCTP_EventHandler(uint32_t *pBuffer, uint32_t bufSizeInBytes, SCTP_Ev
 
 BOOL SCTP_GetTransferSize(SCTP_AppState_t state, uint32_t *transferSize);
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw_macros.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw_macros.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/hsstp/inc_public/ng_hsstp.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/hsstp/inc_public/ng_hsstp.h"
 
-#line 77 "d:/gitrepo/fpgcss-vega/source/infra/drivers/hsstp/inc_public/ng_hsstp.h"
+#line 77 "c:/wdlabs/fpgcss-vega/source/infra/drivers/hsstp/inc_public/ng_hsstp.h"
 typedef struct _NG_HSSTP {
     HW_REG64 HSSTP_CFG;
     HW_REG64 HSSTP_STS;
@@ -19838,10 +19850,10 @@ typedef struct _NG_HSSTP {
     HW_REG64 FS_FIFO_STS;
 }NG_HSSTP_t, *PNG_HSSTP;
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw_macros.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/hsstp/inc_public/hsstp_top_regs.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw_macros.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/hsstp/inc_public/hsstp_top_regs.h"
 
-#line 368 "d:/gitrepo/fpgcss-vega/source/infra/drivers/hsstp/inc_public/hsstp_top_regs.h"
+#line 368 "c:/wdlabs/fpgcss-vega/source/infra/drivers/hsstp/inc_public/hsstp_top_regs.h"
 typedef struct _NG_HSSTP_TOP_REGS {
     HW_REG64 HSSTP_TOP_CFG                              ;
     HW_REG64 POWER_CTRL_REG                             ;
@@ -19914,7 +19926,7 @@ typedef struct _NG_HSSTP_TOP_REGS {
     HW_REG64 HSSTP_TOP_SPARE_0                          ;
 }NG_HSSTP_TOP_REGS_t, *PNG_HSSTP_TOP_REGS;
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw_macros.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_hw_macros.h"
 
 
 
@@ -19923,17 +19935,17 @@ extern uint32_t  PS_Instance;
 
 extern uint32_t  PS_InstanceForNGSET;
 
-#line 35 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
+#line 35 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
 
-#line 201 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
+#line 201 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
 typedef enum
 {
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedeventsrom.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedeventsrom.h"
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedeventsrom.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedeventsrom.h"
 
 
 
@@ -20088,9 +20100,9 @@ typedef enum
 
 
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -20754,7 +20766,6 @@ typedef enum
 
 
 
-#line 707 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -20769,6 +20780,7 @@ typedef enum
 
 
 
+#line 716 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -20868,7 +20880,6 @@ typedef enum
 
 
 
-#line 830 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -20883,6 +20894,7 @@ typedef enum
 
 
 
+#line 839 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21527,7 +21539,6 @@ typedef enum
 
 
 
-#line 1490 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21542,6 +21553,7 @@ typedef enum
 
 
 
+#line 1499 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21612,7 +21624,6 @@ typedef enum
 
 
 
-#line 1578 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21627,6 +21638,7 @@ typedef enum
 
 
 
+#line 1587 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21838,7 +21850,6 @@ typedef enum
 
 
 
-#line 1810 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -21853,6 +21864,7 @@ typedef enum
 
 
 
+#line 1819 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -22509,7 +22521,6 @@ typedef enum
 
 
 
-#line 2482 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -22528,6 +22539,7 @@ typedef enum
 
 
 
+#line 2495 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -22757,7 +22769,6 @@ typedef enum
 
 
 
-#line 2742 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -22778,6 +22789,7 @@ typedef enum
 
 
 
+#line 2757 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -23548,7 +23560,6 @@ typedef enum
 
 
 
-#line 3536 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -23579,6 +23590,7 @@ typedef enum
 
 
 
+#line 3561 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -24667,11 +24679,9 @@ typedef enum
 
 
 
-#line 4657 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 4675 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -24689,34 +24699,30 @@ typedef enum
 
 
 
-#line 4697 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4756 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4836 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
 
 
-#line 4858 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4883 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4892 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
 
 
 
+#line 4691 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
+#line 4709 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -24734,19 +24740,25 @@ typedef enum
 
 
 
+#line 4731 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
+#line 4790 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
+#line 4870 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
 
 
+#line 4892 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
+#line 4917 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
+#line 4926 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -24874,6 +24886,7 @@ typedef enum
 
 
 
+#line 5076 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -25166,13 +25179,67 @@ typedef enum
 
 
 
-#line 206 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedeventsrom.h"
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedeventsrom.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 206 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
+
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedeventsrom.h"
+
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedeventsrom.h"
 SET_EVENT_CONF_IDENT_CHECKPOINT_EVENT ,
 SET_EVENT_CONF_HARD_RESET_CHECKPOINT_EVENT ,
 SET_EVENT_CONF_SOFT_RESET_CHECKPOINT_EVENT ,
@@ -25327,9 +25394,9 @@ SET_EVENT_ROM_SYS_PATH_EVENT_CHECKPOINT_EVENT ,
 
 
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -25993,7 +26060,6 @@ SET_EVENT_INFRA_JUMP_TO_FLASHWARE_CHECKPOINT_EVENT ,
 
 
 
-#line 707 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -26008,6 +26074,7 @@ SET_EVENT_INFRA_JUMP_TO_FLASHWARE_CHECKPOINT_EVENT ,
 
 
 
+#line 716 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -26107,7 +26174,21 @@ SET_EVENT_INFRA_JUMP_TO_FLASHWARE_CHECKPOINT_EVENT ,
 
 
 
-#line 830 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 839 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -26766,7 +26847,7 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 1490 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+#line 1499 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -26851,7 +26932,7 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 1578 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+#line 1587 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -27077,7 +27158,7 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 1810 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
+#line 1819 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -27748,11 +27829,11 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 2482 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
 
+#line 2495 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -27996,13 +28077,13 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 2742 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
 
 
 
+#line 2757 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -28787,7 +28868,6 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 3536 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -28804,6 +28884,7 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 3561 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -29906,11 +29987,9 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 4657 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
-#line 4675 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -29928,25 +30007,21 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 4697 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4756 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4836 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
+#line 4691 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
+#line 4709 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
-#line 4858 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4883 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
-#line 4892 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -29959,19 +30034,25 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 4731 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
+#line 4790 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
+#line 4870 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
 
 
+#line 4892 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
+#line 4917 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
+#line 4926 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -30099,6 +30180,7 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
+#line 5076 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_supportedevents.h"
 
 
 
@@ -30405,7 +30487,47 @@ SET_EVENT_END_CODE_COVERAGE_SEND_CHECKPOINT_EVENT ,
 
 
 
-#line 218 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#line 218 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
 
 
   SET_EVENT_EVENT_TOTAL_COUNT
@@ -30444,7 +30566,7 @@ typedef enum
   SET_EVENT_TYPE_PROGRAM_COUNTER,
 }SET_EVENT_TYPE_t;
 
-#line 272 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
+#line 272 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
 typedef struct _SET_EVENT_EVENT
 {
   uint32_t type;
@@ -30457,7 +30579,7 @@ typedef struct _SET_EVENT_EVENT
   uint32_t predecessor;
 }SET_EVENT_EVENT_INFO_t;
 
-#line 294 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
+#line 294 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
 typedef struct _SET_EVENT_EVENT_CONFIG_INF
 {
   uint32_t uid;
@@ -30506,10 +30628,10 @@ typedef struct SET_EVENT_FPS_EVENT_INFO
 
    char name[17];
 
-#line 344 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
+#line 344 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
 }SET_EVENT_FPS_EVENT_INFO_t, *pSET_EVENT_FPS_EVENT_INFO_t;
 
-#line 359 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
+#line 359 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_eventengine.h"
 typedef struct SET_EVENT_TIME_INFO
 {
   uint32_t systemClkFreq;
@@ -30521,7 +30643,7 @@ typedef struct SET_EVENT_TIME_INFO
   uint32_t ts24LsbOffset;
 }SET_EVENT_TIME_INFO_t, *pSET_EVENT_TIME_INFO_t;
 
-#line 228 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 230 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 
 
 
@@ -30536,7 +30658,7 @@ Status_t   SET_DiagGetSETEngStatus(uint8_t *pAppCmdData, uint32_t *pBuffer, uint
 Status_t   SET_DiagConfigSETEng(SCTP_AppState_t state, uint8_t *pAppCmdData, uint32_t *pBuffer, uint32_t numBytes);
 Status_t   SET_GetAllHwEventsStatus(uint32_t *pRetData);
 
-#line 250 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 252 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
  void SET_AtbIntHandler(void);
 
 
@@ -30544,45 +30666,45 @@ Status_t   SET_GetAllHwEventsStatus(uint32_t *pRetData);
 __inline static  void FADI_Enable_MP_SmaRT(void)
 {
 
-#line 262 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 264 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 }
 
 __inline static  void FADI_Disable_MP_SmaRT(void)
 {
 
-#line 272 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 274 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 }
 
 __inline static  void FADI_Enable_PS_SmaRT(void)
 {
 
-#line 282 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 284 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 }
 
 __inline static  void FADI_Disable_PS_SmaRT(void)
 {
 
-#line 292 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 294 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 }
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/seteventstolog.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/seteventstolog.h"
 
-#line 298 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 300 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 
-#line 330 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
+#line 332 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ngset/inc_public/set_apis.h"
 void PCU_SendSetEventParam(uint32_t args, ...);
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_intcontrollerdriver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_intcontrollerdriver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_defaultintmap.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_defaultintmap.h"
 
-#line 182 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_defaultintmap.h"
+#line 182 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_defaultintmap.h"
 ;
 
-#line 35 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_intcontrollerdriver.h"
+#line 35 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_intcontrollerdriver.h"
 
 
 typedef   void(*InterruptHandler_t)(void);
@@ -30605,10 +30727,10 @@ void     SYS_TriggerSwi(uint32_t intNum);
 void     SYS_SetIntThreshold(uint32_t threshold);
 void     SYS_InitInterruptVectors(void);
 
-#line 18 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 18 "c:/wdlabs/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/svci_dma_api.h"
-#line 16 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/svci_dma_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/svci_dma_api.h"
+#line 16 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/svci_dma_api.h"
 typedef struct SVCI_DMA_RLS_MODE_s
 {
    uint8_t mINCREMENT_AT_END_OF_READ  : 3;
@@ -30784,7 +30906,7 @@ typedef enum
    eSVCI_DMA_MAX_PRIORITY
 }SVCI_DMA_CHANNEL_PRIORITY_t;
 
-#line 240 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/svci_dma_api.h"
+#line 240 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/svci_dma_api.h"
 typedef struct SVCI_DMA_DescRingBuff_s
 {
    uint32_t DescriptorsBaseAddr;
@@ -30830,9 +30952,9 @@ uint32_t SVCI_DMA_GetDmaReadPortErrorAddr(SVCI_DMA_ContBlock_t* pDMAC_ContBlock)
 uint32_t SVCI_DMA_GetErrorDestChannel(SVCI_DMA_ContBlock_t* pDMAC_ContBlock);
 uint32_t SVCI_DMA_GetErrorSrcChannel(SVCI_DMA_ContBlock_t* pDMAC_ContBlock);
 
-#line 21 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 21 "c:/wdlabs/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 
-#line 261 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 261 "c:/wdlabs/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 typedef struct MP_PQD_Queue_s
 {
    uint32_t             QType;
@@ -30863,7 +30985,7 @@ typedef struct MP_CQD_Queue_s
    uint8_t              *pCurRBMsg;
 } MP_CQD_Queue_t;
 
-#line 309 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 309 "c:/wdlabs/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 enum MP_MQD_PS_TYPE_e
 {
    MP_MQD_PS_TYPE_PS0 = 0,
@@ -30875,7 +30997,7 @@ enum MP_MQD_PS_TYPE_e
 };
 typedef uint32_t MP_MQD_PSType_t;
 
-#line 337 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 337 "c:/wdlabs/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 typedef enum MP_MQD_Queue_Group_e
 {
    MP_MQD_QUEUE_GROUP_INFRA = 0,
@@ -30962,7 +31084,7 @@ typedef struct MQD_RTFADI_Data_s
    uint16_t          PQDvalidCnt[MP_MQD_PS_TYPE_NUM][MP_PQD_QUEUE_TYPE_NUM];
 }  MQD_RTFADI_Data_t;
 
-#line 443 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 443 "c:/wdlabs/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 typedef enum FE_QUEUE_COUNTERS_e
 {
    HAWA_QUEUE_0_CNT   = 13,
@@ -30990,7 +31112,7 @@ typedef enum FE_QUEUE_COUNTERS_e
    LAST_HAQ_QUEUE_CNT = HAQ_QUEUE_14_CNT
 }FE_QUEUE_COUNTERS_t;
 
-#line 475 "d:/gitrepo/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
+#line 475 "c:/wdlabs/fpgcss-vega/source/infra/modules/mqd/inc_public/mp_mqd_api.h"
 void     FE_API_HAWAQ_DccmIpcIsr(uint32_t feIpcHawaqInterrupts);
 
 
@@ -31083,10 +31205,10 @@ void MP_CQD_FE_DisableCountersInt(FE_QUEUE_COUNTERS_t nFirstCounter,
                                   uint32_t mask);
 uint32_t MP_MQD_GetRTFADIStatistics(MQD_RTFADI_Data_t *pMQDRTFADI);
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver_api.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver_api.h"
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver_api.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver_api.h"
 typedef enum HIM_CPU_ID_e
 {
    HIM_CPU_ID_MP0        = 0,
@@ -31109,7 +31231,7 @@ enum
 };
 typedef uint32_t HAWA_WriteTypes_t;
 
-#line 29 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 29 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 
 
 
@@ -31138,25 +31260,25 @@ typedef union NVM_HSQM_CMD_CTR_u
     uint32_t all32;
 } NVM_HSQM_CMD_CTR_t;
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_global.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_global.h"
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bml_types.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bml_types.h"
 
-#line 64 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bml_types.h"
+#line 64 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bml_types.h"
 ;
 ;
 ;
 ;
 ;
 
-#line 122 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bml_types.h"
+#line 122 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bml_types.h"
 enum
 {
    VBA_UECC_INDICATOR = 0xFFFFFFFE,
@@ -31289,7 +31411,7 @@ typedef enum
 
 typedef uint16_t   BML_JumboBlock_ID_t;
 
-#line 270 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bml_types.h"
+#line 270 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bml_types.h"
 typedef union
 {
    struct
@@ -31323,7 +31445,7 @@ typedef struct JBA_s
    uint32_t jumboBlockId :  (11) ;
 }   JBA_t;
 
-#line 317 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bml_types.h"
+#line 317 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bml_types.h"
 typedef struct BML_RTFADI_Data_s
 {
    uint16_t JBMInternalListSize[BML_NUM_PARTITIONS][ (2) ];
@@ -31337,9 +31459,9 @@ typedef struct BML_RTFADI_Data_s
    uint32_t MBMPartAvgPec[BML_NUM_PARTITIONS];
 }  BML_RTFADI_Data_t;
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_api.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_api.h"
 
-#line 68 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_api.h"
+#line 68 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_api.h"
 typedef struct RS_ConfigCB_s_s
 {
 
@@ -31434,7 +31556,7 @@ typedef enum OBM_BlockType_e
 
 Status_t  __attribute__((section("TRW")))  FTL_Init(SysBootPhase_t bootPhase);
 
-#line 165 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_api.h"
+#line 165 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_api.h"
 uint32_t   FTL_Config_GetTotalCapacityInFMUs(void);
 
 uint32_t   FTL_Config_GetExportedCapacityInFMUs(void);
@@ -31472,10 +31594,10 @@ void BML_GetPecStatistics(uint32_t* statistics, BML_Partition_ID_t i);
 
 void RegisterAsicInterrupts(void);
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
 
-#line 64 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
+#line 64 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
 typedef  _Packed  union MetaData_MountFields_u
 {
    uint32_t all32;
@@ -31495,7 +31617,7 @@ typedef  _Packed  union MetaData_MountFields_u
 
 }   MetaData_MountFields_t;
 
-#line 93 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
+#line 93 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
 typedef  _Packed  struct FMU_Metadata_s
 {
    uint16_t rfu;
@@ -31546,7 +31668,7 @@ typedef struct LOG_FmuHeader_s
    uint8_t  rfu[ (12) ];
 }   LOG_FmuHeader_t;
 
-#line 149 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
+#line 149 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
 typedef struct _FSHeader_t
 {
    uint16_t    rfu;
@@ -31573,12 +31695,12 @@ typedef struct _FSHeader_t
 ;
 ;
 
-#line 34 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/hw_alignment.h"
+#line 34 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/hw_alignment.h"
 
-#line 35 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
+#line 35 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
 
-#line 416 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
+#line 421 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_common.h"
 typedef enum PartitionTypeEnum_e
 {
    PARTITION_TYPE_SLC,
@@ -31661,18 +31783,18 @@ __inline static  uint32_t FTL_NumFmusFromSectors(uint8_t sectorOffset, uint32_t 
    return ((sectorOffset + sectorLength +  (8)  - 1) >>  (3) );
 }
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/rsv_driver_definitions.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/rsv_driver_definitions.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/rsv_driver_common_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/rsv_driver_common_defines.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/rsv_driver_common_defines.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/rsv_driver_common_defines.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_regs_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_regs_defines.h"
 
-#line 895 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_regs_defines.h"
+#line 895 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_regs_defines.h"
 typedef struct _RS {
     HW_REG64 RS_CTRL                                    ;
     HW_REG64 RS_STATUS                                  ;
@@ -31792,25 +31914,25 @@ typedef struct _RS {
     HW_REG64 RS_HEB_POWER_POOL_ALLOC                    ;
 }RS_t, *PRS;
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/rsv_driver_common_defines.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/rsv_driver_common_defines.h"
 
-#line 40 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/rsv_driver_definitions.h"
+#line 40 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/rsv_driver_definitions.h"
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/rsv_driver_rb.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/rsv_driver_rb.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_transientdataoffsets.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_transientdataoffsets.h"
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/rsv_driver_rb.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/rsv_driver_rb.h"
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
 
-#line 96 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
+#line 96 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bmg_configuration.h"
 ;
 
-#line 68 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 68 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 
-#line 99 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 99 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 enum
 {
    HA_FE_CROSS_IP_INTERNAL_QUEUE = 0,
@@ -31841,7 +31963,7 @@ typedef enum HAQ_Dccm_e
    HAQ_NUM_OF_DCCM,
 }HAQ_Dccm_t;
 
-#line 137 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 137 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 enum HA_SSE_Opcode_e
 {
    HA_SSE_OP_GET_INDEX = 0,
@@ -31925,7 +32047,7 @@ enum
 };
 typedef uint32_t HAWA_ContextOperations_t;
 
-#line 230 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 230 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 typedef union HA3_CQM_Q_STATE_u
 {
    struct HA3_CQM_Q_STATE_s
@@ -32000,7 +32122,7 @@ typedef union HIM_HWD_HEADER_DW0_u
    {
       uint32_t hwdReason         : 11;
 
-#line 315 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 315 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
       uint32_t hwdNB             : 5;
 
 
@@ -32154,7 +32276,7 @@ typedef struct HIM_HWD_Context_DCCM_S
    uint8_t           hwdRFU[6];
 } HIM_HWD_Context_DCCM_t;
 
-#line 532 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 532 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 typedef union HIM_SSE_IC_OI_u
 {
    struct HIM_SSE_IC_OI_s
@@ -32193,10 +32315,13 @@ uint32_t                  HA_GetDLMQ(void);
 uint32_t                  HNVMe_GetHSQCMDCtrl(void);
 void                     __attribute__((section("CODE_MEDIUM")))  HA_HaltAndRecycleCommand(uint32_t cmdIndex);
 void                      HAWA_HWD_ReleaseContext(uint32_t hwdContextIndex);
+void                      HAWA_HWD_SetSingleStreamMode();
+void                      HAWA_HWD_RestoreNormalMode();
+
 
 BOOL                      HAWA_IsIdle(void);
 
-#line 576 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 579 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 struct HIM_HAQ_CommandEntry_s;
 
 void*                     HAQ_GetFifoEntryAddress(uint32_t queueID, HAQ_Dccm_t dccmNum, uint32_t cmdDccmIdx);
@@ -32211,18 +32336,18 @@ Status_t                 __attribute__((section("CODE_MEDIUM")))  HAQ_RestoreIRQ
 BOOL32                    HNVMe_HCMP_ITAG2_IsBitSet(uint32_t itag2Idx);
 BOOL32                    HNVMe_HCMP_ITAG1_IsBitSet(uint32_t itag1Idx);
 
-#line 592 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 595 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 uint32_t                  HAQ_GetNumCommandsHAWAQ(void);
 void                    HWRE_ReleaseHwdIndex(uint32_t hwdContextId);
 
-#line 608 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 611 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 __inline static  void HIM_DisableTopLevelInterrupts_HA ( uint32_t queueBitmap )
 {
 
-#line 631 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 634 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 }
 
-#line 644 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 647 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 __inline static  uint32_t HA_CQM_FirmwarePop(uint32_t haCqmFwQueueNumber, uint32_t* queueSizePtr)
 {
    HA3_CQM_Q_STATE_t    ha3CqmFwQueueState;
@@ -32233,7 +32358,7 @@ __inline static  uint32_t HA_CQM_FirmwarePop(uint32_t haCqmFwQueueNumber, uint32
    intPosture =  DisableInt() ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(haCqmFwQueueNumber < HA_NUM_QUEUES), "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h" , 654 , "haCqmFwQueueNumber < HA_NUM_QUEUES");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(haCqmFwQueueNumber < HA_NUM_QUEUES), "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h" , 657 , "haCqmFwQueueNumber < HA_NUM_QUEUES");                         "BullseyeCoverage restore"; } ;
 
    do
    {
@@ -32266,7 +32391,7 @@ __inline static  uint32_t HA_CQM_FirmwarePop(uint32_t haCqmFwQueueNumber, uint32
    else
    {
 
-      { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h" , 687 , "0");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h" , 690 , "0");                         "BullseyeCoverage restore"; } ;
 
       commandIndex =  ( (0xFFFF) ) ;
       *queueSizePtr = 0;
@@ -32285,10 +32410,10 @@ __inline static  uint32_t HA_CQM_FirmwarePop(uint32_t haCqmFwQueueNumber, uint32
    return commandIndex;
 }
 
-#line 899 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 902 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 extern uint32_t gMp0DccmOutstandingIoCmdsAmount;
 
-#line 925 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 928 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 __inline static  uint32_t FE_API_HWD_GetNewContextIndex(HAWA_WriteTypes_t writeType, HAWA_ContextOperations_t contextOperation)
 {
    return HAWA_HWD_GetContextIndex(writeType, contextOperation);
@@ -32321,19 +32446,19 @@ __inline static  uint32_t   FE_API_HWD_QueueEntriesAndInterruptEnable(HAWA_Write
    return HAWA_HWD_QueueEntriesAndInterruptEnable(writeType);
 }
 
-#line 1013 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 1016 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 __inline static  HIM_HWD_Context_t*   FE_API_HWD_GetContextPtr(uint32_t hwdContextIndex)
 {
   return HAWA_HWD_GetContextPtr(hwdContextIndex);
 }
 
-#line 1041 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 1044 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 __inline static  BOOL32   FE_API_HAWA_IsHAWAFlushActiveAndNotCompleted(void)
 {
    return HAWA_IsHAWAFlushActiveAndNotCompleted();
 }
 
-#line 1074 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
+#line 1077 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/him_minidriver.h"
 void         FE_API_HAWAQ_Dccm_ReleaseFifoEntry(HAWA_WriteTypes_t writeType);
 BOOL32       FE_API_HAWAQ_IsStreamActive(HAWA_WriteTypes_t writeType);
 BOOL32       FE_API_HAWAQ_IsHwIdle(void);
@@ -32345,11 +32470,11 @@ BOOL32       FE_API_HAWAQ_WaitStreamIdle(HAWA_WriteTypes_t writeType);
 
 void  FE_API_HWRE_ReleaseHwdContext(uint32_t hwdIndex);
 
-#line 25 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 25 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/sys_customconfig.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/sys_customconfig.h"
 
-#line 40 "d:/gitrepo/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/sys_customconfig.h"
+#line 40 "c:/wdlabs/fpgcss-vega/source/infra/modules/cfgmanager/inc_public/sys_customconfig.h"
 typedef struct SYS_Custom_Features_s
 {
    uint64_t thermalSoftShutdownSupport                 :1;
@@ -32357,9 +32482,9 @@ typedef struct SYS_Custom_Features_s
    uint64_t reserved_2_63                              :62;
 }SYS_Custom_Features_t;
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 
-#line 332 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 332 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 enum NVMe_FNV_STOP_REASON_State_e
 {
     NVMe_FNV_STOP_REASON_FNV_NOT_RUNNING             = 0,
@@ -32504,8 +32629,10 @@ enum
    FE_HAWA_FLUSH_CHANGE_FTL_BMG           = 0x03,
    FE_HAWA_FLUSH_CHANGE_FTL_FLUSH         = 0x04,
    FE_HAWA_FLUSH_CHANGE_GRP_ID_WRAPAROUND = 0x05,
+   FE_HAWA_FLUSH_CHANGE_SS_PROCESS        = 0x06,
 
-#line 481 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 482 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+   FE_HAWA_FLUSH_DONE_BY_WDPA             = 0x0A,
 };
 typedef uint32_t FE_HawaChangeFlushModeModules_t;
 
@@ -32674,6 +32801,7 @@ enum
    ASYNC_NVM_CMD_SANITIZE_OPERATION_COMPLETED,
    ASYNC_NOTICE_TELEMETRY_CONTROLLER_INITIATED,
    ASYNC_NVM_CMD_SANITIZE_OP_COMPL_UNEXPECTED_DEALLOCATION,
+   ASYNC_NOTICE_FATAL_ASSERT_OCCURED,
    ASYNC_EVENT_RESERVED = 0xFF,
 };
 typedef uint32_t AsyncEvent_t;
@@ -32933,18 +33061,19 @@ typedef enum FE_PEL_ThermalExcursionEvents_e
    TE_EVENT_UNDER_TEMP              = 0xB0,
 } FE_PEL_ThermalExcursionEvents_t;
 
-#line 926 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 929 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef struct FE_BLR_FlagsRegion_s
 {
    uint32_t    feBlr_SynCodeSize;
    uint32_t    feBlr_PCIeCfgSetSize;
    uint32_t    feBlr_NCRCfgSetSize;
    uint32_t    feBlr_DevInfoCfgSetSize;
+   uint32_t    feBlr_SynopsysCodeAddress;
 
-   uint8_t     feBlr_rfu[64-sizeof(uint32_t)*4];
+   uint8_t     feBlr_rfu[64-sizeof(uint32_t)*5];
 }FE_BLR_FlagsRegion_t;
 
-#line 948 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 952 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef union CC_u
 {
     struct CC_s
@@ -33241,7 +33370,7 @@ typedef struct HIM_CommandContext_s
    HIM_CC_DW27_t      dword27;
 }
 
-#line 1246 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1250 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HIM_CommandContext_t, *pHIM_CommandContext_t;
 
 
@@ -33313,6 +33442,7 @@ typedef struct NVMe_TelemetryLogContext_s
    NVMe_GetLogRsBuffer_t rsBuffer;
    uint32_t              pageType;
    BOOL                  generateLog;
+   uint8_t               MCDA;
    uint8_t               logPageID;
    BOOL                  isTelemetryInProgress;
 } NVMe_TelemetryLogContext_t;
@@ -33353,7 +33483,7 @@ typedef struct VendorSpecific_SecurityAuditLog_s
    uint8_t  reserved2[432];
 } VendorSpecific_SecurityAuditLogPage_t;
 
-#line 1374 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1379 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef struct PCIe_CadenceRegisters_s
 {
    uint32_t signature;
@@ -33380,7 +33510,7 @@ typedef struct PCIe_CadenceRegisters_s
    uint32_t PSM_STATE_H;
 }   PCIe_CadenceRegisters_t;
 
-#line 1415 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1420 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef struct eyeSurfResponse_s
 {
    struct eyeLane_s
@@ -33445,7 +33575,7 @@ typedef struct FE_FTL_DeallocRange_s
    uint32_t length;
 } FE_FTL_DeallocRange_t;
 
-#line 1492 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1497 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef struct HIM_HAQ_CommandEntry_s
 {
 
@@ -33483,7 +33613,7 @@ typedef struct HIM_HAQ_CommandEntry_s
    uint16_t          reserved_1;
 }
 
-#line 1531 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1536 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HIM_HAQ_CommandEntry_t;
 
 
@@ -33519,7 +33649,7 @@ typedef struct HAQ_CommandEntryClass0_s
     uint16_t          itag1;
 }
 
-#line 1568 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1573 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HAQ_CommandEntryClass0_t, *pHAQ_CommandEntryClass0_t;
 
 
@@ -33550,7 +33680,7 @@ typedef struct HAQ_CommandEntryClass1_s
     uint16_t          itag1;
 }
 
-#line 1600 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1605 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HAQ_CommandEntryClass1_t;
 
 
@@ -33563,7 +33693,7 @@ typedef struct HAQ_CommandEntryClass2_s
    uint16_t          itag1;
 }
 
-#line 1614 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1619 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 HAQ_CommandEntryClass2_t, *pHAQ_CommandEntryClass2_t;
 
 
@@ -33578,7 +33708,7 @@ typedef union DlmEntry_u
     uint64_t all64;
 } DlmEntry_t;
 
-#line 1667 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1672 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 typedef union HIM_ADP_TransferFlags_u
 {
    struct HIM_ADP_TransferFlags_s
@@ -33718,7 +33848,7 @@ typedef struct FE_FTL_SMARTSharedCounters_s
    uint64_t                         relocatedByReadScrub;
 }
 
-#line 1808 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1813 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 FE_FTL_SMARTSharedCounters_t;
 
 
@@ -33817,17 +33947,17 @@ typedef struct FE_RTFADI_Data_s
 extern uint32_t                     HA_CQM_GetNumEntriesInQueue(uint32_t haCmqFwQueueNumber);
 extern uint32_t                    __attribute__((section("CODE_MEDIUM")))        HAWA_GetHAWAallocHwds(void);
 
-#line 1924 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 1929 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 uint32_t                     NAMESPACE_GetMaxNSID(void);
 void                         NAMESPACE_SetMaxNSID(uint32_t namespaceId);
 
-#line 2171 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2176 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 Status_t   FE_HAL_HostDataTransfer_FENonReadWrite(FE_HAL_DataTransferParams_t* dataTransferParams);
 
-#line 2221 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2226 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 void FE_HAL_EnableHIMWritePath(void);
 
-#line 2253 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2258 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 Status_t                   FE_HAL_HostByteTransfer(FE_HAL_HostByteTransfer_Params_t * hbtParams);
 Status_t                    __attribute__((section("CODE_MEDIUM")))  FE_API_ConfigureFE_HwEvents(BitMap_SetClear_t control, uint32_t eventsBitMap);
 
@@ -33865,11 +33995,14 @@ BOOL32                         FE_API_HWD_IsPendingBufferInStream(HAWA_WriteType
 uint32_t                              FE_HAL_HWD_GetHAWAallocHwds(void);
 BOOL32                                      FE_API_HWD_IsHawaIdle(void);
 Status_t                                 FE_API_HAWA_SetFlushMode(HAWA_FlushModes_t flushMode, FE_CallbackNoArg_t* callbackFnPtr, BOOL32 bClearOnReset, FE_HawaChangeFlushModeModules_t module);
+void                                            FE_API_HWD_RestoreHAWANormalMode();
+void                                            FE_API_HWD_SetSingleStreamMode();
+
 
 
 Status_t                    __attribute__((section("CODE_MEDIUM")))  FE_API_HAWA_SetNumHwdContexts(uint32_t newNumHwdContexts, FE_HWD_Change_Originator_t originator);
 
-#line 2297 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2305 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 BOOL32           FE_API_IsHAWAReadyToBeFlushed(void);
 uint32_t                    __attribute__((section("CODE_MEDIUM")))  FE_API_HAWA_CalculateNewHwdAmount(void);
 void            __attribute__((section("CODE_MEDIUM")))  FE_API_SetThermalHwdAmount(uint32_t newThermalHwdAmount);
@@ -33922,7 +34055,7 @@ uint32_t                     FE_API_GetFFLBAFromNamespaceLBA_4KB(uint8_t nsid, u
 uint32_t                    __attribute__((section("CODE_MEDIUM")))  FE_API_GetFFLBAFromNamespaceLBA(uint32_t nsid, uint64_t lba);
 uint64_t                    __attribute__((section("CODE_MEDIUM")))  FE_API_GetFLBAFromNamespaceLBA(uint32_t nsid, uint64_t lba);
 uint32_t                     FE_API_GetNumberValidNSID(void);
-Status_t                    __attribute__((section("CODE_MEDIUM")))  FE_API_IsCommandSetSupported(uint32_t csi);
+Status_t                     FE_API_IsCommandSetSupported(uint32_t csi);
 uint32_t                     FE_API_GetCommandSizeInBytes(HIM_CommandContext_t * cmdContextPtr);
 void                        __attribute__((section("CODE_MEDIUM")))  FE_API_CrossIP_Callback(Status_t status, uint32_t token);
 void                         FE_API_SCTPCommandHandler(void);
@@ -33933,7 +34066,7 @@ BOOL32                     FE_API_IsLBAValid(uint32_t nsid, uint64_t lba);
 void                        __attribute__((section("CODE_MEDIUM")))               FE_HAL_SetHIMWritePathToReadOnly(void);
 void                        __attribute__((section("CODE_MEDIUM")))   FE_HAL_ReadOnlyCompleteWritesMakeSTReadOnly(void);
 
-#line 2364 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2372 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 void                FE_Thread(uint32_t dummy);
 Status_t                    __attribute__((section("CODE_MEDIUM")))  FE_Init(SysBootPhase_t bootPhase);
 Status_t                   FE_Init_Cont(SysBootPhase_t bootPhase, SYS_InitTypes_t initType);
@@ -34080,16 +34213,16 @@ void                        __attribute__((section("CODE_MEDIUM")))  NVMe_Teleme
 void                         NVMe_Telemetry_SendControllerInitiatedAER(void);
 Status_t                    __attribute__((section("CODE_SLOW")))  NVMe_Telemetry_FEGetSMARTCounters(NVMe_TelemetryLogContext_t* telemetryLogContextPtr);
 void                       FE_API_SetFirmwareActivationCode(uint8_t fwActivationCode);
-void                       FE_API_FTLLogMountCompleted(uint32_t prevPwrState);
+void                        __attribute__((section("CODE_MEDIUM")))  FE_API_FTLLogMountCompleted(uint32_t prevPwrState);
 void                       NVMe_PELog_LogUnsafeShutdownHWErrorEvent(uint128_t *ugsdCount);
 Status_t                   NVMe_PELog_LogThermalExcursionEvent(uint8_t overTemp, uint8_t thresholdCrossing, BOOL32 missedEvents);
 void                       FE_API_NVMe_PELog_SendSmartSnapshotMsg(void);
-uint8_t                    FE_API_NVMe_PELog_GetTriggerSmartSnapshotLogFlag(void);
+uint8_t                    FE_API_NVMe_PELog_GetTriggerSmartSnapshotLogFlag(BOOL32 isDuringCs);
 BOOL32                     NVMe_PELog_IsPersistentEventLogSupported(void);
 BOOL32                     NVMe_PELog_IsPersistenEventIDSupported(uint8_t eventID);
 void                         FE_API_HAQ_ChangeBW(HIM_CPU_ID_t cpuNum, uint32_t balaceWeight);
 
-#line 2522 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2530 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 BOOL32   FE_PMM_L12_NotSupported(void);
 
 Status_t                                FE_HAL_HostDataTransfer_FTL(FE_HAL_DataTransferParams_t * dataTransferParams);
@@ -34103,7 +34236,7 @@ Status_t                                FE_HAL_ADP_SingleDescDataTransfer(uint32
                                                                                                    uint32_t  habmDPCACounterID,
                                                                                                    uint32_t     habmChannelNum);
 
-#line 2564 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2572 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 __inline static  uint32_t FE_API_HA_GetNewCommandIndex(uint32_t queueID, uint32_t* queueSizePtr)
 {
    return HA_CQM_FirmwarePop(queueID, queueSizePtr);
@@ -34127,11 +34260,11 @@ __inline static  void FE_API_HA_QueueInterruptEnable(uint32_t queueId)
    else
    {
 
-      { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h" , 2587 , "0");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h" , 2595 , "0");                         "BullseyeCoverage restore"; } ;
    }
 }
 
-#line 2605 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2613 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 Status_t   FE_API_SetDeviceUniqueInfo(void* pSourceBuffer, uint32_t numBytes);
 Status_t   FE_API_GetDeviceUniqueInfo(void * pSourceBuffer, uint32_t numBytes);
 Status_t   FE_API_SetDeviceModelIDsInfoCfg(void* pSourceBuffer, uint32_t numBytes);
@@ -34226,23 +34359,23 @@ Status_t   FE_HAL_SendMultipleAdpDescriptorsCommon(
 
 Status_t   FE_HAL_SendMultipleAdpDescriptorsZero(uint32_t cmdIndex, uint32_t  transferSizeInBytes, uint32_t cmdOffsetInBytes);
 
-#line 2702 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
+#line 2710 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api.h"
 BOOL FE_API_IsBTTMode(void);
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_config.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_config.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
 
-#line 29 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
+#line 29 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_errorsubranges.h"
-#line 17 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_errorsubranges.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_errorsubranges.h"
+#line 17 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_errorsubranges.h"
 typedef enum Status_T_PSRanges_e
 {
    STATUS_NPDP_ERROR_BASE     = STATUS_PS_BASE + 0x00000100,
@@ -34257,9 +34390,9 @@ typedef enum Status_T_PSRanges_e
    STATUS_PS_RLC_BASE         = STATUS_PS_BASE + 0x00000A00,
 }   Status_T_PSRanges_t;
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 
-#line 175 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 175 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 typedef struct PSMetaDieInfo
 {
    uint32_t          numOfXorZones;
@@ -34282,7 +34415,7 @@ typedef struct BadBlockEntry_Bits_s
 
    uint32_t pad            : 6;
 
-#line 200 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 200 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 }   BadBlockEntry_Bits_t;
 
 typedef union BadBlockEntry_u
@@ -34294,7 +34427,7 @@ typedef union BadBlockEntry_u
 typedef struct MBBT_s
 {
 
-#line 220 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 220 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
    uint32_t entryCount;
    uint16_t planeCount;
    uint16_t badBlockCounter[ ( ( 4 ) / ( 2 ) )  *  ( 2 ) ][ ( (1) ) ][ (8) ][ (4) ];
@@ -34479,8 +34612,9 @@ typedef enum
 {
    PSUT_BBM_TRANSLATE_VBA_2_DEVBA   = 0,
    PSUT_BBM_DECOMM_START            = 1,
-   PSUT_BBM_DECOMM_RESP             = 2,
-   PSUT_BBM_IFS_SYNC                = 3,
+   PSUT_BBM_DECOMM_VALIDATE         = 2,
+   PSUT_BBM_DECOMM_RESP             = 3,
+   PSUT_BBM_IFS_SYNC                = 4,
 } PS_BBM_UT_TestType_e;
 
 
@@ -34526,7 +34660,7 @@ typedef struct PS_BBM_Runtime_Data_Header_t
 
    uint32_t fakeDecommProbability_InPS;
 
-#line 453 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 454 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
    uint16_t bbmFileID;
    uint16_t bbmFileRev;
    uint16_t bbmProdVer;
@@ -34534,7 +34668,7 @@ typedef struct PS_BBM_Runtime_Data_Header_t
    uint8_t  padding1[16];
 }  PS_BBM_Data_Hdr_t;
 
-#line 478 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 479 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 typedef union PS_BBM_relinkTableRelinkBlk
 {
    uint16_t all16;
@@ -34603,10 +34737,10 @@ typedef struct PS_BBM_BlkCntArray
    PS_BBM_EIBlkTypeCntEntry_t    EIerrTypeCnt;
    uint8_t                       reserved[2];
 
-#line 549 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 550 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 }  PS_BBM_BlkCntArray_t;
 
-#line 578 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 579 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 typedef uint8_t PS_BBM_BitMap_MetaBlock_Info_t;
 
 
@@ -34671,7 +34805,7 @@ extern PS_BBM_Data_Hdr_t         BBM_DataHdr;
 
 extern uint32_t                  PS_BBM_EH_State;
 
-#line 878 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 879 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 typedef struct PS_BBM_FID_224_225_512GB_1Tb_s
 {
     PS_BBM_Data_Hdr_t                       BBM_DataHdr;
@@ -34699,7 +34833,7 @@ typedef struct PS_BBM_FID_224_1TB_1Tb_s
    PS_BBM_BitMap_MetaBlock_Info_t      BBM_Bitmap[ ( (2) ) ][ ( ( (687) ) ) ];
 }  PS_BBM_FID_224_1TB_1Tb_t;
 
-#line 916 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 917 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 typedef struct PS_BBM_FID_224_2TB_1Tb_s
 {
    PS_BBM_Data_Hdr_t                   BBM_DataHdr;
@@ -34709,11 +34843,11 @@ typedef struct PS_BBM_FID_224_2TB_1Tb_s
    PS_BBM_BitMap_MetaBlock_Info_t      BBM_Bitmap[ ( (4) ) ][ ( ( (687) ) ) ];
 }  PS_BBM_FID_224_2TB_1Tb_t;
 
-#line 948 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 949 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 typedef union Max_PS_BBM_File_u
 {
 
-#line 973 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 974 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
    PS_BBM_FID_224_225_512GB_1Tb_t   bbmFile512GB_1Tb;
 
 
@@ -34722,10 +34856,10 @@ typedef union Max_PS_BBM_File_u
 
    PS_BBM_FID_224_2TB_1Tb_t         bbmFile2TB_1Tb;
 
-#line 986 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 987 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 } Max_PS_BBM_File_t;
 
-#line 1093 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 1094 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 typedef struct PS_BBM_ARAM_Data_1TB_1Tb_s
 {
    PS_BBM_Data_Hdr_t             BBM_DataHdr;
@@ -34744,18 +34878,18 @@ typedef struct PS_BBM_ARAM_Data_2TB_1Tb_s
    uint16_t                      BBM_LastGoodMB[ ( ( (4) )  * ( 2 ) ) ];
 } PS_BBM_ARAM_Data_2TB_1Tb_t;
 
-#line 1126 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 1127 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 typedef union PS_BBM_ARAM_Data_u
 {
 
-#line 1155 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 1156 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
    PS_BBM_ARAM_Data_1TB_1Tb_t       bbmData_1TB_1Tb;
 
 
 
    PS_BBM_ARAM_Data_2TB_1Tb_t       bbmData_2TB_1Tb;
 
-#line 1168 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 1169 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 } PS_BBM_ARAM_Data_t;
 
 
@@ -34763,15 +34897,17 @@ typedef union PS_BBM_ARAM_Data_u
 
 
 void PS_SmartGetPSCounters(uint32_t *ftlSparesArray, uint16_t* pfsPerPlane, uint16_t* efsPerPlane, uint16_t* sparesPerPlane);
+void PS_SmartGetPSSpares(uint32_t* sparesPerDie);
+
 void PS_SetFakeDecommissionPeriod (uint32_t decommProbability);
 
-#line 1191 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 1194 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 Status_t PS_BBM_Prod(MBBT_t *pMBBT);
 
-#line 1206 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 1209 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 Status_t PS_BBM_Prod_Init(void);
 
-#line 1222 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 1225 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 Status_t PS_BBM_FormatWithExternalFiles(uint8_t* pBuffer, uint32_t mbbtSize, uint32_t bbmFileSize);
 
 
@@ -34810,14 +34946,14 @@ Status_t  PS_BBM_VerifyDeviceConfig (uint8_t *pCfgDataBuff);
 void PS_BBM_Diag_GetDefectCounts (PS_BBM_BadBlkTypeCntEntry_t* pDefectCounters);
 void PS_BBM_Diag_GetDefectCount_Info (uint32_t ps);
 
-#line 1304 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
+#line 1307 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_bbm_api.h"
 Status_t PS_BBM_Diag_TranslateFunc (VBA_t inputVBA, DeVBA_t *deVBA);
 
 Status_t PS_BBM_MP_TranslateVBA2FA(uint32_t vba, DeVBA_t *deVBA0);
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
 
-#line 120 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
+#line 119 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
 typedef uint8_t EI_Percent_t;
 
 
@@ -34836,10 +34972,13 @@ typedef enum EI_NestedProgEraseCode_e
    EI_NESTED_EPWR_START              = (0x6000 <<  (16) ),
    EI_NESTED_EPWR_END                = (0x6FFF <<  (16)  | ((1<< (16) )-1)),
 
-   EI_NESTED_PROG_LATCH              = (( ( (0xFFFFFFFFUL) )  >> 1) - 1),
+   EI_NESTED_PROG_LATCH              = (( ( (0xFFFFFFFFUL) )  >> 1) - 2),
+   EI_NESTED_PROG_ERASE_SB_ERASE     = (( ( (0xFFFFFFFFUL) )  >> 1) - 1),
    EI_NESTED_PROG_ERASE_CODE_ERASE   = ( ( (0xFFFFFFFFUL) )  >> 1),
 
-   EI_NESTED_PROG_ERASE_FLAG_PA      = ( ( (0xFFFFFFFFUL) )  ^ ( ( (0xFFFFFFFFUL) )  >> 1)),
+   EI_NESTED_PROG_ERASE_FLAG_PA      = (1<<31),
+
+   EI_NESTED_PROG_SUB_BLOCK    = (1<<30)
 }   EI_NestedProgEraseCode_t;
 
 
@@ -34875,16 +35014,16 @@ typedef enum EI_ProgFailurePattern_e
    EI_PROG_FAILURE_PATTERN_SKIP_PAR_PAGES  = 9,
    EI_PROG_FAILURE_PATTERN_EPWR_BES5       = 10,
    EI_PROG_FAILURE_PATTERN_EPWR_BES7       = 11,
+   EI_PROG_FAILURE_PATTERN_ASMR            = 12,
 
 
+   EI_PROG_FAILURE_PATTERN_BLU             = 13,
+   EI_PROG_FAILURE_PATTERN_BLU_2PLANES     = 14,
+   EI_PROG_FAILURE_PATTERN_BLU_P2P         = 15,
+   EI_PROG_FAILURE_PATTERN_BLU_STRING      = 16,
+   EI_PROG_FAILURE_PATTERN_SILENT_BLU_EPWR = 17,
 
-   EI_PROG_FAILURE_PATTERN_BLU             = 12,
-   EI_PROG_FAILURE_PATTERN_BLU_2PLANES     = 13,
-   EI_PROG_FAILURE_PATTERN_BLU_P2P         = 14,
-   EI_PROG_FAILURE_PATTERN_BLU_STRING      = 15,
-   EI_PROG_FAILURE_PATTERN_SILENT_BLU_EPWR = 16,
-
-   EI_PROG_FAILURE_PATTERN_TOTAL           = 17
+   EI_PROG_FAILURE_PATTERN_TOTAL
 }   EI_ProgFailurePattern_t;
 
 
@@ -34998,40 +35137,25 @@ typedef struct
    uint8_t   ReadIndexAtESR;
 }EI_SuspendOrPreErase_t;
 
-typedef union EI_NestProgReadOrNestEraseSgd_s
+typedef struct
 {
-   struct
-   {
-      uint16_t nestedReadPagesList     [ ( (4)  * (2) ) ][ (8) ];
-      uint8_t  nestedReadBytemapsList  [ ( (4)  * (2) ) ][ (8) ][ (4) ];
-      uint8_t  nestedReadListSize      [ ( (4)  * (2) ) ];
-      uint8_t  nestedReadListCurr      [ ( (4)  * (2) ) ];
-   }prog;
+   uint8_t   REHTypeAtPSR;
+   uint8_t   ReadIndexAtPSR;
+}EI_ProgramSuspend_t;
 
-   struct
-   {
+#line 345 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
+typedef struct EI_NestRead_s
+{
+   uint16_t nestedReadPagesList     [ ( (4)  * (2) ) ][ (8) ];
+   uint8_t  nestedReadBytemapsList  [ ( (4)  * (2) ) ][ (8) ][ (4) ];
+   uint8_t  nestedReadListSize      [ ( (4)  * (2) ) ];
+   uint8_t  nestedReadListCurr      [ ( (4)  * (2) ) ];
+   union {
+      EI_ProgramSuspend_t     program;
+      EI_SuspendOrPreErase_t  erase;
+   } suspend;
+}EI_NestRead_t;
 
-      uint16_t  lowTailSgdDetectFailWLBitMap[ ( (4) ) ];
-      uint32_t  lowTailSgdDetectFailStringInWLBitMap[ ( (4) ) ];
-      uint8_t   lowTailSgdCorrectFailWL[ ( (4) ) ];
-      uint8_t   lowTailSgdCorrectFailStringInWL[ ( (4) ) ];
-      uint8_t   lowTailSgdOverProgramWL[ ( (4) ) ];
-      uint8_t   lowTailSgdOverProgramStringInWL[ ( (4) ) ];
-
-      uint8_t   upTailSgdDetectFailWL[ ( (4) ) ];
-      uint8_t   upTailSgdDetectFailStringInWL[ ( (4) ) ];
-
-      uint8_t   numOfNestedLowTailSgdDetectErrTotal [ ( (4) ) ];
-      uint8_t   numOfNestedLowTailSgdDetectErrCurr  [ ( (4) ) ];
-      uint8_t   numOfNestedLowTailSgdCorrectErrTotal[ ( (4) ) ];
-      uint8_t   numOfNestedLowTailSgdCorrectErrCurr [ ( (4) ) ];
-      uint8_t   numOfNestedLowTailSgdOverProgErrTotal[ ( (4) ) ];
-      uint8_t   numOfNestedLowTailSgdOverProgErrCurr [ ( (4) ) ];
-      uint8_t   numOfNestedUpTailSgdDetectErrTotal [ ( (4) ) ];
-      uint8_t   numOfNestedUpTailSgdDetectErrCurr  [ ( (4) ) ];
-      EI_SuspendOrPreErase_t suspendOrPreErase;
-   }erase;
-}EI_NestProgReadOrNestEraseSgd_t;
 
 typedef struct EI_InjDescProgErase_s
 {
@@ -35055,7 +35179,10 @@ typedef struct EI_InjDescProgErase_s
 
 
 
-   EI_NestProgReadOrNestEraseSgd_t  otherNest;
+
+
+
+   EI_NestRead_t otherNest;
 
 } EI_InjDescProgErase_t;
 
@@ -35183,7 +35310,7 @@ typedef struct   EI_JBreviveSharedParams_s
       FMU_Metadata_t   jbRevRlcHdrTbl[ ( 8  * 96) * 6 ];
 }EI_JBreviveSharedParams_t ;
 
-#line 514 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
+#line 540 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
 typedef struct EI_InjectionSgdBitmap_s
 {
    uint16_t  lowTailSgdEnableSlcWLBitmap;
@@ -35192,28 +35319,28 @@ typedef struct EI_InjectionSgdBitmap_s
    uint16_t  upTailSgdEnableTlcWLBitmap;
 }EI_InjectionSgdBitmap_t;
 
-#line 529 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
+#line 555 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
 typedef struct EI_InjectionVector_s
 {
    EI_InjectionDescriptor_t injDesc[ ( ( 2 ) ) ][ (16) ];
 
-#line 539 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
+#line 565 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_ps_api.h"
 }EI_InjectionVector_t;
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_config.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_config.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/../../ftl/inc_private/ftl_config_values.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/../../ftl/inc_private/ftl_config_values_bics8.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/../../ftl/inc_private/ftl_config_values.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/../../ftl/inc_private/ftl_config_values_bics8.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/moonshot_blockbudget.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/moonshot_blockbudget.h"
 
-#line 19 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/../../ftl/inc_private/ftl_config_values_bics8.h"
+#line 19 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/../../ftl/inc_private/ftl_config_values_bics8.h"
 
-#line 21 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/../../ftl/inc_private/ftl_config_values.h"
+#line 21 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/../../ftl/inc_private/ftl_config_values.h"
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_config.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_config.h"
 
-#line 106 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_config.h"
+#line 106 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_config.h"
 extern uint8_t gEI_ActiveFlow[ (10) ];
 
 
@@ -35283,7 +35410,7 @@ enum EI_IntOpId_e
    EI_TOTAL_NUM_OF_OP_IDS,
    EI_INVALID_OP_ID,
 
-#line 177 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_config.h"
+#line 177 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_config.h"
    EI_INT_OP_ID_XOR_REC_TOTAL = EI_INT_OP_ID_XOR_REC_LAST - EI_INT_OP_ID_XOR_REC_FIRST + 1,
 };
 typedef EI_OpId_t EI_IntOpId_t;
@@ -35328,7 +35455,8 @@ typedef enum EI_ProgFailureType_e
    EI_PROG_FAILURE_TYPE_SKIP_PAR_PAGES    = 9,
    EI_PROG_FAILURE_TYPE_EPWR_BES7         = 10,
    EI_PROG_FAILURE_TYPE_EPWR_BES5         = 11,
-   EI_PROG_FAILURE_TYPE_BLU_FAILURES      = 12,
+   EI_PROG_FAILURE_TYPE_ASMR              = 12,
+   EI_PROG_FAILURE_TYPE_BLU_FAILURES      = 13,
 
    EI_NUM_OF_PROG_FAILURE_TYPES,
 }   EI_ProgFailureType_stub_t;
@@ -35375,7 +35503,7 @@ typedef uint32_t EI_NestedProgFailureType_t;
 typedef enum EI_NestedEraseFailureType_s
 {
    EI_NESTED_ERASE_INJ_ERASE = 0,
-
+   EI_NESTED_ERASE_INJ_PROGRAM = 1,
    EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES,
 }   EI_NestedEraseFailureType_stub_t;
 typedef uint32_t EI_NestedEraseFailureType_t;
@@ -35483,6 +35611,7 @@ typedef enum EI_NestedFailueChances_e
 {
    EI_NESTED_PF_EF_DURING_PF,
    EI_NESTED_READ_DURING_PF,
+   EI_NESTED_READ_DURING_EF,
    EI_NESTED_TOTAL,
 }   EI_NestedFailueChances_stub_t;
 typedef uint32_t EI_NestedFailueChances_t;
@@ -35653,7 +35782,12 @@ typedef struct EI_SingleProgConfigParams_s
    EI_EPRCodeMapType_t EPWRbitmap;
    uint8_t  XORStoreMetaPgOffs;
 
-   uint8_t  rfu[ (80)  - 77];
+
+   uint8_t  REHTypeAtPSR;
+   uint8_t  ReadIndexAtPSR;
+   uint8_t  rfu;
+
+#line 555 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_config.h"
 }   EI_SingleProgConfigParams_t;
 
 typedef struct EI_SingleSgdBitmapParams_s
@@ -35676,11 +35810,19 @@ typedef struct EI_SingleEraseConfigParams_s
    uint8_t                    numNestedEraseInjections;
    uint8_t                    doInjectMultiplane;
    uint8_t                    doPowerAbortOnLastNestedInjection;
-   uint8_t                    sgdHeaderErase[ (4) ];
+
+
+
+
+
+
+
+   uint8_t                    nestedListReadSize;
+   uint16_t                   nestedInjReadPagesList[ (8) ];
+   uint8_t                    nestedInjReadByteMapsList[ (8) ][ (4) ];
    uint8_t                    forcePreErase;
-   uint16_t                   lowTailSgdDetectWLBitmap;
-   uint16_t                   upTailSgdDetectWLBitmap;
-   EI_SingleSgdBitmapParam_t  sgdEIBitmap[ (4) ];
+   uint8_t                    rfu1[7];
+
    uint8_t                    NPDBitmap;
 
    uint8_t                    numPreEraseSuspendRead;
@@ -35693,9 +35835,11 @@ typedef struct EI_SingleEraseConfigParams_s
    uint8_t                    REHTypeAtESR:7;
    uint8_t                    REHonIsSuspend:1;
    uint8_t                    ReadIndexAtESR;
-   uint8_t                    rfu1[10];
 
-#line 590 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_config.h"
+   uint16_t                   NestedPFAboutSB[4];
+   uint8_t                    rfu2[2];
+
+#line 610 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_config.h"
 }   EI_SingleEraseConfigParams_t;
 
 
@@ -35852,7 +35996,7 @@ typedef struct EI_AllOpsFailureChances_s
    EI_Percent_t              chanceSgdDownShift;
    EI_Percent_t              chanceSgdUpShift;
    EI_Percent_t              chanceReadDuringSuspendErase;
-   EI_Percent_t              chanceEraseFailureFadiJtag;
+   EI_Percent_t              chanceNestedPfEfOhterSubBlock;
 }   EI_AllOpsFailureChances_t;
 
 typedef struct EI_BurstModeParameters_s
@@ -35966,7 +36110,7 @@ typedef enum
 uint8_t EI_IS_FLOW_CONFIG(EI_Config_t* config);
 uint8_t EI_IS_FLOW_ACTIVE();
 
-#line 872 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_config.h"
+#line 892 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_config.h"
 void     EI_ConfFixBackwardCompatibility(EI_Config_t* config);
 Status_t EI_ConfigInputValidation(const EI_Config_t *config);
 void     EI_ValidateConfigStructureOffsets(void);
@@ -35974,30 +36118,30 @@ BOOL32   EI_Config_IsReadfailurePerFmuMapConfigure(const uint8_t* pFReadFailureP
 
 Status_t EI_GetOpSpecRestrictions(const uint32_t opId, BOOL32 *slcOnly, BOOL32 *readOnly, BOOL32 *progOnly, BOOL32 *openZoneOnly);
 
-#line 881 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_config.h"
+#line 901 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_config.h"
 void EI_ConfDisableP2PPatternInjections(EI_Config_t* pRawConf);
 
-#line 36 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
+#line 36 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter_ftl.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter_ftl.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
 
-#line 350 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
+#line 350 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
  extern BOOL32 Was_BackendWarningOnce_called;
 
-#line 362 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
+#line 362 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
 typedef struct TAG_S_FM_STATISTICS_ENTRY
 {
    unsigned int count;
@@ -36167,7 +36311,7 @@ typedef struct TAG_S_FM_STATISTICS
    S_FM_STATISTICS_ENTRY bloomFilterforceScan;
    S_FM_STATISTICS_ENTRY satTranslateByULYRNotFound;
 
-#line 536 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
+#line 536 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
    S_FM_STATISTICS_ENTRY flush_NV_numGetNumBlocksLeftInPtnCalls[2 ];
    S_FM_STATISTICS_ENTRY flush_NV_numGetNumBlocksLeftInPtnIters[2 ];
 
@@ -36203,7 +36347,12 @@ typedef struct TAG_S_FM_STATISTICS
    S_FM_STATISTICS_ENTRY HRF_mp1resume;
 
    S_FM_STATISTICS_ENTRY HWDwriteDccmPeekAhead[3];
+   S_FM_STATISTICS_ENTRY HWD_WDPA_TriggerHawaFlush;
+
    S_FM_STATISTICS_ENTRY catHMBWriteToBufferCL;
+
+   S_FM_STATISTICS_ENTRY SSEnter;
+   S_FM_STATISTICS_ENTRY SSExit;
 
 
 }  S_FM_STATISTICS;
@@ -36218,7 +36367,7 @@ typedef uint32_t* puint32_t;
 extern S_FM_STATISTICS G_fm;
 extern unsigned long int G_logLastCsReason;
 
-#line 595 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
+#line 600 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
 typedef struct TAG_S_U64
 {
 
@@ -36229,13 +36378,13 @@ typedef struct TAG_S_U64
 
 }S_U64, *S_U64_PTR;
 
-#line 25 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter_ftl.h"
+#line 25 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter_ftl.h"
 
-#line 21 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 21 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
 
-#line 79 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 79 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
 typedef enum
 {
 
@@ -36526,6 +36675,9 @@ D_MODEL_FTL_HWD_ROUTING_RULES,
 D_MODEL_FTL_HWD_TLCBUFED_BKOPS,
 D_MODEL_FTL_RR_ENDURANCE_BALANCING,
 D_MODEL_FTL_HWD_PADDING,
+D_MODEL_FTL_HWD_SS_START_PROCESS,
+D_MODEL_FTL_HWD_SS_FLUSH_COMPLETE,
+D_MODEL_FTL_HWD_SS_END_PROCESS,
 D_MODEL_FTL_HWD_START_WRITE,
 D_MODEL_FTL_HWD_RMW,
 D_MODEL_FTL_HWD_RMW_DONE,
@@ -36540,6 +36692,8 @@ D_MODEL_FTL_HRF_STREAM_STATUS,
 WP_FTL_HRF_UECC_HANDLING,
 WP_FTL_MP1_ENABLE,
 WP_FTL_MP1_DISABLE,
+WP_FTL_HRF_NORMAL_HANDLER,
+WP_FTL_HRF_4K_HANDLER,
 
 
 WP_FTL_RC_FFLBA,
@@ -36594,6 +36748,10 @@ WP_FTL_RLC_ALLOC_BRLC_BLOCK,
 WP_FTL_RLC_ALLOC_BRLC_BLOCK_FAILURE,
 WP_FTL_RLC_END_BRLC,
 WP_FTL_RLC_SCAN_COMPLETE,
+WP_FTL_RLC_RSQ_REQUEST,
+WP_FTL_RLC_START_AND_ADVANCE_RLC,
+WP_FTL_RLC_FG_RS_SET_READ_TH,
+WP_FTL_RLC_FG_RS_FAST_READ,
 
 
 WP_FTL_OBM_JUMBO_BLOCK_ALLOC,
@@ -36612,39 +36770,18 @@ WP_FTL_OBM_ALLOC_BLOCK,
 WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
 
 
-   WP_FTL_RLA_REGISTER_OVERLAP,
-
    WP_FTL_RLA_INIT,
-   WP_FTL_RLA_ABORT_ALL,
-   WP_FTL_RLA_READ_RACE,
-
    WP_FTL_RLA_RELEASE_STREAM,
-   WP_FTL_RLA_TRANSLATION_FAILURE,
-
-
-   WP_FTL_RLA_COMPLEMENTARY_READ,
-
-
-   WP_FTL_RLA_CHECK_AND_READ_ALL,
-
-   WP_FTL_RLA_READ_OVERLAP_FROM_FE,
-
-   WP_FTL_RLA_READ_AHEAD_EVENT,
    WP_FTL_RLA_TRANSLATE_TRAP,
    WP_FTL_RLA_PS_COMPL_CONTEXT_CALLED,
-   WP_FTL_RLA_BUFF_IN_PS_NOT_FREED,
-   WP_FTL_RLA_ASYNC_TRANSFER_DONE,
    WP_FTL_RLA_ALLOCATE_STREAM,
-   WP_FTL_RLA_ALLOCATE_BUFFERS,
    WP_FTL_RLA_SEND_HIM_RESPONSE,
-   WP_FTL_RLA_RESTART,
    WP_FTL_RLA_BL_ALLOC_SUCCESS,
    WP_FTL_RLA_BL_START_INT,
    WP_FTL_RLA_CALC_GBI_WINDOW,
    WP_FTL_RLA_MPD_START_RLA,
    WP_FTL_RLA_MPD_STOP_RLA,
    WP_FTL_RLA_READ_ERROR_HANDLING,
-   WP_FTL_RLA_ENQUEUE_HOST_CMD,
    WP_FTL_PRM_COMPLEMENTARY_READ,
    WP_FTL_PRM_STREAM_LRU_UPDATE,
    WP_FTL_PRM_SSE_ADD,
@@ -36713,6 +36850,10 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    WP_FTL_RS_SCANNED_BLOCK_CHANGED_STATE,
    WP_FTL_RS_READONLY_DISABLE_RS,
 
+
+   WP_FTL_FG_RS_INCREASE_READ_COUNTER,
+   WP_FTL_FG_RS_RESET_READ_COUNTER,
+   WP_FTL_FG_RS_HANDLER,
 
 
    WP_FTL_RSQ_NEW_RLC_REQ,
@@ -36957,8 +37098,9 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
 
    WP_PS_DGM_ADDR_BEFORE_SUSPEND,
    WP_PS_DGM_SUSPEND_BY_PROG_OR_READ,
-   WP_PS_DGM_SUSPEND_READ,
-   WP_PS_DGM_RESUME_PROG,
+   WP_PS_DGM_PASMR_RESET_SUSPEND_COUNTER,
+   WP_PS_DGM_PASMR_SUSPEND_READ,
+   WP_PS_DGM_PASMR_RESUME_PROG,
    WP_PS_DGM_ADDR_AFTER_SUSPEND,
    WP_PS_DGM_FAST_READ_DISABLE_ON_PEC,
    WP_PS_DGM_FAST_READ_DISABLE_ON_UECC,
@@ -37285,7 +37427,7 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    WP_INFRA_READ_REGION_LAST_PAGE,
    WP_INFRA_WRITE_REGION_LAST_PAGE,
 
-#line 1131 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 1124 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
    WP_INFRA_TM_UPDATE_NAND_SAMPLE_RATE,
    WP_INFRA_TM_IDLE_TIME,
    WP_INFRA_TM_ACTIVE_TIME,
@@ -37295,7 +37437,7 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    WP_INFRA_TM_SEND_TEMPERATURE,
    WP_PS_THM_INFRA_FAKE_TEMPCODE,
 
-#line 1150 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 1143 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
    WP_SEC_NEW_COMMAND_STARTED,
    WP_SEC_COMMAND_FINISHED,
    WP_SEC_TCG_SESSION_STARTED,
@@ -37606,7 +37748,7 @@ WP_FTL_OBM_ALLOC_BLOCK_FINISHED,
    MAX_WAYPOINT = 0x7FFFFFFF,
 } WaypointEventKey_e;
 
-#line 1471 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 1464 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
 __inline static  void RegisterAllWaypoints(void)
 {
 
@@ -37920,6 +38062,9 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(D_MODEL_FTL_RR_ENDURANCE_BALANCING, "D_MODEL_FTL_RR_ENDURANCE_BALANCING") ;
    RegisterWaypoint(D_MODEL_FTL_HWD_PADDING, "D_MODEL_FTL_HWD_PADDING") ;
    RegisterWaypoint(D_MODEL_FTL_HWD_START_WRITE, "D_MODEL_FTL_HWD_START_WRITE") ;
+   RegisterWaypoint(D_MODEL_FTL_HWD_SS_END_PROCESS, "D_MODEL_FTL_HWD_SS_END_PROCESS") ;
+   RegisterWaypoint(D_MODEL_FTL_HWD_SS_START_PROCESS, "D_MODEL_FTL_HWD_SS_START_PROCESS") ;
+   RegisterWaypoint(D_MODEL_FTL_HWD_SS_FLUSH_COMPLETE, "D_MODEL_FTL_HWD_SS_FLUSH_COMPLETE") ;
    RegisterWaypoint(D_MODEL_FTL_HWD_RMW, "D_MODEL_FTL_HWD_RMW") ;
    RegisterWaypoint(D_MODEL_FTL_HWD_RMW_DONE, "D_MODEL_FTL_HWD_RMW_DONE") ;
    RegisterWaypoint(D_MODEL_FTL_HWD_FUA, "D_MODEL_FTL_HWD_FUA") ;
@@ -37933,6 +38078,9 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_FTL_HRF_UECC_HANDLING, "WP_FTL_HRF_UECC_HANDLING") ;
    RegisterWaypoint(WP_FTL_MP1_DISABLE, "WP_FTL_MP1_DISABLE") ;
    RegisterWaypoint(WP_FTL_MP1_ENABLE, "WP_FTL_MP1_ENABLE") ;
+   RegisterWaypoint(WP_FTL_HRF_NORMAL_HANDLER, "WP_FTL_HRF_NORMAL_HANDLER") ;
+   RegisterWaypoint(WP_FTL_HRF_4K_HANDLER, "WP_FTL_HRF_4K_HANDLER") ;
+
 
 
    RegisterWaypoint(WP_FTL_RC_FFLBA, "WP_FTL_RC_FFLBA") ;
@@ -37986,6 +38134,10 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_FTL_RLC_ALLOC_BRLC_BLOCK_FAILURE, "WP_FTL_RLC_ALLOC_BRLC_BLOCK_FAILURE") ;
    RegisterWaypoint(WP_FTL_RLC_END_BRLC, "WP_FTL_RLC_END_BRLC") ;
    RegisterWaypoint(WP_FTL_RLC_SCAN_COMPLETE, "WP_FTL_RLC_SCAN_COMPLETE") ;
+   RegisterWaypoint(WP_FTL_RLC_RSQ_REQUEST, "WP_FTL_RLC_RSQ_REQUEST") ;
+   RegisterWaypoint(WP_FTL_RLC_START_AND_ADVANCE_RLC, "WP_FTL_RLC_START_AND_ADVANCE_RLC") ;
+   RegisterWaypoint(WP_FTL_RLC_FG_RS_SET_READ_TH, "WP_FTL_RLC_FG_RS_SET_READ_TH") ;
+   RegisterWaypoint(WP_FTL_RLC_FG_RS_FAST_READ, "WP_FTL_RLC_FG_RS_FAST_READ") ;
 
 
    RegisterWaypoint(WP_FTL_OBM_JUMBO_BLOCK_ALLOC, "WP_FTL_OBM_JUMBO_BLOCK_ALLOC") ;
@@ -38004,28 +38156,18 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_FTL_OBM_ALLOC_BLOCK_FINISHED, "WP_FTL_OBM_ALLOC_BLOCK_FINISHED") ;
 
 
-   RegisterWaypoint(WP_FTL_RLA_REGISTER_OVERLAP, "WP_FTL_RLA_REGISTER_OVERLAP") ;
    RegisterWaypoint(WP_FTL_RLA_INIT, "WP_FTL_RLA_INIT") ;
-   RegisterWaypoint(WP_FTL_RLA_ABORT_ALL, "WP_FTL_RLA_ABORT_ALL") ;
-   RegisterWaypoint(WP_FTL_RLA_READ_RACE, "WP_FTL_RLA_READ_RACE") ;
    RegisterWaypoint(WP_FTL_RLA_RELEASE_STREAM, "WP_FTL_RLA_RELEASE_STREAM") ;
-   RegisterWaypoint(WP_FTL_RLA_TRANSLATION_FAILURE, "WP_FTL_RLA_TRANSLATION_FAILURE") ;
-   RegisterWaypoint(WP_FTL_RLA_COMPLEMENTARY_READ, "WP_FTL_RLA_COMPLEMENTARY_READ") ;
-   RegisterWaypoint(WP_FTL_RLA_CHECK_AND_READ_ALL, "WP_FTL_RLA_CHECK_AND_READ_ALL") ;
-   RegisterWaypoint(WP_FTL_RLA_READ_OVERLAP_FROM_FE, "WP_FTL_RLA_READ_OVERLAP_FROM_FE") ;
-   RegisterWaypoint(WP_FTL_RLA_READ_AHEAD_EVENT, "WP_FTL_RLA_READ_AHEAD_EVENT") ;
    RegisterWaypoint(WP_FTL_RLA_TRANSLATE_TRAP, "WP_FTL_RLA_TRANSLATE_TRAP") ;
    RegisterWaypoint(WP_FTL_RLA_PS_COMPL_CONTEXT_CALLED, "WP_FTL_RLA_PS_COMPL_CONTEXT_CALLED") ;
-   RegisterWaypoint(WP_FTL_RLA_BUFF_IN_PS_NOT_FREED, "WP_FTL_RLA_BUFF_IN_PS_NOT_FREED") ;
-   RegisterWaypoint(WP_FTL_RLA_ASYNC_TRANSFER_DONE, "WP_FTL_RLA_ASYNC_TRANSFER_DONE") ;
    RegisterWaypoint(WP_FTL_RLA_ALLOCATE_STREAM, "WP_FTL_RLA_ALLOCATE_STREAM") ;
-   RegisterWaypoint(WP_FTL_RLA_ALLOCATE_BUFFERS, "WP_FTL_RLA_ALLOCATE_BUFFERS") ;
    RegisterWaypoint(WP_FTL_RLA_SEND_HIM_RESPONSE, "WP_FTL_RLA_SEND_HIM_RESPONSE") ;
-   RegisterWaypoint(WP_FTL_RLA_RESTART, "WP_FTL_RLA_RESTART") ;
    RegisterWaypoint(WP_FTL_RLA_BL_ALLOC_SUCCESS, "WP_FTL_RLA_BL_ALLOC_SUCCESS") ;
    RegisterWaypoint(WP_FTL_RLA_BL_START_INT, "WP_FTL_RLA_BL_START_INT") ;
+   RegisterWaypoint(WP_FTL_RLA_CALC_GBI_WINDOW, "WP_FTL_RLA_CALC_GBI_WINDOW") ;
+   RegisterWaypoint(WP_FTL_RLA_MPD_START_RLA, "WP_FTL_RLA_MPD_START_RLA") ;
+   RegisterWaypoint(WP_FTL_RLA_MPD_STOP_RLA, "WP_FTL_RLA_MPD_STOP_RLA") ;
    RegisterWaypoint(WP_FTL_RLA_READ_ERROR_HANDLING, "WP_FTL_RLA_READ_ERROR_HANDLING") ;
-   RegisterWaypoint(WP_FTL_RLA_ENQUEUE_HOST_CMD, "WP_FTL_RLA_ENQUEUE_HOST_CMD") ;
    RegisterWaypoint(WP_FTL_PRM_COMPLEMENTARY_READ, "WP_FTL_PRM_COMPLEMENTARY_READ") ;
    RegisterWaypoint(WP_FTL_PRM_STREAM_LRU_UPDATE, "WP_FTL_PRM_STREAM_LRU_UPDATE") ;
    RegisterWaypoint(WP_FTL_PRM_SSE_ADD, "WP_FTL_PRM_SSE_ADD") ;
@@ -38093,6 +38235,11 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_FTL_RS_ENABLE_FG_SCAN, "WP_FTL_RS_ENABLE_FG_SCAN") ;
    RegisterWaypoint(WP_FTL_RS_SCANNED_BLOCK_CHANGED_STATE, "WP_FTL_RS_SCANNED_BLOCK_CHANGED_STATE") ;
    RegisterWaypoint(WP_FTL_RS_READONLY_DISABLE_RS, "WP_FTL_RS_READONLY_DISABLE_RS") ;
+
+
+   RegisterWaypoint(WP_FTL_FG_RS_INCREASE_READ_COUNTER, "WP_FTL_FG_RS_INCREASE_READ_COUNTER") ;
+   RegisterWaypoint(WP_FTL_FG_RS_RESET_READ_COUNTER, "WP_FTL_FG_RS_RESET_READ_COUNTER") ;
+   RegisterWaypoint(WP_FTL_FG_RS_HANDLER, "WP_FTL_FG_RS_HANDLER") ;
 
 
    RegisterWaypoint(WP_FTL_RSQ_NEW_RLC_REQ, "WP_FTL_RSQ_NEW_RLC_REQ") ;
@@ -38300,8 +38447,9 @@ __inline static  void RegisterAllWaypoints(void)
 
    RegisterWaypoint(WP_PS_DGM_ADDR_BEFORE_SUSPEND, "WP_PS_DGM_ADDR_BEFORE_SUSPEND") ;
    RegisterWaypoint(WP_PS_DGM_SUSPEND_BY_PROG_OR_READ, "WP_PS_DGM_SUSPEND_BY_PROG_OR_READ") ;
-   RegisterWaypoint(WP_PS_DGM_SUSPEND_READ, "WP_PS_DGM_SUSPEND_READ") ;
-   RegisterWaypoint(WP_PS_DGM_RESUME_PROG, "WP_PS_DGM_RESUME_PROG") ;
+   RegisterWaypoint(WP_PS_DGM_PASMR_RESET_SUSPEND_COUNTER, "WP_PS_DGM_PASMR_RESET_SUSPEND_COUNTER") ;
+   RegisterWaypoint(WP_PS_DGM_PASMR_SUSPEND_READ, "WP_PS_DGM_PASMR_SUSPEND_READ") ;
+   RegisterWaypoint(WP_PS_DGM_PASMR_RESUME_PROG, "WP_PS_DGM_PASMR_RESUME_PROG") ;
    RegisterWaypoint(WP_PS_DGM_ADDR_AFTER_SUSPEND, "WP_PS_DGM_ADDR_AFTER_SUSPEND") ;
    RegisterWaypoint(WP_PS_DGM_FAST_READ_DISABLE_ON_PEC, "WP_PS_DGM_FAST_READ_DISABLE_ON_PEC") ;
    RegisterWaypoint(WP_PS_DGM_FAST_READ_DISABLE_ON_UECC, "WP_PS_DGM_FAST_READ_DISABLE_ON_UECC") ;
@@ -38607,7 +38755,7 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_INFRA_READ_REGION_LAST_PAGE, "WP_INFRA_READ_REGION_LAST_PAGE") ;
    RegisterWaypoint(WP_INFRA_WRITE_REGION_LAST_PAGE, "WP_INFRA_WRITE_REGION_LAST_PAGE") ;
 
-#line 2475 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 2474 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
    RegisterWaypoint(WP_INFRA_TM_UPDATE_NAND_SAMPLE_RATE, "WP_INFRA_TM_UPDATE_NAND_SAMPLE_RATE") ;
    RegisterWaypoint(WP_INFRA_TM_IDLE_TIME, "WP_INFRA_TM_IDLE_TIME") ;
    RegisterWaypoint(WP_INFRA_TM_ACTIVE_TIME, "WP_INFRA_TM_ACTIVE_TIME") ;
@@ -38617,7 +38765,7 @@ __inline static  void RegisterAllWaypoints(void)
    RegisterWaypoint(WP_INFRA_TM_SEND_TEMPERATURE, "WP_INFRA_TM_SEND_TEMPERATURE") ;
    RegisterWaypoint(WP_PS_THM_INFRA_FAKE_TEMPCODE, "WP_PS_THM_INFRA_FAKE_TEMPCODE") ;
 
-#line 2491 "d:/gitrepo/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
+#line 2490 "c:/wdlabs/fpgcss-vega/source/infra/inc_public/sys_waypoint.h"
    RegisterWaypoint(WP_SEC_NEW_COMMAND_STARTED, "WP_SEC_NEW_COMMAND_STARTED") ;
    RegisterWaypoint(WP_SEC_COMMAND_FINISHED, "WP_SEC_COMMAND_FINISHED") ;
    RegisterWaypoint(WP_SEC_TCG_SESSION_STARTED, "WP_SEC_TCG_SESSION_STARTED") ;
@@ -38908,10 +39056,10 @@ __inline static  void RegisterAllWaypoints(void)
 
 }
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_dbgutils.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_dbgutils.h"
 
-#line 107 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_dbgutils.h"
+#line 107 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_dbgutils.h"
 typedef struct FML_DbgUtilsResourcesUse_s
 {
    uint32_t handlerId;
@@ -38972,19 +39120,19 @@ void FML_DbgUtilsMeasureFlowEnd(void);
 
 void FTL_GetStats(void);
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/rtos/inc_public/rtos_eventflagdefines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/rtos/inc_public/rtos_eventflagdefines.h"
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_handlers_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_handlers_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_handlers_api_mp0.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_handlers_api_mp0.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_defines.h"
 
-#line 42 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_defines.h"
+#line 42 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_defines.h"
 enum FQD_MAILBOX_MPType_e
 {
    MP_MAILBOX_PS0 = 0,
@@ -38996,7 +39144,7 @@ enum FQD_MAILBOX_MPType_e
 };
 typedef uint32_t FQD_MAILBOX_MPType_t;
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_handlers_api_mp0.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_handlers_api_mp0.h"
 
 
 
@@ -39045,15 +39193,15 @@ typedef enum
    FML_HID_ILLEGAL,
 }FML_HanderId;
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_handlers_api.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_handlers_api.h"
 
-#line 67 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_handlers_api.h"
+#line 67 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_handlers_api.h"
 BOOL32 FML_isHandlerActive(FML_HanderId queueId);
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/cathmb_api.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/cathmb_api.h"
 
-#line 58 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/cathmb_api.h"
+#line 58 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/cathmb_api.h"
 void CATHMB_HMBBufferLoad(uint32_t fflba, uint32_t CLBuffId);
 void CATHMB_UT_CLHandler();
 void CATHMB_checkValidityHmbSlot(uint32_t mSetId);
@@ -39066,10 +39214,10 @@ void CATHmb_IncrementWriteCLStats();
 void CATHmb_IncrementWriteDMAStats();
 void CATHmb_IncrementReadDMAStats();
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
 uint32_t GetLog2RoundDown(uint32_t Value);
 uint32_t XorArray32(uint32_t* pData, uint32_t DataBitSize);
 
@@ -39082,10 +39230,10 @@ int16_t NORMW( int16_t x );
 int32_t FFS( int32_t x );
 int32_t FLS( int32_t x );
 
-#line 84 "d:/gitrepo/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
+#line 84 "c:/wdlabs/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
 __inline static  uint32_t GetLog2(uint32_t value)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(value != 0), "d:/gitrepo/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h" , 86 , "value != 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(value != 0), "c:/wdlabs/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h" , 86 , "value != 0");                         "BullseyeCoverage restore"; } ;
 
    if (value <= 0x80000000)
    {
@@ -39147,7 +39295,7 @@ __inline static  uint32_t Xor32(uint32_t Data)
    return xor_result;
 }
 
-#line 158 "d:/gitrepo/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
+#line 158 "c:/wdlabs/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
 __inline static  uint32_t parityBits(uint32_t a)
 {
    uint32_t lenA = 32;
@@ -39158,7 +39306,7 @@ __inline static  uint32_t parityBits(uint32_t a)
    return a & 0x1;
 }
 
-#line 178 "d:/gitrepo/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
+#line 178 "c:/wdlabs/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
 __inline static  uint32_t GetBitLocation(uint32_t a)
 {
    uint32_t n = 1;
@@ -39185,7 +39333,7 @@ __inline static  uint32_t GetBitLocation(uint32_t a)
    return n - (a & 0x1);
 }
 
-#line 214 "d:/gitrepo/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
+#line 214 "c:/wdlabs/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
 __inline static  uint8_t crc8(uint8_t *pBuffer, uint32_t len)
 {
    uint8_t crc = 0xFF;
@@ -39202,7 +39350,7 @@ __inline static  uint8_t crc8(uint8_t *pBuffer, uint32_t len)
    return crc;
 }
 
-#line 240 "d:/gitrepo/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
+#line 240 "c:/wdlabs/fpgcss-vega/source/infra/modules/math/inc_public/sys_mathlib.h"
 __inline static  uint16_t crc16(uint16_t *pBuffer, uint32_t len)
 {
    uint16_t crc = 0x0000;
@@ -39281,21 +39429,21 @@ __inline static  void zeroOut128BitField(uint128_t* struct128)
 
 uint32_t SYS_StringHash(const char *str);
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_mp0.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_mp0.h"
 
-#line 71 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml_mp0.h"
+#line 71 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml_mp0.h"
 void  FML_Init_II(void);
 
 void FML_initZeroBuffer(void);
 
-#line 35 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 35 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 
-#line 39 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 39 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 typedef struct __S_FML_HAS_WORK S_FML_HAS_WORK;
 
-#line 183 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 184 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  BOOL32 FML_IsInFTL(void)
 {
    RTOS_ThreadInfo_t  threadInfo = RTOS_GetThreadInfo();
@@ -39303,7 +39451,7 @@ __inline static  BOOL32 FML_IsInFTL(void)
    return (threadInfo.threadType == THREAD_ID_RAM_FTL);
 }
 
-#line 226 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 227 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 typedef enum
 {
    FML_RESTRICT_1ST,
@@ -39422,7 +39570,7 @@ typedef struct FML_Handler_s
    fmlHander func;
    uint32_t handlerNum;
 
-#line 346 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 347 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 } FML_Handler_t;
 
 
@@ -39506,7 +39654,7 @@ void FML_Set_HostQueuesBeforeIdle(uint32_t * hostQueues);
 
 uint32_t   FML_GetRTFADIStatistics(FML_RTFADI_Data_t * pFMLRTFADI);
 
-#line 439 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 440 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 void  __attribute__((section("TRW")))  FML_Init (void);
 
 
@@ -39522,10 +39670,10 @@ void  __attribute__((section("TRW")))  FML_i_InitLrm(void);
 
 BOOL32 FML_shouldNotifyMP1(FML_ResRestrictions res);
 
-#line 467 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 468 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 void   FML_Execute(void);
 
-#line 480 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 481 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 void   FML_FADIStatsSetRestriction(FML_ResRestrictions res);
 
 void   FML_ReturnToGoIdleFromTLCFlushBuffers(void);
@@ -39539,26 +39687,26 @@ void   FML_ReturnToGoIdleFromTLCFlushBuffers(void);
 
 void    FML_DiagSetFtlWorkingMode(uint8_t mode);
 
-#line 508 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 509 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  BOOL32 FML_IsPendingForIdle(void)
 {
    return (FML_CB.idleizationState >= FML_GO_IDLE_STATE_WAIT_OVP);
 }
 
-#line 526 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 527 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  void FML_Register(FML_HanderId handlerId, const FML_Handler_t * handlerCfg, uint8_t RRweight)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)handlerId < (64)), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h" , 528 , "(uint32_t)handlerId < (64)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(handlerCfg), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h" , 529 , "handlerCfg");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)handlerId < (64)), "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h" , 529 , "(uint32_t)handlerId < (64)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(handlerCfg), "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h" , 530 , "handlerCfg");                         "BullseyeCoverage restore"; } ;
 
    LivetMemcpy (&FML_CB.handlers[handlerId], handlerCfg, sizeof(FML_Handler_t));
    FML_CB.myRRpoints[handlerId] = RRweight;
 }
 
-#line 547 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 548 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 void   FML_SetResRestriction(FML_ResRestrictions res);
 
-#line 561 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 562 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 void   FML_ClearRestrictionInternal(FML_ResRestrictions res);
 
 __inline static  BOOL32 FML_NoRestrictionSet(void)
@@ -39566,13 +39714,13 @@ __inline static  BOOL32 FML_NoRestrictionSet(void)
    return FML_CB.currRestrictorsCombination == 0;
 }
 
-#line 578 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 579 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 BOOL32   FML_IsFmlIdleAndNoPsCompl(void);
 
-#line 591 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 592 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 BOOL32   FML_IsFtlIdleAndNoPsCompl(void);
 
-#line 603 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 604 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 BOOL32   FML_IsFullyIdle(void);
 
 
@@ -39599,7 +39747,7 @@ void   FML_Activate(BOOL32 Activate);
 
 void   FML_FEAdminQLogState(void);
 
-#line 641 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 642 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  void FML_ClearResRestriction(FML_ResRestrictions res)
 {
    if ( (uint64_t)((FML_CB.currRestrictorsCombination) & ( (1ULL << (res)) ))  !=  (0) )
@@ -39634,13 +39782,13 @@ __inline static  void FML_SetNextActiveQueue(void)
 {
 
    uint32_t nextQueueIdx = (uint32_t)FFS((int32_t)( ( ReadRegister64( (unsigned long)( ( 0xf83a0000  + (0x0230) ) ) )  & FML_CB.currActiveHandlersBitmap)  & FML_CB.hasWRRmask));
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(nextQueueIdx != (64) - 1), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h" , 675 , "nextQueueIdx != (64) - 1");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(nextQueueIdx != (64) - 1), "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h" , 676 , "nextQueueIdx != (64) - 1");                         "BullseyeCoverage restore"; } ;
 
 
    FML_CB.handler = &(FML_CB.handlers[nextQueueIdx]);
 }
 
-#line 693 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fml.h"
+#line 694 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fml.h"
 __inline static  void FML_IncementCounter(uint32_t handlerNum)
 {
    FML_CB.currentRRpoints[handlerNum]++;
@@ -39651,9 +39799,9 @@ __inline static  void FML_IncementCounter(uint32_t handlerNum)
    }
 }
 
-#line 34 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 34 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 
-#line 166 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 166 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 typedef enum FMG_CtxtLoc_s
 {
    FMG_CTXT_LOC_FREE,
@@ -39746,22 +39894,22 @@ typedef struct FMG_CtxtCb_s
 
 extern FMG_CtxtCb_t FMG_CtxtCb;
 
-#line 270 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 270 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 FMG_Ctxt_t*   FMG_i_CtxtQueuePop (FMG_CtxtQueue_t* pQueue);
 
-#line 282 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 282 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 void   FMG_i_CtxtQueueAdd (uint32_t ctxtId, FMG_CtxtQueue_t* pQueue);
 
-#line 295 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 295 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 void   FMG_i_CtxtQueueAddToReady (uint32_t ctxtId, FMG_ExecStatus_t execStatus, uint32_t failureReport);
 
-#line 308 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 308 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 void   FMG_CtxtQueueAddToPending (uint32_t ctxtId, FMG_CtxtQueue_t* pQueue, uint8_t weight);
 
-#line 329 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 329 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 uint32_t   FMG_CtxtReportFailure(MP_MQD_PSType_t psid, uint32_t cookie, uint32_t report, uint16_t errorCode);
 
-#line 344 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 344 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 void   FMG_CtxtHandleMailbox (uint32_t cookie);
 
 
@@ -39773,7 +39921,7 @@ void   FMG_CtxtHandleReadyQueueExclusive(void);
 void   FMG_CtxtHandleReadyQueueBkops(void);
 void FMG_CtxtHandleReadyQueueWaitForCLLoad(void);
 
-#line 370 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 370 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 uint16_t   FMG_CtxtAllocate (FMG_CallbackFunc_t pCallbackFunc, void* pUserArea, FML_HanderId destRdyQueue, BOOL32 countCompletions);
 
 
@@ -39798,17 +39946,17 @@ void   FMG_CtxtRelease (uint32_t ctxtId);
 
 void  __attribute__((section("TRW")))  FMG_CtxtInitContexts (void);
 
-#line 408 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 408 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 __inline static  uint8_t          FMG_Ctxt_GetLocationId (FMG_Ctxt_t *pCtxt) { return                   pCtxt->locationId ; }
 __inline static  FMG_ExecStatus_t FMG_Ctxt_GetStatus     (FMG_Ctxt_t *pCtxt) { return (FMG_ExecStatus_t)pCtxt->status     ; }
 __inline static  BOOL             FMG_Ctxt_GetIsScheduled(FMG_Ctxt_t *pCtxt) { return                   pCtxt->isScheduled; }
 
-#line 422 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 422 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 __inline static  void    FMG_Ctxt_SetLocationId (FMG_Ctxt_t *pCtxt, FMG_CtxtLoc_t          locationId ) {  do {      uint32_t oldPosture = DisableInt() ;      pCtxt->locationId = (uint8_t)locationId;      RestoreInt(oldPosture) ;   } while ((void)0, 0) ; }
 __inline static  void    FMG_Ctxt_SetStatus     (FMG_Ctxt_t *pCtxt, FMG_ExecStatus_t status     ) {  do {      uint32_t oldPosture = DisableInt() ;      pCtxt->status = (uint8_t)status;      RestoreInt(oldPosture) ;   } while ((void)0, 0) ; }
 __inline static  void    FMG_Ctxt_SetIsScheduled(FMG_Ctxt_t *pCtxt, BOOL             isScheduled) {  do {      uint32_t oldPosture = DisableInt() ;      pCtxt->isScheduled = isScheduled;      RestoreInt(oldPosture) ;   } while ((void)0, 0) ; }
 
-#line 438 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 438 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 __inline static  void FMG_CtxtQueueInit (FMG_CtxtQueue_t* pQueue)
 {
    pQueue->firstIdx  =  ( (0xFFFF)  - 1) ;
@@ -39841,17 +39989,17 @@ __inline static  uint32_t FMG_CtxtQueuePeek (FMG_CtxtQueue_t* pQueue)
 
 __inline static  void FMG_CtxtQueueMoveToReady (FMG_CtxtQueue_t* pSrcQueue)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(FML_IsInFTL()), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 470 , "FML_IsInFTL()");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(FML_IsInFTL()), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 470 , "FML_IsInFTL()");                         "BullseyeCoverage restore"; } ;
    FMG_i_CtxtQueueAddToReady(FMG_i_CtxtQueuePop(pSrcQueue)->thisCtxtIdx, FMG_STATUS_OK, 0);
 }
 
-#line 488 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 488 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 __inline static  uint16_t FMG_CtxtAllocateNonCountingCompletions(FMG_CallbackFunc_t pCallbackFunc, void* pUserArea, FML_HanderId destRdyQueue)
 {
    return FMG_CtxtAllocate(pCallbackFunc, pUserArea, destRdyQueue,  (0) );
 }
 
-#line 504 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 504 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 __inline static  uint16_t FMG_CtxtAllocateCountingCompletions(FMG_CallbackFunc_t pCallbackFunc, void* pUserArea, FML_HanderId destRdyQueue)
 {
    return FMG_CtxtAllocate(pCallbackFunc, pUserArea, destRdyQueue,  (1) );
@@ -39875,7 +40023,7 @@ __inline static  void FMG_CtxtFlowScheduleForLater (uint32_t ctxtId)
    }
 }
 
-#line 538 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 538 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 __inline static  void FMG_CtxtFlowScheduleForLaterWithStatus (uint32_t ctxtId, FMG_ExecStatus_t execStatus, uint32_t failureReport)
 {
    FMG_i_CtxtQueueAddToReady(ctxtId, execStatus, failureReport);
@@ -39896,7 +40044,7 @@ __inline static  void FMG_CtxtFlowScheduleForLaterWithStatus (uint32_t ctxtId, F
 __inline static  void FMG_CtxtDecrementDebugCounters(FMG_Ctxt_t* pCtxt, uint32_t amount)
 {
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((pCtxt->isCounting == (0) ) && (pCtxt->pendingCompletions == 0)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 558 , "(pCtxt->isCounting == (0)) && (pCtxt->pendingCompletions == 0)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((pCtxt->isCounting == (0) ) && (pCtxt->pendingCompletions == 0)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 558 , "(pCtxt->isCounting == (0)) && (pCtxt->pendingCompletions == 0)");                         "BullseyeCoverage restore"; } ;
 
 
 
@@ -39905,17 +40053,17 @@ __inline static  void FMG_CtxtDecrementDebugCounters(FMG_Ctxt_t* pCtxt, uint32_t
 
 }
 
-#line 578 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 578 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 __inline static  void FMG_CtxtFlowNotifyOperationStart (uint32_t ctxtId, uint32_t amountPsOps, FMG_CtxtLoc_t contextLocation)
 {
 
    FMG_Ctxt_t* pCtxt =  (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((pCtxt->pendingCompletions == 0) || ((pCtxt->isAggregating == (1) ) && (pCtxt->isCounting == (1) ))), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 584 , "(pCtxt->pendingCompletions == 0) || ((pCtxt->isAggregating == (1)) && (pCtxt->isCounting == (1)))");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((pCtxt->pendingCompletions == 0) || ((pCtxt->isAggregating == (1) ) && (pCtxt->isCounting == (1) ))), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 584 , "(pCtxt->pendingCompletions == 0) || ((pCtxt->isAggregating == (1)) && (pCtxt->isCounting == (1)))");                         "BullseyeCoverage restore"; } ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pCtxt->dismissStatusCheck || (FMG_Ctxt_GetStatus(pCtxt) == FMG_STATUS_OK)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 587 , "pCtxt->dismissStatusCheck || (FMG_Ctxt_GetStatus(pCtxt) == FMG_STATUS_OK)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pCtxt->dismissStatusCheck || (FMG_Ctxt_GetStatus(pCtxt) == FMG_STATUS_OK)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 587 , "pCtxt->dismissStatusCheck || (FMG_Ctxt_GetStatus(pCtxt) == FMG_STATUS_OK)");                         "BullseyeCoverage restore"; } ;
 
 
    FMG_Ctxt_SetLocationId((pCtxt), (contextLocation)) ;
@@ -39926,12 +40074,12 @@ __inline static  void FMG_CtxtFlowNotifyOperationStart (uint32_t ctxtId, uint32_
       pCtxt->pendingCompletions += (uint8_t)amountPsOps;
    }
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pCtxt->dbgCounter>=0), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 598 , "pCtxt->dbgCounter>=0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pCtxt->dbgCounter>=0), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 598 , "pCtxt->dbgCounter>=0");                         "BullseyeCoverage restore"; } ;
    pCtxt->dbgCounter +=amountPsOps;
 
 }
 
-#line 613 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
+#line 613 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h"
 __inline static  uint32_t FMG_CtxtCookieBuild(uint32_t ctxtId, uint16_t payload)
 {
   return ((ctxtId &  ((1 << (9) ) - 1) ) <<  (0) ) | ((payload &  ((1 << (16) ) - 1) ) <<  ( (6)  + ( (1)  + ( (9)  + (0) ) ) ) );
@@ -39948,7 +40096,7 @@ __inline static  uint32_t FMG_CtxtCookieBuild(uint32_t ctxtId, uint16_t payload)
 
 __inline static  BOOL32 FMG_IsCtxtScheduled(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 629 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 629 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
    return FMG_Ctxt_GetIsScheduled( (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) );
 }
 
@@ -39984,7 +40132,7 @@ __inline static  BOOL FMG_CtxtFlowScheduleForLaterSafe (uint32_t ctxtId)
 __inline static  void FMG_CtxtFastCallbackOnCompletion(FMG_Ctxt_t* pCtxt, uint32_t cookie)
 {
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(!pCtxt->isCounting || pCtxt->pendingCompletions == 1), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 665 , "!pCtxt->isCounting || pCtxt->pendingCompletions == 1");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(!pCtxt->isCounting || pCtxt->pendingCompletions == 1), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 665 , "!pCtxt->isCounting || pCtxt->pendingCompletions == 1");                         "BullseyeCoverage restore"; } ;
    pCtxt->pendingCompletions = 0;
 
 
@@ -40014,7 +40162,7 @@ __inline static  void FMG_CtxtFastCallbackOnCompletion(FMG_Ctxt_t* pCtxt, uint32
 
 __inline static  void FMG_CtxtSetCallbackFunc(uint32_t ctxtId, FMG_CallbackFunc_t pCallbackFunc)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 695 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 695 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
 
 
    ;
@@ -40025,7 +40173,7 @@ __inline static  void FMG_CtxtSetCallbackFunc(uint32_t ctxtId, FMG_CallbackFunc_
 }
 __inline static  void FMG_CtxtSetUserArea(uint32_t ctxtId, void* pUserArea)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 706 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 706 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
 
 
    ;
@@ -40036,7 +40184,7 @@ __inline static  void FMG_CtxtSetUserArea(uint32_t ctxtId, void* pUserArea)
 }
 __inline static  void FMG_CtxtSetDstRdyQueue(uint32_t ctxtId, FML_HanderId dstRdyQueue)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 717 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 717 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
 
 
    ;
@@ -40047,30 +40195,30 @@ __inline static  void FMG_CtxtSetDstRdyQueue(uint32_t ctxtId, FML_HanderId dstRd
 }
 __inline static  void FMG_CtxtSetWeightToAquire(uint32_t ctxtId, uint8_t weightToAquire)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 728 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 728 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
 
    (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->weightToAquire = weightToAquire;
 }
 __inline static  void FMG_CtxtSetStartCompletionsAggregation(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 734 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 734 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(( (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->pendingCompletions == 0) && ( (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->isCounting == (1) )), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 737 , "((&(FMG_CtxtCb.pContextsTbl[(ctxtId)]))->pendingCompletions == 0) && ((&(FMG_CtxtCb.pContextsTbl[(ctxtId)]))->isCounting == (1))");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(( (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->pendingCompletions == 0) && ( (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->isCounting == (1) )), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 737 , "((&(FMG_CtxtCb.pContextsTbl[(ctxtId)]))->pendingCompletions == 0) && ((&(FMG_CtxtCb.pContextsTbl[(ctxtId)]))->isCounting == (1))");                         "BullseyeCoverage restore"; } ;
    (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->isAggregating =  (1) ;
 }
 __inline static  void FMG_CtxtSetStopCompletionsAggregation(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 742 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 742 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->isCounting == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 745 , "(&(FMG_CtxtCb.pContextsTbl[(ctxtId)]))->isCounting == (1)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->isCounting == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 745 , "(&(FMG_CtxtCb.pContextsTbl[(ctxtId)]))->isCounting == (1)");                         "BullseyeCoverage restore"; } ;
    (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->isAggregating =  (0) ;
 }
 
 __inline static  void FMG_CtxtSetDismissFailureCheck(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 751 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 751 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
 
    (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->dismissStatusCheck =  (1) ;
 
@@ -40078,9 +40226,9 @@ __inline static  void FMG_CtxtSetDismissFailureCheck(uint32_t ctxtId)
 
 __inline static  void FMG_CtxtSetAllowedNestedAllocations(uint32_t ctxtId, uint8_t allowedAlloc)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 759 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 759 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(allowedAlloc <= (3)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 761 , "allowedAlloc <= (3)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(allowedAlloc <= (3)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 761 , "allowedAlloc <= (3)");                         "BullseyeCoverage restore"; } ;
    (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->allowedNestedAlloc = allowedAlloc;
 }
 
@@ -40089,38 +40237,38 @@ __inline static  void FMG_CtxtSetAllowedNestedAllocations(uint32_t ctxtId, uint8
 
 __inline static  FMG_CallbackFunc_t FMG_CtxtGetCallbackFunc(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 770 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 770 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
    return  (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->pCallbackFunc;
 }
 __inline static  void* FMG_CtxtGetUserArea(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 775 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 775 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
    return  (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->pUserArea;
 }
 __inline static  FML_HanderId FMG_CtxtGetDstRdyQueue(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 780 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 780 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
    return (FML_HanderId)( (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->dstRdyQueue);
 }
 __inline static  uint8_t FMG_CtxtGetWeightToAquire(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 785 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 785 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
    return  (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->weightToAquire;
 }
 __inline static  uint32_t FMG_CtxtGetFailureReport(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 790 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 790 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
    return  (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->failureReport;
 }
 __inline static  uint32_t FMG_CtxtGetRdEraseErr(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 795 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 795 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
    return ( (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->allRdsErased == 1);
 }
 __inline static  void FMG_CtxtResetStatusNRdEraseErr(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 800 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(FMG_Ctxt_GetIsScheduled( (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ) == (0)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 801 , "FMG_Ctxt_GetIsScheduled((&(FMG_CtxtCb.pContextsTbl[(ctxtId)]))) == (0)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 800 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(FMG_Ctxt_GetIsScheduled( (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ) == (0)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 801 , "FMG_Ctxt_GetIsScheduled((&(FMG_CtxtCb.pContextsTbl[(ctxtId)]))) == (0)");                         "BullseyeCoverage restore"; } ;
 
    (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->isLastComplectionErased = 0;
    (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->allRdsErased = 1;
@@ -40129,7 +40277,7 @@ __inline static  void FMG_CtxtResetStatusNRdEraseErr(uint32_t ctxtId)
 
 __inline static  BOOL32 FMG_CtxtGetIsAggregatingCompletions(uint32_t ctxtId)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 810 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 810 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
    return  (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ->isAggregating;
 }
 
@@ -40142,7 +40290,7 @@ __inline static  uint32_t FMG_CtxtGetPendingCompletions(uint32_t ctxtId)
 {
    FMG_Ctxt_t *pCtxt;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 823 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtId < (512)), "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_contexts.h" , 823 , "ctxtId < (512)");                         "BullseyeCoverage restore"; } ;
    pCtxt =  (&(FMG_CtxtCb.pContextsTbl[(ctxtId)])) ;
 
    return pCtxt->pendingCompletions;
@@ -40153,10 +40301,10 @@ __inline static  uint32_t FMG_CtxtIsInLowResources(void)
    return (FMG_CtxtCb.freeCtxtCount <  (10) );
 }
 
-#line 45 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
+#line 45 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
 
-#line 54 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
+#line 54 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
 typedef struct FMG_Lock_s
 {
    FMG_CtxtQueue_t   pendingContextsQueue;
@@ -40179,13 +40327,13 @@ typedef struct FMG_LockCb_s
 
 extern FMG_LockCb_t FMG_LockCb;
 
-#line 98 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
+#line 98 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
 BOOL32   FMG_LockAcquire (uint32_t lockId, uint16_t ctxtId, uint8_t weight, BOOL32 addToPendingQueue);
 
-#line 116 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
+#line 116 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
 void   FMG_LockRelease (uint32_t lockId, uint8_t weight);
 
-#line 128 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
+#line 128 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
 void   FMG_LockSetWeight (uint32_t lockId, uint8_t weight);
 
 
@@ -40199,7 +40347,7 @@ void   FMG_LockSetWeight (uint32_t lockId, uint8_t weight);
 
 void  __attribute__((section("TRW")))  FMG_LockInitLocks (void);
 
-#line 154 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
+#line 154 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_locks.h"
 __inline static  BOOL32 FMG_LockIsAquirable (uint32_t lockId, uint8_t weight)
 {
 
@@ -40207,10 +40355,10 @@ __inline static  BOOL32 FMG_LockIsAquirable (uint32_t lockId, uint8_t weight)
    return ((pLock->currWeight >= weight) && ( ((&(pLock->pendingContextsQueue))->firstIdx == ( (0xFFFF)  - 1) ) ));
 }
 
-#line 46 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_userarea.h"
+#line 46 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_userarea.h"
 
-#line 60 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_userarea.h"
+#line 60 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_userarea.h"
 typedef enum FMG_UaPoolType_s
 {
    FMG_UA_POOL_TYPE_T0,
@@ -40313,7 +40461,7 @@ typedef struct FMG_UaCb_s
 
 extern FMG_UaCb_t FMG_UaCb;
 
-#line 179 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_userarea.h"
+#line 179 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_userarea.h"
 void*   FMG_UaAllocate (FMG_UaPoolType_t poolType);
 
 
@@ -40346,11 +40494,11 @@ __inline static  uint32_t FMG_UaGetFreeBuffCount(FMG_UaPoolType_t poolType)
     return FMG_UaCb.pPools[poolType].freeBuffCount;
 }
 
-#line 47 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 47 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_rtfadi.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_rtfadi.h"
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_rtfadi.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_rtfadi.h"
 typedef struct MTM_RTFADI_Data_s
 {
    uint8_t numClosedBlocks;
@@ -40454,29 +40602,29 @@ typedef struct FTL_RTFADI_Data_s
    uint16_t                   padding;
 }  FTL_RTFADI_Data_t;
 
-#line 146 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_rtfadi.h"
+#line 146 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_rtfadi.h"
 uint32_t  __attribute__((section("CODE_MEDIUM")))  FTL_CopyRTFadiData(FTL_RTFADI_Data_t *pFTLRTFADI);
 
-#line 50 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 50 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
 
-#line 84 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 84 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
 void  __attribute__((section("TRW")))  FMG_Init (void);
 
 
    uint32_t  __attribute__((section("CODE_MEDIUM")))  FMG_GetRTFADIStatistics(FMG_RTFADI_Data_t *pFMGRTFADI);
 
-#line 47 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 47 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fnvm/inc/fnvm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fnvm/inc/fnvm_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/log_common.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/log_common.h"
 
-#line 44 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/log_common.h"
+#line 44 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/log_common.h"
 typedef enum LOG_MemorySection_e
 {
    LOG_MEMORY_SECTION_ARAM    = 0,
@@ -40523,10 +40671,10 @@ typedef struct LOG_IfsStatus_s
    Status_t fileSysytemVerifyStatus;
 } LOG_IfsStatus_t;
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
 
 
 
@@ -40623,7 +40771,7 @@ __inline static  PWS_DPS_type_t FTL_PWS_ConvertPMMPSToPws(PMM_PowerState_t pmmSt
       case PMM_PST_NA:
       default:
          dps = PWS_DPS_type_invalid;
-         { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h" , 127 , "0");                         "BullseyeCoverage restore"; } ;
+         { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h" , 127 , "0");                         "BullseyeCoverage restore"; } ;
          break;
    }
 
@@ -40661,7 +40809,7 @@ uint32_t*   FTL_API_GetLpmBufferNeedToFree();
 
 void   FTL_API_FreeLpmBuffer();
 
-#line 178 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
+#line 178 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
 PWS_DPS_type_t   PWS_GetSysInitType(void);
 
 
@@ -40674,7 +40822,7 @@ PWS_DPS_type_t   PWS_GetSysInitType(void);
 
 PWS_DPS_type_t PWS_GetCurrentPSWType(void);
 
-#line 200 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
+#line 200 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_pws_api.h"
 void   FTL_PWS_PMMHandler(PWS_DPS_type_t enterDPS_type, void(*callbackFunc)(void), uint32_t token);
 
 
@@ -40707,11 +40855,11 @@ void PWS_ResetDeactivateHandler(void);
 
 void   PWS_EnterPowerStateDps3_2(void);
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_feadmincmdapi.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_dst_api.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_feadmincmdapi.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_dst_api.h"
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_dst_api.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_dst_api.h"
 typedef enum
 {
    DST_MetadataTestStart = 0,
@@ -40719,7 +40867,7 @@ typedef enum
    DST_NandTest
 } DST_Test_t;
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_feadmincmdapi.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_feadmincmdapi.h"
 
 
 
@@ -40801,7 +40949,7 @@ void   FTL_AsyncPingRequest(void);
 void   FTL_AsyncWriteBuffer(FTL_AsynchClBkFunc callBkFun, uint32_t token, uint8_t numFmus,BOOL32 isRMW,
                           FTL_FMU_INFO_t* writeInfo, uint32_t *buffers, uint32_t *headers );
 
-#line 111 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_feadmincmdapi.h"
+#line 111 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_feadmincmdapi.h"
 void   FTL_AsyncHostRead (uint16_t cmdIndex);
 void FTL_AsyncGoToROmode();
 
@@ -40819,7 +40967,7 @@ void   FTL_asyncStopBkops(void);
 
 BOOL   FTL_IsBkOpsNeeded(void);
 
-#line 131 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_feadmincmdapi.h"
+#line 131 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_feadmincmdapi.h"
 void   FTL_HslcEnableByHost(uint32_t IsHslcEnable);
 void   FTL_AsyncSmartGetCounters(FTL_AsynchClBkFunc callBkFun, uint32_t *pBuffer, uint32_t token);
 void FTL_AsyncSmartGetCountersForInfra(FTL_AsynchClBkFunc callBkFun, uint32_t *pBuffer, uint32_t token);
@@ -40843,9 +40991,9 @@ void  __inline static    FTL_AsyncWriteRPMBBuffer(FTL_AsynchClBkFunc callBkFun, 
    return;
 }
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
 
-#line 67 "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
+#line 67 "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
 extern void FE_AdminCmdCompletion(Status_t status, uint32_t param);
 
 
@@ -40885,7 +41033,7 @@ enum
    FTL_ADMIN_CMD_READ_SYNC,
    FTL_ADMIN_CMD_WRITE_BUFFER_SYNC,
 
-#line 108 "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
+#line 108 "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
    FTL_ADMIN_CMD_DALOC_ALIGNED_SYNC,
    FTL_ADMIN_CMD_PWS_SYNC,
    FTL_ADMIN_CMD_HOSTLESS_READ_SYNC,
@@ -41101,28 +41249,28 @@ typedef struct
 
 extern FML_FEAdminQConfig_t gFML_FEAdminQueue;
 
-#line 341 "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
+#line 341 "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
    __inline static  void FML_FEAdminQInit(void)
    {
       LivetMemset (&gFML_FEAdminQueue, 0, sizeof(FML_FEAdminQConfig_t));
    }
 
-#line 358 "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
+#line 358 "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
    __inline static  uint32_t FML_FEAdminQGetnumEntries(void)
    {
       return gFML_FEAdminQueue.numItems;
    }
 
-#line 375 "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
+#line 375 "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
    __inline static  FML_FEAdminQEntry_t* FML_FEAdminQPeek(void)
    {
 
-      { "BullseyeCoverage save off";                          _AssertImpl((int)(gFML_FEAdminQueue.numItems), "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h" , 378 , "gFML_FEAdminQueue.numItems");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)(gFML_FEAdminQueue.numItems), "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h" , 378 , "gFML_FEAdminQueue.numItems");                         "BullseyeCoverage restore"; } ;
 
       return &gFML_FEAdminQueue.entries[gFML_FEAdminQueue.headIndex];
    }
 
-#line 393 "d:/gitrepo/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
+#line 393 "c:/wdlabs/fpgcss-vega/source/ftl/fml/inc/fml_feadminqueue.h"
    __inline static  uint32_t FML_FEAdminQ_GetRTFADIStatistics(FML_FEAdminQ_RTFADI_Data_t *pAdminQRTFADI)
    {
       uint8_t i;
@@ -41153,10 +41301,10 @@ void   FML_FEAdminQPush(FML_FEAdminQEntry_t *pQEntry);
 
 void   FML_HandleAdminQueueFE(void);
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/ftl/fnvm/inc/fnvm_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/ftl/fnvm/inc/fnvm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
 
-#line 29 "d:/gitrepo/fpgcss-vega/source/ftl/fnvm/inc/fnvm_api.h"
+#line 29 "c:/wdlabs/fpgcss-vega/source/ftl/fnvm/inc/fnvm_api.h"
 
 
 
@@ -41177,13 +41325,13 @@ void FNVM_BmgProfileSwitchCallback(void);
 BOOL32 FNVM_IsInClosedHostOpenBlkState();
 OBM_BlockType_t FNVM_GetNextOpIdToLoad();
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bml_config.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bml_config.h"
 
-#line 51 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bml_config.h"
+#line 51 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bml_config.h"
 typedef struct BML_JointPointConfig_s
 {
    uint8_t  numXorZonesJointPoint;
@@ -41235,12 +41383,12 @@ void BML_InitializeConfig(uint32_t numOfChannelGroups, uint32_t numOfMetaDies, u
 
 void BML_CONFIG_InitGlobalVariables(void);
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/mbm_config.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/mbm_config.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/mbm_enums.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/mbm_enums.h"
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/mbm_enums.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/mbm_enums.h"
 typedef enum MBM_RequestType_e
 {
    MBM_REQUEST_ALLOCATE_MBG    = 1,
@@ -41325,7 +41473,7 @@ typedef enum MBM_metablockSourceList_e
    MBM_MB_SRC_LIST_MAX      = 4
 }MBM_metablockSourceList_t;
 
-#line 132 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/mbm_enums.h"
+#line 132 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/mbm_enums.h"
 typedef enum MBM_MetaDataDescriptorState_e
 {
    MBM_MDD_UNALLOCATED      = 1,
@@ -41350,7 +41498,7 @@ typedef enum MBM_FlashFillReq_e
    FORCE_FLASH_FILL_REQ = 0x03
 } MBM_FlashFillReq_t;
 
-#line 34 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/mbm_config.h"
+#line 34 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/mbm_config.h"
 
 
 
@@ -41359,7 +41507,7 @@ typedef enum MBM_FlashFillReq_e
 typedef union MBM_Address_u MBM_Address_t;
 typedef struct DUI_Section_PEC_s DUI_Section_PEC_t;
 
-#line 96 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/mbm_config.h"
+#line 96 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/mbm_config.h"
 typedef struct slc_s{
     uint16_t metablockPecLowBits;
     uint16_t metablockPecHighBits :  6 ;
@@ -41466,10 +41614,10 @@ typedef struct
 
 uint32_t MBM_DUI_GetMetaBlocksPec(DUI_Section_PEC_t * pecInfo);
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/jbm_config.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/jbm_config.h"
 
-#line 35 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/jbm_config.h"
+#line 35 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/jbm_config.h"
 typedef struct JBM_PartitionConfig_s
 {
    uint8_t  blockType;
@@ -41496,20 +41644,20 @@ typedef struct JBM_PartitionParametersConfig_s
 
 uint32_t JBM_GetTLCJumboBlocksSizeFMU(void);
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
 
-#line 7 "d:/gitrepo/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
+#line 7 "c:/wdlabs/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/fwta_drv.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/fwta_drv.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/fwta_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/fwta_defines.h"
 
-#line 310 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/fwta_defines.h"
+#line 310 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/fwta_defines.h"
 typedef struct _FWTA {
     HW_REG64 FWTA_GPT_INT_STATUS                        ;
     HW_REG64 Reserved0;
@@ -41539,7 +41687,7 @@ typedef struct _FWTA {
 
 }FWTA_t, *PFWTA;
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/fwta_drv.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/fwta_drv.h"
 
 
 
@@ -41605,7 +41753,7 @@ void FWTA_DisableISR(eFWTA_GPT_ID_t nGPT);
 void FWTA_ConfigSingleInterruptTimer(eFWTA_GPT_ID_t nGPT, uint32_t nScalar );
 void FWTA_StartFreeRunningGPTimer(eFWTA_GPT_ID_t nGPT, uint32_t nPreScaler);
 
-#line 113 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/fwta_drv.h"
+#line 113 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/fwta_drv.h"
 typedef enum
 {
    mFWTA_GPT_DISABLED = 0,
@@ -41614,10 +41762,10 @@ typedef enum
    mFWTA_GPT_PERIODIC_INT
 }eFWTA_GPT_MODE_t;
 
-#line 37 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_publicdefines.h"
-#line 29 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_publicdefines.h"
+#line 37 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_publicdefines.h"
+#line 29 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_publicdefines.h"
 typedef enum
 {
    CMC_SRC_CLK_ID_0 = 0,
@@ -41639,9 +41787,9 @@ typedef enum
    CMC_SRC_CLK_ID_NUM,
 }Cmc_Src_Clk_Id_t;
 
-#line 18 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_publictypes.h"
-#line 28 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_publictypes.h"
+#line 18 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_publictypes.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_publictypes.h"
 typedef struct CMC_ClockInfo
 {
    uint8_t mClkSource;
@@ -41673,13 +41821,13 @@ typedef struct CMC_Subdomain_Info
 
 } CMC_Subdomain_Info_t;
 
-#line 19 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
+#line 19 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_vega.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_vega.h"
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
 
-#line 51 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
+#line 51 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
 typedef enum FreqMonitorClock
 {
    FM_CMC2_TOP_DOMAIN_15 = 0,
@@ -41710,7 +41858,7 @@ extern const CMC_DomainInfo_t FW_DomainConfigArray[];
 extern const CMC_DomainInfo_t FW_DPS2_DomainConfigArray[];
 extern const CMC_DomainInfo_t FW_DPS3_1_DomainConfigArray[];
 
-#line 111 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
+#line 111 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/cmc_top_dr_api.h"
    Status_t CMC_TOP_GetDomainFreq(uint32_t domain_id, uint32_t* domainFreq);
    uint32_t CMC_TOP_GetSrcClkFreq(uint32_t srcClkId);
    Status_t CMC_TOP_GetSysClkFreqMHz(uint32_t * sysClkFreq);
@@ -41761,6 +41909,8 @@ extern const CMC_DomainInfo_t FW_DPS3_1_DomainConfigArray[];
    Status_t CMC_Configure_RestorePeriphForeFuse_Clock(void);
 
 
+   Status_t CMC_Configure_PS_LOW_Clock(void);
+   Status_t CMC_Configure_PS_HIGH_Clock(void);
    void     CMC_TOP_CPUDelay(uint32_t delayTime);
    Status_t CMC_TOP_EnableFWTAClock(uint32_t fwtaIndex);
    Status_t CMC_TOP_EnableLDPC_ENC_Clock(void);
@@ -41796,7 +41946,7 @@ extern const CMC_DomainInfo_t FW_DPS3_1_DomainConfigArray[];
 
 Status_t CMC_CalibrateLFOSCfromEfuse(void);
 
-#line 38 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
+#line 38 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
 
 typedef enum SYS_Timer_Status_e
 {
@@ -41804,7 +41954,7 @@ typedef enum SYS_Timer_Status_e
    STATUS_SYS_HIRES_TIMER_INIT_ERROR,
 }   SYS_Timer_Status_t;
 
-#line 93 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
+#line 93 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
 typedef uint8_t TimeCallBackNum_t;
 
 
@@ -41865,7 +42015,7 @@ void SYS_HaltHiResCallback( uint32_t cttNum );
 void  SYS_ReleaseHiResCallback( uint32_t cttNum );
 void SYS_HiResCallbackTest(void);
 
-#line 173 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
+#line 173 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_timerservices.h"
 void SYS_RTOS_TickHandler(void);
 
 void SYS_TimeTickCountingHandler(void);
@@ -41875,9 +42025,9 @@ Status_t SYS_TimeServiceInit(uint32_t bootPhase);
 void SYS_DoNopDelay(uint32_t num_of_nops);
 void SYS_DoNopDelayMod4 (uint32_t num_of_nops);
 
-#line 9 "d:/gitrepo/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
+#line 9 "c:/wdlabs/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
 typedef enum
 {
    RS_MODE_CLIENT_FML,
@@ -41943,7 +42093,7 @@ typedef struct
    RS_MorpheusParamsCB_p RS_MrphParamsCB_p;
 } RS_CB_s;
 
-#line 108 "d:/gitrepo/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
+#line 108 "c:/wdlabs/fpgcss-vega/source/ftl/rs/inc/ftl_rs.h"
 void   RS_Mount(void);
 void   RS_NormalMount(uint16_t mountCtxtId);
 
@@ -41988,11 +42138,11 @@ BOOL   RS_IsRsInBgMode(void);
 
 Status_t   RS_BKOPSProcessActiveScan(void);
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_config_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_config_api.h"
 
-#line 39 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_config_api.h"
+#line 39 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_config_api.h"
 typedef enum FTL_Capacity_e
 {
     FTL_CAPACITY_128GB,
@@ -42153,14 +42303,14 @@ typedef struct FWConfig_s
 
 void FTL_Config_DuiFwConfigGetData(FTL_FWConfig_t* DUIFwCnfgData);
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
 
-#line 168 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
+#line 168 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
 typedef enum _PS_MRPH_EPWR_WL_MODE_t
 {
    PS_MRPH_EPWR_DISABLE = 0,
@@ -42327,7 +42477,7 @@ typedef struct PS_MRPH_RS_CFG_Param_s
 
 
 
-typedef struct PS_MRPH_REH_Param_s
+typedef  _Packed  struct PS_MRPH_REH_Param_s
 {
    uint8_t    slcCvdDumpStepSize;
    uint8_t    rfu0;
@@ -43441,13 +43591,13 @@ typedef struct PS_MRPH_TIMING_CFG_s
    PS_MRPH_Timing_t   setData;
 }   PS_MRPH_TIMING_CFG_Param_t;
 
-#line 2768 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
+#line 2768 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_morpheus.h"
 Status_t PS_MRPH_DataSetsStartup(uint32_t *pPsMrphParams);
 void *   PS_MRPH_GetMrphDataSet(MrphDataSetIx_e dataSet);
 
-#line 34 "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
+#line 34 "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
 
-#line 81 "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
+#line 81 "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h"
 typedef enum FTL_EVENTS_COUNTER__e
 {
    FTL_EVENTS_COUNTER_START_CANARIAN=0x0,
@@ -43696,24 +43846,24 @@ __inline static  uint8_t FTL_Config_GetNumXorZones(BML_SbmType_t sbmType)
 
 __inline static  uint8_t FTL_Config_GetPartitionSubBlockNumber(uint32_t partition)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(partition < PARTITIONS_COUNT), "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h" , 329 , "partition < PARTITIONS_COUNT");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(partition < PARTITIONS_COUNT), "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h" , 329 , "partition < PARTITIONS_COUNT");                         "BullseyeCoverage restore"; } ;
    return pFWCfg->ftlExtConfig.numSubBlocksPerPhysicalByPartition[partition];
 }
 
 __inline static  BML_SbmType_t FTL_Config_GetPartitionSbmType(uint32_t partition)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(partition < PARTITIONS_COUNT), "d:/gitrepo/fpgcss-vega/source/ftl/inc_private/ftl_config.h" , 335 , "partition < PARTITIONS_COUNT");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(partition < PARTITIONS_COUNT), "c:/wdlabs/fpgcss-vega/source/ftl/inc_private/ftl_config.h" , 335 , "partition < PARTITIONS_COUNT");                         "BullseyeCoverage restore"; } ;
    return pFWCfg->ftlExtConfig.sbmTypeByPartition[partition];
 }
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
 
-#line 42 "d:/gitrepo/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
+#line 42 "c:/wdlabs/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
 Status_t   BML_FirstMount(void);
 
 void   BML_NormalMount(uint16_t ctxtId);
 
-#line 56 "d:/gitrepo/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
+#line 56 "c:/wdlabs/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
 void   BML_UngracefulMount(uint32_t ctxtId, uint8_t *allHeaders, uint8_t **headersPointers, uint32_t sizeInBytes, BML_JumboBlock_ID_t *jbId, uint8_t **headers);
 
 uint32_t   BML_UngracefulMount_MemoryRequired(void);
@@ -43831,17 +43981,17 @@ BOOL32 BML_IsNbcsQempty(void);
 BML_SbmType_t   BML_GetBlockSbmType(BML_JumboBlock_ID_t jbId);
 void   BML_HandleMbStatusReq(VBA_t vba, MP_MQD_PSType_t psType);
 
-#line 180 "d:/gitrepo/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
+#line 180 "c:/wdlabs/fpgcss-vega/source/ftl/bml/inc/bml_api.h"
    uint32_t BML_GetRTFADIStat(BML_RTFADI_Data_t* pBMLRTFADI);
 
 
 void BML_RoFormatEraseAllMB(FNVM_CLBK_FUNC callBack, uint16_t ctxtId);
 
-#line 49 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 49 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_mount_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_mount_api.h"
 
-#line 58 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_mount_api.h"
+#line 58 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_mount_api.h"
 typedef enum MNT_State_s
 {
 
@@ -44002,7 +44152,7 @@ typedef struct MNT_LogResident_s
    MNT_GSD_Statistics_t           GSD_Statistics;
 }  MNT_LogResident_t;
 
-#line 231 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_mount_api.h"
+#line 231 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_mount_api.h"
 MNT_State_t   MNT_getMountState(void);
 
 
@@ -44016,7 +44166,7 @@ MNT_State_t   MNT_getMountState(void);
 
 void MNT_SLAVE_InitGlobals(void);
 
-#line 254 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_mount_api.h"
+#line 254 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_mount_api.h"
 __inline static  BOOL32 MNT_IsMountOngoing(void)
 {
    MNT_State_t mntState = MNT_getMountState();
@@ -44026,14 +44176,14 @@ __inline static  BOOL32 MNT_IsMountOngoing(void)
 
 void MNT_DuiLogGetData(MNT_LogResident_t* DUIMntLogData);
 
-#line 51 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
+#line 51 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_rlc_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_rlc_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_hwd_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_hwd_api.h"
 
-#line 42 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_hwd_api.h"
+#line 42 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_hwd_api.h"
 typedef enum HWD_TLCFlushCause_e
 {
     HWD_FLUSH_CAUSE_ROUTING = 0,
@@ -44045,9 +44195,9 @@ typedef enum HWD_TLCFlushCause_e
     HWD_FLUSH_CAUSE_MAX = 6,
 } HWD_TLCFlushCause_t;
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_rlc_api.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_rlc_api.h"
 
-#line 45 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_rlc_api.h"
+#line 45 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_rlc_api.h"
 typedef enum RLC_Type_e
 {
     RLC_TYPE_SLC_DYNAMIC = 0,
@@ -44093,9 +44243,9 @@ typedef struct RLC_WA_Statistics_s
     uint32_t rfu[4];
 }   RLC_WA_Statistics_t;
 
-#line 34 "d:/gitrepo/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
+#line 34 "c:/wdlabs/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
 
-#line 85 "d:/gitrepo/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
+#line 85 "c:/wdlabs/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
 typedef enum RLC_Step_Status_e
 {
    RLC_STEP_STATUS_WAIT,
@@ -44104,7 +44254,7 @@ typedef enum RLC_Step_Status_e
    RLC_STEP_STATUS_COPY_STEP_DONE,
    RLC_STEP_STATUS_SCAN_BUF_RELEASED,
 
-#line 95 "d:/gitrepo/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
+#line 95 "c:/wdlabs/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
    RLC_STEP_STATUS_SRC_RELEASED,
    RLC_STEP_STATUS_AUTO_FREE,
    RLC_STEP_STATUS_RLC_REQ_COMPLETION,
@@ -44149,7 +44299,7 @@ BOOL32   RLC_IsStaticRelocationNeeded(BML_Partition_ID_t ptnId, BOOL32 isBkopsQu
 RLC_Step_Status_t   RLC_RunScanStep(RLC_Type_t rlcType);
 RLC_Step_Status_t   RLC_RunCopyStep(BOOL performCopyValid);
 
-#line 142 "d:/gitrepo/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
+#line 142 "c:/wdlabs/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
 BOOL32   RLC_AutoFree();
 
 void   RLC_RecoverStaticSourceBlock(uint16_t jbid);
@@ -44203,7 +44353,7 @@ uint32_t   RLC_FlushNvGetNumBlocksLeftInPtn(BML_Partition_ID_t ptnId);
 
    uint32_t   RLC_GetRTFADIStatistics(RLC_RTFADI_Data_t* pRLCRTFADI);
 
-#line 201 "d:/gitrepo/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
+#line 201 "c:/wdlabs/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
 void   RLC_IRLC_InitializePerSessionData(RLC_Type_t nextRlcType);
 void   RLC_IRLC_TerminatePerSessionData(RLC_Type_t rlcTypeToContinue);
 void   RLC_IRLC_SwapPerSessionData();
@@ -44211,13 +44361,13 @@ void   RLC_IRLC_RemoveSourceListForRLCType(RLC_Type_t rlcType);
 void   RLC_RemoveJbidFromCpyBuffer(uint16_t jbid);
 void   RLC_MarkRangesStale(uint16_t jbid);
 
-#line 52 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 52 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 
-#line 151 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 151 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 uint32_t OBM_IsZoneEnded(JBA_t jba, OBM_BlockType_t opbid);
 uint32_t OBM_GetZoneStartFMU(JBA_t jba, OBM_BlockType_t opbid);
 
-#line 166 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 166 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 typedef enum OBM_LrmCcheckState_e
 {
    OBM_LRM_CHECK_STATE_INC_NEXT_TO_WRITE,
@@ -44333,7 +44483,7 @@ extern uint32_t OBM_HostBlocksBitmap;
 extern   OBM_JumboBlockAllocTS_t OBM_JumboBlockAllocationTS;
 extern OBM_BlockXorZoneData_t OBM_BlockXorZoneData[OBM_BLOCK_TYPE_MAX];
 
-#line 292 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 292 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void  __attribute__((section("TRW")))  OBM_Init (void);
 
 void OBM_SetGlobalVariables(void);
@@ -44362,7 +44512,7 @@ Status_t   OBM_FirstTimeMount (uint32_t ctxtId);
 
 void   OBM_MountSetLogInfo(void);
 
-#line 330 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 330 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 uint32_t   OBM_NormalMount(uint16_t mntCtxtId, BOOL32 setOpbPS);
 
 void   OBM_MountSetLogInfo(void);
@@ -44400,16 +44550,16 @@ uint32_t OBM_GetJbObMapSize(void);
 
 BML_JumboBlock_ID_t   OBM_AllocJB(OBM_BlockType_t openBlockType, BOOL32 isEraseRequired, BOOL32 isHSLC);
 
-#line 378 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 378 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_ReuseBlock(OBM_BlockType_t openBlockType, JBA_t jba);
 
-#line 392 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 392 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 __inline static  void OBM_GetBlockNextToWrite(OBM_BlockType_t openBlockType, JBA_t* jbaOutput_p)
 {
    OBM_OpenBlock_t* openBlock =  ((void *)0) ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(openBlockType < OBM_BLOCK_TYPE_MAX), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 395 , "openBlockType < OBM_BLOCK_TYPE_MAX");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(openBlockType < OBM_BLOCK_TYPE_MAX), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 395 , "openBlockType < OBM_BLOCK_TYPE_MAX");                         "BullseyeCoverage restore"; } ;
    openBlock = &(pOBM_Cb->openBlocks[openBlockType]);
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbaOutput_p), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 397 , "jbaOutput_p");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbaOutput_p), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 397 , "jbaOutput_p");                         "BullseyeCoverage restore"; } ;
 
    (*((uint32_t*)(void*)(&(*jbaOutput_p))))  =  (*((uint32_t*)(void*)(&(openBlock->jba)))) ;
 }
@@ -44418,25 +44568,25 @@ __inline static  uint32_t OBM_GetNumAllocationsBlockType(OBM_BlockType_t openBlo
 {
    OBM_OpenBlock_t* openBlock_p;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(openBlockType < OBM_BLOCK_TYPE_MAX), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 406 , "openBlockType < OBM_BLOCK_TYPE_MAX");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(openBlockType < OBM_BLOCK_TYPE_MAX), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 406 , "openBlockType < OBM_BLOCK_TYPE_MAX");                         "BullseyeCoverage restore"; } ;
    openBlock_p = &(pOBM_Cb->openBlocks[openBlockType]);
 
    return openBlock_p->opbCounter;
 }
 
-#line 424 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 424 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_CsPrepRLCHost(void);
 
-#line 437 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 437 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_CsPrepCTL(void);
 
-#line 450 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 450 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_GetBlockNextToWrite(OBM_BlockType_t openBlockType, JBA_t* jbaOutput_p);
 
-#line 463 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 463 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_GetAndAllocBlockNextToWrite(OBM_BlockType_t openBlockType, JBA_t* jbaOutput_p);
 
-#line 477 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 477 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_UgsdSetOpenBlock(JBA_t jbaNer, OBM_BlockType_t opbType, JBA_t lastXorProtectedJba, BML_RevrsTransInParityLocation_t lgwInParityLocation, JBA_t jbaFlgpFer);
 
 
@@ -44464,28 +44614,28 @@ __inline static  BML_PecStrategy_t OBM_GetPolicyByBlockType(OBM_BlockType_t open
     return (BML_PecStrategy_t)pOBM_Cb->openBlocks[openBlockType].policy.mbAllocPolicy;
 }
 
-#line 514 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 514 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_UgsdForceSetNextToWrite(JBA_t jba, OBM_BlockType_t openBlockType);
 
-#line 526 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 526 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_MNTForceMarkingLogicallyClose(OBM_BlockType_t openBlockType);
 
-#line 538 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 538 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_CloseBlock(OBM_BlockType_t openBlockType, BML_JumboBlock_ID_t jumboBlockId, BOOL32 forceClose);
 
-#line 551 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 551 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void OBM_FNVMCloseBlocks(void);
 
-#line 563 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 563 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 BOOL32   OBM_PadOpenBlock(OBM_BlockType_t obid, uint32_t numFMUsToPad, uint16_t fnvmCtxtID);
 
-#line 578 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 578 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 BML_JumboBlock_ID_t   OBM_BRLCAllocBlock(OBM_BlockType_t srcObid, BML_JumboBlock_ID_t srcJumboBlockId, uint32_t rlcEndFmus, BRLC_Cause_t brlcCause);
 
-#line 593 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 593 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_BRLCSwapTargetBlk(OBM_BlockType_t srcObid, BML_JumboBlock_ID_t srcJumboBlockId, BML_JumboBlock_ID_t trgtJumboBlockId, BOOL32 isMountBrlc);
 
-#line 606 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 606 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 BOOL32 OBM_CanBlockBeBRLC(BML_JumboBlock_ID_t jumboBlockId);
 
 
@@ -44499,16 +44649,16 @@ BOOL32 OBM_CanBlockBeBRLC(BML_JumboBlock_ID_t jumboBlockId);
 
 uint32_t   OBM_GetBlockRemainingFMUs(OBM_BlockType_t openBlockType);
 
-#line 629 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 629 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 uint32_t   OBM_GetOpenBlockMountFields(OBM_BlockType_t openBlockType, uint32_t mdIdx);
 
-#line 643 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
-void   OBM_ResetOpenBlock(OBM_BlockType_t openBlockType, JBA_t jba, uint32_t flags);
+#line 645 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+void   OBM_ResetOpenBlock(OBM_BlockType_t openBlockType, JBA_t jba, uint32_t flags, BOOL32 isUgsdRecovery);
 
-#line 657 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 659 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 OBM_BlockCapacityState_t  __attribute__((section("CODE_RANDOM")))  OBM_IncBlockNextToWrite(OBM_BlockType_t openBlockType, uint32_t length);
 
-#line 671 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 673 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_EndXORZoneReqPSCallBack(uint16_t ctxtId, uint16_t dummy, FMG_ExecStatus_t execStatus);
 
 
@@ -44522,10 +44672,10 @@ void   OBM_EndXORZoneReqPSCallBack(uint16_t ctxtId, uint16_t dummy, FMG_ExecStat
 
 uint32_t   OBM_GetHostBlocksFreeFMUsByPartition(uint32_t partitionType);
 
-#line 694 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 696 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 uint32_t   OBM_GetBlocksFreeFMUsByPartition(uint32_t partitionType);
 
-#line 706 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 708 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_TestAndClearBlocksAllocLRM(void);
 
 
@@ -44539,7 +44689,7 @@ void   OBM_TestAndClearBlocksAllocLRM(void);
 
 void   OBM_ControlSyncComplete(void);
 
-#line 730 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 732 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_GetBlockLogicallyClosedObid(BML_JumboBlock_ID_t srcJumboBlockId, OBM_BlockType_t* openBlockIdOut, BOOL32* isLogicallyClosedOut);
 
 
@@ -44564,17 +44714,17 @@ void   OBM_HandleSingleBlockWearLevel(JBA_t jba, uint32_t JbAllocations, OBM_Blo
 
 uint32_t   OBM_CheckCanAllocateBlock(OBM_BlockType_t opbBlockType, OBM_LrmCcheckState_t state);
 
-#line 766 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 768 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 void   OBM_TestAndSetBlocksAllocLRM(OBM_BlockType_t openBlockType, BOOL32 isHSLC);
 
-#line 781 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 783 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 __inline static  OBM_BlockType_t OBM_GetOBIDByJBID (uint32_t jbid)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 783 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 785 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
    return ((OBM_BlockType_t)((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_OBID]));
 }
 
-#line 797 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 799 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 __inline static  OBM_BlockType_t OBM_GetObidRlcRead(BML_JumboBlock_ID_t jblId)
 {
    OBM_BlockType_t opbId;
@@ -44611,11 +44761,11 @@ __inline static  uint8_t OBM_GetpsQByopbId(OBM_BlockType_t opbId)
    return pOBM_Cb->openBlocks[opbId].policy.psQType;
 }
 
-#line 843 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 845 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 __inline static  void OBM_SetOBIDByJBID(BML_JumboBlock_ID_t jbid, OBM_BlockType_t obid)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((obid < OBM_BLOCK_TYPE_MAX) || (obid == OBM_BLOCK_TYPE_ILLEGAL) || ( (((obid) < (OBM_BLOCK_TYPE_ILLEGAL & (0xFF) )) && (((obid) & (0xF) ) == (0xF) )) )), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 845 , "(obid < OBM_BLOCK_TYPE_MAX) || (obid == OBM_BLOCK_TYPE_ILLEGAL) || ((((obid) < (OBM_BLOCK_TYPE_ILLEGAL & (0xFF))) && (((obid) & (0xF)) == (0xF))))");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 846 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((obid < OBM_BLOCK_TYPE_MAX) || (obid == OBM_BLOCK_TYPE_ILLEGAL) || ( (((obid) < (OBM_BLOCK_TYPE_ILLEGAL & (0xFF) )) && (((obid) & (0xF) ) == (0xF) )) )), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 847 , "(obid < OBM_BLOCK_TYPE_MAX) || (obid == OBM_BLOCK_TYPE_ILLEGAL) || ((((obid) < (OBM_BLOCK_TYPE_ILLEGAL & (0xFF))) && (((obid) & (0xF)) == (0xF))))");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 848 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
    (*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_OBID] = (uint8_t)obid;
 }
 
@@ -44629,7 +44779,7 @@ __inline static  void OBM_SetOBIDByJBID(BML_JumboBlock_ID_t jbid, OBM_BlockType_
 
 __inline static  uint32_t OBM_GetJbidByBlockType (OBM_BlockType_t blockType)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(blockType < OBM_BLOCK_TYPE_MAX), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 860 , "blockType < OBM_BLOCK_TYPE_MAX");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(blockType < OBM_BLOCK_TYPE_MAX), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 862 , "blockType < OBM_BLOCK_TYPE_MAX");                         "BullseyeCoverage restore"; } ;
    return ((uint32_t)(pOBM_Cb->openBlocks[blockType].jba.jumboBlockId));
 }
 
@@ -44643,23 +44793,23 @@ __inline static  uint32_t OBM_GetJbidByBlockType (OBM_BlockType_t blockType)
 
 __inline static  uint32_t OBM_GetFmuInBlockType (OBM_BlockType_t blockType)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(blockType < OBM_BLOCK_TYPE_MAX), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 874 , "blockType < OBM_BLOCK_TYPE_MAX");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(blockType < OBM_BLOCK_TYPE_MAX), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 876 , "blockType < OBM_BLOCK_TYPE_MAX");                         "BullseyeCoverage restore"; } ;
    return ((uint32_t)(pOBM_Cb->openBlocks[blockType].jba.fmuInBlock));
 }
 
-#line 889 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 891 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 __inline static  void OBM_SetEndXorZoneCtxtRefCtr(BML_JumboBlock_ID_t jbid, uint8_t ctxtRefCtr)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 891 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtRefCtr <= ( ( 2 ) )), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 892 , "ctxtRefCtr <= ((2))");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 893 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(ctxtRefCtr <= ( ( 2 ) )), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 894 , "ctxtRefCtr <= ((2))");                         "BullseyeCoverage restore"; } ;
    (*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR] = ctxtRefCtr;
 }
 
-#line 906 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 908 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 __inline static  void OBM_DecEndXorZoneCtxtRefCtr(BML_JumboBlock_ID_t jbid)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 908 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR] > 0) && ((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR] != (0xFF) )), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 909 , "((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR] > 0) && ((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR] != (0xFF))");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 910 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR] > 0) && ((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR] != (0xFF) )), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 911 , "((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR] > 0) && ((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR] != (0xFF))");                         "BullseyeCoverage restore"; } ;
    (*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR]-- ;
 }
 
@@ -44674,7 +44824,7 @@ __inline static  void OBM_DecEndXorZoneCtxtRefCtr(BML_JumboBlock_ID_t jbid)
 
 __inline static  uint8_t OBM_GetEndXorZoneCtxtRefCtr(BML_JumboBlock_ID_t jbid)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 924 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(jbid < ( ( (uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140) ) + 1)), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 926 , "jbid < (((uint32_t)(pFWCfg->ftlPhysicalConfig.maxBlocksPerPlane) + (20) + (140)) + 1)");                         "BullseyeCoverage restore"; } ;
    return ((*pOBM_JbObMap)[jbid][OBM_JB_OB_MAP_ENTRY_TYPE_EXZ_CTXT_REF_CTR]);
 }
 
@@ -44687,7 +44837,7 @@ __inline static  uint8_t OBM_GetEndXorZoneCtxtRefCtr(BML_JumboBlock_ID_t jbid)
 
 __inline static  BOOL OBM_IsOpenBlockBlockFullyWritten(OBM_OpenBlock_t* pOpenBlock)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pOpenBlock->validFMUsSize != 0), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 937 , "pOpenBlock->validFMUsSize != 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pOpenBlock->validFMUsSize != 0), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 939 , "pOpenBlock->validFMUsSize != 0");                         "BullseyeCoverage restore"; } ;
 
    return pOpenBlock->jba.fmuInBlock == pOpenBlock->validFMUsSize;
 }
@@ -44728,8 +44878,8 @@ __inline static  void OBM_GetOpenBlockJba(OBM_BlockType_t opbBlockType, JBA_t* o
 
 __inline static  uint32_t OBM_GetOpenBlockNumValidFMUs(OBM_BlockType_t opbBlockType)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 978 , "((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pOBM_Cb->openBlocks[opbBlockType].validFMUsSize != 0), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 979 , "pOBM_Cb->openBlocks[opbBlockType].validFMUsSize != 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 980 , "((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pOBM_Cb->openBlocks[opbBlockType].validFMUsSize != 0), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 981 , "pOBM_Cb->openBlocks[opbBlockType].validFMUsSize != 0");                         "BullseyeCoverage restore"; } ;
 
    return pOBM_Cb->openBlocks[opbBlockType].validFMUsSize;
 }
@@ -44744,7 +44894,7 @@ __inline static  uint32_t OBM_GetOpenBlockNumValidFMUs(OBM_BlockType_t opbBlockT
 
 __inline static  uint32_t OBM_GetOpenBlockNumValidFMUsSafe(OBM_BlockType_t opbBlockType)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 994 , "((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 996 , "((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)");                         "BullseyeCoverage restore"; } ;
 
    return OBM_IsOBOpened(opbBlockType) ? OBM_GetOpenBlockNumValidFMUs(opbBlockType) : 0;
 }
@@ -44759,7 +44909,7 @@ __inline static  uint32_t OBM_GetOpenBlockNumValidFMUsSafe(OBM_BlockType_t opbBl
 
 __inline static  void OBM_SetOpenBlockNumValidFMUs(OBM_BlockType_t opbBlockType, BML_SbmType_t sbmType)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)), "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 1009 , "((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)), "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h" , 1011 , "((uint8_t)opbBlockType < (uint8_t)OBM_BLOCK_TYPE_MAX)");                         "BullseyeCoverage restore"; } ;
 
    pOBM_Cb->openBlocks[opbBlockType].validFMUsSize = pOBM_Cb->openBlocks[opbBlockType].policy.validFMUsSize[sbmType];
 }
@@ -44798,42 +44948,42 @@ __inline static  uint32_t OBM_IsUnevenZone(void)
    return pOBM_Cb->IsUnevenZone;
 }
 
-#line 1069 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 1071 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 uint32_t OBM_GetRemainedStripeSize(OBM_BlockType_t openBlockType);
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_api.h"
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
 
-#line 36 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 36 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_hwd_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_hwd_api.h"
 
-#line 39 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
+#line 39 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/fmg/inc/fmg_userarea.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/fmg/inc/fmg_userarea.h"
 
-#line 34 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
+#line 34 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
 
-#line 55 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
+#line 55 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
 typedef enum
 {
    HWD_DEALLOCATE_RMW_STATE_NONE,
@@ -44862,16 +45012,16 @@ typedef struct HWD_RMW_UserArea_s
 
 }HWD_RMW_UserArea_t;
 
-#line 107 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
+#line 107 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
 void   HWD_RMW_StartHandleRMW(uint32_t hwdCtxtID,FML_FEAdminQEntry_t  *pAdminQEntry);
 
-#line 123 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
+#line 123 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
 void   HWD_RMW_HandleResume(uint16_t fmgCtxtId, uint16_t payload, FMG_ExecStatus_t execStatus);
 
-#line 137 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
+#line 137 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
 void   HWD_RMW_InitOverlapInfo(void);
 
-#line 153 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
+#line 153 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_rmw.h"
 void   HWD_RMW_RemoveRunningRMW(uint16_t FMGCtxtID);
 
 BOOL32  __attribute__((section("CODE_RANDOM")))  HWD_RMW_IsWriteOverlappedWithRMW(uint32_t hwdCtxtID, FML_FEAdminQEntry_t* pAdminQEntry);
@@ -44882,28 +45032,28 @@ BOOL32   HWD_RMW_IsRMWOverlapped(uint32_t* pFflbasToCheck, uint32_t fmusCount);
 
 
 
-#line 40 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
+#line 40 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
 
-#line 58 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
+#line 58 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
 extern uint16_t gHwdFuaCmdList[ (512) ];
 extern uint32_t gHwdFuaErrBits[ (512)  / (1 <<  (5) )];
 
-#line 83 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
+#line 83 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
 void   HWD_HandleFUA(uint32_t hwdCtxtID);
 
-#line 99 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
+#line 99 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
 void   HWD_HandleResumeFUA(uint16_t fmgCtxtId, uint16_t payload, FMG_ExecStatus_t execStatus);
 
-#line 111 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
+#line 111 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
 uint32_t   HWD_GetFUACookie(HIM_HWD_Context_t *pHwdCtxt, uint32_t hwdCtxtID);
 
-#line 41 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 41 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddr_descr_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddr_descr_defines.h"
 
-#line 53 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddr_descr_defines.h"
+#line 53 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddr_descr_defines.h"
 typedef struct _DDR_DESCRIPTOR {
     HW_REG BYTES0_3                                     ;
     HW_REG BYTES4_7                                     ;
@@ -44917,11 +45067,11 @@ typedef struct _DDR_DESCRIPTOR {
     HW_REG BYTES36_39                                   ;
 }DDR_DESCRIPTOR_t, *PDDR_DESCRIPTOR;
 
-#line 21 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 21 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddrc_dma_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddrc_dma_defines.h"
 
-#line 192 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddrc_dma_defines.h"
+#line 192 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddrc_dma_defines.h"
 typedef struct _DDRC_DMA {
     HW_REG64 DDR_DMA_CTRL                               ;
     HW_REG64 DDR_DMA_CFG                                ;
@@ -44965,10 +45115,10 @@ typedef struct _DDRC_DMA {
     HW_REG64 DDR_DMA_CNTR[66]                           ;
 }DDRC_DMA_t, *PDDRC_DMA;
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_dram_defines.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_dram_defines.h"
 
-#line 192 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_dram_defines.h"
+#line 192 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_dram_defines.h"
 typedef enum cacheLineState_e
 {
    CACHE_EVICTED = 0,
@@ -45010,7 +45160,7 @@ typedef enum DDRC_Module_Src_e
    DDRC_MODULE_SRC_CL,
 } DDRC_Module_Src_t;
 
-#line 244 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_dram_defines.h"
+#line 244 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_dram_defines.h"
 typedef struct ddr_cache_sync_cmd_s
 {
 
@@ -45050,10 +45200,10 @@ void DDR_InjectError(uint32_t DramAddr,DDRC_Module_Src_t injectSrc);
 
 uint32_t DDR_IsIdle(void);
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
 
-#line 37 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
+#line 43 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
 enum
 {
    READ_FROM_HOST_NO_SEC   = 0x20,
@@ -45193,14 +45343,14 @@ void         HMBC_IntEnable(uint32_t userId);
 Status_t     FE_HAL_HMB_Read4Bytes(HMB_Read4Bytes_t* hmbRequest4Bytes);
 BOOL32       HMBC_IsIdle(void);
 
-#line 182 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
+#line 188 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api_hmb.h"
 Status_t     HMBC_QueueRequestReadWrite128(HMB_ReadWrite128_t* hmbRequest128, HmbcDirection_e direction);
 
-#line 25 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 25 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_indirect_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_indirect_defines.h"
 
-#line 175 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_indirect_defines.h"
+#line 175 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_indirect_defines.h"
 typedef struct _DDRC_BUFFER_CMD
 {
    uint64_t  IND_BUFFER_CMD[ 126 ];
@@ -45222,7 +45372,7 @@ typedef struct _DDRC_CACHE_SYNC_CMD
    uint64_t  CHCHE_SYNC_CMD[ 0x10 ];
 } DDRC_CACHE_SYNC_CMD, *PDDRC_CACHE_SYNC_CMD;
 
-#line 240 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_indirect_defines.h"
+#line 240 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_indirect_defines.h"
 typedef struct _DDRC_INDIRECT_ADDR
 {
    uint64_t  DDR_INDIRECT_ADDR;
@@ -45233,10 +45383,10 @@ typedef struct _DDRC_INDIRECT {
     DDRC_INDIRECT_ADDR_t DDR_INDIRECT[16];
 }DDRC_INDIRECT, *PDDRC_INDIRECT;
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_cache_debug_regs_defines.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_cache_debug_regs_defines.h"
 
-#line 644 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_cache_debug_regs_defines.h"
+#line 644 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/ddrc_cache_debug_regs_defines.h"
 typedef struct _DDRC_DEBUG_REGS {
     uint64_t  DIRECT_REGION_ADDR                         ;
     uint64_t  DRAM_CMD_RSP_TIMESTAMP                     ;
@@ -45276,7 +45426,7 @@ typedef struct _DDRC_DEBUG_REGS {
     uint64_t  CL_QUEUES_STATUS[128]                      ;
 }DDRC_DEBUG_REGS_t, *PDDRC_DEBUG_REGS;
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 
 
 
@@ -45284,7 +45434,7 @@ typedef struct _DDRC_DEBUG_REGS {
 
 extern volatile uint32_t ExceptionHanldingDone;
 
-#line 74 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 74 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 typedef enum DDR_CahceSyncRangeMode_e
 {
    ALL_RANGE = 0,
@@ -45316,12 +45466,12 @@ __inline static  uint32_t DDR_getIndierctBufferIndexFromDataAddr(uint32_t dataAd
    return (dataAddr -  0x0C000000 ) /  128 ;
 }
 
-#line 177 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 177 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  Status_t ddr_CacheLoadEntry_INVFLLD(uint32_t entryNum, uint32_t ddrAddressMsb)
 {
    PDDRC_BUFFER_CMD pDDRC_BUFFER_CMD = (PDDRC_BUFFER_CMD) 0x0C800000 ;
 
-#line 183 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 183 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
    WriteRegister64( (unsigned long)(&pDDRC_BUFFER_CMD->IND_BUFFER_CMD[entryNum]), (unsigned long long)( ((0 << 31 ) | (0 << 30 ) | (0 << 29 ) | ((ddrAddressMsb) << 0 )) ) ) ;
    return STATUS_OK;
 }
@@ -45344,7 +45494,7 @@ __inline static  Status_t ddr_CacheLoadEntry_INVERR(uint32_t entryNum)
    return STATUS_OK;
 }
 
-#line 227 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 227 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 typedef struct _SYS_DIAG_DDR_WRC_TEST_s
 {
    uint8_t is_running;
@@ -45378,7 +45528,7 @@ typedef struct _SYS_DIAG_DDR_ATE_TEST_s
    Status_t status;
 } SYS_DIAG_DDR_ATE_TEST_t;
 
-#line 265 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 265 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 extern SYS_DIAG_DDR_WRC_TEST_t wrc_test;
 
 
@@ -45444,7 +45594,7 @@ __inline static  uint32_t DDR_GetCacheState(uint32_t cacheLineIndex)
       }
       else
       {
-         { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 330 , "0");                         "BullseyeCoverage restore"; } ;
+         { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 330 , "0");                         "BullseyeCoverage restore"; } ;
       }
    }
    else
@@ -45511,16 +45661,16 @@ __inline static  BOOL DDR_IsCacheCorrection(uint32_t cacheLineIndex)
    return (CACHE_CORRECTION == DDR_GetCacheState(cacheLineIndex));
 }
 
-#line 421 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 421 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  void DDR_LoadBuffer(uint32_t bufIdx, uint64_t DramAddr)
 {
    uint32_t DDR_addr=(uint32_t)(DramAddr >>  7 );
    ddr_CacheLoadEntry_INVFLLD(bufIdx, DDR_addr);
 
-#line 433 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 433 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 }
 
-#line 445 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 445 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  void DDR_AttachBuffer(uint32_t bufIdx, uint64_t DramAddr)
 {
    uint32_t DDR_addr = (uint32_t)(DramAddr >>  7 );
@@ -45528,7 +45678,7 @@ __inline static  void DDR_AttachBuffer(uint32_t bufIdx, uint64_t DramAddr)
    WriteRegister64( (unsigned long)(&pDDRC_BUFFER_CMD->IND_BUFFER_CMD[bufIdx]), (unsigned long long)( ((0 << 31 ) | (1 << 30 ) | (0 << 29 ) | ((DDR_addr) << 0 )) ) ) ;
 }
 
-#line 464 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 464 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  void DDR_InvalidateBufferWithWriteback(uint32_t bufIdx)
 {
    ddr_CacheLoadEntry_INVFL(bufIdx);
@@ -45538,7 +45688,7 @@ __inline static  void DDR_InvalidateBufferWithWriteback(uint32_t bufIdx)
 
 }
 
-#line 485 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 485 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  void DDR_InvalidateBufferWithoutWriteback(uint32_t bufIdx)
 {
    ddr_CacheLoadEntry_INVERR(bufIdx);
@@ -45548,7 +45698,7 @@ __inline static  void DDR_InvalidateBufferWithoutWriteback(uint32_t bufIdx)
 
 }
 
-#line 506 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 506 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  void DDR_WritebackBuffer(uint32_t bufIdx)
 {
    ddr_CacheLoadEntry_WBVAL(bufIdx);
@@ -45558,45 +45708,39 @@ __inline static  void DDR_WritebackBuffer(uint32_t bufIdx)
 
 }
 
-#line 528 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 528 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  uint32_t DDR_ReadCacheWord32(uint32_t bufIdx, uint32_t dwordOffset)
 {
    uint32_t *pCacheWord;
    uint32_t wordRead;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(bufIdx < 126), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 533 , "bufIdx < 126");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(dwordOffset < 128 / sizeof(uint32_t)), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 534 , "dwordOffset < 128 / sizeof(uint32_t)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(bufIdx < 126), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 533 , "bufIdx < 126");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(dwordOffset < 128 / sizeof(uint32_t)), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 534 , "dwordOffset < 128 / sizeof(uint32_t)");                         "BullseyeCoverage restore"; } ;
 
    pCacheWord = (uint32_t*) 0x0C000000 ;
    wordRead =  ReadRegister( (unsigned long)(pCacheWord + bufIdx* 128  / sizeof(uint32_t)  + dwordOffset) ) ;
 
-
-   CATHmb_IncrementReadCLStats();
-
-#line 554 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 550 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
    return wordRead;
 }
 
-#line 567 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 563 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  uint64_t DDR_ReadCacheWord64(uint32_t bufIdx, uint32_t dwordOffset)
 {
    uint32_t *pCacheWord;
    uint64_t wordRead;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(bufIdx < 126), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 572 , "bufIdx < 126");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(dwordOffset < 128 / sizeof(uint32_t)), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 573 , "dwordOffset < 128 / sizeof(uint32_t)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(bufIdx < 126), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 568 , "bufIdx < 126");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(dwordOffset < 128 / sizeof(uint32_t)), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 569 , "dwordOffset < 128 / sizeof(uint32_t)");                         "BullseyeCoverage restore"; } ;
 
    pCacheWord = (uint32_t*) 0x0C000000 ;
    wordRead =  ReadRegister64( (unsigned long)(pCacheWord + bufIdx* 128  / sizeof(uint32_t)  + dwordOffset) ) ;
 
-
-   CATHmb_IncrementReadCLStats();
-
-#line 594 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 586 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
    return wordRead;
 }
 
-#line 607 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 599 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  uint8_t DDR_ReadCacheByte(uint32_t bufIdx, uint32_t byteOffset)
 {
    uint8_t byteRead;
@@ -45606,9 +45750,9 @@ __inline static  uint8_t DDR_ReadCacheByte(uint32_t bufIdx, uint32_t byteOffset)
    uint32_t wordRead;
    uint32_t dwordOffset;
 
-#line 619 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(bufIdx < 126), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 619 , "bufIdx < 126");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(byteOffset < 128), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 620 , "byteOffset < 128");                         "BullseyeCoverage restore"; } ;
+#line 611 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(bufIdx < 126), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 611 , "bufIdx < 126");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(byteOffset < 128), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 612 , "byteOffset < 128");                         "BullseyeCoverage restore"; } ;
 
 
    dwordOffset = byteOffset /  4 ;
@@ -45618,10 +45762,10 @@ __inline static  uint8_t DDR_ReadCacheByte(uint32_t bufIdx, uint32_t byteOffset)
    wordRead =  ReadRegister( (unsigned long)(pCacheWord + bufIdx * 128  / sizeof(uint32_t)  + dwordOffset) ) ;
    byteRead = (uint8_t)(*(((uint8_t*)&wordRead) + byteOffset));
 
-#line 635 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 627 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
    CATHmb_IncrementReadCLStats();
 
-#line 649 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 641 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
    return byteRead;
 }
 
@@ -45705,7 +45849,7 @@ __inline static  uint32_t DDR_ReadDataFromBufferByte(uint32_t bufIdx, uint32_t b
    uint32_t lengthToRead;
    uint32_t isValid =  (1) ;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((byteOffset + byteLength) <= 128), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 732 , "(byteOffset + byteLength) <= 128");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((byteOffset + byteLength) <= 128), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 724 , "(byteOffset + byteLength) <= 128");                         "BullseyeCoverage restore"; } ;
 
    for (lengthToRead = 0; lengthToRead < byteLength && isValid ==  (1) ; lengthToRead++)
    {
@@ -45716,7 +45860,7 @@ __inline static  uint32_t DDR_ReadDataFromBufferByte(uint32_t bufIdx, uint32_t b
    return isValid;
 }
 
-#line 754 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 746 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  void DDR_WriteCacheByte(uint32_t cacheLineIndex, uint32_t byteOffset, uint8_t byte)
 {
 
@@ -45725,9 +45869,9 @@ __inline static  void DDR_WriteCacheByte(uint32_t cacheLineIndex, uint32_t byteO
    uint32_t wordRead;
    uint32_t dwordOffset;
 
-#line 765 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineIndex < 126), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 765 , "cacheLineIndex < 126");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(byteOffset < 128), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 766 , "byteOffset < 128");                         "BullseyeCoverage restore"; } ;
+#line 757 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineIndex < 126), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 757 , "cacheLineIndex < 126");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(byteOffset < 128), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 758 , "byteOffset < 128");                         "BullseyeCoverage restore"; } ;
 
 
    dwordOffset = byteOffset /  4 ;
@@ -45738,7 +45882,7 @@ __inline static  void DDR_WriteCacheByte(uint32_t cacheLineIndex, uint32_t byteO
    *((uint8_t*)&wordRead + byteOffset) = byte;
    WriteRegister( (unsigned long)(pCacheWord + cacheLineIndex * 128  / sizeof(uint32_t)  + dwordOffset), (unsigned long)(wordRead) ) ;
 
-#line 791 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 783 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 }
 
 
@@ -45747,7 +45891,7 @@ __inline static  uint32_t DDR_WriteByteArrToBuffer(uint32_t bufIdx, uint32_t byt
    uint32_t lengthToWrite;
    uint32_t isValid =  (1) ;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((byteOffset + length) <= 128), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 799 , "(byteOffset + length) <= 128");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((byteOffset + length) <= 128), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 791 , "(byteOffset + length) <= 128");                         "BullseyeCoverage restore"; } ;
 
    for (lengthToWrite = 0; lengthToWrite < length && isValid ==  (1) ; lengthToWrite++)
    {
@@ -45757,27 +45901,27 @@ __inline static  uint32_t DDR_WriteByteArrToBuffer(uint32_t bufIdx, uint32_t byt
    return isValid;
 }
 
-#line 819 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 811 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  void DDR_WriteCacheWord32(uint32_t cacheLineIndex, uint32_t cacheLineOffset, uint32_t word)
 {
    uint32_t *pCacheWord;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineIndex < 126), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 823 , "cacheLineIndex < 126");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineOffset < 128 / sizeof(uint32_t)), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 824 , "cacheLineOffset < 128 / sizeof(uint32_t)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineIndex < 126), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 815 , "cacheLineIndex < 126");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineOffset < 128 / sizeof(uint32_t)), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 816 , "cacheLineOffset < 128 / sizeof(uint32_t)");                         "BullseyeCoverage restore"; } ;
 
    pCacheWord = (uint32_t*) 0x0C000000 ;
    WriteRegister( (unsigned long)(pCacheWord + cacheLineIndex* 128  / sizeof(uint32_t)  + cacheLineOffset), (unsigned long)(word) ) ;
 
-#line 840 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 832 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 }
 
-#line 854 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 846 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  void DDR_WriteCacheWord64(uint32_t cacheLineIndex, uint32_t cacheLineOffset, uint64_t word)
 {
    uint32_t *pCacheWord;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineIndex < 126), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 858 , "cacheLineIndex < 126");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineOffset < 128 / sizeof(uint32_t)), "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 859 , "cacheLineOffset < 128 / sizeof(uint32_t)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineIndex < 126), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 850 , "cacheLineIndex < 126");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(cacheLineOffset < 128 / sizeof(uint32_t)), "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h" , 851 , "cacheLineOffset < 128 / sizeof(uint32_t)");                         "BullseyeCoverage restore"; } ;
 
    pCacheWord = (uint32_t*) 0x0C000000 ;
    WriteRegister64( (unsigned long)(pCacheWord + cacheLineIndex* 128  / sizeof(uint32_t)  + cacheLineOffset), (unsigned long long)(word) ) ;
@@ -45785,7 +45929,7 @@ __inline static  void DDR_WriteCacheWord64(uint32_t cacheLineIndex, uint32_t cac
 
    CATHmb_IncrementWriteCLStats();
 
-#line 880 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 872 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 }
 
 
@@ -45796,7 +45940,7 @@ __inline static  void DDR_WriteDataToBufferQword(uint32_t buffOffsetCalclutedSiz
    DDR_WriteCacheWord64( (buffOffsetCalclutedSizeInDWORD / (uint32_t)( 128  / sizeof(uint32_t) )) ,  (buffOffsetCalclutedSizeInDWORD % (uint32_t)( 128  / sizeof(uint32_t) )) ,data);}
 __inline static  void DDR_WriteDataToBuffer(uint32_t bufIdx, uint32_t dwordOffset, uint32_t data) {DDR_WriteCacheWord32(bufIdx,dwordOffset,data);}
 
-#line 908 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 900 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 void DDR_CacheSync(DDR_CahceSyncRangeMode_t rangeModeIdx, DDR_CahceSyncExecute_t cacheSyncExecute, uint64_t startADDR, uint64_t sizeInBytes);
 
 
@@ -45836,7 +45980,7 @@ Status_t DDR_WaitForCacheValid(uint32_t cacheLindeIndex);
 Status_t DDR_WaitForCacheEvicted(uint32_t cacheLindeIndex);
 void ddr_reload();
 
-#line 965 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 957 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
 __inline static  void DDR_updateHmbReadClStatistics(uint32_t bufferIdx)
 {
    if (! (((( ReadRegister64( (unsigned long)(&((PDDRC_DEBUG_REGS) (0x70000000) )->BUFFERS_STATE[bufferIdx]) ) ))& (0x00000001ULL << 63 ) )>> 63 )  && ! (((( ReadRegister64( (unsigned long)(&((PDDRC_DEBUG_REGS) (0x70000000) )->BUFFERS_STATE[bufferIdx]) ) ))& (0x00000001ULL << 48 ) )>> 48 ) )
@@ -45861,7 +46005,7 @@ __inline static  uint32_t DDR_ReadByteFromBuffSafely(uint32_t bufIdx, uint32_t b
    {
       while (( (((( ReadRegister64( (unsigned long)(&((PDDRC_DEBUG_REGS) (0x70000000) )->BUFFERS_STATE[bufIdx]) ) ))& (0x00000001ULL << 63 ) )>> 63 ) ) && (! (((( ReadRegister64( (unsigned long)(&((PDDRC_DEBUG_REGS) (0x70000000) )->BUFFERS_STATE[bufIdx]) ) ))& (0x00000001ULL << 48 ) )>> 48 ) )) {
 
-#line 991 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 983 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
       };
 
       if (( (( ReadRegister64( (unsigned long)(&((PDDRC_DEBUG_REGS) (0x70000000) )->BUFFERS_STATE[bufIdx]) )  & (uint64_t) ((uint64_t)(1ULL<< 63 ) | (uint64_t)(1ULL<< 50 ) | (uint64_t)(1ULL<< 48 )) ) == (uint64_t) ((uint64_t)(1ULL<< 63 ) | (uint64_t)(1ULL<< 48 )) ) ))
@@ -45886,7 +46030,7 @@ __inline static  uint32_t DDR_WriteToBuffSafely(uint32_t bufIdx, uint32_t ByteOf
       while (( (((( ReadRegister64( (unsigned long)(&((PDDRC_DEBUG_REGS) (0x70000000) )->BUFFERS_STATE[bufIdx]) ) ))& (0x00000001ULL << 63 ) )>> 63 ) ) && (! (((( ReadRegister64( (unsigned long)(&((PDDRC_DEBUG_REGS) (0x70000000) )->BUFFERS_STATE[bufIdx]) ) ))& (0x00000001ULL << 48 ) )>> 48 ) ))
       {
 
-#line 1017 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
+#line 1009 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_buffer_driver.h"
       };
 
       if (( (( ReadRegister64( (unsigned long)(&((PDDRC_DEBUG_REGS) (0x70000000) )->BUFFERS_STATE[bufIdx]) )  & (uint64_t) ((uint64_t)(1ULL<< 63 ) | (uint64_t)(1ULL<< 50 ) | (uint64_t)(1ULL<< 48 )) ) == (uint64_t) ((uint64_t)(1ULL<< 63 ) | (uint64_t)(1ULL<< 48 )) ) ))
@@ -45898,12 +46042,12 @@ __inline static  uint32_t DDR_WriteToBuffSafely(uint32_t bufIdx, uint32_t ByteOf
 
 }
 
-#line 44 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
+#line 44 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_intgeneralimp.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_intgeneralimp.h"
 
-#line 48 "d:/gitrepo/fpgcss-vega/source/infra/drivers/inc_public/sys_intgeneralimp.h"
+#line 48 "c:/wdlabs/fpgcss-vega/source/infra/drivers/inc_public/sys_intgeneralimp.h"
 typedef union SVCI_BridgeControl_u
 {
    struct {
@@ -46066,23 +46210,23 @@ void SVCI_SetTimeoutControl(SVCI_TimeoutControl_t timeout_ctrl);
 SVCI_TimeoutStatus_t SVCI_GetTimeoutStatus(void);
 void SVCI_ClrTimeoutStatus(void);
 
-#line 22 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddr_descr_defines.h"
+#line 22 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddr_descr_defines.h"
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
+#line 23 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/cat_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/cat_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_regs_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_regs_defines.h"
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_ps.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api_ps.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/fe_nvme/driver/inc/him_hawa_registers.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/fe_nvme/driver/inc/him_hawa_registers.h"
 
-#line 100 "d:/gitrepo/fpgcss-vega/source/fe_nvme/driver/inc/him_hawa_registers.h"
+#line 100 "c:/wdlabs/fpgcss-vega/source/fe_nvme/driver/inc/him_hawa_registers.h"
 enum HAWA_FSM_STATE_e
 {
    HAWA_FSM_ST_IDLE                 = 0x00,
@@ -46643,7 +46787,7 @@ typedef union HIM_HAWA_DEBUG_WR_EXE_FLOW_u
    {
       uint32_t fsmState                     :4;
 
-#line 671 "d:/gitrepo/fpgcss-vega/source/fe_nvme/driver/inc/him_hawa_registers.h"
+#line 671 "c:/wdlabs/fpgcss-vega/source/fe_nvme/driver/inc/him_hawa_registers.h"
       uint32_t reserved_0                   :2;
       uint32_t buffAllocFsmState            :2;
 
@@ -46677,7 +46821,7 @@ typedef union HIM_HAWA_DEBUG_HABM_CMPL_FLOW_u
    {
       uint32_t fsmState                     :4;
 
-#line 718 "d:/gitrepo/fpgcss-vega/source/fe_nvme/driver/inc/him_hawa_registers.h"
+#line 718 "c:/wdlabs/fpgcss-vega/source/fe_nvme/driver/inc/him_hawa_registers.h"
       uint32_t reserved_0                   :28;
    } bits;
 
@@ -48918,23 +49062,23 @@ extern pHAWA_REGS_t hawaRegistersPtr;
 
 void   HAWA_GetHAWARegsValues(HAWA_REGS_t * hawaRegistersTargetPtr);
 
-#line 19 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_ps.h"
+#line 19 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api_ps.h"
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/fe_nvme/public/inc/fe_api_ps.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/fe_nvme/public/inc/fe_api_ps.h"
 uint32_t FE_API_PS_HWD_GetContextBaseAddress(void);
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/_out/model/dllbuild/shuri_ei.ram/softmap.h"
+#line 1 "c:/wdlabs/fpgcss-vega/_out/model/dllbuild/shuri_ei.ram/softmap.h"
 
-#line 36 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
+#line 36 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/cam_reg/cam_regs_defines.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/cam_reg/cam_regs_defines.h"
 
-#line 1806 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/cam_reg/cam_regs_defines.h"
+#line 1806 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/cam_reg/cam_regs_defines.h"
 typedef struct _CAM {
     uint64_t  CAM_INT_STATUS                             ;
     uint64_t  Reserved0[2];
@@ -48997,13 +49141,13 @@ typedef struct _CAM {
     uint64_t  CAM_VIRTUAL_TABLE[1024]                    ;
 }CAM_t, *PCAM;
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_regs_defines.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_regs_defines.h"
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/cap_reg/cap_regs_defines.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/cap_reg/cap_regs_defines.h"
 
-#line 520 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/cap_reg/cap_regs_defines.h"
+#line 520 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/cap_reg/cap_regs_defines.h"
 typedef struct _CAP {
     uint64_t  CAP_INT_STATUS                             ;
     uint64_t  CAP_INT_MASK[2]                            ;
@@ -49127,10 +49271,10 @@ typedef struct _CAP {
     uint64_t  CAP_DBG_TAG_OOR_INFO                       ;
 }CAP_t, *PCAP;
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/dpca_reg/dpca_regs_defines.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/dpca_reg/dpca_regs_defines.h"
 
-#line 833 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/dpca_reg/dpca_regs_defines.h"
+#line 833 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/dpca_reg/dpca_regs_defines.h"
 typedef struct _DPCA {
     uint64_t  DPCA_INT_STATUS                            ;
     uint64_t  DPCA_INT_MASK                              ;
@@ -49163,12 +49307,12 @@ typedef struct _DPCA {
     uint64_t  DPCA_HEB_OV_CNT                            ;
 }DPCA_t, *PDPCA;
 
-#line 33 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
+#line 33 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
 
-#line 34 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
+#line 34 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
 
-#line 58 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
+#line 58 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/llfs_reg/llfs_be_common_defs.h"
 extern uint32_t g_NANDAddrBytes;
 
 
@@ -49189,48 +49333,48 @@ extern uint32_t g_NANDBics6X4;
 
 extern uint32_t g_NANDBics8X3;
 
-#line 41 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
+#line 41 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver_ra.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver_ra.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver_ra.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver_ra.h"
 
-#line 149 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver_ra.h"
+#line 149 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver_ra.h"
 __inline static  uint32_t RSV_GetHostWritePoolAddress(void)
 {
 
    return  ( 0x02014400 ) ;
 
-#line 156 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver_ra.h"
+#line 156 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver_ra.h"
 }
 
-#line 38 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 38 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_be_init_def.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_be_init_def.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
 
-#line 5 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_be_init_def.h"
+#line 5 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/rs_reg/rs_be_init_def.h"
 
-#line 40 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 40 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
 
 
 extern const PRS gpRSV;
 
-#line 89 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 89 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
 ;
 
-#line 364 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 365 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
 ;
 
-#line 368 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 369 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
 ;
 
-#line 511 "d:/gitrepo/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
+#line 512 "c:/wdlabs/fpgcss-vega/source/ps/hw_drivers/rsv_driver/inc/rsv_driver.h"
 extern const uint64_t   RSV_BE_RB_MAPPING_TABLE[ 0x7 ][ 0x4 ][2];
 extern const uint32_t RSV_BE_RB_POOL[ 0x7 ];
 
@@ -49250,18 +49394,18 @@ typedef enum RSV_EnableProfileCtrl_e
    PROFILE_ENABLED_AND_NEXT_CAN_SUBSTITUTE = 3,
 } RSV_EnableProfileCtrl_t;
 
-#line 17 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/cat_api.h"
+#line 17 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/cat_api.h"
 
-#line 25 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddrc_dma_defines.h"
+#line 25 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/ddr_dma_reg/ddrc_dma_defines.h"
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/llfs/inc_public/datapath_memory_assign.h"
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
 
-#line 66 "d:/gitrepo/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
+#line 66 "c:/wdlabs/fpgcss-vega/source/infra/drivers/ddr/inc_public/sys_ddr_dma_driver.h"
 typedef enum DDR_DMA_ErrorStatus_e
 {
    DDRC_DMA_STATUS_OK = 0,
@@ -49318,12 +49462,12 @@ uint32_t DDR_DMA_peekHeadIndex(uint32_t chIdx);
 uint32_t DDR_DMA_peekTailIndex(uint32_t chIdx);
 uint32_t DDR_DMA_IsFMLBitCanBeCleared(uint32_t chIdx);
 
-#line 45 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 45 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 
-#line 95 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 101 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 ;
 
-#line 121 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 127 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 typedef enum HWD_HostlessWriteType_e
 {
    HWD_WRITE_BUFFER_UPADTE_SAT      = 0,
@@ -49347,7 +49491,14 @@ typedef enum HWD_CtxDataType_e
    HWD_CTXT_DATA_TYPE_LAST_VALID = HWD_CTXT_DATA_TYPE_OVERLAP
 }HWD_CtxDataType_t;
 
-#line 159 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+typedef enum HWD_WriteSize_e
+{
+    HWD_WRITE_SIZE_32K = 0,
+    HWD_WRITE_SIZE_64K,
+    HWD_WRITE_SIZE_128K
+}HWD_WriteType_t;
+
+#line 172 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 typedef struct HWD_GroupManager_s
 {
    uint8_t               groupIdx;
@@ -49466,6 +49617,14 @@ typedef struct HWD_Cb_s
     uint32_t HwdFuaErrBits[ (512)  / (1 <<  (5) )];
     uint16_t fuaFmgCtxtID;
     uint32_t fuaCookie;
+
+    uint8_t SSEnterCounter;
+    uint8_t SSExitCounter;
+    uint8_t SSIsActive;
+    uint8_t SSIsProcessActive;
+    uint16_t SSEnterCtx;
+    uint16_t WDPA_checkCnt;
+
 } HWD_Cb_t;
 
 
@@ -49480,6 +49639,16 @@ typedef struct HWD_Cb_s
    __inline static  BOOL32 HWD_RMW_IsActive()
    {
       return HWD_CB.HwdRmwOverlapInfo.runningRMWCounter>0;
+   }
+
+   __inline static  BOOL32 HWD_SS_ShouldEnter()
+   {
+      return !HWD_CB.SSIsActive && HWD_CB.SSEnterCounter >  (3)  && !HWD_CB.SSIsProcessActive;
+   }
+
+   __inline static  BOOL32 HWD_SS_ShouldExit()
+   {
+      return HWD_CB.SSIsActive && HWD_CB.SSExitCounter >  (3)  && !HWD_CB.SSIsProcessActive;
    }
 
    __inline static  uint32_t HWD_GetTLCBufferSize(HWD_Accum_t accumType)
@@ -49570,16 +49739,16 @@ typedef struct HWD_Cb_s
 
 extern   uint32_t gSequNumber;
 
-#line 398 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 429 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 BOOL32  __attribute__((section("CODE_RANDOM")))  HWD_WriteFlow(HIM_HWD_Context_t* pHwdCtxt, uint32_t hwdCtxtID);
 
-#line 416 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 447 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 void   HWD_FlushTLCBuffer(HWD_Accum_t tlcAccumListID, HWD_TLCFlushCause_t flushCause);
 
-#line 432 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 463 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 void   HWD_Flush(FTL_AsynchClBkFunc callBkFun, uint32_t token);
 
-#line 448 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 479 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 void   HWD_ResumeWriteAfterRMW(uint16_t fmgCtxtId, uint16_t payload, FMG_ExecStatus_t execStatus);
 void   HWD_ResumeWriteBufferAfterRMW(uint16_t fmgCtxtId, uint16_t payload, FMG_ExecStatus_t execStatus);
 void   HWD_SetDallocState(uint8_t state);
@@ -49592,10 +49761,10 @@ void   HWD_WriteDeallocatePayload(uint16_t fmgCtxtID, uint32_t *pPayload, uint32
 
 void   HWD_WriteRpmbPayload(uint16_t fmgCtxtID, uint32_t *pPayload, uint32_t *pHeader, uint8_t fmuCount, FTL_FMU_INFO_t* pWriteInfoFmus, FTL_AsynchClBkFunc callBkFun, uint32_t token);
 
-#line 470 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 501 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 void   HWD_Init(void);
 
-#line 486 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
+#line 517 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd.h"
 void   HWD_GrpIdResHandler(uint16_t contextId, uint16_t payload, FMG_ExecStatus_t execStatus);
 
 
@@ -49613,22 +49782,30 @@ void   HWD_HandlePadding(HIM_HWD_Context_t* pHwdCtxt, uint32_t hwdCtxtID);
 
 void   HWD_HandleErrorBit(HIM_HWD_Context_t* pHwdCtxt, uint32_t hwdCtxtID);
 
-#line 34 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
+void   HWD_SS_CheckAndHandleEnter();
 
-#line 35 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+void   HWD_SS_CheckAndHandleExit();
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
+void   HWD_SS_CompleteProcess(void);
 
-#line 38 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorconfig_api.h"
+void   HWD_SS_HAWAFlushCB(void);
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 34 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/hwd/inc/ftl_hwd_fua.h"
 
-#line 23 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorconfig_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h"
+#line 35 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
 
-#line 75 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/rlc/inc/rlc_api.h"
+
+#line 38 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorconfig_api.h"
+
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+
+#line 23 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorconfig_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h"
+
+#line 75 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h"
 typedef enum XBID_e
 {
    XBID_FIRST = 0,
@@ -49686,7 +49863,7 @@ typedef struct FTL_PS_XORLoadErrorResponse_s
    } data;
 } FTL_PS_XORLoadErrorReport_t;
 
-#line 149 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h"
+#line 149 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h"
 __inline static  uint32_t XORM_GetXBIDMemoryRegion(XBID_t xbid)
 {
    uint32_t xbidMemoryRegion;
@@ -49704,7 +49881,7 @@ __inline static  uint32_t XORM_GetXBIDMemoryRegion(XBID_t xbid)
       break;
    default:
       xbidMemoryRegion =  (0xFFFFFFFFUL) ;
-      { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h" , 166 , "(0)");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h" , 166 , "(0)");                         "BullseyeCoverage restore"; } ;
       break;
    }
    return xbidMemoryRegion;
@@ -49743,7 +49920,7 @@ __inline static  uint8_t XORConfig_GetXbidOffsetInSlots(XBID_t xbid)
       break;
    default:
       XbidOffset =  (0xFF) ;
-      { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h" , 205 , "(0)");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ftl_ps_xorconfig_api.h" , 205 , "(0)");                         "BullseyeCoverage restore"; } ;
       break;
    }
    return XbidOffset;
@@ -49762,9 +49939,9 @@ __inline static  uint32_t XORM_GetXbidAddress(XBID_t xbid)
    return (uint32_t)XORM_GetXBIDMemoryRegion(xbid) + XORConfig_GetXbidOffsetInSlots(xbid) *  165760 ;
 }
 
-#line 24 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorconfig_api.h"
+#line 24 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorconfig_api.h"
 
-#line 53 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorconfig_api.h"
+#line 53 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorconfig_api.h"
 typedef enum XBID_Mode_e
 {
    XBID_MODE_BASE,
@@ -49842,36 +50019,36 @@ uint8_t            XORConfig_GetXbidOffsetInSlots            (XBID_t xbid);
 uint32_t           XORConfig_GetXbidSizeInSlots              (XBID_t xbid);
 uint8_t            XORConfig_GetXorSlotCount                 (void);
 
-#line 39 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 39 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_compaction.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_compaction.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 
-#line 27 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_compaction.h"
+#line 27 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_compaction.h"
 
-#line 38 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_compaction.h"
+#line 38 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_compaction.h"
 Status_t   FTL_XORM_Compaction_Process(void);
 
 Status_t   FTL_XORM_Compaction_Finilize(void);
 
-#line 26 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 26 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/obm/inc/obm_api.h"
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/winfw_adapter.h"
 
-#line 6 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
+#line 6 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/fmu_header_structs.h"
 
-#line 9 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
+#line 9 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
 
-#line 36 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
+#line 36 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
 typedef enum XORHMB_CFG_STATES
 {
    XORHMB_CONFIG_FROM_INIT = 0,
@@ -49890,7 +50067,7 @@ typedef struct
    uint32_t headersSize;
 } XORHmb_HeadersInfo_t, *XORHmb_HeadersInfo_pt;
 
-#line 57 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
+#line 57 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xor_hmb.h"
 typedef struct
 {
 
@@ -50025,10 +50202,10 @@ void XOR_HMB_OnBMGProfileSwitchDone(void);
 
 void FTL_XOR_HMB_SetEnableFlagOnReset(void);
 
-#line 30 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bkops_api.h"
+#line 30 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bkops_api.h"
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/bkops_api.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/bkops_api.h"
 typedef enum
 {
    BKOPS_XOR_LOAD_MODE_ONLY_MTM,
@@ -50078,12 +50255,12 @@ uint32_t BKOPS_ShouldNotifyOnConsolidationComplete();
 
 void   BKOPS_RemovePemRestrictionIfPsQueueNotEmpty(void);
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
-#line 1 "d:/gitrepo/fpgcss-vega/source/ps/inc_public/ps_xor_config.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ps/inc_public/ps_xor_config.h"
 
-#line 32 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 32 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 
-#line 137 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 137 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 enum FTL_XorSwapMode_e
 {
    XORM_SWAP_MODE_FULL_SWAP,
@@ -50213,7 +50390,7 @@ typedef enum XORM_ResetRebuildState_e
 
    typedef uint64_t binFailureBitmap_t;
 
-#line 269 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 269 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 ;
 
 
@@ -50454,7 +50631,7 @@ typedef struct XORM_PrepareToBkops_UserArea_s
    OBM_BlockType_t      opbidToLoad;
 }XORM_PrepareToBkops_UserArea_t;
 
-#line 521 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 521 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 extern XORM_CB_t XORM_Cb;
 
 void   FTL_XORM_XorSwap_CallbackEntry(uint16_t ctxtId, uint16_t payload, FMG_ExecStatus_t execStatus);
@@ -50530,7 +50707,7 @@ void FTL_XORM_NotifyLogParityInvalid(OBM_BlockType_t opbID);
 void FTL_XORM_NotifyHmbStatusChanged(BOOL isEnabled);
 void FTL_XORM_StartRebuildOnReset();
 
-#line 614 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 614 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  void XORM_SwapDescriptorQueue_Init(XORM_SwapDescriptorQueue_t *pQueue)
 {
    uint32_t i;
@@ -50546,13 +50723,13 @@ __inline static  void XORM_SwapDescriptorQueue_Init(XORM_SwapDescriptorQueue_t *
    }
 }
 
-#line 641 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 641 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  XORM_SwapDescriptor_t *XORM_SwapDescriptorQueue_Push(XORM_SwapDescriptorQueue_t *pQueue)
 {
    XORM_SwapDescriptor_t *pDescr = pQueue->queue + pQueue->iTail;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->length < (2)), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 645 , "pQueue->length < (2)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->iTail < (2)), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 646 , "pQueue->iTail < (2)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->length < (2)), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 645 , "pQueue->length < (2)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->iTail < (2)), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 646 , "pQueue->iTail < (2)");                         "BullseyeCoverage restore"; } ;
 
    pQueue->iTail = (pQueue->iTail + 1) %  (2) ;
    pQueue->length++;
@@ -50560,80 +50737,80 @@ __inline static  XORM_SwapDescriptor_t *XORM_SwapDescriptorQueue_Push(XORM_SwapD
    return pDescr;
 }
 
-#line 666 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 666 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  XORM_SwapDescriptor_t *XORM_SwapDescriptorQueue_GetTop(XORM_SwapDescriptorQueue_t *pQueue)
 {
    XORM_SwapDescriptor_t *pDescr = pQueue->queue + pQueue->iHead;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->length > 0), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 670 , "pQueue->length > 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->iHead < (2)), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 671 , "pQueue->iHead < (2)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->length > 0), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 670 , "pQueue->length > 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->iHead < (2)), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 671 , "pQueue->iHead < (2)");                         "BullseyeCoverage restore"; } ;
 
    return pDescr;
 }
 
-#line 689 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 689 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  XORM_SwapDescriptor_t *XORM_SwapDescriptorQueue_GetNthTop(XORM_SwapDescriptorQueue_t *pQueue, uint8_t n)
 {
    uint8_t                i      = (pQueue->iHead + n) %  (2) ;
    XORM_SwapDescriptor_t *pDescr = pQueue->queue + i;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(n < pQueue->length), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 694 , "n < pQueue->length");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(i < (2)), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 695 , "i < (2)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(n < pQueue->length), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 694 , "n < pQueue->length");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(i < (2)), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 695 , "i < (2)");                         "BullseyeCoverage restore"; } ;
 
    return pDescr;
 }
 
-#line 712 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 712 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  XORM_SwapDescriptor_t *XORM_SwapDescriptorQueue_GetLast(XORM_SwapDescriptorQueue_t *pQueue)
 {
    return XORM_SwapDescriptorQueue_GetNthTop(pQueue, (uint8_t)(pQueue->length - 1));
 }
 
-#line 729 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 729 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  void XORM_SwapDescriptorQueue_Pop(XORM_SwapDescriptorQueue_t *pQueue)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->length > 0), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 731 , "pQueue->length > 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->iHead < (2)), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 732 , "pQueue->iHead < (2)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->length > 0), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 731 , "pQueue->length > 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pQueue->iHead < (2)), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 732 , "pQueue->iHead < (2)");                         "BullseyeCoverage restore"; } ;
 
    pQueue->iHead = (pQueue->iHead + 1) %  (2) ;
    pQueue->length--;
 }
 
-#line 751 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 751 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  uint8_t XORM_SwapDescriptorQueue_GetDescriptorIndex(XORM_SwapDescriptorQueue_t *pQueue, XORM_SwapDescriptor_t *pDescr)
 {
    int32_t iDescr = pDescr - pQueue->queue;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(0 <= iDescr && iDescr < (2)), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 755 , "0 <= iDescr && iDescr < (2)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(0 <= iDescr && iDescr < (2)), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 755 , "0 <= iDescr && iDescr < (2)");                         "BullseyeCoverage restore"; } ;
 
    return (uint8_t)iDescr;
 }
 
-#line 772 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 772 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  uint8_t XORM_SwapDescriptorQueue_GetCapacity(XORM_SwapDescriptorQueue_t *pQueue)
 {
    return  (sizeof(pQueue->queue) / sizeof(*pQueue->queue)) ;
 }
 
-#line 789 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 789 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  uint8_t XORM_SwapDescriptorQueue_GetLength(XORM_SwapDescriptorQueue_t *pQueue)
 {
    return pQueue->length;
 }
 
-#line 806 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 806 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  uint8_t XORM_SwapDescriptorQueue_GetFree(XORM_SwapDescriptorQueue_t *pQueue)
 {
    return (uint8_t)(XORM_SwapDescriptorQueue_GetCapacity(pQueue) - XORM_SwapDescriptorQueue_GetLength(pQueue));
 }
 
-#line 824 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 824 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  void FTL_XORM_SetParityPtrXORB(OBM_BlockType_t obid, JBA_t jba)
 {
    XORM_Cb.pXORActiveLOGPointer->xorOpbInfo[obid].jbaInXORB = jba;
 }
 
-#line 839 "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
+#line 839 "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h"
 __inline static  BOOL FTL_XORM_IsIdle(void)
 {
    return XORM_SwapDescriptorQueue_GetLength(&XORM_Cb.swapDescriptorQueue) == 0;
@@ -50684,7 +50861,7 @@ __inline static  BOOL FTL_XORM_BkopsPrepGetNextOpbidToLoad(OBM_BlockType_t* opbi
             *opbidToLoad = OBM_BLOCK_TYPE_STC_RLC;
             break;
          default:
-            { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "d:/gitrepo/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 889 , "0");                         "BullseyeCoverage restore"; } ;
+            { "BullseyeCoverage save off";                          _AssertImpl((int)(0), "c:/wdlabs/fpgcss-vega/source/ftl/xorm/inc/ftl_xorm_api.h" , 889 , "0");                         "BullseyeCoverage restore"; } ;
       }
       return  (1) ;
    }
@@ -50740,13 +50917,13 @@ typedef enum XORM_SwapChainFlags_e
 
 void FTL_XORM_PrepareSwap(OBM_BlockType_t opbid, FTL_XorSwapMode_t swapMode, uint16_t callerCtxtId, uint8_t chainFlags);
 
-#line 40 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 40 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api_mp0.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api_mp0.h"
 
-#line 43 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 43 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
 
-#line 121 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 121 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
 typedef enum
 {
    COMPLETION_MSG_ON_ENCODE_AND_TRANSFER = 0,
@@ -50788,7 +50965,7 @@ typedef enum
    PSR_TLC_UPPER  = 2
 } PSR_TlcWlPart_t;
 
-#line 176 "d:/gitrepo/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
+#line 176 "c:/wdlabs/fpgcss-vega/source/ftl/psr/inc/ftl_psr_api.h"
 typedef struct PSR_Cb_s
 {
    uint8_t  rlcNumFmusInPs[ ( 2 ) ][ 256 ];
@@ -50882,7 +51059,7 @@ uint32_t   PSR_RSScanReq(uint32_t jbId, uint8_t isCtrlBlock, uint32_t jwl, uint3
 
 void PSR_JBInfoRes(JBA_t jba, uint8_t opbId, uint8_t xbId, uint8_t blkTyp);
 
-void   PSR_SetOpenBlockReq(JBA_t jba, OBM_BlockType_t opbId, MP_PS_PQD_QueueType_t qType, PS_SkipLoad_t skipLoad, BOOL32 isWABlock, uint32_t opbCounter);
+void   PSR_SetOpenBlockReq(JBA_t jba, OBM_BlockType_t opbId, MP_PS_PQD_QueueType_t qType, PS_SkipLoad_t skipLoad, BOOL32 isWABlock, uint32_t opbCounter, BOOL32 isUgsdRecovery);
 
 void   PSR_CVDRestoreJBReq(JBA_t jba, OBM_BlockType_t opbId, uint32_t cookie);
 
@@ -50904,7 +51081,7 @@ void PSR_XorZeroFill(MP_PS_PQD_QueueType_t qType, OBM_BlockType_t opbId, JBA_t j
 
 void PSR_XorNandFinished(XBID_t xbid, OBM_BlockType_t opbid, uint32_t jbid, uint32_t cookie, BOOL isUrgentQueue, XorLoadStoreType_t xorOperation);
 
-void PSR_XorHmbFinished(XBID_t xbid, OBM_BlockType_t opbid, uint32_t jbid, uint32_t cookie, BOOL isUrgentQueue);
+void PSR_XorHmbFinished(XBID_t xbid, OBM_BlockType_t opbid, uint32_t jbid, uint32_t cookie, BOOL isUrgentQueue, XorLoadStoreType_t xorOperation);
 
 void   PSR_SendDRDReq(uint16_t drdCheckBitmap, uint32_t cookie, PS_CVD_DRD_Resp_t* pDrdResp);
 
@@ -50939,11 +51116,11 @@ void PSR_SendPsSingleFmuCtrlReadReq(JBA_t jba, uint8_t** dataAddr, uint8_t** hea
 
 void   PSR_SendMbStatusResp(MP_MQD_PSType_t psType, VBA_t vba, JBA_t jba, Block_Status_t blockStatus);
 
-#line 28 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
+#line 28 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
 
-#line 44 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
+#line 44 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
 uint32_t EI_DISABLE_INT();
 void     EI_RESTORE_INT(uint32_t intPosture);
 
@@ -51003,21 +51180,21 @@ void EI_ListenerDirectInjectInfra(MP_MQD_PSType_t psid, MP_PS_PQD_QueueType_t qu
 void EI_ListenerHostTlcProgDetect(BML_BlockType_t blockTyp, uint32_t* hwdCtxtList, uint32_t lstLen);
 void EI_MpPqdListenerForPS_UT(MP_MQD_PSType_t psId, MP_PS_PQD_QueueType_t QType, uint8_t* start, uint8_t* end, uint8_t* current, uint32_t length, uint32_t cnt);
 
-#line 111 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
+#line 111 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
 BOOL32 EI_JbRevStart(uint32_t rangeIndex, uint32_t *pHead, uint32_t jumboBlockId, uint16_t FMGCId, uint16_t payload, uint32_t execStatus);
 
 
 void EI_MbRevUpdateMetaDieDecommissionTable(uint32_t metadie, uint32_t metablock);
 BOOL32 EI_UtilCheckDecommission(uint32_t mdId);
 
-#line 127 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
+#line 127 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
 BOOL32 EI_UtilCheckAvoidRoOnMtmUecc();
 
-#line 139 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
+#line 139 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
 BOOL32 EI_UtilCheckEiActive(void);
 BOOL32 EI_CheckJbReviveActive(void);
 
-#line 185 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
+#line 185 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
 EI_OpId_t EI_UtilGetOpidForObidForPadding(OBM_BlockType_t obid);
 EI_OpId_t EI_UtilGetOpidForObidForBrlc(OBM_BlockType_t obid);
 
@@ -51028,14 +51205,14 @@ uint32_t* EI_bssAddressValidationStatisticsPtr();
 void EI_PrepareDPS32();
 void EI_WriteConfigAndGlobalsToFS();
 
-#line 279 "d:/gitrepo/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
+#line 279 "c:/wdlabs/fpgcss-vega/source/ftl/inc_public/ei_mp_api.h"
 extern void EI_PSR_ReEraseDieBlock(uint32_t psType, uint32_t metadieId, uint32_t metablockId, MP_PS_PQD_QueueType_t qType, uint8_t ignoreFailure, uint32_t cookie, uint8_t blockInMb, uint32_t pec, BOOL32 waitForEraseMarker);
 
-#line 31 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
+#line 31 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
 
-#line 1 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_statistics.h"
+#line 1 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_statistics.h"
 
-#line 64 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_statistics.h"
+#line 64 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_statistics.h"
 enum EI_StatInternalOperation_e
 {
    EI_STAT_INTERNAL_OP_ERASE                 = 0,
@@ -51249,9 +51426,9 @@ EI_StatBacklogEntry_t* EI_StatBacklogGetNextEntry(void);
 void EI_StatBacklogPushEntry(void);
 uint32_t EI_StatBacklogFillBuff(void* pBuff, uint32_t buffSize, uint32_t transferedDataSize);
 
-#line 34 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
+#line 34 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
 
-#line 164 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
+#line 164 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
 typedef enum EI_IvResPool_e
 {
    EI_IV_RES_POOL_XOR_REC = 0,
@@ -51280,7 +51457,7 @@ enum EI_XorRecInjMapMask_e
 
    EI_XOR_REC_INJ_MAP_MASK_UNROLL_PS1 = 0x04,
 
-#line 195 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
+#line 195 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
    EI_XOR_REC_INJ_MAP_MASK_MAY_FAIL   = 0x80,
 
    EI_XOR_REC_INJ_MAP_MASK_NO_LOAD    = (EI_XOR_REC_INJ_MAP_MASK_UNROLL_PS0 | EI_XOR_REC_INJ_MAP_MASK_UNROLL_PS1),
@@ -51440,7 +51617,7 @@ typedef struct EI_OPID_Config_s
 
 }EI_OPID_Config_t;
 
-#line 367 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
+#line 367 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
 typedef struct EI_LogResident_s
 {
    EI_MetaDieDecommissionTable_t   metaDieDecommissionTable[ ( (8)  * ( 4 )  / (2) ) ];
@@ -51552,7 +51729,7 @@ struct EI_EngGlobals_s
       uint32_t hostlessReadFFLBA;
    } subCallerInfo;
 
-#line 490 "d:/gitrepo/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
+#line 490 "c:/wdlabs/fpgcss-vega/source/ftl/ei/inc/ei_engine.h"
    uint32_t CsStartCount;
    uint32_t CsEndCount;
    uint32_t decommissionCount[ ( (8)  * ( 4 )  / (2) ) ];
@@ -51621,14 +51798,14 @@ struct EI_GlobalStructs_s
 
 extern   struct EI_GlobalStructs_s EI_GlobalStructs;
 
-#line 37 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 37 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
 
 
 
 
 void  __attribute__((section("CODE_EI_RAM")))  EI_i_TraceBadConfig(const char* file, uint32_t line);
 
-#line 82 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 82 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
 uint8_t gEI_ActiveFlow[ (10) ];
 
 
@@ -51646,13 +51823,13 @@ __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_Validat
    uint32_t sum = 0;
    uint32_t i;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(lst), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 99 , "lst");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(retSum), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 100 , "retSum");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(maxLstSize >= listSize), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 101 , "maxLstSize >= listSize");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(lst), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 99 , "lst");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(retSum), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 100 , "retSum");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(maxLstSize >= listSize), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 101 , "maxLstSize >= listSize");                         "BullseyeCoverage restore"; } ;
 
    for(i=0; i < listSize; i++)
    {
-      if(!(((lst[i])) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 105 ); return STATUS_ERROR;} ;
+      if(!(((lst[i])) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 105 ); return STATUS_ERROR;} ;
       sum += lst[i];
    }
 
@@ -51660,7 +51837,7 @@ __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_Validat
 
    for(; i < maxLstSize; i++)
    {
-      if(!(lst[i] == 0)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 113 ); return STATUS_ERROR;} ;
+      if(!(lst[i] == 0)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 113 ); return STATUS_ERROR;} ;
    }
 
    return STATUS_OK;
@@ -51670,9 +51847,9 @@ __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_Validat
 {
    uint32_t sum = 0;
    Status_t st = EI_i_ValidatePercentSum(lst, listSize, maxLstSize, &sum);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 123 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 123 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
-   if(!(sum == (100) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 125 ); return STATUS_ERROR;} ;
+   if(!(sum == (100) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 125 ); return STATUS_ERROR;} ;
 
    return STATUS_OK;
 }
@@ -51681,9 +51858,9 @@ __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_Validat
 {
    uint32_t sum = 0;
    Status_t st = EI_i_ValidatePercentSum(lst, listSize, maxLstSize, &sum);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 134 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 134 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
-   if(!(sum > 0)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 136 ); return STATUS_ERROR;} ;
+   if(!(sum > 0)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 136 ); return STATUS_ERROR;} ;
 
    return STATUS_OK;
 }
@@ -51692,7 +51869,7 @@ __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_Validat
 {
    uint32_t sum = 0;
    Status_t st = EI_i_ValidatePercentSum(lst, listSize, maxLstSize, &sum);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 145 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 145 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    return STATUS_OK;
 }
@@ -51700,8 +51877,8 @@ __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_Validat
 void  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfFillChancesArrayWithMaxChance(EI_Percent_t* array, uint32_t arraySize)
 {
    uint32_t i;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(array), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 153 , "array");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(arraySize > 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 154 , "arraySize > 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(array), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 153 , "array");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(arraySize > 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 154 , "arraySize > 0");                         "BullseyeCoverage restore"; } ;
    for (i = 0; i < arraySize; i++)
    {
       array[i] =  (100) ;
@@ -51775,7 +51952,7 @@ void  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfFixOpstBackwardCompatibi
    }
 }
 
-#line 240 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 240 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
 void EI_i_ConfFixEraseChancesBackwardCompatibility(EI_Config_t* config)
 {
    EI_Percent_t chanceEraseFailure = config->allOpsChance.chanceEraseFailure;
@@ -51962,11 +52139,11 @@ switch(opId)
 
 
       default:
-         { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 426 , "(0)");                         "BullseyeCoverage restore"; } ;
+         { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 426 , "(0)");                         "BullseyeCoverage restore"; } ;
          return STATUS_ERROR;
    }
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((tmpReadOnly && tmpProgOnly) == (0)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 430 , "(tmpReadOnly && tmpProgOnly) == (0)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((tmpReadOnly && tmpProgOnly) == (0)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 430 , "(tmpReadOnly && tmpProgOnly) == (0)");                         "BullseyeCoverage restore"; } ;
 
    if(slcOnly)
    {
@@ -51994,43 +52171,43 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidOpSpecParams(co
    Status_t st;
    BOOL32 slcOnly, readOnly, progOnly, openZoneOnly;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pConfig), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 458 , "pConfig");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(opId < EI_NUM_OF_OP_IDS), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 459 , "opId < EI_NUM_OF_OP_IDS");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(pConfig->operations[opId].valid == (1) || pConfig->operations[opId].isParticipantInBurst == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 460 , "pConfig->operations[opId].valid == (1) || pConfig->operations[opId].isParticipantInBurst == (1)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pConfig), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 458 , "pConfig");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(opId < EI_NUM_OF_OP_IDS), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 459 , "opId < EI_NUM_OF_OP_IDS");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(pConfig->operations[opId].valid == (1) || pConfig->operations[opId].isParticipantInBurst == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 460 , "pConfig->operations[opId].valid == (1) || pConfig->operations[opId].isParticipantInBurst == (1)");                         "BullseyeCoverage restore"; } ;
 
    st = EI_GetOpSpecRestrictions(opId, &slcOnly, &readOnly, &progOnly, &openZoneOnly);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 463 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 463 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    if(slcOnly ==  (1) )
    {
-      if(!(0 < (pConfig)->operations[opId].blockTypeFailureChances[EI_BLOCK_TYPE_SLC])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 467 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].blockTypeFailureChances[EI_BLOCK_TYPE_MLC])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 467 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].blockTypeFailureChances[EI_BLOCK_TYPE_MLC + ( (8)  / 2)])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 467 ); return STATUS_ERROR;} ;
+      if(!(0 < (pConfig)->operations[opId].blockTypeFailureChances[EI_BLOCK_TYPE_SLC])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 467 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].blockTypeFailureChances[EI_BLOCK_TYPE_MLC])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 467 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].blockTypeFailureChances[EI_BLOCK_TYPE_MLC + ( (8)  / 2)])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 467 ); return STATUS_ERROR;} ;
    }
    if(readOnly ==  (1) )
    {
-      if(!(0 == (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_PROG])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 471 ); return STATUS_ERROR;} ;           if(!(0 < (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_READ])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 471 ); return STATUS_ERROR;} ;           if(!(0 == (pConfig)->operations[opId].chanceToInitiateBurstOnProg)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 471 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_PROG + ( (8)  / 2)])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 471 ); return STATUS_ERROR;} ;
+      if(!(0 == (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_PROG])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 471 ); return STATUS_ERROR;} ;           if(!(0 < (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_READ])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 471 ); return STATUS_ERROR;} ;           if(!(0 == (pConfig)->operations[opId].chanceToInitiateBurstOnProg)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 471 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_PROG + ( (8)  / 2)])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 471 ); return STATUS_ERROR;} ;
    }
    if(progOnly ==  (1) )
    {
-      if(!(0 < (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_PROG])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 475 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_READ])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 475 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].chanceToInitiateBurstOnRead)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 475 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_READ + ( (8)  / 2)])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 475 ); return STATUS_ERROR;} ;
+      if(!(0 < (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_PROG])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 475 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_READ])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 475 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].chanceToInitiateBurstOnRead)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 475 ); return STATUS_ERROR;} ;          if(!(0 == (pConfig)->operations[opId].opTypeFailureChances[EI_FLASH_READ + ( (8)  / 2)])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 475 ); return STATUS_ERROR;} ;
    }
    if(openZoneOnly ==  (1) )
    {
-      if(!(0 == (pConfig)->operations[opId].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 479 ); return STATUS_ERROR;} ;           if(!(0 == (pConfig)->operations[opId].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 479 ); return STATUS_ERROR;} ;             if(!(0 < (pConfig)->operations[opId].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK])) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 479 ); return STATUS_ERROR;} ;
+      if(!(0 == (pConfig)->operations[opId].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 479 ); return STATUS_ERROR;} ;           if(!(0 == (pConfig)->operations[opId].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 479 ); return STATUS_ERROR;} ;             if(!(0 < (pConfig)->operations[opId].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK])) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 479 ); return STATUS_ERROR;} ;
    }
 
 
    switch(opId)
    {
       case EI_OP_ID_LOG:
-         if(!(STATUS_OK == EI_i_ValidatePercentSumIsNotZero(pConfig->operations[opId].opidSpecificChances.logChances.locations, EI_LOG_COPY_LOCATION_TOTAL, EI_LOG_COPY_LOCATION_TOTAL))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 486 ); return STATUS_ERROR;} ;
-         if(!(STATUS_OK == EI_i_ValidatePercentSumIsNotZero(pConfig->operations[opId].opidSpecificChances.logChances.reasons, EI_LOG_WRITE_REASON_TOTAL, EI_LOG_WRITE_REASON_TOTAL))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 487 ); return STATUS_ERROR;} ;
+         if(!(STATUS_OK == EI_i_ValidatePercentSumIsNotZero(pConfig->operations[opId].opidSpecificChances.logChances.locations, EI_LOG_COPY_LOCATION_TOTAL, EI_LOG_COPY_LOCATION_TOTAL))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 486 ); return STATUS_ERROR;} ;
+         if(!(STATUS_OK == EI_i_ValidatePercentSumIsNotZero(pConfig->operations[opId].opidSpecificChances.logChances.reasons, EI_LOG_WRITE_REASON_TOTAL, EI_LOG_WRITE_REASON_TOTAL))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 487 ); return STATUS_ERROR;} ;
          break;
      case EI_OP_ID_RLC_HOST:
-        if(!(STATUS_OK == EI_i_ValidatePercentSumIsNotZero(pConfig->operations[opId].opidSpecificChances.rlcChances.rlcTypes, EI_RLC_TYPE_TOTAL, EI_RLC_TYPE_TOTAL))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 490 ); return STATUS_ERROR;} ;
+        if(!(STATUS_OK == EI_i_ValidatePercentSumIsNotZero(pConfig->operations[opId].opidSpecificChances.rlcChances.rlcTypes, EI_RLC_TYPE_TOTAL, EI_RLC_TYPE_TOTAL))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 490 ); return STATUS_ERROR;} ;
         break;
       case EI_OP_ID_FLGP:
       case EI_OP_ID_SCAN_FWD:
-         { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 494 , "(0)");                         "BullseyeCoverage restore"; } ;
+         { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 494 , "(0)");                         "BullseyeCoverage restore"; } ;
          return STATUS_ERROR;
          break;
    }
@@ -52047,29 +52224,29 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidOpSpecParams(co
 
 Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidAllOpsChancesTable(const EI_Config_t *config)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 511 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 511 , "config");                         "BullseyeCoverage restore"; } ;
 
 
-   if(!(((config->allOpsChance.chanceEraseFailure)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 514 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceXorRecDuringPfRecFailure)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 515 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceNestedEraseFailureDuringEraseFailure)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 516 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chancePsDecommissionRequests)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 517 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceDstFailure)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 518 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceUnrecXorRecRead)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 519 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceToTriggerRlcAfterReadInj)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 520 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceNestedWriteAbort)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 521 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceNestedEraseAbort)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 522 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceEraseFailureDuringFnvm)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 523 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceDrd)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 524 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceSgdDownShift)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 525 ); return STATUS_ERROR;} ;
-   if(!(((config->allOpsChance.chanceSgdUpShift)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 526 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceEraseFailure)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 514 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceXorRecDuringPfRecFailure)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 515 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceNestedEraseFailureDuringEraseFailure)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 516 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chancePsDecommissionRequests)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 517 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceDstFailure)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 518 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceUnrecXorRecRead)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 519 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceToTriggerRlcAfterReadInj)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 520 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceNestedWriteAbort)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 521 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceNestedEraseAbort)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 522 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceEraseFailureDuringFnvm)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 523 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceDrd)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 524 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceSgdDownShift)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 525 ); return STATUS_ERROR;} ;
+   if(!(((config->allOpsChance.chanceSgdUpShift)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 526 ); return STATUS_ERROR;} ;
 
    if (config->allOpsChance.chanceDrd)
    {
-      if(!(config->generalConfig.drdOpbBitmap)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 530 ); return STATUS_ERROR;} ;
+      if(!(config->generalConfig.drdOpbBitmap)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 530 ); return STATUS_ERROR;} ;
    }
 
-   if(!((config->allOpsChance.chanceSgdDownShift == 0) && (config->allOpsChance.chanceSgdUpShift == 0))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 533 ); return STATUS_ERROR;} ;
+   if(!((config->allOpsChance.chanceSgdDownShift == 0) && (config->allOpsChance.chanceSgdUpShift == 0))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 533 ); return STATUS_ERROR;} ;
 
 
    return STATUS_OK;
@@ -52080,41 +52257,41 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidOperationsTable
    uint32_t opId;
    BOOL32 haveValidOps =  (0) ;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 544 , "config");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(2 * EI_NUM_OF_OP_TBL_ACCESS_TYPES <= (8)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 545 , "2 * EI_NUM_OF_OP_TBL_ACCESS_TYPES <= (8)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(2 * EI_NUM_OF_BLOCK_TYPES <= (8)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 546 , "2 * EI_NUM_OF_BLOCK_TYPES <= (8)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 544 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(2 * EI_NUM_OF_OP_TBL_ACCESS_TYPES <= (8)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 545 , "2 * EI_NUM_OF_OP_TBL_ACCESS_TYPES <= (8)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(2 * EI_NUM_OF_BLOCK_TYPES <= (8)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 546 , "2 * EI_NUM_OF_BLOCK_TYPES <= (8)");                         "BullseyeCoverage restore"; } ;
 
    for(opId=0; opId < EI_NUM_OF_OP_IDS; opId++)
    {
-      if(!(((config->operations[opId].valid) == (1) ) || ((config->operations[opId].valid) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 550 ); return STATUS_ERROR;} ;
-      if(!(((config->operations[opId].isParticipantInBurst) == (1) ) || ((config->operations[opId].isParticipantInBurst) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 551 ); return STATUS_ERROR;} ;
+      if(!(((config->operations[opId].valid) == (1) ) || ((config->operations[opId].valid) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 550 ); return STATUS_ERROR;} ;
+      if(!(((config->operations[opId].isParticipantInBurst) == (1) ) || ((config->operations[opId].isParticipantInBurst) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 551 ); return STATUS_ERROR;} ;
 
       if(config->operations[opId].valid ==  (1)  || config->operations[opId].isParticipantInBurst ==  (1) )
       {
-         if((EI_i_ValidatePercentNoSum(&config->operations[opId].chanceToInitiateBurstOnRead, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 555 , EI_i_ValidatePercentNoSum(&config->operations[opId].chanceToInitiateBurstOnRead, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum(&config->operations[opId].chanceToInitiateBurstOnRead, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES));} ;
-         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].operationalStateChances, EI_OPERATIONAL_STATE_TOTAL, EI_OPERATIONAL_STATE_TOTAL)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 556 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].operationalStateChances, EI_OPERATIONAL_STATE_TOTAL, EI_OPERATIONAL_STATE_TOTAL)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].operationalStateChances, EI_OPERATIONAL_STATE_TOTAL, EI_OPERATIONAL_STATE_TOTAL));} ;
-         if((EI_i_ValidatePercentNoSum(config->operations[opId].opTypeFailureChances, (8) , (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 557 , EI_i_ValidatePercentNoSum(config->operations[opId].opTypeFailureChances, (8) , (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum(config->operations[opId].opTypeFailureChances, (8) , (8) ));} ;
-         if((EI_i_ValidatePercentNoSum(config->operations[opId].blockTypeFailureChances, (8) , (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 558 , EI_i_ValidatePercentNoSum(config->operations[opId].blockTypeFailureChances, (8) , (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum(config->operations[opId].blockTypeFailureChances, (8) , (8) ));} ;
-         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].pagePlacementChances, EI_PLACEMENT_PAGE_TOTAL, (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 559 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].pagePlacementChances, EI_PLACEMENT_PAGE_TOTAL, (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].pagePlacementChances, EI_PLACEMENT_PAGE_TOTAL, (8) ));} ;
-         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].zoneStateChances, EI_ZONE_STATE_TOTAL, (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 560 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].zoneStateChances, EI_ZONE_STATE_TOTAL, (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].zoneStateChances, EI_ZONE_STATE_TOTAL, (8) ));} ;
-         if((EI_i_ValidatePercentNoSum (config->operations[opId].nestedFailuresChances, EI_NESTED_TOTAL, (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 561 , EI_i_ValidatePercentNoSum (config->operations[opId].nestedFailuresChances, EI_NESTED_TOTAL, (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum (config->operations[opId].nestedFailuresChances, EI_NESTED_TOTAL, (8) ));} ;
+         if((EI_i_ValidatePercentNoSum(&config->operations[opId].chanceToInitiateBurstOnRead, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 555 , EI_i_ValidatePercentNoSum(&config->operations[opId].chanceToInitiateBurstOnRead, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum(&config->operations[opId].chanceToInitiateBurstOnRead, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES));} ;
+         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].operationalStateChances, EI_OPERATIONAL_STATE_TOTAL, EI_OPERATIONAL_STATE_TOTAL)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 556 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].operationalStateChances, EI_OPERATIONAL_STATE_TOTAL, EI_OPERATIONAL_STATE_TOTAL)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].operationalStateChances, EI_OPERATIONAL_STATE_TOTAL, EI_OPERATIONAL_STATE_TOTAL));} ;
+         if((EI_i_ValidatePercentNoSum(config->operations[opId].opTypeFailureChances, (8) , (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 557 , EI_i_ValidatePercentNoSum(config->operations[opId].opTypeFailureChances, (8) , (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum(config->operations[opId].opTypeFailureChances, (8) , (8) ));} ;
+         if((EI_i_ValidatePercentNoSum(config->operations[opId].blockTypeFailureChances, (8) , (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 558 , EI_i_ValidatePercentNoSum(config->operations[opId].blockTypeFailureChances, (8) , (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum(config->operations[opId].blockTypeFailureChances, (8) , (8) ));} ;
+         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].pagePlacementChances, EI_PLACEMENT_PAGE_TOTAL, (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 559 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].pagePlacementChances, EI_PLACEMENT_PAGE_TOTAL, (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].pagePlacementChances, EI_PLACEMENT_PAGE_TOTAL, (8) ));} ;
+         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].zoneStateChances, EI_ZONE_STATE_TOTAL, (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 560 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].zoneStateChances, EI_ZONE_STATE_TOTAL, (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].zoneStateChances, EI_ZONE_STATE_TOTAL, (8) ));} ;
+         if((EI_i_ValidatePercentNoSum (config->operations[opId].nestedFailuresChances, EI_NESTED_TOTAL, (8) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 561 , EI_i_ValidatePercentNoSum (config->operations[opId].nestedFailuresChances, EI_NESTED_TOTAL, (8) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum (config->operations[opId].nestedFailuresChances, EI_NESTED_TOTAL, (8) ));} ;
 
 
-         if(!(STATUS_OK == EI_i_ConfValidOpSpecParams(config, opId))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 564 ); return STATUS_ERROR;} ;
+         if(!(STATUS_OK == EI_i_ConfValidOpSpecParams(config, opId))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 564 ); return STATUS_ERROR;} ;
       }
 
       if (config->operations[opId].valid ==  (1) )
       {
-         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].opTypeFailureChances, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 569 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].opTypeFailureChances, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].opTypeFailureChances, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES));} ;
-         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].blockTypeFailureChances, EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 570 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].blockTypeFailureChances, EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].blockTypeFailureChances, EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES));} ;
+         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].opTypeFailureChances, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 569 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].opTypeFailureChances, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].opTypeFailureChances, EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES));} ;
+         if((EI_i_ValidatePercentSumIsNotZero(config->operations[opId].blockTypeFailureChances, EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 570 , EI_i_ValidatePercentSumIsNotZero(config->operations[opId].blockTypeFailureChances, EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(config->operations[opId].blockTypeFailureChances, EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES));} ;
          haveValidOps =  (1) ;
       }
 
       if (config->operations[opId].isParticipantInBurst ==  (1) )
       {
-         if((EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].opTypeFailureChances[ (8)  / 2], EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 576 , EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].opTypeFailureChances[ (8) / 2], EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].opTypeFailureChances[ (8)  / 2], EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES));} ;
-         if((EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].blockTypeFailureChances[ (8)  / 2], EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 577 , EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].blockTypeFailureChances[ (8) / 2], EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].blockTypeFailureChances[ (8)  / 2], EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES));} ;
-         if(!(0 < config->burstMode.minInjectionsPerBurst)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 578 ); return STATUS_ERROR;} ;
+         if((EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].opTypeFailureChances[ (8)  / 2], EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 576 , EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].opTypeFailureChances[ (8) / 2], EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].opTypeFailureChances[ (8)  / 2], EI_NUM_OF_OP_TBL_ACCESS_TYPES, EI_NUM_OF_OP_TBL_ACCESS_TYPES));} ;
+         if((EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].blockTypeFailureChances[ (8)  / 2], EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 577 , EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].blockTypeFailureChances[ (8) / 2], EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsNotZero(&config->operations[opId].blockTypeFailureChances[ (8)  / 2], EI_NUM_OF_BLOCK_TYPES, EI_NUM_OF_BLOCK_TYPES));} ;
+         if(!(0 < config->burstMode.minInjectionsPerBurst)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 578 ); return STATUS_ERROR;} ;
       }
    }
 
@@ -52139,43 +52316,43 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidOperationsTable
 
 Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidChancesTable(const EI_Config_t *config)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 603 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 603 , "config");                         "BullseyeCoverage restore"; } ;
 
-   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 605 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) ));} ;
-   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceXorRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 606 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceXorRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceXorRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) ));} ;
-   if((EI_i_ValidatePercentSumIsMax(config->chances.failChancePfRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 607 , EI_i_ValidatePercentSumIsMax(config->chances.failChancePfRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChancePfRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) ));} ;
-   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalProg, EI_NUM_OF_PROG_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 608 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalProg, EI_NUM_OF_PROG_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalProg, EI_NUM_OF_PROG_FAILURE_TYPES, (16) ));} ;
-   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalErase, EI_NUM_OF_ERASE_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 609 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalErase, EI_NUM_OF_ERASE_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalErase, EI_NUM_OF_ERASE_FAILURE_TYPES, (16) ));} ;
-   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedProg, EI_NUM_OF_NESTED_PROG_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 610 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedProg, EI_NUM_OF_NESTED_PROG_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedProg, EI_NUM_OF_NESTED_PROG_FAILURE_TYPES, (16) ));} ;
-   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedErase, EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 611 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedErase, EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedErase, EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES, (16) ));} ;
-   if((EI_i_ValidatePercentNoSum (config->chances.failChanceSgd, EI_NUM_OF_CFG_SGD_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 612 , EI_i_ValidatePercentNoSum (config->chances.failChanceSgd, EI_NUM_OF_CFG_SGD_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum (config->chances.failChanceSgd, EI_NUM_OF_CFG_SGD_FAILURE_TYPES, (16) ));} ;
+   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 605 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) ));} ;
+   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceXorRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 606 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceXorRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceXorRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) ));} ;
+   if((EI_i_ValidatePercentSumIsMax(config->chances.failChancePfRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 607 , EI_i_ValidatePercentSumIsMax(config->chances.failChancePfRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChancePfRecRead, EI_NUM_OF_READ_FAILURE_TYPES, (16) ));} ;
+   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalProg, EI_NUM_OF_PROG_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 608 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalProg, EI_NUM_OF_PROG_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalProg, EI_NUM_OF_PROG_FAILURE_TYPES, (16) ));} ;
+   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalErase, EI_NUM_OF_ERASE_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 609 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalErase, EI_NUM_OF_ERASE_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceOriginalErase, EI_NUM_OF_ERASE_FAILURE_TYPES, (16) ));} ;
+   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedProg, EI_NUM_OF_NESTED_PROG_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 610 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedProg, EI_NUM_OF_NESTED_PROG_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedProg, EI_NUM_OF_NESTED_PROG_FAILURE_TYPES, (16) ));} ;
+   if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedErase, EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 611 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedErase, EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceNestedErase, EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES, (16) ));} ;
+   if((EI_i_ValidatePercentNoSum (config->chances.failChanceSgd, EI_NUM_OF_CFG_SGD_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 612 , EI_i_ValidatePercentNoSum (config->chances.failChanceSgd, EI_NUM_OF_CFG_SGD_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentNoSum (config->chances.failChanceSgd, EI_NUM_OF_CFG_SGD_FAILURE_TYPES, (16) ));} ;
 
 
    if(config->allOpsChance.chanceDstFailure > 0)
    {
-      if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceDst, EI_NUM_OF_CFG_DST_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 617 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceDst, EI_NUM_OF_CFG_DST_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceDst, EI_NUM_OF_CFG_DST_FAILURE_TYPES, (16) ));} ;
+      if((EI_i_ValidatePercentSumIsMax(config->chances.failChanceDst, EI_NUM_OF_CFG_DST_FAILURE_TYPES, (16) )) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 617 , EI_i_ValidatePercentSumIsMax(config->chances.failChanceDst, EI_NUM_OF_CFG_DST_FAILURE_TYPES, (16) )); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ValidatePercentSumIsMax(config->chances.failChanceDst, EI_NUM_OF_CFG_DST_FAILURE_TYPES, (16) ));} ;
    }
 
 
 
 
 
-   if(!(config->chances.failChanceOriginalRead[EI_READ_SW_TH] == 0)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 624 ); return STATUS_ERROR;} ;
-   if(!(config->chances.failChancePfRecRead[EI_READ_SW_TH] == 0)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 625 ); return STATUS_ERROR;} ;
-   if(!(config->chances.failChanceXorRecRead[EI_READ_SW_TH] == 0)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 626 ); return STATUS_ERROR;} ;
+   if(!(config->chances.failChanceOriginalRead[EI_READ_SW_TH] == 0)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 624 ); return STATUS_ERROR;} ;
+   if(!(config->chances.failChancePfRecRead[EI_READ_SW_TH] == 0)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 625 ); return STATUS_ERROR;} ;
+   if(!(config->chances.failChanceXorRecRead[EI_READ_SW_TH] == 0)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 626 ); return STATUS_ERROR;} ;
 
 
-   if(!(config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_SKIP_PAR_PAGES] == 0)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 629 ); return STATUS_ERROR;} ;
+   if(!(config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_SKIP_PAR_PAGES] == 0)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 629 ); return STATUS_ERROR;} ;
 
 
    if(config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_WRITE_ABORT] != 0)
    {
-      if(!(config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_WRITE_ABORT] == (100) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 634 ); return STATUS_ERROR;} ;
+      if(!(config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_WRITE_ABORT] == (100) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 634 ); return STATUS_ERROR;} ;
    }
 
    if(config->chances.failChanceOriginalErase[EI_ERASE_WRITE_ABORT] != 0)
    {
-      if(!(config->chances.failChanceOriginalErase[EI_ERASE_WRITE_ABORT] == (100) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 639 ); return STATUS_ERROR;} ;
+      if(!(config->chances.failChanceOriginalErase[EI_ERASE_WRITE_ABORT] == (100) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 639 ); return STATUS_ERROR;} ;
    }
 
    return STATUS_OK;
@@ -52183,10 +52360,10 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidChancesTable(co
 
 Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidateSingleEntryAddr(const EI_SingleInjTableEntry_t *singleEntry)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(singleEntry), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 647 , "singleEntry");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(singleEntry), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 647 , "singleEntry");                         "BullseyeCoverage restore"; } ;
 
 
-   if(!(singleEntry->addrType < EI_NUM_OF_ADDR_TYPES)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 650 ); return STATUS_ERROR;} ;
+   if(!(singleEntry->addrType < EI_NUM_OF_ADDR_TYPES)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 650 ); return STATUS_ERROR;} ;
 
 
    if(singleEntry->addr !=  (0xfffffffffffffffeULL) )
@@ -52198,16 +52375,16 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidateSingleEntryA
             break;
          case EI_ADDR_TYPE_LBA:
 
-            if(!(FE_API_IsLBAValid(singleEntry->nsId, singleEntry->addr) == (1) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 662 ); return STATUS_ERROR;} ;
+            if(!(FE_API_IsLBAValid(singleEntry->nsId, singleEntry->addr) == (1) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 662 ); return STATUS_ERROR;} ;
 
-            if(!(singleEntry->opToInject != EI_INJ_OP_ERASE)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 664 ); return STATUS_ERROR;} ;
+            if(!(singleEntry->opToInject != EI_INJ_OP_ERASE)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 664 ); return STATUS_ERROR;} ;
             break;
          case EI_ADDR_TYPE_OPID:
-            if(!(singleEntry->addr < EI_NUM_OF_OP_IDS)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 667 ); return STATUS_ERROR;} ;
+            if(!(singleEntry->addr < EI_NUM_OF_OP_IDS)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 667 ); return STATUS_ERROR;} ;
             break;
 
          default:
-            { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 671 , "(0)");                         "BullseyeCoverage restore"; } ;
+            { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 671 , "(0)");                         "BullseyeCoverage restore"; } ;
             return STATUS_ERROR;
       }
    }
@@ -52225,9 +52402,9 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidateSingleEntryA
 
 Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidSingleTableEntry(const EI_SingleInjTableEntry_t *singleEntry)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(singleEntry), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 689 , "singleEntry");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(singleEntry), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 689 , "singleEntry");                         "BullseyeCoverage restore"; } ;
 
-   if(!(((singleEntry->isValid) == (1) ) || ((singleEntry->isValid) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 691 ); return STATUS_ERROR;} ;
+   if(!(((singleEntry->isValid) == (1) ) || ((singleEntry->isValid) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 691 ); return STATUS_ERROR;} ;
 
 
    if (singleEntry->isValid ==  (1) )
@@ -52237,16 +52414,16 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidSingleTableEntr
       BOOL32 bytemapHasInjection =  (0) ;
 
 
-      if((EI_i_ConfValidateSingleEntryAddr(singleEntry)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 701 , EI_i_ConfValidateSingleEntryAddr(singleEntry)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ConfValidateSingleEntryAddr(singleEntry));} ;
+      if((EI_i_ConfValidateSingleEntryAddr(singleEntry)) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 701 , EI_i_ConfValidateSingleEntryAddr(singleEntry)); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (EI_i_ConfValidateSingleEntryAddr(singleEntry));} ;
 
 
-      if(!(singleEntry->opToInject < EI_NUM_OF_INJ_OP_TYPES)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 704 ); return STATUS_ERROR;} ;
+      if(!(singleEntry->opToInject < EI_NUM_OF_INJ_OP_TYPES)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 704 ); return STATUS_ERROR;} ;
 
       switch (singleEntry->opToInject)
       {
          case EI_INJ_OP_READ:
 
-            if(!(((singleEntry->injParams.read.triggerRlc) == (1) ) || ((singleEntry->injParams.read.triggerRlc) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 710 ); return STATUS_ERROR;} ;
+            if(!(((singleEntry->injParams.read.triggerRlc) == (1) ) || ((singleEntry->injParams.read.triggerRlc) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 710 ); return STATUS_ERROR;} ;
 
 
             isReadErrorPerFmuConfigured = EI_Config_IsReadfailurePerFmuMapConfigure(singleEntry->injParams.read.failurePerFmuMap);
@@ -52254,10 +52431,10 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidSingleTableEntr
 
             if (!isReadErrorPerFmuConfigured)
             {
-               if(!(singleEntry->injParams.read.failureType < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 718 ); return STATUS_ERROR;} ;
-               if(!(singleEntry->injParams.read.failureType != EI_READ_FAILURE_LEVEL_NONE)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 719 ); return STATUS_ERROR;} ;
+               if(!(singleEntry->injParams.read.failureType < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 718 ); return STATUS_ERROR;} ;
+               if(!(singleEntry->injParams.read.failureType != EI_READ_FAILURE_LEVEL_NONE)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 719 ); return STATUS_ERROR;} ;
 
-               if(!(singleEntry->injParams.read.failureType != EI_READ_FAILURE_LEVEL_SW_TH)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 721 ); return STATUS_ERROR;} ;
+               if(!(singleEntry->injParams.read.failureType != EI_READ_FAILURE_LEVEL_SW_TH)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 721 ); return STATUS_ERROR;} ;
 
             }
             break;
@@ -52266,87 +52443,87 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidSingleTableEntr
             {
                const EI_SingleProgConfigParams_t* progEntry = &singleEntry->injParams.prog;
 
-               if(!(progEntry->failureType < EI_PROG_FAILURE_PATTERN_TOTAL)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 730 ); return STATUS_ERROR;} ;
-               if(!(progEntry->nestedListProgEraseSize <= (4) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 731 ); return STATUS_ERROR;} ;
-               if(!(progEntry->nestedListReadSize <= (8) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 732 ); return STATUS_ERROR;} ;
-               if(!(progEntry->XORStoreMetaPgOffs < ( ( ( (4)  * (4) ) * ( ( 4 ) / ( 2 ) ) ) / (4) ) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 733 ); return STATUS_ERROR;} ;
+               if(!(progEntry->failureType < EI_PROG_FAILURE_PATTERN_TOTAL)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 730 ); return STATUS_ERROR;} ;
+               if(!(progEntry->nestedListProgEraseSize <= (4) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 731 ); return STATUS_ERROR;} ;
+               if(!(progEntry->nestedListReadSize <= (8) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 732 ); return STATUS_ERROR;} ;
+               if(!(progEntry->XORStoreMetaPgOffs < ( ( ( (4)  * (4) ) * ( ( 4 ) / ( 2 ) ) ) / (4) ) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 733 ); return STATUS_ERROR;} ;
 
 
-               if(!(progEntry->isParityPage < EI_XOR_TYPE_PARITY_MAX)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 736 ); return STATUS_ERROR;} ;
+               if(!(progEntry->isParityPage < EI_XOR_TYPE_PARITY_MAX)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 736 ); return STATUS_ERROR;} ;
 
-#line 762 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 762 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
                for(i=0; i < progEntry->nestedListReadSize; i++)
                {
                   for(j=0; j< (4) ; j++)
                   {
-                     if(!(progEntry->nestedInjReadByteMapsList[i][j] < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 766 ); return STATUS_ERROR;} ;
+                     if(!(progEntry->nestedInjReadByteMapsList[i][j] < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 766 ); return STATUS_ERROR;} ;
                   }
                }
             }
             break;
          case EI_INJ_OP_ERASE:
-            if(!(singleEntry->injParams.erase.failureType < EI_ERASE_FAILURE_PATTERN_TOTAL)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 772 ); return STATUS_ERROR;} ;
-            if(!(singleEntry->injParams.erase.numNestedEraseInjections <= (4) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 773 ); return STATUS_ERROR;} ;
+            if(!(singleEntry->injParams.erase.failureType < EI_ERASE_FAILURE_PATTERN_TOTAL)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 772 ); return STATUS_ERROR;} ;
+            if(!(singleEntry->injParams.erase.numNestedEraseInjections <= (4) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 773 ); return STATUS_ERROR;} ;
 
 
-            if(!(((singleEntry->injParams.erase.doPowerAbortOnLastNestedInjection) == (1) ) || ((singleEntry->injParams.erase.doPowerAbortOnLastNestedInjection) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 776 ); return STATUS_ERROR;} ;
+            if(!(((singleEntry->injParams.erase.doPowerAbortOnLastNestedInjection) == (1) ) || ((singleEntry->injParams.erase.doPowerAbortOnLastNestedInjection) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 776 ); return STATUS_ERROR;} ;
             break;
 
          case EI_INJ_OP_XOR_LOAD:
          case EI_INJ_OP_XOR_REBUILD:
-            if(!(singleEntry->injParams.xor_rec.size <= (8) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 781 ); return STATUS_ERROR;} ;
+            if(!(singleEntry->injParams.xor_rec.size <= (8) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 781 ); return STATUS_ERROR;} ;
 
             for(i=0; i < singleEntry->injParams.xor_rec.size; i++)
             {
-               if(!(singleEntry->injParams.xor_rec.ei[i].binNumber <= 30)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 785 ); return STATUS_ERROR;} ;
-               if(!(singleEntry->injParams.xor_rec.ei[i].offsetInBin < (( ( ( ( ( 4 ) / ( 2 ) )  * (1)  * (8) ) )  * (4)  * ( (218) )  * ( (5) ) ) / ( ( ( (16) ) )  * ( ( ( (2)  * ( (5) ) ) ) ) )) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 786 ); return STATUS_ERROR;} ;
+               if(!(singleEntry->injParams.xor_rec.ei[i].binNumber <= 30)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 785 ); return STATUS_ERROR;} ;
+               if(!(singleEntry->injParams.xor_rec.ei[i].offsetInBin < (( ( ( ( ( 4 ) / ( 2 ) )  * (1)  * (8) ) )  * (4)  * ( (218) )  * ( (5) ) ) / ( ( ( (16) ) )  * ( ( ( (2)  * ( (5) ) ) ) ) )) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 786 ); return STATUS_ERROR;} ;
 
                for(j=0; j< ( (4) ) ; j++)
                {
-                  if(!(singleEntry->injParams.xor_rec.ei[i].readInjBytemap[j] < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 790 ); return STATUS_ERROR;} ;
+                  if(!(singleEntry->injParams.xor_rec.ei[i].readInjBytemap[j] < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 790 ); return STATUS_ERROR;} ;
 
                   if (singleEntry->injParams.xor_rec.ei[i].readInjBytemap[j] != EI_READ_FAILURE_LEVEL_NONE)
                   {
                      bytemapHasInjection =  (1) ;
                   }
                }
-               if(!(bytemapHasInjection == (1) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 797 ); return STATUS_ERROR;} ;
+               if(!(bytemapHasInjection == (1) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 797 ); return STATUS_ERROR;} ;
             }
             break;
 
          case EI_INJ_OP_XOR_REC_LOAD:
          case EI_INJ_OP_XOR_REC_UNROLL_PS0:
          case EI_INJ_OP_XOR_REC_UNROLL_PS1:
-            if(!(singleEntry->injParams.xor_rec.size <= (8) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 804 ); return STATUS_ERROR;} ;
+            if(!(singleEntry->injParams.xor_rec.size <= (8) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 804 ); return STATUS_ERROR;} ;
 
             for(i=0; i < singleEntry->injParams.xor_rec.size; i++)
             {
 
-               if(!(singleEntry->injParams.xor_rec.ei[i].binNumber == 0)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 809 ); return STATUS_ERROR;} ;
+               if(!(singleEntry->injParams.xor_rec.ei[i].binNumber == 0)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 809 ); return STATUS_ERROR;} ;
 
                for(j=0; j< ( (4) ) ; j++)
                {
-                  if(!(singleEntry->injParams.xor_rec.ei[i].readInjBytemap[j] < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 813 ); return STATUS_ERROR;} ;
+                  if(!(singleEntry->injParams.xor_rec.ei[i].readInjBytemap[j] < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 813 ); return STATUS_ERROR;} ;
 
                   if (singleEntry->injParams.xor_rec.ei[i].readInjBytemap[j] != EI_READ_FAILURE_LEVEL_NONE)
                   {
                      bytemapHasInjection =  (1) ;
                   }
                }
-               if(!(bytemapHasInjection == (1) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 820 ); return STATUS_ERROR;} ;
+               if(!(bytemapHasInjection == (1) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 820 ); return STATUS_ERROR;} ;
             }
             break;
          case EI_INJ_OP_DST:
             for(i=0; i < singleEntry->injParams.xor_rec.size; i++)
             {
-               if(!(singleEntry->injParams.dst.failureType[i] < EI_DST_FAILURE_TYPE_TOTAL)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 826 ); return STATUS_ERROR;} ;
+               if(!(singleEntry->injParams.dst.failureType[i] < EI_DST_FAILURE_TYPE_TOTAL)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 826 ); return STATUS_ERROR;} ;
             }
             break;
          case EI_INJ_OP_DRD:
-            if(!(((singleEntry->injParams.drd.opbBitmap) == (1) ) || ((singleEntry->injParams.drd.opbBitmap) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 830 ); return STATUS_ERROR;} ;
+            if(!(((singleEntry->injParams.drd.opbBitmap) == (1) ) || ((singleEntry->injParams.drd.opbBitmap) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 830 ); return STATUS_ERROR;} ;
             break;
          default:
-            { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 833 , "(0)");                         "BullseyeCoverage restore"; } ;
+            { "BullseyeCoverage save off";                          _AssertImpl((int)((0)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 833 , "(0)");                         "BullseyeCoverage restore"; } ;
             return STATUS_ERROR;
       }
    }
@@ -52355,13 +52532,13 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidSingleTableEntr
 
 __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidBurstModeConfig(const EI_Config_t *config)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 842 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 842 , "config");                         "BullseyeCoverage restore"; } ;
 
-   if(!(((config->burstMode.isBackToBack) == (1) ) || ((config->burstMode.isBackToBack) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 844 ); return STATUS_ERROR;} ;
-   if(!(((config->burstMode.isSolePfDuringBurst) == (1) ) || ((config->burstMode.isSolePfDuringBurst) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 845 ); return STATUS_ERROR;} ;
-   if(!(config->burstMode.minInjectionsPerBurst <= config->burstMode.maxInjectionsPerBurst)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 846 ); return STATUS_ERROR;} ;
-   if(!(((config->burstMode.chanceToInitiateBurstOnErase)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 847 ); return STATUS_ERROR;} ;
-   if(!(((config->burstMode.chanceEraseFailureDuringBurst)) <= (( (100) )))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 848 ); return STATUS_ERROR;} ;
+   if(!(((config->burstMode.isBackToBack) == (1) ) || ((config->burstMode.isBackToBack) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 844 ); return STATUS_ERROR;} ;
+   if(!(((config->burstMode.isSolePfDuringBurst) == (1) ) || ((config->burstMode.isSolePfDuringBurst) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 845 ); return STATUS_ERROR;} ;
+   if(!(config->burstMode.minInjectionsPerBurst <= config->burstMode.maxInjectionsPerBurst)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 846 ); return STATUS_ERROR;} ;
+   if(!(((config->burstMode.chanceToInitiateBurstOnErase)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 847 ); return STATUS_ERROR;} ;
+   if(!(((config->burstMode.chanceEraseFailureDuringBurst)) <= (( (100) )))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 848 ); return STATUS_ERROR;} ;
 
 
    if(config->burstMode.isSolePfDuringBurst)
@@ -52385,18 +52562,18 @@ __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfVal
          }
       }
 
-      if(!(haveProgsOnly == (0) )) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 872 ); return STATUS_ERROR;} ;
+      if(!(haveProgsOnly == (0) )) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 872 ); return STATUS_ERROR;} ;
    }
 
    return STATUS_OK;
 }
 __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidRestrictions(const EI_Config_t *config)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 879 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 879 , "config");                         "BullseyeCoverage restore"; } ;
 
-   if(!(((config->restrictions.fullCS) == (1) ) || ((config->restrictions.fullCS) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 881 ); return STATUS_ERROR;} ;
-   if(!(((config->restrictions.multyDiesPfEnable) == (1) ) || ((config->restrictions.multyDiesPfEnable) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 882 ); return STATUS_ERROR;} ;
-   if(!(((config->restrictions.avoidRoOnMtmUecc) == (1) ) || ((config->restrictions.avoidRoOnMtmUecc) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 883 ); return STATUS_ERROR;} ;
+   if(!(((config->restrictions.fullCS) == (1) ) || ((config->restrictions.fullCS) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 881 ); return STATUS_ERROR;} ;
+   if(!(((config->restrictions.multyDiesPfEnable) == (1) ) || ((config->restrictions.multyDiesPfEnable) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 882 ); return STATUS_ERROR;} ;
+   if(!(((config->restrictions.avoidRoOnMtmUecc) == (1) ) || ((config->restrictions.avoidRoOnMtmUecc) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 883 ); return STATUS_ERROR;} ;
 
    return STATUS_OK;
 }
@@ -52410,16 +52587,16 @@ __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfVal
 
 __inline static  Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidGeneralConfig(const EI_Config_t *config)
 {
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 897 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 897 , "config");                         "BullseyeCoverage restore"; } ;
 
-   if(!(((config->generalConfig.errLogEnable) == (1) ) || ((config->generalConfig.errLogEnable) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 899 ); return STATUS_ERROR;} ;
-   if(!(((config->generalConfig.mbReviveEnableFull) == (1) ) || ((config->generalConfig.mbReviveEnableFull) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 900 ); return STATUS_ERROR;} ;
-   if(!(((config->generalConfig.jbReviveEnable) == (1) ) || ((config->generalConfig.jbReviveEnable) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 901 ); return STATUS_ERROR;} ;
-   if(!(((config->generalConfig.doSurvivePowerCycles) == (1) ) || ((config->generalConfig.doSurvivePowerCycles) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 902 ); return STATUS_ERROR;} ;
-   if(!(((config->generalConfig.mbReviveDisableFtl) == (1) ) || ((config->generalConfig.mbReviveDisableFtl) == (0) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 903 ); return STATUS_ERROR;} ;
+   if(!(((config->generalConfig.errLogEnable) == (1) ) || ((config->generalConfig.errLogEnable) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 899 ); return STATUS_ERROR;} ;
+   if(!(((config->generalConfig.mbReviveEnableFull) == (1) ) || ((config->generalConfig.mbReviveEnableFull) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 900 ); return STATUS_ERROR;} ;
+   if(!(((config->generalConfig.jbReviveEnable) == (1) ) || ((config->generalConfig.jbReviveEnable) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 901 ); return STATUS_ERROR;} ;
+   if(!(((config->generalConfig.doSurvivePowerCycles) == (1) ) || ((config->generalConfig.doSurvivePowerCycles) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 902 ); return STATUS_ERROR;} ;
+   if(!(((config->generalConfig.mbReviveDisableFtl) == (1) ) || ((config->generalConfig.mbReviveDisableFtl) == (0) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 903 ); return STATUS_ERROR;} ;
 
-   if(!(config->generalConfig.confType < EI_CONF_TYPE_TOTAL)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 905 ); return STATUS_ERROR;} ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(!config->generalConfig.mbReviveEnableFull ? (config->allOpsChance.chancePsDecommissionRequests ? (0) : (1) ) : (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 906 , "!config->generalConfig.mbReviveEnableFull ? (config->allOpsChance.chancePsDecommissionRequests ? (0):(1)) : (1)");                         "BullseyeCoverage restore"; } ;
+   if(!(config->generalConfig.confType < EI_CONF_TYPE_TOTAL)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 905 ); return STATUS_ERROR;} ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(!config->generalConfig.mbReviveEnableFull ? (config->allOpsChance.chancePsDecommissionRequests ? (0) : (1) ) : (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 906 , "!config->generalConfig.mbReviveEnableFull ? (config->allOpsChance.chancePsDecommissionRequests ? (0):(1)) : (1)");                         "BullseyeCoverage restore"; } ;
 
    return STATUS_OK;
 }
@@ -52436,18 +52613,18 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidSingleInjection
    uint32_t entry;
    Status_t status;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 923 , "config");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleReadConfigParams_t) <= (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 924 , "sizeof(EI_SingleReadConfigParams_t) <= (80)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleProgConfigParams_t) <= (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 925 , "sizeof(EI_SingleProgConfigParams_t) <= (80)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleEraseConfigParams_t) <= (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 926 , "sizeof(EI_SingleEraseConfigParams_t) <= (80)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_InjDescXor_t) <= (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 927 , "sizeof(EI_InjDescXor_t) <= (80)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_InjDescDst_t) <= (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 928 , "sizeof(EI_InjDescDst_t) <= (80)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_InjDescDrd_t) <= (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 929 , "sizeof(EI_InjDescDrd_t) <= (80)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 923 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleReadConfigParams_t) <= (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 924 , "sizeof(EI_SingleReadConfigParams_t) <= (80)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleProgConfigParams_t) <= (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 925 , "sizeof(EI_SingleProgConfigParams_t) <= (80)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleEraseConfigParams_t) <= (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 926 , "sizeof(EI_SingleEraseConfigParams_t) <= (80)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_InjDescXor_t) <= (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 927 , "sizeof(EI_InjDescXor_t) <= (80)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_InjDescDst_t) <= (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 928 , "sizeof(EI_InjDescDst_t) <= (80)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_InjDescDrd_t) <= (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 929 , "sizeof(EI_InjDescDrd_t) <= (80)");                         "BullseyeCoverage restore"; } ;
 
    for(entry = 0; entry <  (6) ; entry++)
    {
       status = EI_i_ConfValidSingleTableEntry(&(config->singleInjections[entry]));
-      if((status) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 934 , status); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (status);} ;
+      if((status) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 934 , status); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (status);} ;
    }
 
    return STATUS_OK;
@@ -52464,25 +52641,25 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidRandInjection(c
 {
    Status_t st;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 951 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 951 , "config");                         "BullseyeCoverage restore"; } ;
 
    st = EI_i_ConfValidGeneralConfig(config);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 954 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 954 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    st = EI_i_ConfValidRestrictions(config);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 957 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 957 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    st = EI_i_ConfValidAllOpsChancesTable(config);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 960 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 960 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    st = EI_i_ConfValidChancesTable(config);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 963 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 963 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    st = EI_i_ConfValidOperationsTableInput(config);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 966 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 966 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    st = EI_i_ConfValidBurstModeConfig(config);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 969 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 969 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    return STATUS_OK;
 }
@@ -52499,13 +52676,13 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidSingleInjection
    Status_t st;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 986 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 986 , "config");                         "BullseyeCoverage restore"; } ;
 
    st = EI_i_ConfValidGeneralConfig(config);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 989 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 989 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    st = EI_i_ConfValidSingleInjectionTable(config);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 992 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 992 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    return STATUS_OK;
 }
@@ -52513,9 +52690,9 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidSingleInjection
 Status_t  __attribute__((section("CODE_EI_RAM")))  EI_i_ConfValidHeader(const EI_Config_t *config)
 {
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1000 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1000 , "config");                         "BullseyeCoverage restore"; } ;
 
-   if(!(( (2)  <= config->version) && (config->version <= (19) ))) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1002 ); return STATUS_ERROR;} ;
+   if(!(( (2)  <= config->version) && (config->version <= (21) ))) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1002 ); return STATUS_ERROR;} ;
 
    return STATUS_OK;
 }
@@ -52532,314 +52709,314 @@ void  __attribute__((section("CODE_EI_RAM")))  EI_ValidateConfigStructureOffsets
    uint32_t offset = 0;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_READ_FAILURE_TYPES), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1019 , "(16) >= EI_NUM_OF_READ_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_PROG_FAILURE_TYPES), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1020 , "(16) >= EI_NUM_OF_PROG_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_NESTED_PROG_FAILURE_TYPES), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1021 , "(16) >= EI_NUM_OF_NESTED_PROG_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_ERASE_FAILURE_TYPES), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1022 , "(16) >= EI_NUM_OF_ERASE_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1023 , "(16) >= EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_READ_FAILURE_TYPES), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1019 , "(16) >= EI_NUM_OF_READ_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_PROG_FAILURE_TYPES), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1020 , "(16) >= EI_NUM_OF_PROG_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_NESTED_PROG_FAILURE_TYPES), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1021 , "(16) >= EI_NUM_OF_NESTED_PROG_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_ERASE_FAILURE_TYPES), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1022 , "(16) >= EI_NUM_OF_ERASE_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((16) >= EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1023 , "(16) >= EI_NUM_OF_NESTED_ERASE_FAILURE_TYPES");                         "BullseyeCoverage restore"; } ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_NUM_OF_FLASH_ACCESS_TYPES), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1026 , "(8) >= EI_NUM_OF_FLASH_ACCESS_TYPES");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_NUM_OF_BLOCK_TYPES), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1027 , "(8) >= EI_NUM_OF_BLOCK_TYPES");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_PLACEMENT_PAGE_TOTAL), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1028 , "(8) >= EI_PLACEMENT_PAGE_TOTAL");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_ZONE_STATE_TOTAL), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1029 , "(8) >= EI_ZONE_STATE_TOTAL");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_NESTED_TOTAL), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1030 , "(8) >= EI_NESTED_TOTAL");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_NUM_OF_FLASH_ACCESS_TYPES), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1026 , "(8) >= EI_NUM_OF_FLASH_ACCESS_TYPES");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_NUM_OF_BLOCK_TYPES), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1027 , "(8) >= EI_NUM_OF_BLOCK_TYPES");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_PLACEMENT_PAGE_TOTAL), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1028 , "(8) >= EI_PLACEMENT_PAGE_TOTAL");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_ZONE_STATE_TOTAL), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1029 , "(8) >= EI_ZONE_STATE_TOTAL");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((8) >= EI_NESTED_TOTAL), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1030 , "(8) >= EI_NESTED_TOTAL");                         "BullseyeCoverage restore"; } ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((40) >= EI_NUM_OF_OP_IDS), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1033 , "(40) >= EI_NUM_OF_OP_IDS");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((40) >= EI_NUM_OF_OP_IDS), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1033 , "(40) >= EI_NUM_OF_OP_IDS");                         "BullseyeCoverage restore"; } ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_Percent_t) == 1), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1036 , "sizeof(EI_Percent_t) == 1");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_ConfType_t) == 4), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1037 , "sizeof(EI_ConfType_t) == 4");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(BOOL32) == 4), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1038 , "sizeof(BOOL32) == 4");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_GeneralConfig_t) == (32)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1039 , "sizeof(EI_GeneralConfig_t) == (32)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_GeneralConfig_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1039 , "(sizeof(EI_GeneralConfig_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_RestrictionsConfig_t) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1040 , "sizeof(EI_RestrictionsConfig_t) == (16)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_RestrictionsConfig_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1040 , "(sizeof(EI_RestrictionsConfig_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_AllOpsFailureChances_t) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1041 , "sizeof(EI_AllOpsFailureChances_t) == (16)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_AllOpsFailureChances_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1041 , "(sizeof(EI_AllOpsFailureChances_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_ChancesTable_t) == (256)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1042 , "sizeof(EI_ChancesTable_t) == (256)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_ChancesTable_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1042 , "(sizeof(EI_ChancesTable_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_OpTableEntry_t) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1043 , "sizeof(EI_OpTableEntry_t) == (72)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_OpTableEntry_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1043 , "(sizeof(EI_OpTableEntry_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_BurstModeParameters_t) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1044 , "sizeof(EI_BurstModeParameters_t) == (16)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_BurstModeParameters_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1044 , "(sizeof(EI_BurstModeParameters_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_OpidSpecificChancesTable_t) == (24)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1045 , "sizeof(EI_OpidSpecificChancesTable_t) == (24)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_OpidSpecificChancesTable_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1045 , "(sizeof(EI_OpidSpecificChancesTable_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleInjTableEntry_t) == (96)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1046 , "sizeof(EI_SingleInjTableEntry_t) == (96)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleInjTableEntry_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1046 , "(sizeof(EI_SingleInjTableEntry_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleReadConfigParams_t) == (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1047 , "sizeof(EI_SingleReadConfigParams_t) == (80)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleReadConfigParams_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1047 , "(sizeof(EI_SingleReadConfigParams_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleProgConfigParams_t) == (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1048 , "sizeof(EI_SingleProgConfigParams_t) == (80)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleProgConfigParams_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1048 , "(sizeof(EI_SingleProgConfigParams_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleEraseConfigParams_t) == (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1049 , "sizeof(EI_SingleEraseConfigParams_t) == (80)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleEraseConfigParams_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1049 , "(sizeof(EI_SingleEraseConfigParams_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleConfigParams_t) == (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1050 , "sizeof(EI_SingleConfigParams_t) == (80)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleConfigParams_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1050 , "(sizeof(EI_SingleConfigParams_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_ConfigArraysExtenstion_t) == (280)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1051 , "sizeof(EI_ConfigArraysExtenstion_t) == (280)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_ConfigArraysExtenstion_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1051 , "(sizeof(EI_ConfigArraysExtenstion_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_Config_t) == (4096)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1052 , "sizeof(EI_Config_t) == (4096)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_Config_t) & 7) == 0), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1052 , "(sizeof(EI_Config_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_Percent_t) == 1), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1036 , "sizeof(EI_Percent_t) == 1");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_ConfType_t) == 4), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1037 , "sizeof(EI_ConfType_t) == 4");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(BOOL32) == 4), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1038 , "sizeof(BOOL32) == 4");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_GeneralConfig_t) == (32)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1039 , "sizeof(EI_GeneralConfig_t) == (32)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_GeneralConfig_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1039 , "(sizeof(EI_GeneralConfig_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_RestrictionsConfig_t) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1040 , "sizeof(EI_RestrictionsConfig_t) == (16)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_RestrictionsConfig_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1040 , "(sizeof(EI_RestrictionsConfig_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_AllOpsFailureChances_t) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1041 , "sizeof(EI_AllOpsFailureChances_t) == (16)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_AllOpsFailureChances_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1041 , "(sizeof(EI_AllOpsFailureChances_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_ChancesTable_t) == (256)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1042 , "sizeof(EI_ChancesTable_t) == (256)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_ChancesTable_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1042 , "(sizeof(EI_ChancesTable_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_OpTableEntry_t) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1043 , "sizeof(EI_OpTableEntry_t) == (72)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_OpTableEntry_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1043 , "(sizeof(EI_OpTableEntry_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_BurstModeParameters_t) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1044 , "sizeof(EI_BurstModeParameters_t) == (16)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_BurstModeParameters_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1044 , "(sizeof(EI_BurstModeParameters_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_OpidSpecificChancesTable_t) == (24)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1045 , "sizeof(EI_OpidSpecificChancesTable_t) == (24)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_OpidSpecificChancesTable_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1045 , "(sizeof(EI_OpidSpecificChancesTable_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleInjTableEntry_t) == (96)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1046 , "sizeof(EI_SingleInjTableEntry_t) == (96)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleInjTableEntry_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1046 , "(sizeof(EI_SingleInjTableEntry_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleReadConfigParams_t) == (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1047 , "sizeof(EI_SingleReadConfigParams_t) == (80)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleReadConfigParams_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1047 , "(sizeof(EI_SingleReadConfigParams_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleProgConfigParams_t) == (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1048 , "sizeof(EI_SingleProgConfigParams_t) == (80)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleProgConfigParams_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1048 , "(sizeof(EI_SingleProgConfigParams_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleEraseConfigParams_t) == (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1049 , "sizeof(EI_SingleEraseConfigParams_t) == (80)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleEraseConfigParams_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1049 , "(sizeof(EI_SingleEraseConfigParams_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_SingleConfigParams_t) == (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1050 , "sizeof(EI_SingleConfigParams_t) == (80)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_SingleConfigParams_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1050 , "(sizeof(EI_SingleConfigParams_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_ConfigArraysExtenstion_t) == (280)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1051 , "sizeof(EI_ConfigArraysExtenstion_t) == (280)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_ConfigArraysExtenstion_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1051 , "(sizeof(EI_ConfigArraysExtenstion_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(EI_Config_t) == (4096)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1052 , "sizeof(EI_Config_t) == (4096)");                         "BullseyeCoverage restore"; } ;          { "BullseyeCoverage save off";                          _AssertImpl((int)((sizeof(EI_Config_t) & 7) == 0), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1052 , "(sizeof(EI_Config_t) & 7) == 0");                         "BullseyeCoverage restore"; } ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->canaryValStart))) - (uint8_t*)(&((*pConfig)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1055 , "(uint32_t)((uint8_t*)(&((pConfig->canaryValStart))) - (uint8_t*)(&((*pConfig)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->canaryValStart) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1055 , "sizeof(pConfig->canaryValStart) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->version))) - (uint8_t*)(&((*pConfig)))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1056 , "(uint32_t)((uint8_t*)(&((pConfig->version))) - (uint8_t*)(&((*pConfig)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->version) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1056 , "sizeof(pConfig->version) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig))) - (uint8_t*)(&((*pConfig)))) == ((16))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1057 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig))) - (uint8_t*)(&((*pConfig)))) == ((16))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig) == (32)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1057 , "sizeof(pConfig->generalConfig) == (32)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions))) - (uint8_t*)(&((*pConfig)))) == ((48))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1058 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions))) - (uint8_t*)(&((*pConfig)))) == ((48))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1058 , "sizeof(pConfig->restrictions) == (16)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance))) - (uint8_t*)(&((*pConfig)))) == ((64))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1059 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance))) - (uint8_t*)(&((*pConfig)))) == ((64))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1059 , "sizeof(pConfig->allOpsChance) == (16)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->chances))) - (uint8_t*)(&((*pConfig)))) == ((80))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1060 , "(uint32_t)((uint8_t*)(&((pConfig->chances))) - (uint8_t*)(&((*pConfig)))) == ((80))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->chances) == (256)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1060 , "sizeof(pConfig->chances) == (256)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations))) - (uint8_t*)(&((*pConfig)))) == ((336))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1061 , "(uint32_t)((uint8_t*)(&((pConfig->operations))) - (uint8_t*)(&((*pConfig)))) == ((336))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations) == (2880)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1061 , "sizeof(pConfig->operations) == (2880)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections))) - (uint8_t*)(&((*pConfig)))) == ((3216))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1062 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections))) - (uint8_t*)(&((*pConfig)))) == ((3216))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections) == (576)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1062 , "sizeof(pConfig->singleInjections) == (576)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode))) - (uint8_t*)(&((*pConfig)))) == ((3792))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1063 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode))) - (uint8_t*)(&((*pConfig)))) == ((3792))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1063 , "sizeof(pConfig->burstMode) == (16)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion))) - (uint8_t*)(&((*pConfig)))) == ((3808))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1064 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion))) - (uint8_t*)(&((*pConfig)))) == ((3808))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion) == (280)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1064 , "sizeof(pConfig->configArraysExtenstion) == (280)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->isConfigValid))) - (uint8_t*)(&((*pConfig)))) == ((4091))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1065 , "(uint32_t)((uint8_t*)(&((pConfig->isConfigValid))) - (uint8_t*)(&((*pConfig)))) == ((4091))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->isConfigValid) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1065 , "sizeof(pConfig->isConfigValid) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->canaryValEnd))) - (uint8_t*)(&((*pConfig)))) == ((4092))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1066 , "(uint32_t)((uint8_t*)(&((pConfig->canaryValEnd))) - (uint8_t*)(&((*pConfig)))) == ((4092))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->canaryValEnd) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1066 , "sizeof(pConfig->canaryValEnd) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->canaryValStart))) - (uint8_t*)(&((*pConfig)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1055 , "(uint32_t)((uint8_t*)(&((pConfig->canaryValStart))) - (uint8_t*)(&((*pConfig)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->canaryValStart) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1055 , "sizeof(pConfig->canaryValStart) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->version))) - (uint8_t*)(&((*pConfig)))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1056 , "(uint32_t)((uint8_t*)(&((pConfig->version))) - (uint8_t*)(&((*pConfig)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->version) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1056 , "sizeof(pConfig->version) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig))) - (uint8_t*)(&((*pConfig)))) == ((16))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1057 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig))) - (uint8_t*)(&((*pConfig)))) == ((16))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig) == (32)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1057 , "sizeof(pConfig->generalConfig) == (32)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions))) - (uint8_t*)(&((*pConfig)))) == ((48))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1058 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions))) - (uint8_t*)(&((*pConfig)))) == ((48))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1058 , "sizeof(pConfig->restrictions) == (16)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance))) - (uint8_t*)(&((*pConfig)))) == ((64))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1059 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance))) - (uint8_t*)(&((*pConfig)))) == ((64))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1059 , "sizeof(pConfig->allOpsChance) == (16)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->chances))) - (uint8_t*)(&((*pConfig)))) == ((80))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1060 , "(uint32_t)((uint8_t*)(&((pConfig->chances))) - (uint8_t*)(&((*pConfig)))) == ((80))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->chances) == (256)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1060 , "sizeof(pConfig->chances) == (256)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations))) - (uint8_t*)(&((*pConfig)))) == ((336))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1061 , "(uint32_t)((uint8_t*)(&((pConfig->operations))) - (uint8_t*)(&((*pConfig)))) == ((336))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations) == (2880)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1061 , "sizeof(pConfig->operations) == (2880)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections))) - (uint8_t*)(&((*pConfig)))) == ((3216))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1062 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections))) - (uint8_t*)(&((*pConfig)))) == ((3216))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections) == (576)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1062 , "sizeof(pConfig->singleInjections) == (576)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode))) - (uint8_t*)(&((*pConfig)))) == ((3792))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1063 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode))) - (uint8_t*)(&((*pConfig)))) == ((3792))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1063 , "sizeof(pConfig->burstMode) == (16)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion))) - (uint8_t*)(&((*pConfig)))) == ((3808))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1064 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion))) - (uint8_t*)(&((*pConfig)))) == ((3808))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion) == (280)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1064 , "sizeof(pConfig->configArraysExtenstion) == (280)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->isConfigValid))) - (uint8_t*)(&((*pConfig)))) == ((4091))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1065 , "(uint32_t)((uint8_t*)(&((pConfig->isConfigValid))) - (uint8_t*)(&((*pConfig)))) == ((4091))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->isConfigValid) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1065 , "sizeof(pConfig->isConfigValid) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->canaryValEnd))) - (uint8_t*)(&((*pConfig)))) == ((4092))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1066 , "(uint32_t)((uint8_t*)(&((pConfig->canaryValEnd))) - (uint8_t*)(&((*pConfig)))) == ((4092))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->canaryValEnd) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1066 , "sizeof(pConfig->canaryValEnd) == (4)");                         "BullseyeCoverage restore"; } ; ;
 
    offset = 0;
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->canaryValStart))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1069 , "(uint32_t)((uint8_t*)(&((pConfig->canaryValStart))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->canaryValStart) == (sizeof(pConfig->canaryValStart))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1069 , "sizeof(pConfig->canaryValStart) == (sizeof(pConfig->canaryValStart))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->canaryValStart))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1069 , "(uint32_t)((uint8_t*)(&((pConfig->canaryValStart))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->canaryValStart) == (sizeof(pConfig->canaryValStart))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1069 , "sizeof(pConfig->canaryValStart) == (sizeof(pConfig->canaryValStart))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->canaryValStart);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->version))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1071 , "(uint32_t)((uint8_t*)(&((pConfig->version))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->version) == (sizeof(pConfig->version))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1071 , "sizeof(pConfig->version) == (sizeof(pConfig->version))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->version))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1071 , "(uint32_t)((uint8_t*)(&((pConfig->version))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->version) == (sizeof(pConfig->version))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1071 , "sizeof(pConfig->version) == (sizeof(pConfig->version))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->version);
    offset += sizeof(pConfig->rfu0);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1074 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig) == (sizeof(pConfig->generalConfig))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1074 , "sizeof(pConfig->generalConfig) == (sizeof(pConfig->generalConfig))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1074 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig) == (sizeof(pConfig->generalConfig))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1074 , "sizeof(pConfig->generalConfig) == (sizeof(pConfig->generalConfig))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->generalConfig);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1076 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions) == (sizeof(pConfig->restrictions))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1076 , "sizeof(pConfig->restrictions) == (sizeof(pConfig->restrictions))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1076 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions) == (sizeof(pConfig->restrictions))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1076 , "sizeof(pConfig->restrictions) == (sizeof(pConfig->restrictions))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->restrictions);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1078 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance) == (sizeof(pConfig->allOpsChance))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1078 , "sizeof(pConfig->allOpsChance) == (sizeof(pConfig->allOpsChance))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1078 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance) == (sizeof(pConfig->allOpsChance))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1078 , "sizeof(pConfig->allOpsChance) == (sizeof(pConfig->allOpsChance))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->allOpsChance);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->chances))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1080 , "(uint32_t)((uint8_t*)(&((pConfig->chances))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->chances) == (sizeof(pConfig->chances))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1080 , "sizeof(pConfig->chances) == (sizeof(pConfig->chances))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->chances))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1080 , "(uint32_t)((uint8_t*)(&((pConfig->chances))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->chances) == (sizeof(pConfig->chances))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1080 , "sizeof(pConfig->chances) == (sizeof(pConfig->chances))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->chances);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1082 , "(uint32_t)((uint8_t*)(&((pConfig->operations))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations) == (sizeof(pConfig->operations))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1082 , "sizeof(pConfig->operations) == (sizeof(pConfig->operations))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1082 , "(uint32_t)((uint8_t*)(&((pConfig->operations))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations) == (sizeof(pConfig->operations))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1082 , "sizeof(pConfig->operations) == (sizeof(pConfig->operations))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->operations);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1084 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections) == (sizeof(pConfig->singleInjections))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1084 , "sizeof(pConfig->singleInjections) == (sizeof(pConfig->singleInjections))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1084 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections) == (sizeof(pConfig->singleInjections))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1084 , "sizeof(pConfig->singleInjections) == (sizeof(pConfig->singleInjections))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->singleInjections);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1086 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode) == (sizeof(pConfig->burstMode))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1086 , "sizeof(pConfig->burstMode) == (sizeof(pConfig->burstMode))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1086 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode) == (sizeof(pConfig->burstMode))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1086 , "sizeof(pConfig->burstMode) == (sizeof(pConfig->burstMode))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->burstMode);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1088 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion) == (sizeof(pConfig->configArraysExtenstion))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1088 , "sizeof(pConfig->configArraysExtenstion) == (sizeof(pConfig->configArraysExtenstion))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1088 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion) == (sizeof(pConfig->configArraysExtenstion))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1088 , "sizeof(pConfig->configArraysExtenstion) == (sizeof(pConfig->configArraysExtenstion))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->configArraysExtenstion);
    offset += sizeof(pConfig->rfu1);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->isConfigValid))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1091 , "(uint32_t)((uint8_t*)(&((pConfig->isConfigValid))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->isConfigValid) == (sizeof(pConfig->isConfigValid))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1091 , "sizeof(pConfig->isConfigValid) == (sizeof(pConfig->isConfigValid))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->isConfigValid))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1091 , "(uint32_t)((uint8_t*)(&((pConfig->isConfigValid))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->isConfigValid) == (sizeof(pConfig->isConfigValid))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1091 , "sizeof(pConfig->isConfigValid) == (sizeof(pConfig->isConfigValid))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->isConfigValid);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->canaryValEnd))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1093 , "(uint32_t)((uint8_t*)(&((pConfig->canaryValEnd))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->canaryValEnd) == (sizeof(pConfig->canaryValEnd))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1093 , "sizeof(pConfig->canaryValEnd) == (sizeof(pConfig->canaryValEnd))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->canaryValEnd))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1093 , "(uint32_t)((uint8_t*)(&((pConfig->canaryValEnd))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->canaryValEnd) == (sizeof(pConfig->canaryValEnd))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1093 , "sizeof(pConfig->canaryValEnd) == (sizeof(pConfig->canaryValEnd))");                         "BullseyeCoverage restore"; } ; ;
 
 
    offset = 16;
 
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.confType))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1098 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.confType))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.confType) == (sizeof(pConfig->generalConfig.confType))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1098 , "sizeof(pConfig->generalConfig.confType) == (sizeof(pConfig->generalConfig.confType))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.confType))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1098 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.confType))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.confType) == (sizeof(pConfig->generalConfig.confType))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1098 , "sizeof(pConfig->generalConfig.confType) == (sizeof(pConfig->generalConfig.confType))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->generalConfig.confType);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.randomSeed))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1100 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.randomSeed))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.randomSeed) == (sizeof(pConfig->generalConfig.randomSeed))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1100 , "sizeof(pConfig->generalConfig.randomSeed) == (sizeof(pConfig->generalConfig.randomSeed))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.randomSeed))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1100 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.randomSeed))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.randomSeed) == (sizeof(pConfig->generalConfig.randomSeed))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1100 , "sizeof(pConfig->generalConfig.randomSeed) == (sizeof(pConfig->generalConfig.randomSeed))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->generalConfig.randomSeed);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.errLogEnable))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1102 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.errLogEnable))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.errLogEnable) == (sizeof(pConfig->generalConfig.errLogEnable))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1102 , "sizeof(pConfig->generalConfig.errLogEnable) == (sizeof(pConfig->generalConfig.errLogEnable))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.errLogEnable))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1102 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.errLogEnable))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.errLogEnable) == (sizeof(pConfig->generalConfig.errLogEnable))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1102 , "sizeof(pConfig->generalConfig.errLogEnable) == (sizeof(pConfig->generalConfig.errLogEnable))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->generalConfig.errLogEnable);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.mbReviveEnableFull))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1104 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.mbReviveEnableFull))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.mbReviveEnableFull) == (sizeof(pConfig->generalConfig.mbReviveEnableFull))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1104 , "sizeof(pConfig->generalConfig.mbReviveEnableFull) == (sizeof(pConfig->generalConfig.mbReviveEnableFull))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.mbReviveEnableFull))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1104 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.mbReviveEnableFull))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.mbReviveEnableFull) == (sizeof(pConfig->generalConfig.mbReviveEnableFull))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1104 , "sizeof(pConfig->generalConfig.mbReviveEnableFull) == (sizeof(pConfig->generalConfig.mbReviveEnableFull))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->generalConfig.mbReviveEnableFull);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.jbReviveEnable))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1106 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.jbReviveEnable))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.jbReviveEnable) == (sizeof(pConfig->generalConfig.jbReviveEnable))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1106 , "sizeof(pConfig->generalConfig.jbReviveEnable) == (sizeof(pConfig->generalConfig.jbReviveEnable))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.jbReviveEnable))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1106 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.jbReviveEnable))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.jbReviveEnable) == (sizeof(pConfig->generalConfig.jbReviveEnable))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1106 , "sizeof(pConfig->generalConfig.jbReviveEnable) == (sizeof(pConfig->generalConfig.jbReviveEnable))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->generalConfig.jbReviveEnable);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.doSurvivePowerCycles))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1108 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.doSurvivePowerCycles))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.doSurvivePowerCycles) == (sizeof(pConfig->generalConfig.doSurvivePowerCycles))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1108 , "sizeof(pConfig->generalConfig.doSurvivePowerCycles) == (sizeof(pConfig->generalConfig.doSurvivePowerCycles))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.doSurvivePowerCycles))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1108 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.doSurvivePowerCycles))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.doSurvivePowerCycles) == (sizeof(pConfig->generalConfig.doSurvivePowerCycles))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1108 , "sizeof(pConfig->generalConfig.doSurvivePowerCycles) == (sizeof(pConfig->generalConfig.doSurvivePowerCycles))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->generalConfig.doSurvivePowerCycles);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.drdOpbBitmap))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1110 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.drdOpbBitmap))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.drdOpbBitmap) == (sizeof(pConfig->generalConfig.drdOpbBitmap))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1110 , "sizeof(pConfig->generalConfig.drdOpbBitmap) == (sizeof(pConfig->generalConfig.drdOpbBitmap))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.drdOpbBitmap))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1110 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.drdOpbBitmap))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.drdOpbBitmap) == (sizeof(pConfig->generalConfig.drdOpbBitmap))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1110 , "sizeof(pConfig->generalConfig.drdOpbBitmap) == (sizeof(pConfig->generalConfig.drdOpbBitmap))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->generalConfig.drdOpbBitmap);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.mbReviveDisableFtl))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1112 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.mbReviveDisableFtl))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.mbReviveDisableFtl) == (sizeof(pConfig->generalConfig.mbReviveDisableFtl))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1112 , "sizeof(pConfig->generalConfig.mbReviveDisableFtl) == (sizeof(pConfig->generalConfig.mbReviveDisableFtl))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.mbReviveDisableFtl))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1112 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.mbReviveDisableFtl))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.mbReviveDisableFtl) == (sizeof(pConfig->generalConfig.mbReviveDisableFtl))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1112 , "sizeof(pConfig->generalConfig.mbReviveDisableFtl) == (sizeof(pConfig->generalConfig.mbReviveDisableFtl))");                         "BullseyeCoverage restore"; } ; ;
    offset += sizeof(pConfig->generalConfig.mbReviveDisableFtl);
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.planeAffinityMask[0]))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1114 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.planeAffinityMask[0]))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.planeAffinityMask[0]) == (sizeof(pConfig->generalConfig.planeAffinityMask[0]))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1114 , "sizeof(pConfig->generalConfig.planeAffinityMask[0]) == (sizeof(pConfig->generalConfig.planeAffinityMask[0]))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.planeAffinityMask[0]))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1114 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.planeAffinityMask[0]))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.planeAffinityMask[0]) == (sizeof(pConfig->generalConfig.planeAffinityMask[0]))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1114 , "sizeof(pConfig->generalConfig.planeAffinityMask[0]) == (sizeof(pConfig->generalConfig.planeAffinityMask[0]))");                         "BullseyeCoverage restore"; } ; ;
    offset +=  (8) ;
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.planeAffinityMask[1]))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1116 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.planeAffinityMask[1]))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.planeAffinityMask[1]) == (sizeof(pConfig->generalConfig.planeAffinityMask[1]))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1116 , "sizeof(pConfig->generalConfig.planeAffinityMask[1]) == (sizeof(pConfig->generalConfig.planeAffinityMask[1]))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.planeAffinityMask[1]))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1116 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.planeAffinityMask[1]))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.planeAffinityMask[1]) == (sizeof(pConfig->generalConfig.planeAffinityMask[1]))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1116 , "sizeof(pConfig->generalConfig.planeAffinityMask[1]) == (sizeof(pConfig->generalConfig.planeAffinityMask[1]))");                         "BullseyeCoverage restore"; } ; ;
    offset +=  (8) ;
-   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.specialOpstBitmap))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1118 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.specialOpstBitmap))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.specialOpstBitmap) == (sizeof(pConfig, pConfig->generalConfig.specialOpstBitmap))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1118 , "sizeof(pConfig->generalConfig.specialOpstBitmap) == (sizeof(pConfig, pConfig->generalConfig.specialOpstBitmap))");                         "BullseyeCoverage restore"; } ; ;
+   ;    { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->generalConfig.specialOpstBitmap))) - (uint8_t*)(&((*pConfig)))) == ((offset))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1118 , "(uint32_t)((uint8_t*)(&((pConfig->generalConfig.specialOpstBitmap))) - (uint8_t*)(&((*pConfig)))) == ((offset))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->generalConfig.specialOpstBitmap) == (sizeof(pConfig, pConfig->generalConfig.specialOpstBitmap))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1118 , "sizeof(pConfig->generalConfig.specialOpstBitmap) == (sizeof(pConfig, pConfig->generalConfig.specialOpstBitmap))");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].addr))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1121 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].addr))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].addr) == (8)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1121 , "sizeof(pConfig->singleInjections[0].addr) == (8)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].addrType))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((8))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1122 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].addrType))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].addrType) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1122 , "sizeof(pConfig->singleInjections[0].addrType) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].nsId))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((9))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1123 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].nsId))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].nsId) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1123 , "sizeof(pConfig->singleInjections[0].nsId) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].opToInject))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((10))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1124 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].opToInject))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].opToInject) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1124 , "sizeof(pConfig->singleInjections[0].opToInject) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].isValid))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((11))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1125 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].isValid))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((11))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].isValid) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1125 , "sizeof(pConfig->singleInjections[0].isValid) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((16))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1126 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((16))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams) == (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1126 , "sizeof(pConfig->singleInjections[0].injParams) == (80)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].addr))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1121 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].addr))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].addr) == (8)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1121 , "sizeof(pConfig->singleInjections[0].addr) == (8)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].addrType))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((8))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1122 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].addrType))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].addrType) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1122 , "sizeof(pConfig->singleInjections[0].addrType) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].nsId))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((9))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1123 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].nsId))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].nsId) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1123 , "sizeof(pConfig->singleInjections[0].nsId) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].opToInject))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((10))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1124 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].opToInject))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].opToInject) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1124 , "sizeof(pConfig->singleInjections[0].opToInject) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].isValid))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((11))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1125 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].isValid))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((11))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].isValid) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1125 , "sizeof(pConfig->singleInjections[0].isValid) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((16))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1126 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams))) - (uint8_t*)(&((pConfig->singleInjections[0])))) == ((16))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams) == (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1126 , "sizeof(pConfig->singleInjections[0].injParams) == (80)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.cooldownTime))) - (uint8_t*)(&((*pConfig)))) == ((48))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1129 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.cooldownTime))) - (uint8_t*)(&((*pConfig)))) == ((48))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.cooldownTime) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1129 , "sizeof(pConfig->restrictions.cooldownTime) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.consecutiveGap))) - (uint8_t*)(&((*pConfig)))) == ((52))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1130 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.consecutiveGap))) - (uint8_t*)(&((*pConfig)))) == ((52))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.consecutiveGap) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1130 , "sizeof(pConfig->restrictions.consecutiveGap) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.fullCS))) - (uint8_t*)(&((*pConfig)))) == ((56))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1131 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.fullCS))) - (uint8_t*)(&((*pConfig)))) == ((56))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.fullCS) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1131 , "sizeof(pConfig->restrictions.fullCS) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.multyDiesPfEnable))) - (uint8_t*)(&((*pConfig)))) == ((57))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1132 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.multyDiesPfEnable))) - (uint8_t*)(&((*pConfig)))) == ((57))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.multyDiesPfEnable) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1132 , "sizeof(pConfig->restrictions.multyDiesPfEnable) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.avoidRoOnMtmUecc))) - (uint8_t*)(&((*pConfig)))) == ((58))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1133 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.avoidRoOnMtmUecc))) - (uint8_t*)(&((*pConfig)))) == ((58))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.avoidRoOnMtmUecc) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1133 , "sizeof(pConfig->restrictions.avoidRoOnMtmUecc) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.cooldownTime))) - (uint8_t*)(&((*pConfig)))) == ((48))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1129 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.cooldownTime))) - (uint8_t*)(&((*pConfig)))) == ((48))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.cooldownTime) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1129 , "sizeof(pConfig->restrictions.cooldownTime) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.consecutiveGap))) - (uint8_t*)(&((*pConfig)))) == ((52))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1130 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.consecutiveGap))) - (uint8_t*)(&((*pConfig)))) == ((52))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.consecutiveGap) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1130 , "sizeof(pConfig->restrictions.consecutiveGap) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.fullCS))) - (uint8_t*)(&((*pConfig)))) == ((56))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1131 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.fullCS))) - (uint8_t*)(&((*pConfig)))) == ((56))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.fullCS) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1131 , "sizeof(pConfig->restrictions.fullCS) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.multyDiesPfEnable))) - (uint8_t*)(&((*pConfig)))) == ((57))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1132 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.multyDiesPfEnable))) - (uint8_t*)(&((*pConfig)))) == ((57))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.multyDiesPfEnable) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1132 , "sizeof(pConfig->restrictions.multyDiesPfEnable) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->restrictions.avoidRoOnMtmUecc))) - (uint8_t*)(&((*pConfig)))) == ((58))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1133 , "(uint32_t)((uint8_t*)(&((pConfig->restrictions.avoidRoOnMtmUecc))) - (uint8_t*)(&((*pConfig)))) == ((58))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->restrictions.avoidRoOnMtmUecc) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1133 , "sizeof(pConfig->restrictions.avoidRoOnMtmUecc) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1136 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceEraseFailure) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1136 , "sizeof(pConfig->allOpsChance.chanceEraseFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceXorRecDuringPfRecFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((1))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1137 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceXorRecDuringPfRecFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceXorRecDuringPfRecFailure) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1137 , "sizeof(pConfig->allOpsChance.chanceXorRecDuringPfRecFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedEraseFailureDuringEraseFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((2))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1138 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedEraseFailureDuringEraseFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceNestedEraseFailureDuringEraseFailure) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1138 , "sizeof(pConfig->allOpsChance.chanceNestedEraseFailureDuringEraseFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chancePsDecommissionRequests))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((3))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1139 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chancePsDecommissionRequests))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((3))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chancePsDecommissionRequests) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1139 , "sizeof(pConfig->allOpsChance.chancePsDecommissionRequests) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceProgParityPage))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1140 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceProgParityPage))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceProgParityPage) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1140 , "sizeof(pConfig->allOpsChance.chanceProgParityPage) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceDstFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((5))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1141 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceDstFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceDstFailure) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1141 , "sizeof(pConfig->allOpsChance.chanceDstFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceUnrecXorRecRead))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((6))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1142 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceUnrecXorRecRead))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceUnrecXorRecRead) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1142 , "sizeof(pConfig->allOpsChance.chanceUnrecXorRecRead) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceToTriggerRlcAfterReadInj))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((7))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1143 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceToTriggerRlcAfterReadInj))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((7))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceToTriggerRlcAfterReadInj) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1143 , "sizeof(pConfig->allOpsChance.chanceToTriggerRlcAfterReadInj) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedWriteAbort))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((8))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1144 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedWriteAbort))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceNestedWriteAbort) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1144 , "sizeof(pConfig->allOpsChance.chanceNestedWriteAbort) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedEraseAbort))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((9))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1145 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedEraseAbort))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceNestedEraseAbort) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1145 , "sizeof(pConfig->allOpsChance.chanceNestedEraseAbort) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailureDuringFnvm))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((10))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1146 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailureDuringFnvm))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceEraseFailureDuringFnvm) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1146 , "sizeof(pConfig->allOpsChance.chanceEraseFailureDuringFnvm) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceDrd))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((11))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1147 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceDrd))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((11))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceDrd) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1147 , "sizeof(pConfig->allOpsChance.chanceDrd) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceSgdDownShift))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((12))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1148 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceSgdDownShift))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((12))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceSgdDownShift) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1148 , "sizeof(pConfig->allOpsChance.chanceSgdDownShift) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceSgdUpShift))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((13))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1149 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceSgdUpShift))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((13))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceSgdUpShift) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1149 , "sizeof(pConfig->allOpsChance.chanceSgdUpShift) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceReadDuringSuspendErase))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((14))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1150 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceReadDuringSuspendErase))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((14))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceReadDuringSuspendErase) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1150 , "sizeof(pConfig->allOpsChance.chanceReadDuringSuspendErase) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailureFadiJtag))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((15))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1151 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailureFadiJtag))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((15))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceEraseFailureFadiJtag) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1151 , "sizeof(pConfig->allOpsChance.chanceEraseFailureFadiJtag) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1136 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceEraseFailure) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1136 , "sizeof(pConfig->allOpsChance.chanceEraseFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceXorRecDuringPfRecFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((1))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1137 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceXorRecDuringPfRecFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceXorRecDuringPfRecFailure) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1137 , "sizeof(pConfig->allOpsChance.chanceXorRecDuringPfRecFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedEraseFailureDuringEraseFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((2))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1138 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedEraseFailureDuringEraseFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceNestedEraseFailureDuringEraseFailure) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1138 , "sizeof(pConfig->allOpsChance.chanceNestedEraseFailureDuringEraseFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chancePsDecommissionRequests))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((3))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1139 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chancePsDecommissionRequests))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((3))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chancePsDecommissionRequests) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1139 , "sizeof(pConfig->allOpsChance.chancePsDecommissionRequests) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceProgParityPage))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1140 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceProgParityPage))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceProgParityPage) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1140 , "sizeof(pConfig->allOpsChance.chanceProgParityPage) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceDstFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((5))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1141 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceDstFailure))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceDstFailure) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1141 , "sizeof(pConfig->allOpsChance.chanceDstFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceUnrecXorRecRead))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((6))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1142 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceUnrecXorRecRead))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceUnrecXorRecRead) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1142 , "sizeof(pConfig->allOpsChance.chanceUnrecXorRecRead) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceToTriggerRlcAfterReadInj))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((7))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1143 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceToTriggerRlcAfterReadInj))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((7))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceToTriggerRlcAfterReadInj) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1143 , "sizeof(pConfig->allOpsChance.chanceToTriggerRlcAfterReadInj) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedWriteAbort))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((8))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1144 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedWriteAbort))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceNestedWriteAbort) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1144 , "sizeof(pConfig->allOpsChance.chanceNestedWriteAbort) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedEraseAbort))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((9))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1145 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedEraseAbort))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceNestedEraseAbort) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1145 , "sizeof(pConfig->allOpsChance.chanceNestedEraseAbort) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailureDuringFnvm))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((10))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1146 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceEraseFailureDuringFnvm))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceEraseFailureDuringFnvm) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1146 , "sizeof(pConfig->allOpsChance.chanceEraseFailureDuringFnvm) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceDrd))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((11))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1147 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceDrd))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((11))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceDrd) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1147 , "sizeof(pConfig->allOpsChance.chanceDrd) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceSgdDownShift))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((12))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1148 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceSgdDownShift))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((12))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceSgdDownShift) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1148 , "sizeof(pConfig->allOpsChance.chanceSgdDownShift) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceSgdUpShift))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((13))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1149 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceSgdUpShift))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((13))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceSgdUpShift) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1149 , "sizeof(pConfig->allOpsChance.chanceSgdUpShift) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceReadDuringSuspendErase))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((14))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1150 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceReadDuringSuspendErase))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((14))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceReadDuringSuspendErase) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1150 , "sizeof(pConfig->allOpsChance.chanceReadDuringSuspendErase) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedPfEfOhterSubBlock))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((15))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1151 , "(uint32_t)((uint8_t*)(&((pConfig->allOpsChance.chanceNestedPfEfOhterSubBlock))) - (uint8_t*)(&((pConfig->allOpsChance)))) == ((15))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->allOpsChance.chanceNestedPfEfOhterSubBlock) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1151 , "sizeof(pConfig->allOpsChance.chanceNestedPfEfOhterSubBlock) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((336))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1154 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((336))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOST]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1154 , "sizeof(pConfig->operations[EI_OP_ID_HOST]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RMW]))) - (uint8_t*)(&((*pConfig)))) == ((408))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1155 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RMW]))) - (uint8_t*)(&((*pConfig)))) == ((408))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RMW]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1155 , "sizeof(pConfig->operations[EI_OP_ID_RMW]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_FUA]))) - (uint8_t*)(&((*pConfig)))) == ((480))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1156 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_FUA]))) - (uint8_t*)(&((*pConfig)))) == ((480))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_FUA]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1156 , "sizeof(pConfig->operations[EI_OP_ID_FUA]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_DEALLOC]))) - (uint8_t*)(&((*pConfig)))) == ((552))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1157 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_DEALLOC]))) - (uint8_t*)(&((*pConfig)))) == ((552))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_DEALLOC]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1157 , "sizeof(pConfig->operations[EI_OP_ID_DEALLOC]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG]))) - (uint8_t*)(&((*pConfig)))) == ((624))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1158 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG]))) - (uint8_t*)(&((*pConfig)))) == ((624))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1158 , "sizeof(pConfig->operations[EI_OP_ID_LOG]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_PRM]))) - (uint8_t*)(&((*pConfig)))) == ((696))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1159 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_PRM]))) - (uint8_t*)(&((*pConfig)))) == ((696))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_PRM]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1159 , "sizeof(pConfig->operations[EI_OP_ID_PRM]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((768))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1160 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((768))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_MTM]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1160 , "sizeof(pConfig->operations[EI_OP_ID_MTM]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((840))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1161 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((840))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1161 , "sizeof(pConfig->operations[EI_OP_ID_XOR]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD]))) - (uint8_t*)(&((*pConfig)))) == ((912))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1162 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD]))) - (uint8_t*)(&((*pConfig)))) == ((912))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1162 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_ACTIVE_RS]))) - (uint8_t*)(&((*pConfig)))) == ((984))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1163 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_ACTIVE_RS]))) - (uint8_t*)(&((*pConfig)))) == ((984))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_ACTIVE_RS]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1163 , "sizeof(pConfig->operations[EI_OP_ID_ACTIVE_RS]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_FLGP]))) - (uint8_t*)(&((*pConfig)))) == ((1056))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1164 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_FLGP]))) - (uint8_t*)(&((*pConfig)))) == ((1056))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_FLGP]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1164 , "sizeof(pConfig->operations[EI_OP_ID_FLGP]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_SCAN_FWD]))) - (uint8_t*)(&((*pConfig)))) == ((1128))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1165 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_SCAN_FWD]))) - (uint8_t*)(&((*pConfig)))) == ((1128))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_SCAN_FWD]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1165 , "sizeof(pConfig->operations[EI_OP_ID_SCAN_FWD]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_READ_HEADERS]))) - (uint8_t*)(&((*pConfig)))) == ((1200))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1166 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_READ_HEADERS]))) - (uint8_t*)(&((*pConfig)))) == ((1200))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_READ_HEADERS]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1166 , "sizeof(pConfig->operations[EI_OP_ID_READ_HEADERS]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST_VC]))) - (uint8_t*)(&((*pConfig)))) == ((1272))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1167 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST_VC]))) - (uint8_t*)(&((*pConfig)))) == ((1272))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST_VC]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1167 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST_VC]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((1344))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1168 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((1344))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1168 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((1416))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1169 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((1416))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_MTM]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1169 , "sizeof(pConfig->operations[EI_OP_ID_RLC_MTM]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((1488))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1170 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((1488))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_XOR]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1170 , "sizeof(pConfig->operations[EI_OP_ID_RLC_XOR]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((1560))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1171 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((1560))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_BRLC_HOST]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1171 , "sizeof(pConfig->operations[EI_OP_ID_BRLC_HOST]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_RLC]))) - (uint8_t*)(&((*pConfig)))) == ((1632))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1172 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_RLC]))) - (uint8_t*)(&((*pConfig)))) == ((1632))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_BRLC_RLC]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1172 , "sizeof(pConfig->operations[EI_OP_ID_BRLC_RLC]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((1704))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1173 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((1704))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_BRLC_MTM]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1173 , "sizeof(pConfig->operations[EI_OP_ID_BRLC_MTM]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((1776))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1174 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((1776))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_BRLC_XOR]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1174 , "sizeof(pConfig->operations[EI_OP_ID_BRLC_XOR]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_IFS]))) - (uint8_t*)(&((*pConfig)))) == ((1848))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1175 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_IFS]))) - (uint8_t*)(&((*pConfig)))) == ((1848))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_IFS]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1175 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_IFS]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI]))) - (uint8_t*)(&((*pConfig)))) == ((1920))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1176 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI]))) - (uint8_t*)(&((*pConfig)))) == ((1920))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1176 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_BOOT]))) - (uint8_t*)(&((*pConfig)))) == ((1992))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1177 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_BOOT]))) - (uint8_t*)(&((*pConfig)))) == ((1992))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_BOOT]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1177 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_BOOT]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_DIR]))) - (uint8_t*)(&((*pConfig)))) == ((2064))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1178 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_DIR]))) - (uint8_t*)(&((*pConfig)))) == ((2064))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_DIR]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1178 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_DIR]) == (72)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS]))) - (uint8_t*)(&((*pConfig)))) == ((2136))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1179 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS]))) - (uint8_t*)(&((*pConfig)))) == ((2136))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS]) == (72)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1179 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((336))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1154 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((336))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOST]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1154 , "sizeof(pConfig->operations[EI_OP_ID_HOST]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RMW]))) - (uint8_t*)(&((*pConfig)))) == ((408))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1155 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RMW]))) - (uint8_t*)(&((*pConfig)))) == ((408))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RMW]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1155 , "sizeof(pConfig->operations[EI_OP_ID_RMW]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_FUA]))) - (uint8_t*)(&((*pConfig)))) == ((480))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1156 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_FUA]))) - (uint8_t*)(&((*pConfig)))) == ((480))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_FUA]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1156 , "sizeof(pConfig->operations[EI_OP_ID_FUA]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_DEALLOC]))) - (uint8_t*)(&((*pConfig)))) == ((552))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1157 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_DEALLOC]))) - (uint8_t*)(&((*pConfig)))) == ((552))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_DEALLOC]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1157 , "sizeof(pConfig->operations[EI_OP_ID_DEALLOC]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG]))) - (uint8_t*)(&((*pConfig)))) == ((624))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1158 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG]))) - (uint8_t*)(&((*pConfig)))) == ((624))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1158 , "sizeof(pConfig->operations[EI_OP_ID_LOG]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_PRM]))) - (uint8_t*)(&((*pConfig)))) == ((696))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1159 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_PRM]))) - (uint8_t*)(&((*pConfig)))) == ((696))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_PRM]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1159 , "sizeof(pConfig->operations[EI_OP_ID_PRM]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((768))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1160 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((768))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_MTM]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1160 , "sizeof(pConfig->operations[EI_OP_ID_MTM]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((840))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1161 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((840))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1161 , "sizeof(pConfig->operations[EI_OP_ID_XOR]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD]))) - (uint8_t*)(&((*pConfig)))) == ((912))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1162 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD]))) - (uint8_t*)(&((*pConfig)))) == ((912))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1162 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_ACTIVE_RS]))) - (uint8_t*)(&((*pConfig)))) == ((984))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1163 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_ACTIVE_RS]))) - (uint8_t*)(&((*pConfig)))) == ((984))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_ACTIVE_RS]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1163 , "sizeof(pConfig->operations[EI_OP_ID_ACTIVE_RS]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_FLGP]))) - (uint8_t*)(&((*pConfig)))) == ((1056))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1164 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_FLGP]))) - (uint8_t*)(&((*pConfig)))) == ((1056))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_FLGP]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1164 , "sizeof(pConfig->operations[EI_OP_ID_FLGP]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_SCAN_FWD]))) - (uint8_t*)(&((*pConfig)))) == ((1128))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1165 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_SCAN_FWD]))) - (uint8_t*)(&((*pConfig)))) == ((1128))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_SCAN_FWD]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1165 , "sizeof(pConfig->operations[EI_OP_ID_SCAN_FWD]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_READ_HEADERS]))) - (uint8_t*)(&((*pConfig)))) == ((1200))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1166 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_READ_HEADERS]))) - (uint8_t*)(&((*pConfig)))) == ((1200))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_READ_HEADERS]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1166 , "sizeof(pConfig->operations[EI_OP_ID_READ_HEADERS]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST_VC]))) - (uint8_t*)(&((*pConfig)))) == ((1272))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1167 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST_VC]))) - (uint8_t*)(&((*pConfig)))) == ((1272))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST_VC]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1167 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST_VC]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((1344))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1168 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((1344))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1168 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((1416))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1169 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((1416))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_MTM]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1169 , "sizeof(pConfig->operations[EI_OP_ID_RLC_MTM]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((1488))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1170 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((1488))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_XOR]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1170 , "sizeof(pConfig->operations[EI_OP_ID_RLC_XOR]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((1560))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1171 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_HOST]))) - (uint8_t*)(&((*pConfig)))) == ((1560))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_BRLC_HOST]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1171 , "sizeof(pConfig->operations[EI_OP_ID_BRLC_HOST]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_RLC]))) - (uint8_t*)(&((*pConfig)))) == ((1632))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1172 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_RLC]))) - (uint8_t*)(&((*pConfig)))) == ((1632))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_BRLC_RLC]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1172 , "sizeof(pConfig->operations[EI_OP_ID_BRLC_RLC]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((1704))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1173 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_MTM]))) - (uint8_t*)(&((*pConfig)))) == ((1704))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_BRLC_MTM]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1173 , "sizeof(pConfig->operations[EI_OP_ID_BRLC_MTM]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((1776))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1174 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_BRLC_XOR]))) - (uint8_t*)(&((*pConfig)))) == ((1776))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_BRLC_XOR]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1174 , "sizeof(pConfig->operations[EI_OP_ID_BRLC_XOR]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_IFS]))) - (uint8_t*)(&((*pConfig)))) == ((1848))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1175 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_IFS]))) - (uint8_t*)(&((*pConfig)))) == ((1848))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_IFS]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1175 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_IFS]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI]))) - (uint8_t*)(&((*pConfig)))) == ((1920))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1176 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI]))) - (uint8_t*)(&((*pConfig)))) == ((1920))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1176 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_BOOT]))) - (uint8_t*)(&((*pConfig)))) == ((1992))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1177 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_BOOT]))) - (uint8_t*)(&((*pConfig)))) == ((1992))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_BOOT]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1177 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_BOOT]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_DIR]))) - (uint8_t*)(&((*pConfig)))) == ((2064))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1178 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_DIR]))) - (uint8_t*)(&((*pConfig)))) == ((2064))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_DIR]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1178 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_DIR]) == (72)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS]))) - (uint8_t*)(&((*pConfig)))) == ((2136))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1179 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS]))) - (uint8_t*)(&((*pConfig)))) == ((2136))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS]) == (72)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1179 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS]) == (72)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].valid))) - (uint8_t*)(&((pConfig->operations[0])))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1182 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].valid))) - (uint8_t*)(&((pConfig->operations[0])))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].valid) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1182 , "sizeof(pConfig->operations[0].valid) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].isParticipantInBurst))) - (uint8_t*)(&((pConfig->operations[0])))) == ((1))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1183 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].isParticipantInBurst))) - (uint8_t*)(&((pConfig->operations[0])))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].isParticipantInBurst) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1183 , "sizeof(pConfig->operations[0].isParticipantInBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].chanceToInitiateBurstOnRead))) - (uint8_t*)(&((pConfig->operations[0])))) == ((2))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1184 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].chanceToInitiateBurstOnRead))) - (uint8_t*)(&((pConfig->operations[0])))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].chanceToInitiateBurstOnRead) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1184 , "sizeof(pConfig->operations[0].chanceToInitiateBurstOnRead) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].chanceToInitiateBurstOnProg))) - (uint8_t*)(&((pConfig->operations[0])))) == ((3))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1185 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].chanceToInitiateBurstOnProg))) - (uint8_t*)(&((pConfig->operations[0])))) == ((3))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].chanceToInitiateBurstOnProg) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1185 , "sizeof(pConfig->operations[0].chanceToInitiateBurstOnProg) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_SPECIAL]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1186 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_SPECIAL]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_SPECIAL]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1186 , "sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_SPECIAL]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((5))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1187 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1187 , "sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT_DPS]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((6))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1188 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT_DPS]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT_DPS]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1188 , "sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT_DPS]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_NORMAL]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((7))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1189 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_NORMAL]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((7))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_NORMAL]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1189 , "sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_NORMAL]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].opTypeFailureChances[EI_FLASH_READ]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((8))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1190 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].opTypeFailureChances[EI_FLASH_READ]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].opTypeFailureChances[EI_FLASH_READ]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1190 , "sizeof(pConfig->operations[0].opTypeFailureChances[EI_FLASH_READ]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].opTypeFailureChances[EI_FLASH_PROG]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((9))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1191 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].opTypeFailureChances[EI_FLASH_PROG]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].opTypeFailureChances[EI_FLASH_PROG]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1191 , "sizeof(pConfig->operations[0].opTypeFailureChances[EI_FLASH_PROG]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_SLC]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((16))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1192 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_SLC]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((16))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_SLC]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1192 , "sizeof(pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_SLC]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_MLC]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((17))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1193 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_MLC]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((17))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_MLC]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1193 , "sizeof(pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_MLC]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_0]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((24))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1194 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_0]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((24))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_0]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1194 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_0]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_1]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((25))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1195 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_1]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((25))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_1]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1195 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_1]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_LAST]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((26))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1196 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_LAST]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((26))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_LAST]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1196 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_LAST]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_PRE_LAST]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((27))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1197 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_PRE_LAST]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((27))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_PRE_LAST]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1197 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_PRE_LAST]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_OTHER]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((28))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1198 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_OTHER]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((28))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_OTHER]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1198 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_OTHER]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((32))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1199 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((32))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1199 , "sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((33))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1200 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((33))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1200 , "sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((34))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1201 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((34))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1201 , "sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].opidSpecificChances))) - (uint8_t*)(&((pConfig->operations[0])))) == ((40))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1202 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].opidSpecificChances))) - (uint8_t*)(&((pConfig->operations[0])))) == ((40))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].opidSpecificChances) == (24)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1202 , "sizeof(pConfig->operations[0].opidSpecificChances) == (24)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].nestedFailuresChances[EI_NESTED_PF_EF_DURING_PF]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((64))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1203 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].nestedFailuresChances[EI_NESTED_PF_EF_DURING_PF]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((64))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].nestedFailuresChances[EI_NESTED_PF_EF_DURING_PF]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1203 , "sizeof(pConfig->operations[0].nestedFailuresChances[EI_NESTED_PF_EF_DURING_PF]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].nestedFailuresChances[EI_NESTED_READ_DURING_PF]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((65))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1204 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].nestedFailuresChances[EI_NESTED_READ_DURING_PF]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((65))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].nestedFailuresChances[EI_NESTED_READ_DURING_PF]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1204 , "sizeof(pConfig->operations[0].nestedFailuresChances[EI_NESTED_READ_DURING_PF]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].valid))) - (uint8_t*)(&((pConfig->operations[0])))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1182 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].valid))) - (uint8_t*)(&((pConfig->operations[0])))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].valid) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1182 , "sizeof(pConfig->operations[0].valid) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].isParticipantInBurst))) - (uint8_t*)(&((pConfig->operations[0])))) == ((1))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1183 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].isParticipantInBurst))) - (uint8_t*)(&((pConfig->operations[0])))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].isParticipantInBurst) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1183 , "sizeof(pConfig->operations[0].isParticipantInBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].chanceToInitiateBurstOnRead))) - (uint8_t*)(&((pConfig->operations[0])))) == ((2))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1184 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].chanceToInitiateBurstOnRead))) - (uint8_t*)(&((pConfig->operations[0])))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].chanceToInitiateBurstOnRead) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1184 , "sizeof(pConfig->operations[0].chanceToInitiateBurstOnRead) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].chanceToInitiateBurstOnProg))) - (uint8_t*)(&((pConfig->operations[0])))) == ((3))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1185 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].chanceToInitiateBurstOnProg))) - (uint8_t*)(&((pConfig->operations[0])))) == ((3))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].chanceToInitiateBurstOnProg) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1185 , "sizeof(pConfig->operations[0].chanceToInitiateBurstOnProg) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_SPECIAL]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1186 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_SPECIAL]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_SPECIAL]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1186 , "sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_SPECIAL]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((5))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1187 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1187 , "sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT_DPS]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((6))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1188 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT_DPS]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT_DPS]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1188 , "sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_MOUNT_DPS]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_NORMAL]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((7))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1189 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_NORMAL]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((7))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_NORMAL]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1189 , "sizeof(pConfig->operations[0].operationalStateChances[EI_OPERATIONAL_STATE_NORMAL]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].opTypeFailureChances[EI_FLASH_READ]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((8))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1190 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].opTypeFailureChances[EI_FLASH_READ]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].opTypeFailureChances[EI_FLASH_READ]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1190 , "sizeof(pConfig->operations[0].opTypeFailureChances[EI_FLASH_READ]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].opTypeFailureChances[EI_FLASH_PROG]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((9))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1191 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].opTypeFailureChances[EI_FLASH_PROG]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].opTypeFailureChances[EI_FLASH_PROG]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1191 , "sizeof(pConfig->operations[0].opTypeFailureChances[EI_FLASH_PROG]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_SLC]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((16))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1192 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_SLC]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((16))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_SLC]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1192 , "sizeof(pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_SLC]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_MLC]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((17))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1193 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_MLC]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((17))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_MLC]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1193 , "sizeof(pConfig->operations[0].blockTypeFailureChances[EI_BLOCK_TYPE_MLC]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_0]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((24))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1194 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_0]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((24))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_0]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1194 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_0]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_1]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((25))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1195 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_1]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((25))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_1]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1195 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_1]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_LAST]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((26))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1196 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_LAST]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((26))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_LAST]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1196 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_LAST]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_PRE_LAST]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((27))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1197 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_PRE_LAST]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((27))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_PRE_LAST]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1197 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_PRE_LAST]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_OTHER]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((28))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1198 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_OTHER]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((28))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_OTHER]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1198 , "sizeof(pConfig->operations[0].pagePlacementChances[EI_PLACEMENT_PAGE_OTHER]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((32))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1199 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((32))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1199 , "sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_OPEN_ZONE_OPEN_BLOCK]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((33))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1200 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((33))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1200 , "sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_OPEN_BLOCK]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((34))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1201 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((34))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1201 , "sizeof(pConfig->operations[0].zoneStateChances[EI_ZONE_STATE_CLOSED_ZONE_CLOSED_BLOCK]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].opidSpecificChances))) - (uint8_t*)(&((pConfig->operations[0])))) == ((40))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1202 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].opidSpecificChances))) - (uint8_t*)(&((pConfig->operations[0])))) == ((40))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].opidSpecificChances) == (24)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1202 , "sizeof(pConfig->operations[0].opidSpecificChances) == (24)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].nestedFailuresChances[EI_NESTED_PF_EF_DURING_PF]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((64))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1203 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].nestedFailuresChances[EI_NESTED_PF_EF_DURING_PF]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((64))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].nestedFailuresChances[EI_NESTED_PF_EF_DURING_PF]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1203 , "sizeof(pConfig->operations[0].nestedFailuresChances[EI_NESTED_PF_EF_DURING_PF]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[0].nestedFailuresChances[EI_NESTED_READ_DURING_PF]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((65))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1204 , "(uint32_t)((uint8_t*)(&((pConfig->operations[0].nestedFailuresChances[EI_NESTED_READ_DURING_PF]))) - (uint8_t*)(&((pConfig->operations[0])))) == ((65))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[0].nestedFailuresChances[EI_NESTED_READ_DURING_PF]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1204 , "sizeof(pConfig->operations[0].nestedFailuresChances[EI_NESTED_READ_DURING_PF]) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations) == 6), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1207 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations) == 6");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons) == 16), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1208 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons) == 16");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_BEGINNING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1209 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_BEGINNING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_BEGINNING]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1209 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_BEGINNING]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_MIDDLE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((1))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1210 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_MIDDLE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_MIDDLE]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1210 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_MIDDLE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_ENDING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((2))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1211 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_ENDING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_ENDING]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1211 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_ENDING]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_BEGINNING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((3))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1212 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_BEGINNING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((3))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_BEGINNING]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1212 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_BEGINNING]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_MIDDLE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1213 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_MIDDLE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_MIDDLE]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1213 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_MIDDLE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_ENDING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((5))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1214 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_ENDING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_ENDING]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1214 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_ENDING]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FIRST_MOUNT]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((6))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1215 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FIRST_MOUNT]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FIRST_MOUNT]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1215 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FIRST_MOUNT]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_GSD_DONE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((7))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1216 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_GSD_DONE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((7))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_GSD_DONE]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1216 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_GSD_DONE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_UGSD_DONE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((8))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1217 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_UGSD_DONE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_UGSD_DONE]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1217 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_UGSD_DONE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_GSD]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((9))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1218 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_GSD]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_GSD]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1218 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_GSD]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BLOCK_ALLOCATED]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((10))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1219 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BLOCK_ALLOCATED]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BLOCK_ALLOCATED]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1219 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BLOCK_ALLOCATED]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FLASH_FILL]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((11))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1220 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FLASH_FILL]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((11))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FLASH_FILL]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1220 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FLASH_FILL]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_PWS]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((12))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1221 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_PWS]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((12))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_PWS]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1221 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_PWS]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FNVM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((13))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1222 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FNVM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((13))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FNVM]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1222 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FNVM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_DECOMMISSIONED]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((14))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1223 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_DECOMMISSIONED]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((14))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_DECOMMISSIONED]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1223 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_DECOMMISSIONED]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FE_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((15))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1224 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FE_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((15))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FE_SMART]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1224 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FE_SMART]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_INFRA_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((16))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1225 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_INFRA_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((16))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_INFRA_SMART]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1225 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_INFRA_SMART]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FTL_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((17))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1226 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FTL_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((17))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FTL_SMART]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1226 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FTL_SMART]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_BLOCK_ALLOC_FAILURE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((18))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1227 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_BLOCK_ALLOC_FAILURE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((18))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_BLOCK_ALLOC_FAILURE]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1227 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_BLOCK_ALLOC_FAILURE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_COMPLETE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((19))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1228 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_COMPLETE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((19))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_COMPLETE]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1228 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_COMPLETE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FMBL_NOT_FULL]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((20))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1229 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FMBL_NOT_FULL]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((20))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FMBL_NOT_FULL]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1229 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FMBL_NOT_FULL]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_READONLY]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((21))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1230 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_READONLY]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((21))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_READONLY]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1230 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_READONLY]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations) == 6), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1207 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations) == 6");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons) == 16), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1208 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons) == 16");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_BEGINNING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1209 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_BEGINNING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_BEGINNING]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1209 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_BEGINNING]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_MIDDLE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((1))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1210 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_MIDDLE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_MIDDLE]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1210 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_MIDDLE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_ENDING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((2))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1211 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_ENDING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_ENDING]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1211 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_0_ENDING]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_BEGINNING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((3))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1212 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_BEGINNING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((3))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_BEGINNING]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1212 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_BEGINNING]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_MIDDLE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1213 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_MIDDLE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_MIDDLE]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1213 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_MIDDLE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_ENDING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((5))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1214 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_ENDING]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_ENDING]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1214 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.locations[EI_LOG_COPY_1_ENDING]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FIRST_MOUNT]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((6))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1215 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FIRST_MOUNT]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FIRST_MOUNT]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1215 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FIRST_MOUNT]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_GSD_DONE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((7))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1216 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_GSD_DONE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((7))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_GSD_DONE]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1216 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_GSD_DONE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_UGSD_DONE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((8))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1217 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_UGSD_DONE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_UGSD_DONE]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1217 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_MOUNT_UGSD_DONE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_GSD]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((9))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1218 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_GSD]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_GSD]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1218 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_GSD]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BLOCK_ALLOCATED]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((10))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1219 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BLOCK_ALLOCATED]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BLOCK_ALLOCATED]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1219 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BLOCK_ALLOCATED]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FLASH_FILL]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((11))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1220 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FLASH_FILL]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((11))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FLASH_FILL]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1220 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FLASH_FILL]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_PWS]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((12))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1221 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_PWS]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((12))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_PWS]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1221 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_PWS]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FNVM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((13))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1222 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FNVM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((13))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FNVM]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1222 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FNVM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_DECOMMISSIONED]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((14))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1223 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_DECOMMISSIONED]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((14))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_DECOMMISSIONED]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1223 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_DECOMMISSIONED]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FE_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((15))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1224 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FE_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((15))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FE_SMART]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1224 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FE_SMART]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_INFRA_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((16))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1225 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_INFRA_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((16))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_INFRA_SMART]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1225 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_INFRA_SMART]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FTL_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((17))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1226 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FTL_SMART]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((17))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FTL_SMART]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1226 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FTL_SMART]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_BLOCK_ALLOC_FAILURE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((18))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1227 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_BLOCK_ALLOC_FAILURE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((18))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_BLOCK_ALLOC_FAILURE]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1227 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_BLOCK_ALLOC_FAILURE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_COMPLETE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((19))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1228 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_COMPLETE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((19))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_COMPLETE]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1228 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_BRLC_COMPLETE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FMBL_NOT_FULL]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((20))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1229 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FMBL_NOT_FULL]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((20))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FMBL_NOT_FULL]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1229 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_FMBL_NOT_FULL]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_READONLY]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((21))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1230 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_READONLY]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_LOG].opidSpecificChances)))) == ((21))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_READONLY]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1230 , "sizeof(pConfig->operations[EI_OP_ID_LOG].opidSpecificChances.logChances.reasons[EI_LOG_WRITE_REASON_READONLY]) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes) == 2), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1233 , "sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes) == 2");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_XRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1234 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_XRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_XRAM]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1234 , "sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_XRAM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_DRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances)))) == ((1))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1235 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_DRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_DRAM]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1235 , "sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_DRAM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes) == 2), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1233 , "sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes) == 2");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_XRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1234 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_XRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_XRAM]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1234 , "sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_XRAM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_DRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances)))) == ((1))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1235 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_DRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_DRAM]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1235 , "sizeof(pConfig->operations[EI_OP_ID_XOR].opidSpecificChances.xorChances.xorLoadTypes[EI_XOR_LOAD_TYPE_DRAM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets) == 2), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1238 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets) == 2");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons) == 2), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1239 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons) == 2");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_XRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1240 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_XRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_XRAM]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1240 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_XRAM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_DRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((1))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1241 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_DRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_DRAM]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1241 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_DRAM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_UGSD]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((8))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1242 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_UGSD]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_UGSD]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1242 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_UGSD]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_LOAD_FAILURE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((9))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1243 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_LOAD_FAILURE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_LOAD_FAILURE]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1243 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_LOAD_FAILURE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets) == 2), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1238 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets) == 2");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons) == 2), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1239 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons) == 2");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_XRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1240 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_XRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_XRAM]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1240 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_XRAM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_DRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((1))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1241 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_DRAM]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_DRAM]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1241 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildTargets[EI_REBUILD_TARGET_DRAM]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_UGSD]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((8))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1242 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_UGSD]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_UGSD]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1242 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_UGSD]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_LOAD_FAILURE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((9))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1243 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_LOAD_FAILURE]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances)))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_LOAD_FAILURE]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1243 , "sizeof(pConfig->operations[EI_OP_ID_XOR_ZONE_REBUILD].opidSpecificChances.rebuildChances.rebuildReasons[EI_REBUILD_REASON_LOAD_FAILURE]) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes) == 2), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1246 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes) == 2");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1247 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_OTHER]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1247 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_OTHER]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_STATIC]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances)))) == ((1))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1248 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_STATIC]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_STATIC]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1248 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_STATIC]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes) == 2), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1246 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes) == 2");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1247 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_OTHER]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1247 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_OTHER]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_STATIC]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances)))) == ((1))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1248 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_STATIC]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_STATIC]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1248 , "sizeof(pConfig->operations[EI_OP_ID_RLC_HOST].opidSpecificChances.rlcChances.rlcTypes[EI_RLC_TYPE_STATIC]) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes) == 2), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1251 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes) == 2");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1252 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_OTHER]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1252 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_OTHER]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_JTAG]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances)))) == ((1))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1253 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_JTAG]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_JTAG]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1253 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_JTAG]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes) == 2), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1251 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes) == 2");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1252 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_OTHER]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1252 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_OTHER]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_JTAG]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances)))) == ((1))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1253 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_JTAG]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_JTAG]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1253 , "sizeof(pConfig->operations[EI_OP_ID_INFRA_FADI].opidSpecificChances.fadiChances.fadiTypes[EI_FADI_TYPE_JTAG]) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes) == 3), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1256 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes) == 3");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1257 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_OTHER]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1257 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_OTHER]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_RPMB]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((1))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1258 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_RPMB]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_RPMB]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1258 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_RPMB]) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_BOOTPARTITION]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((2))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1259 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_BOOTPARTITION]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_BOOTPARTITION]) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1259 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_BOOTPARTITION]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes) == 3), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1256 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes) == 3");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1257 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_OTHER]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_OTHER]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1257 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_OTHER]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_RPMB]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((1))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1258 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_RPMB]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((1))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_RPMB]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1258 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_RPMB]) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_BOOTPARTITION]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((2))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1259 , "(uint32_t)((uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_BOOTPARTITION]))) - (uint8_t*)(&((pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances)))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_BOOTPARTITION]) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1259 , "sizeof(pConfig->operations[EI_OP_ID_HOSTLESS].opidSpecificChances.hostlessChances.hostlessTypes[EI_HOSTLESS_TYPE_BOOTPARTITION]) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalRead)) - (uint8_t*)(&(pConfig->chances))) == (0)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1262 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalRead)) - (uint8_t*)(&(pConfig->chances))) == (0)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceXorRecRead)) - (uint8_t*)(&(pConfig->chances))) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1263 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceXorRecRead)) - (uint8_t*)(&(pConfig->chances))) == (16)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChancePfRecRead)) - (uint8_t*)(&(pConfig->chances))) == (32)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1264 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChancePfRecRead)) - (uint8_t*)(&(pConfig->chances))) == (32)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalProg)) - (uint8_t*)(&(pConfig->chances))) == (48)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1265 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalProg)) - (uint8_t*)(&(pConfig->chances))) == (48)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceNestedProg)) - (uint8_t*)(&(pConfig->chances))) == (64)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1266 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceNestedProg)) - (uint8_t*)(&(pConfig->chances))) == (64)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalErase)) - (uint8_t*)(&(pConfig->chances))) == (80)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1267 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalErase)) - (uint8_t*)(&(pConfig->chances))) == (80)");                         "BullseyeCoverage restore"; } ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceNestedErase)) - (uint8_t*)(&(pConfig->chances))) == (96)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1268 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceNestedErase)) - (uint8_t*)(&(pConfig->chances))) == (96)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalRead)) - (uint8_t*)(&(pConfig->chances))) == (0)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1262 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalRead)) - (uint8_t*)(&(pConfig->chances))) == (0)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceXorRecRead)) - (uint8_t*)(&(pConfig->chances))) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1263 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceXorRecRead)) - (uint8_t*)(&(pConfig->chances))) == (16)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChancePfRecRead)) - (uint8_t*)(&(pConfig->chances))) == (32)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1264 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChancePfRecRead)) - (uint8_t*)(&(pConfig->chances))) == (32)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalProg)) - (uint8_t*)(&(pConfig->chances))) == (48)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1265 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalProg)) - (uint8_t*)(&(pConfig->chances))) == (48)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceNestedProg)) - (uint8_t*)(&(pConfig->chances))) == (64)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1266 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceNestedProg)) - (uint8_t*)(&(pConfig->chances))) == (64)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalErase)) - (uint8_t*)(&(pConfig->chances))) == (80)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1267 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceOriginalErase)) - (uint8_t*)(&(pConfig->chances))) == (80)");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&(pConfig->chances.failChanceNestedErase)) - (uint8_t*)(&(pConfig->chances))) == (96)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1268 , "(uint32_t)((uint8_t*)(&(pConfig->chances.failChanceNestedErase)) - (uint8_t*)(&(pConfig->chances))) == (96)");                         "BullseyeCoverage restore"; } ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.cooldownTimeBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1271 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.cooldownTimeBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.cooldownTimeBurst) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1271 , "sizeof(pConfig->burstMode.cooldownTimeBurst) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.consecutiveGapBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1272 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.consecutiveGapBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.consecutiveGapBurst) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1272 , "sizeof(pConfig->burstMode.consecutiveGapBurst) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.maxInjectionsPerBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((8))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1273 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.maxInjectionsPerBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.maxInjectionsPerBurst) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1273 , "sizeof(pConfig->burstMode.maxInjectionsPerBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.minInjectionsPerBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((9))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1274 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.minInjectionsPerBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.minInjectionsPerBurst) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1274 , "sizeof(pConfig->burstMode.minInjectionsPerBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.isBackToBack))) - (uint8_t*)(&((pConfig->burstMode)))) == ((10))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1275 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.isBackToBack))) - (uint8_t*)(&((pConfig->burstMode)))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.isBackToBack) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1275 , "sizeof(pConfig->burstMode.isBackToBack) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.chanceToInitiateBurstOnErase))) - (uint8_t*)(&((pConfig->burstMode)))) == ((11))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1276 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.chanceToInitiateBurstOnErase))) - (uint8_t*)(&((pConfig->burstMode)))) == ((11))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.chanceToInitiateBurstOnErase) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1276 , "sizeof(pConfig->burstMode.chanceToInitiateBurstOnErase) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.chanceEraseFailureDuringBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((12))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1277 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.chanceEraseFailureDuringBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((12))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.chanceEraseFailureDuringBurst) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1277 , "sizeof(pConfig->burstMode.chanceEraseFailureDuringBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.isSolePfDuringBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((13))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1278 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.isSolePfDuringBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((13))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.isSolePfDuringBurst) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1278 , "sizeof(pConfig->burstMode.isSolePfDuringBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((24))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1279 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((24))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters) == (12)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1279 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters) == (12)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.chanceCapTestFailure))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((36))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1280 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.chanceCapTestFailure))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((36))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.chanceCapTestFailure) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1280 , "sizeof(pConfig->configArraysExtenstion.chanceCapTestFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.chancePlpProcessFailure))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((37))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1281 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.chancePlpProcessFailure))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((37))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.chancePlpProcessFailure) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1281 , "sizeof(pConfig->configArraysExtenstion.chancePlpProcessFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eraseChances))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((38))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1282 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eraseChances))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((38))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.eraseChances) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1282 , "sizeof(pConfig->configArraysExtenstion.eraseChances) == (16)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eiEnConfigFlowID))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((54))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1283 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eiEnConfigFlowID))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((54))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.eiEnConfigFlowID) == ( (10) )), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1283 , "sizeof(pConfig->configArraysExtenstion.eiEnConfigFlowID) == ((10))");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eraseChances.eraseFailureChances))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((38))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1284 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eraseChances.eraseFailureChances))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((38))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.eraseChances.eraseFailureChances) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1284 , "sizeof(pConfig->configArraysExtenstion.eraseChances.eraseFailureChances) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.cooldownTimeBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1271 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.cooldownTimeBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.cooldownTimeBurst) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1271 , "sizeof(pConfig->burstMode.cooldownTimeBurst) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.consecutiveGapBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1272 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.consecutiveGapBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.consecutiveGapBurst) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1272 , "sizeof(pConfig->burstMode.consecutiveGapBurst) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.maxInjectionsPerBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((8))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1273 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.maxInjectionsPerBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.maxInjectionsPerBurst) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1273 , "sizeof(pConfig->burstMode.maxInjectionsPerBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.minInjectionsPerBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((9))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1274 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.minInjectionsPerBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((9))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.minInjectionsPerBurst) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1274 , "sizeof(pConfig->burstMode.minInjectionsPerBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.isBackToBack))) - (uint8_t*)(&((pConfig->burstMode)))) == ((10))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1275 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.isBackToBack))) - (uint8_t*)(&((pConfig->burstMode)))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.isBackToBack) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1275 , "sizeof(pConfig->burstMode.isBackToBack) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.chanceToInitiateBurstOnErase))) - (uint8_t*)(&((pConfig->burstMode)))) == ((11))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1276 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.chanceToInitiateBurstOnErase))) - (uint8_t*)(&((pConfig->burstMode)))) == ((11))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.chanceToInitiateBurstOnErase) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1276 , "sizeof(pConfig->burstMode.chanceToInitiateBurstOnErase) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.chanceEraseFailureDuringBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((12))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1277 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.chanceEraseFailureDuringBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((12))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.chanceEraseFailureDuringBurst) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1277 , "sizeof(pConfig->burstMode.chanceEraseFailureDuringBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->burstMode.isSolePfDuringBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((13))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1278 , "(uint32_t)((uint8_t*)(&((pConfig->burstMode.isSolePfDuringBurst))) - (uint8_t*)(&((pConfig->burstMode)))) == ((13))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->burstMode.isSolePfDuringBurst) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1278 , "sizeof(pConfig->burstMode.isSolePfDuringBurst) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((24))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1279 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((24))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters) == (12)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1279 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters) == (12)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.chanceCapTestFailure))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((36))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1280 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.chanceCapTestFailure))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((36))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.chanceCapTestFailure) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1280 , "sizeof(pConfig->configArraysExtenstion.chanceCapTestFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.chancePlpProcessFailure))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((37))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1281 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.chancePlpProcessFailure))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((37))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.chancePlpProcessFailure) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1281 , "sizeof(pConfig->configArraysExtenstion.chancePlpProcessFailure) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eraseChances))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((38))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1282 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eraseChances))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((38))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.eraseChances) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1282 , "sizeof(pConfig->configArraysExtenstion.eraseChances) == (16)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eiEnConfigFlowID))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((54))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1283 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eiEnConfigFlowID))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((54))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.eiEnConfigFlowID) == ( (10) )), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1283 , "sizeof(pConfig->configArraysExtenstion.eiEnConfigFlowID) == ((10))");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eraseChances.eraseFailureChances))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((38))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1284 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.eraseChances.eraseFailureChances))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((38))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.eraseChances.eraseFailureChances) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1284 , "sizeof(pConfig->configArraysExtenstion.eraseChances.eraseFailureChances) == (4)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpFirstTriggerId))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1287 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpFirstTriggerId))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpFirstTriggerId) == (2)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1287 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpFirstTriggerId) == (2)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpSecondTriggerId))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((2))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1288 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpSecondTriggerId))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpSecondTriggerId) == (2)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1288 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpSecondTriggerId) == (2)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpChance))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1289 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpChance))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpChance) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1289 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpChance) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpActionDpa))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((5))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1290 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpActionDpa))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpActionDpa) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1290 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpActionDpa) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpUsingWaitingLoop))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((6))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1291 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpUsingWaitingLoop))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpUsingWaitingLoop) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1291 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpUsingWaitingLoop) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpAllowedDuringMount))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((7))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1292 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpAllowedDuringMount))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((7))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpAllowedDuringMount) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1292 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpAllowedDuringMount) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpMaxDelayInMilliSeconds))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((8))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1293 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpMaxDelayInMilliSeconds))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpMaxDelayInMilliSeconds) == (2)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1293 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpMaxDelayInMilliSeconds) == (2)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPfEfAllowedDuringPlp))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((10))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1294 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPfEfAllowedDuringPlp))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPfEfAllowedDuringPlp) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1294 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPfEfAllowedDuringPlp) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpFirstTriggerId))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1287 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpFirstTriggerId))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpFirstTriggerId) == (2)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1287 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpFirstTriggerId) == (2)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpSecondTriggerId))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((2))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1288 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpSecondTriggerId))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((2))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpSecondTriggerId) == (2)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1288 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpSecondTriggerId) == (2)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpChance))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1289 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpChance))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpChance) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1289 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpChance) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpActionDpa))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((5))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1290 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpActionDpa))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpActionDpa) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1290 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpActionDpa) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpUsingWaitingLoop))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((6))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1291 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpUsingWaitingLoop))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpUsingWaitingLoop) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1291 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpUsingWaitingLoop) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpAllowedDuringMount))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((7))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1292 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPlpAllowedDuringMount))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((7))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpAllowedDuringMount) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1292 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPlpAllowedDuringMount) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpMaxDelayInMilliSeconds))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((8))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1293 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.plpMaxDelayInMilliSeconds))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpMaxDelayInMilliSeconds) == (2)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1293 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.plpMaxDelayInMilliSeconds) == (2)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPfEfAllowedDuringPlp))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((10))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1294 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters.isPfEfAllowedDuringPlp))) - (uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters)))) == ((10))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPfEfAllowedDuringPlp) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1294 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters.isPfEfAllowedDuringPlp) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1297 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.read.failureType) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1297 , "sizeof(pConfig->singleInjections[0].injParams.read.failureType) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.triggerRlc))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1298 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.triggerRlc))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.read.triggerRlc) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1298 , "sizeof(pConfig->singleInjections[0].injParams.read.triggerRlc) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1297 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.read.failureType) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1297 , "sizeof(pConfig->singleInjections[0].injParams.read.failureType) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.triggerRlc))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1298 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.triggerRlc))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.read.triggerRlc) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1298 , "sizeof(pConfig->singleInjections[0].injParams.read.triggerRlc) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.failurePerFmuMap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((8))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1300 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.failurePerFmuMap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.read.failurePerFmuMap) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1300 , "sizeof(pConfig->singleInjections[0].injParams.read.failurePerFmuMap) == (16)");                         "BullseyeCoverage restore"; } ; ;
-
-
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1303 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.failureType) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1303 , "sizeof(pConfig->singleInjections[0].injParams.prog.failureType) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjReadPagesList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1304 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjReadPagesList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjReadPagesList) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1304 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjReadPagesList) == (16)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjReadByteMapsList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((20))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1305 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjReadByteMapsList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((20))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjReadByteMapsList) == (32)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1305 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjReadByteMapsList) == (32)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjProgEraseList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((52))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1306 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjProgEraseList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((52))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjProgEraseList) == (16)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1306 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjProgEraseList) == (16)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedListProgEraseSize))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((68))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1307 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedListProgEraseSize))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((68))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedListProgEraseSize) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1307 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedListProgEraseSize) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedListReadSize))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((69))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1308 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedListReadSize))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((69))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedListReadSize) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1308 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedListReadSize) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.doInjectMultiplane))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((70))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1309 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.doInjectMultiplane))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((70))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.doInjectMultiplane) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1309 , "sizeof(pConfig->singleInjections[0].injParams.prog.doInjectMultiplane) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.isParityPage))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((71))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1310 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.isParityPage))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((71))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.isParityPage) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1310 , "sizeof(pConfig->singleInjections[0].injParams.prog.isParityPage) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.EPWRbitmap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((72))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1311 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.EPWRbitmap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((72))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.EPWRbitmap) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1311 , "sizeof(pConfig->singleInjections[0].injParams.prog.EPWRbitmap) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.XORStoreMetaPgOffs))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((76))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1312 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.XORStoreMetaPgOffs))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((76))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.XORStoreMetaPgOffs) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1312 , "sizeof(pConfig->singleInjections[0].injParams.prog.XORStoreMetaPgOffs) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.failurePerFmuMap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((8))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1300 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.read.failurePerFmuMap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((8))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.read.failurePerFmuMap) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1300 , "sizeof(pConfig->singleInjections[0].injParams.read.failurePerFmuMap) == (16)");                         "BullseyeCoverage restore"; } ; ;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1315 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.erase.failureType) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1315 , "sizeof(pConfig->singleInjections[0].injParams.erase.failureType) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.numNestedEraseInjections))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1316 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.numNestedEraseInjections))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.erase.numNestedEraseInjections) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1316 , "sizeof(pConfig->singleInjections[0].injParams.erase.numNestedEraseInjections) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.doInjectMultiplane))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((5))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1317 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.doInjectMultiplane))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.erase.doInjectMultiplane) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1317 , "sizeof(pConfig->singleInjections[0].injParams.erase.doInjectMultiplane) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.doPowerAbortOnLastNestedInjection))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((6))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1318 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.doPowerAbortOnLastNestedInjection))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.erase.doPowerAbortOnLastNestedInjection) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1318 , "sizeof(pConfig->singleInjections[0].injParams.erase.doPowerAbortOnLastNestedInjection) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1303 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.failureType) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1303 , "sizeof(pConfig->singleInjections[0].injParams.prog.failureType) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjReadPagesList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1304 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjReadPagesList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjReadPagesList) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1304 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjReadPagesList) == (16)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjReadByteMapsList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((20))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1305 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjReadByteMapsList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((20))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjReadByteMapsList) == (32)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1305 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjReadByteMapsList) == (32)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjProgEraseList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((52))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1306 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedInjProgEraseList))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((52))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjProgEraseList) == (16)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1306 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedInjProgEraseList) == (16)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedListProgEraseSize))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((68))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1307 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedListProgEraseSize))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((68))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedListProgEraseSize) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1307 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedListProgEraseSize) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedListReadSize))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((69))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1308 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.nestedListReadSize))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((69))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.nestedListReadSize) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1308 , "sizeof(pConfig->singleInjections[0].injParams.prog.nestedListReadSize) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.doInjectMultiplane))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((70))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1309 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.doInjectMultiplane))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((70))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.doInjectMultiplane) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1309 , "sizeof(pConfig->singleInjections[0].injParams.prog.doInjectMultiplane) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.isParityPage))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((71))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1310 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.isParityPage))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((71))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.isParityPage) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1310 , "sizeof(pConfig->singleInjections[0].injParams.prog.isParityPage) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.EPWRbitmap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((72))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1311 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.EPWRbitmap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((72))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.EPWRbitmap) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1311 , "sizeof(pConfig->singleInjections[0].injParams.prog.EPWRbitmap) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.XORStoreMetaPgOffs))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((76))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1312 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.prog.XORStoreMetaPgOffs))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((76))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.prog.XORStoreMetaPgOffs) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1312 , "sizeof(pConfig->singleInjections[0].injParams.prog.XORStoreMetaPgOffs) == (1)");                         "BullseyeCoverage restore"; } ; ;
 
-#line 1324 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].readInjBytemap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1324 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].readInjBytemap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].readInjBytemap) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1324 , "sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].readInjBytemap) == (4)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].offsetInBin))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1325 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].offsetInBin))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].offsetInBin) == (2)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1325 , "sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].offsetInBin) == (2)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].binNumber))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((6))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1326 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].binNumber))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].binNumber) == (1)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1326 , "sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].binNumber) == (1)");                         "BullseyeCoverage restore"; } ; ;
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.size))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((64))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1327 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.size))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((64))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.xor_rec.size) == (4)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1327 , "sizeof(pConfig->singleInjections[0].injParams.xor_rec.size) == (4)");                         "BullseyeCoverage restore"; } ; ;
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((24))), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1329 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((24))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters) == (12)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1329 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters) == (12)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1315 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.failureType))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.erase.failureType) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1315 , "sizeof(pConfig->singleInjections[0].injParams.erase.failureType) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.numNestedEraseInjections))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1316 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.numNestedEraseInjections))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.erase.numNestedEraseInjections) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1316 , "sizeof(pConfig->singleInjections[0].injParams.erase.numNestedEraseInjections) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.doInjectMultiplane))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((5))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1317 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.doInjectMultiplane))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((5))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.erase.doInjectMultiplane) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1317 , "sizeof(pConfig->singleInjections[0].injParams.erase.doInjectMultiplane) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.doPowerAbortOnLastNestedInjection))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((6))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1318 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.erase.doPowerAbortOnLastNestedInjection))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.erase.doPowerAbortOnLastNestedInjection) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1318 , "sizeof(pConfig->singleInjections[0].injParams.erase.doPowerAbortOnLastNestedInjection) == (1)");                         "BullseyeCoverage restore"; } ; ;
+
+#line 1324 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].readInjBytemap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1324 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].readInjBytemap))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((0))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].readInjBytemap) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1324 , "sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].readInjBytemap) == (4)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].offsetInBin))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1325 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].offsetInBin))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((4))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].offsetInBin) == (2)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1325 , "sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].offsetInBin) == (2)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].binNumber))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((6))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1326 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.ei[0].binNumber))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((6))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].binNumber) == (1)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1326 , "sizeof(pConfig->singleInjections[0].injParams.xor_rec.ei[0].binNumber) == (1)");                         "BullseyeCoverage restore"; } ; ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.size))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((64))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1327 , "(uint32_t)((uint8_t*)(&((pConfig->singleInjections[0].injParams.xor_rec.size))) - (uint8_t*)(&((pConfig->singleInjections[0].injParams)))) == ((64))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->singleInjections[0].injParams.xor_rec.size) == (4)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1327 , "sizeof(pConfig->singleInjections[0].injParams.xor_rec.size) == (4)");                         "BullseyeCoverage restore"; } ; ;
+
+   { "BullseyeCoverage save off";                          _AssertImpl((int)((uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((24))), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1329 , "(uint32_t)((uint8_t*)(&((pConfig->configArraysExtenstion.plpModeParameters))) - (uint8_t*)(&((pConfig->configArraysExtenstion)))) == ((24))");                         "BullseyeCoverage restore"; } ;                 { "BullseyeCoverage save off";                          _AssertImpl((int)(sizeof(pConfig->configArraysExtenstion.plpModeParameters) == (12)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1329 , "sizeof(pConfig->configArraysExtenstion.plpModeParameters) == (12)");                         "BullseyeCoverage restore"; } ; ;
 }
 
 Status_t  __attribute__((section("CODE_EI_RAM")))  EI_ConfigInputValidation(const EI_Config_t *config)
@@ -52847,10 +53024,10 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_ConfigInputValidation(cons
    Status_t st;
 
 
-   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1337 , "config");                         "BullseyeCoverage restore"; } ;
+   { "BullseyeCoverage save off";                          _AssertImpl((int)(config), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1337 , "config");                         "BullseyeCoverage restore"; } ;
 
    st = EI_i_ConfValidHeader(config);
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1340 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1340 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
 
    switch (config->generalConfig.confType)
@@ -52866,7 +53043,7 @@ Status_t  __attribute__((section("CODE_EI_RAM")))  EI_ConfigInputValidation(cons
          break;
    }
 
-   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1356 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
+   if((st) != STATUS_OK) { printf("[DBG_MSG_INFO]      "); printf("%s:%d: EI status check failur: returned status 0x%x", "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1356 , st); printf("\n");fflush( (__acrt_iob_func(1)) ); ; return (st);} ;
 
    return STATUS_OK;
 }
@@ -52886,9 +53063,9 @@ BOOL32  __attribute__((section("CODE_EI_RAM")))  EI_Config_IsReadfailurePerFmuMa
 
    for (i = 0; i <  ( (4)  * (4) ) ; i++)
    {
-      if(!(pFReadFailurePerFmuMap[i] < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1376 ); return STATUS_ERROR;} ;
+      if(!(pFReadFailurePerFmuMap[i] < EI_READ_FAILURE_LEVEL_TOTAL)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1376 ); return STATUS_ERROR;} ;
 
-      if(!(pFReadFailurePerFmuMap[i] != EI_READ_FAILURE_LEVEL_SW_TH)) { EI_i_TraceBadConfig( "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1378 ); return STATUS_ERROR;} ;
+      if(!(pFReadFailurePerFmuMap[i] != EI_READ_FAILURE_LEVEL_SW_TH)) { EI_i_TraceBadConfig( "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1378 ); return STATUS_ERROR;} ;
 
 
       if (pFReadFailurePerFmuMap[i] > EI_READ_FAILURE_LEVEL_NONE)
@@ -52901,7 +53078,7 @@ BOOL32  __attribute__((section("CODE_EI_RAM")))  EI_Config_IsReadfailurePerFmuMa
    return errorConfigured;
 }
 
-#line 1483 "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c"
+#line 1483 "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c"
 BOOL32 isFailureTypeInP2PPattern(EI_ProgFailureType_t failureType)
 {
    return failureType == EI_PROG_FAILURE_TYPE_1WL_2PLANES ||
@@ -52931,7 +53108,7 @@ void  __attribute__((section("CODE_EI_RAM")))  EI_ConfDisableP2PPatternInjection
    }
    else
    {
-      { "BullseyeCoverage save off";                          _AssertImpl((int)(config->generalConfig.confType == EI_CONF_TYPE_SINGLE), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1512 , "config->generalConfig.confType == EI_CONF_TYPE_SINGLE");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)(config->generalConfig.confType == EI_CONF_TYPE_SINGLE), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1512 , "config->generalConfig.confType == EI_CONF_TYPE_SINGLE");                         "BullseyeCoverage restore"; } ;
       for (int i = 0; i <  (6) ; i++)
       {
          if (config->singleInjections[i].isValid &&
@@ -52945,19 +53122,19 @@ void  __attribute__((section("CODE_EI_RAM")))  EI_ConfDisableP2PPatternInjection
 
    if (config->generalConfig.confType == EI_CONF_TYPE_RANDOM)
    {
-      { "BullseyeCoverage save off";                          _AssertImpl((int)(!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_1WL_2PLANES]), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1526 , "!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_1WL_2PLANES]");                         "BullseyeCoverage restore"; } ;
-      { "BullseyeCoverage save off";                          _AssertImpl((int)(!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_2PLANES_WL2WL]), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1527 , "!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_2PLANES_WL2WL]");                         "BullseyeCoverage restore"; } ;
-      { "BullseyeCoverage save off";                          _AssertImpl((int)(!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_WL2WL_P2P]), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1528 , "!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_WL2WL_P2P]");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)(!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_1WL_2PLANES]), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1526 , "!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_1WL_2PLANES]");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)(!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_2PLANES_WL2WL]), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1527 , "!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_2PLANES_WL2WL]");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)(!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_WL2WL_P2P]), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1528 , "!config->chances.failChanceOriginalProg[EI_PROG_FAILURE_TYPE_WL2WL_P2P]");                         "BullseyeCoverage restore"; } ;
    }
    else
    {
-      { "BullseyeCoverage save off";                          _AssertImpl((int)(config->generalConfig.confType == EI_CONF_TYPE_SINGLE), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1532 , "config->generalConfig.confType == EI_CONF_TYPE_SINGLE");                         "BullseyeCoverage restore"; } ;
+      { "BullseyeCoverage save off";                          _AssertImpl((int)(config->generalConfig.confType == EI_CONF_TYPE_SINGLE), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1532 , "config->generalConfig.confType == EI_CONF_TYPE_SINGLE");                         "BullseyeCoverage restore"; } ;
       for (int i = 0; i <  (6) ; i++)
       {
          if (config->singleInjections[i].isValid &&
             config->singleInjections[i].opToInject == EI_INJ_OP_PROG)
          {
-            { "BullseyeCoverage save off";                          _AssertImpl((int)(!isFailureTypeInP2PPattern(config->singleInjections[i].injParams.prog.failureType)), "d:/gitrepo/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1538 , "!isFailureTypeInP2PPattern(config->singleInjections[i].injParams.prog.failureType)");                         "BullseyeCoverage restore"; } ;
+            { "BullseyeCoverage save off";                          _AssertImpl((int)(!isFailureTypeInP2PPattern(config->singleInjections[i].injParams.prog.failureType)), "c:/wdlabs/fpgcss-vega/source/ftl/ei/src/ei_config.c" , 1538 , "!isFailureTypeInP2PPattern(config->singleInjections[i].injParams.prog.failureType)");                         "BullseyeCoverage restore"; } ;
          }
       }
    }

@@ -142,7 +142,7 @@ class GUI():
         self.label_frame2 = tkinter.LabelFrame(master, text="VBA calculator")
         self.label_frame2.pack(side='top', fill='both', expand=True, padx=5, pady=5)
 
-        self.view2 = EditableTreeview(self.label_frame2,columns=('Name','Value'),bind_key='<Double-Button-1>',data=[],non_editable_columns="#0",update_ei_struct_value=self.update_vba_calculator,height=6)
+        self.view2 = EditableTreeview(self.label_frame2,columns=('Name','Value'),bind_key='<Double-Button-1>',data=[],non_editable_columns="#0",update_ei_struct_value=self.update_vba_calculator,height=4)
         self.view2.pack(side='left',fill='both',expand='y')       
         scrollbar2 = tkinter.ttk.Scrollbar(self.label_frame2, orient=tkinter.VERTICAL, command=self.view2.yview)
         self.view2.configure(yscroll=scrollbar2.set)
