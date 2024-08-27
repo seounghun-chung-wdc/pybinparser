@@ -138,8 +138,11 @@ class GUI():
         self.binary_file_handler = None
         self.runtile_handler = None
 
+        paned_window = tkinter.ttk.PanedWindow(master, orient=tkinter.VERTICAL)
+        paned_window.pack(fill=tkinter.BOTH, expand=True)
+        
         # VBA translation widget
-        self.label_frame2 = tkinter.LabelFrame(master, text="VBA calculator")
+        self.label_frame2 = tkinter.LabelFrame(paned_window, text="VBA calculator")
         self.label_frame2.pack(side='top', fill='both', expand=True, padx=5, pady=5)
 
         self.view2 = EditableTreeview(self.label_frame2,columns=('Name','Value'),bind_key='<Double-Button-1>',data=[],non_editable_columns="#0",update_ei_struct_value=self.update_vba_calculator,height=4)
@@ -172,7 +175,7 @@ class GUI():
         # end VBA calculator widget
                 
         # tree view widget
-        self.label_frame = tkinter.LabelFrame(master, text="Result")
+        self.label_frame = tkinter.LabelFrame(paned_window, text="Result")
         self.label_frame.pack(side='top', fill='both', expand=True, padx=5, pady=5)
 
         self.view = EditableTreeview(self.label_frame,columns=('Name','Value'),bind_key='<Double-Button-1>',data=[],non_editable_columns="#0",update_ei_struct_value=self.update_ei_struct_value,height=8)
@@ -239,6 +242,10 @@ class GUI():
         self.txt_save_button = tkinter.Button(self.label_frame_button, text="Save Text", command=self.button_save_txt)
         self.txt_save_button.grid(row=0,column=2)
         # end button view
+
+        # expand label_frame by drag and drop
+        paned_window.add(self.label_frame2, weight=1)
+        paned_window.add(self.label_frame, weight=1)
         
     def __del__(self):
         print(self.get_current_info_path())
