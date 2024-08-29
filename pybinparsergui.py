@@ -151,9 +151,12 @@ class GUI():
         self.view2.configure(yscroll=scrollbar2.set)
         scrollbar2.pack(side='left',fill='y')
         self.view2.heading('#0', text='Name')
-        self.view2['columns'] = ('Values')
+        self.view2['columns'] = ('Values',r'Dec(RO)')
         self.view2.heading('Values', text='Values')                    
-
+        self.view2.heading(r'Dec(RO)', text=r'Dec(RO)')
+        self.view2.column("Values",width=30)
+        self.view2.column(r"Dec(RO)",width=30)
+        
         input_box_frame = tkinter.LabelFrame(self.label_frame2,text='VBA')
         input_box_frame.pack(side='top',fill='x',expand=False)  
 
@@ -365,6 +368,13 @@ class GUI():
         self.result_struct2 = self.runtile_handler.convert(self.vba_type_box.get(),byte_buffer=vba.to_bytes(4,'little'))
         print(self.result_struct2)
         s = recursive_tree(self.result_struct2, self.view2)
+        
+        for item_id in self.view2.get_children():
+            values = self.view2.item(item_id, "values")
+            # Copy B column value to C column
+            new_values = (values[0], int(values[0],16))
+            # Update row with new values
+            self.view2.item(item_id, values=new_values)
         
     def update_vba_calculator(self, _name, _value):
         _name = _name[:-1] if _name[-1]=='.' else _name # if _name have ".", it shall be removed
